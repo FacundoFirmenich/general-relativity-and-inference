@@ -1,14 +1,18 @@
 # Relatividad general y métodos de inferencia
 
+> **Edición de fuentes:** código, interfaz y documentación. La distribución pública de entradas numéricas y cuadernos autónomos está pendiente; el paquete completo se entrega por separado. Consultá `PUBLIC_DATA_PENDING.json`.
+
 **GRAVITAS 1.11 · Métodos reproducibles y software visual**
 
 Facundo Firmenich · [ORCID](https://orcid.org/0009-0002-6578-3811) · f.firmenich@cedesur.org
 
 [Castellano](README_ES.md) · [English](README_EN.md)
 
-Plataforma visual de auditoría estadística y física: Cassini, emuladores GP, Gaia, QUMOND, DCAE y una aplicación topológica contenida de FractalGo. Incluye entradas, código, resultados y regeneración de figuras. El paper y la información suplementaria se distribuyen por separado.
+Plataforma visual de auditoría estadística y física: Cassini, emuladores GP, Gaia, QUMOND, DCAE y una aplicación topológica contenida de FractalGo. Incluye los módulos para procesar entradas, calcular resultados y regenerar figuras. El paper y la información suplementaria se distribuyen por separado.
 
 ## Empezar
+
+Los siguientes accesos requieren instalar el paquete numérico completo; esta edición de fuentes conserva su implementación.
 
 - Windows: doble clic en `ABRIR_GRAVITAS.bat`.
 - Linux: `bash ABRIR_GRAVITAS.bash`.

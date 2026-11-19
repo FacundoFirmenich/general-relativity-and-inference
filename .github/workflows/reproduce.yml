@@ -1,0 +1,19 @@
+name: Source checks / Comprobar fuentes
+on: [push, workflow_dispatch]
+jobs:
+  linux:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+          cache: pip
+      - run: pip install -r requirements.txt -r requirements-ui.txt
+      - run: python tools/check_publication_boundary.py
+      - run: python research/fractalgo/test_core.py
+      - run: echo "Full numerical execution requires the binary inputs listed in PUBLIC_DATA_PENDING.json"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: computational-records
+          path: records/

@@ -1,0 +1,302 @@
+{
+  "scope_es": "Entradas y resultados binarios preparados localmente; no publicados en este commit. Manuscritos excluidos.",
+  "scope_en": "Binary inputs and results prepared locally; not published in this commit. Manuscripts excluded.",
+  "reason": "Automatic approval review requires specific authorization for public reconstructed scientific-data payloads.",
+  "files": [
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Figure 5/Casimir_pressure_dist_v4.h5",
+      "bytes": 10472,
+      "sha256": "9c4622b8f4cce18739ed214f166173e8765be3895237d41d142db41749ff1c59"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Figure S5/Casimir_pressure_dist_v4.h5",
+      "bytes": 10472,
+      "sha256": "9c4622b8f4cce18739ed214f166173e8765be3895237d41d142db41749ff1c59"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Figure S5/Casimir_pressure_dist_v5_closedist.h5",
+      "bytes": 10472,
+      "sha256": "12aca6f9e49e41ec83469035c00b675d6215140332d605cefb290054ff79249c"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Figure S5/Casimir_pressure_dist_v6_RRR_1.h5",
+      "bytes": 10472,
+      "sha256": "5c0f6087b09db1c954734a0433bed73a1e3995e78728aeb492ded795b3b7ca24"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Figure S5/Casimir_pressure_dist_v6_RRR_10.h5",
+      "bytes": 10472,
+      "sha256": "ef54af5289b0a5ad8cbbc332206545bfc542055eaab20c90e50d7f6916b3542e"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Figure S5/Casimir_pressure_dist_v6_epsilonr_1.h5",
+      "bytes": 10472,
+      "sha256": "43b6b4154a00680f03e4e52038646e4494668d59570c26a111a8090d96c040a1"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Figure S5/Casimir_pressure_dist_v6_epsilonr_1_06.h5",
+      "bytes": 10472,
+      "sha256": "cf341d8537333fddfbad88942e4a986b997963018c300f9a5859e72dddfdfb32"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Figure S5/Casimir_pressure_dist_v6_epsilonr_1_5.h5",
+      "bytes": 10472,
+      "sha256": "a5ce7a9d665e9f38aec502b20495795acc1beaf89f1ab1e85392178dcd349661"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Figure S5/Casimir_pressure_dist_v6_omegap_10eV.h5",
+      "bytes": 10472,
+      "sha256": "abe0f4cc9b3113d766a869709f84da0cbe4f9300fefbe8fd1754478fd0ac99fe"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Figure S5/Casimir_pressure_dist_v6_omegap_12_5eV.h5",
+      "bytes": 10472,
+      "sha256": "6a6b794eef83475875b87eca80398e31bd8960fd9d140eda315a0695fc4f36ab"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Figure S5/Casimir_pressure_dist_v6_omegap_13_5eV.h5",
+      "bytes": 10472,
+      "sha256": "f3f9c46da847f7b6d9f49184d3d2cf22120a52df58f416846fa9d69fe6eb65c8"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Figure S5/Casimir_pressure_dist_v6_omegap_15eV.h5",
+      "bytes": 10472,
+      "sha256": "f469c172c752317d890962c6d6df1d7d675e4a808289c1ac2456d56f798fd652"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Raw and filtered data/2024-03-21-1858_filtdata_down.npy",
+      "bytes": 649424,
+      "sha256": "ba347328b63af61f7e878c215e82085a1b0ae7e8905efc34ed1e2a1e99c87809"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Raw and filtered data/2024-03-21-1858_filtdata_up.npy",
+      "bytes": 649424,
+      "sha256": "374b506440fb28978866aff655762f0c67238b4ea6eeede16cd97f0cf18c1e34"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Raw and filtered data/2024-03-21-1858_filtfreqs.npy",
+      "bytes": 649424,
+      "sha256": "8f4509efd67887bb97d91943c52013e527dae5bbec574937570a3d532d62f7b9"
+    },
+    {
+      "path": "analyses/gp/results/gp_cassini_weights.npz",
+      "bytes": 26516,
+      "sha256": "6fe9e580a8f3adc2ad1a080ea24bb15a79ccc6d0aac02ad278e3334c90bfc805"
+    },
+    {
+      "path": "analyses/gp/results/gp_emulator_curves.npz",
+      "bytes": 1013043,
+      "sha256": "78fd9d32b5c99bcfadc99efc6934410a25be53af32d8f0c5c78560555d3287c1"
+    },
+    {
+      "path": "analyses/gp/results/gp_realizations_curves.npz",
+      "bytes": 148582,
+      "sha256": "b7ff159de1f01bd095a70c663e34867b2a0935736049950244bfff1a87a14a54"
+    },
+    {
+      "path": "analyses/gp/sources/cassini/contraste_robusto_pesos.npz",
+      "bytes": 190397,
+      "sha256": "eaa6133fb6d2687954e855dff0e5a8e9b2051f445ce327c8c95f8c31ef417481"
+    },
+    {
+      "path": "analyses/gp/sources/cassini/dss25_diseno_erfa_constant.npz",
+      "bytes": 90295,
+      "sha256": "7e4489236b72005df419edea2e483006334dcf1c0a366167d133ea7b5904eb8c"
+    },
+    {
+      "path": "analyses/gp/sources/cassini/dss25_diseno_erfa_four_batches.npz",
+      "bytes": 102800,
+      "sha256": "5a8b9bdd38e88b2b22c46d83164e84eafc066b4085c315173a74a512224fe4de"
+    },
+    {
+      "path": "inputs/likelihood_spectrum-poles-rotated_syst-rotation-hod-photo_BGS_BRIGHT-21.5_GCcomb_z0.1-0.4_thetacut0.05.h5",
+      "bytes": 757058,
+      "sha256": "db72d5fb076ad732c48a29032ee86c85f68faef14c4b0ee055f1ffad44ecf50d"
+    },
+    {
+      "path": "inputs/spectrum-poles-rotated-corrected_BGS_BRIGHT-21.5_GCcomb_z0.1-0.4_thetacut0.05.h5",
+      "bytes": 29912,
+      "sha256": "01d6745c9e42070b0af0b015d948e66cd44dcd86e706bb2df1b37429d51b0df3"
+    },
+    {
+      "path": "platform/fermi_review/photon_followup/results/GRB080916C_1000s_bootstrap.npy",
+      "bytes": 32896,
+      "sha256": "1f38f480433c5ecdbf8a8d2347079891bc237a25507f9e843ee71ffcb0f43c26"
+    },
+    {
+      "path": "platform/fermi_review/photon_followup/results/GRB080916C_100s_bootstrap.npy",
+      "bytes": 32896,
+      "sha256": "4d697456e8e02afcd422d4320b2350e656a283ae4c00c6b27efba62b03548f27"
+    },
+    {
+      "path": "platform/fermi_review/photon_followup/results/GRB090510_1000s_bootstrap.npy",
+      "bytes": 32896,
+      "sha256": "04108dba44beac7917d70e40992e1675d2f42401f389bc12f82c5dd1c606b771"
+    },
+    {
+      "path": "platform/fermi_review/photon_followup/results/GRB090510_100s_bootstrap.npy",
+      "bytes": 32896,
+      "sha256": "2e06ca0b5f68679b31b5523d7e054a35f95dfb05aad8f84e387fc7f192f3de2a"
+    },
+    {
+      "path": "platform/fermi_review/photon_followup/results/GRB090510_10s_bootstrap.npy",
+      "bytes": 32896,
+      "sha256": "7a7da19762f7ab4a45ef4b3c339ab25b753110743ff4735c8eccd9dd57f81912"
+    },
+    {
+      "path": "platform/fermi_review/photon_followup/results/GRB090902B_1000s_bootstrap.npy",
+      "bytes": 32896,
+      "sha256": "4c78cf1cec31c88820d8187748bfa4c4550f1ae3b622c2f71a0391987f12f301"
+    },
+    {
+      "path": "platform/fermi_review/photon_followup/results/GRB090902B_100s_bootstrap.npy",
+      "bytes": 32896,
+      "sha256": "dc337500132c18134732d6443cd4167b94ac52589eb5e7aec65a817d9c25fefc"
+    },
+    {
+      "path": "platform/fermi_review/photon_followup/results/GRB090902B_10s_bootstrap.npy",
+      "bytes": 32896,
+      "sha256": "23230a8ef68ecefce12c5811170a5e3c5bff3a80b42c4a6e6543b3b8c147146b"
+    },
+    {
+      "path": "platform/fermi_review/photon_followup/results/GRB130427A_1000s_bootstrap.npy",
+      "bytes": 32896,
+      "sha256": "ddc199994a8412e0c8dce6c86f39c305e7600d11fef22020eb16767b060287e9"
+    },
+    {
+      "path": "platform/fermi_review/photon_followup/results/GRB130427A_100s_bootstrap.npy",
+      "bytes": 32896,
+      "sha256": "c7df1b98a469036f5e3d0d2ad22ea245060afc7cb8a8b6a273234f7fb019cd43"
+    },
+    {
+      "path": "platform/fermi_review/photon_followup/results/photon_timing_EN.pdf",
+      "bytes": 35731,
+      "sha256": "69e65a8138d379c2312230cf7c2899311f8db7b4588d7128b79e226bd1f8f1ca"
+    },
+    {
+      "path": "platform/fermi_review/photon_followup/results/photon_timing_EN.png",
+      "bytes": 195698,
+      "sha256": "b95d849e66c8a325d9c1af4d933045d898792360bd2b49904be01c94cf53de7b"
+    },
+    {
+      "path": "platform/fermi_review/photon_followup/results/photon_timing_ES.pdf",
+      "bytes": 35787,
+      "sha256": "9d213b65d04cc17825030fa1746121042e93d7032f692d4d48ac2365717b462a"
+    },
+    {
+      "path": "platform/fermi_review/photon_followup/results/photon_timing_ES.png",
+      "bytes": 193704,
+      "sha256": "944e0ab18f285e4fa0d8142651d641bc6a2427a1d52642bcc5c472d602226de2"
+    },
+    {
+      "path": "platform/fermi_review/raw/heasarc_fermilgrb.tdat.gz",
+      "bytes": 68687,
+      "sha256": "4c2e5927ab666900a6d10435a52d5fba2cd32890450f15ad79ecc4d2b0751dd7"
+    },
+    {
+      "path": "platform/fermi_review/raw/spacecraft/lat_spacecraft_weekly_w015_p310_v001.fits",
+      "bytes": 2822400,
+      "sha256": "f26948474420194636a0f03c7cb8e7e7bc3259f6c4bd50b01fa6af7579955325"
+    },
+    {
+      "path": "platform/fermi_review/raw/spacecraft/lat_spacecraft_weekly_w049_p310_v001.fits",
+      "bytes": 2710080,
+      "sha256": "5e0d5b04ab982e9ce32c2ef0a51b7e99deea5d670493e0346c60a14c7d1781a2"
+    },
+    {
+      "path": "platform/fermi_review/raw/spacecraft/lat_spacecraft_weekly_w065_p310_v001.fits",
+      "bytes": 2842560,
+      "sha256": "a7fdf6b7c44427c3a2bc91a6a3106e1b572fa6bf852286db9a83530f90f58615"
+    },
+    {
+      "path": "platform/fermi_review/raw/spacecraft/lat_spacecraft_weekly_w256_p310_v001.fits",
+      "bytes": 2799360,
+      "sha256": "a551691f9720f061a342975c555d50e40ce7f192c20f9215caca56a83fd0b9aa"
+    },
+    {
+      "path": "platform/fermi_review/results/Fermi_catalog_EN.pdf",
+      "bytes": 32619,
+      "sha256": "bc5bb7b0946de9c2b25a54e8a58b2ec8d8ee3c46d69954aad2c448bd725bf185"
+    },
+    {
+      "path": "platform/fermi_review/results/Fermi_catalog_EN.png",
+      "bytes": 110085,
+      "sha256": "a8dea99bd655e050829716db01f53ed7e33945d52af43b7ba132e0c349865335"
+    },
+    {
+      "path": "platform/fermi_review/results/Fermi_catalog_ES.pdf",
+      "bytes": 33442,
+      "sha256": "1d359f499d1a07a4c76b09ee3862a22156cdb607581a0e8e0187e3aebb2540dc"
+    },
+    {
+      "path": "platform/fermi_review/results/Fermi_catalog_ES.png",
+      "bytes": 112725,
+      "sha256": "c172a608e6c7a10a387c666ef359d6899bbc655954167f77cef012e0f8da196e"
+    },
+    {
+      "path": "platform/fermi_review/results/event_subsets/GRB080916C_audit_subset.fits",
+      "bytes": 57600,
+      "sha256": "8fb89b00ff6ff2ee1abbf99308da4a7ebbe0d20fa9d64cc5e9b5c9d89d333a78"
+    },
+    {
+      "path": "platform/fermi_review/results/event_subsets/GRB090510_audit_subset.fits",
+      "bytes": 48960,
+      "sha256": "2ca0bb036aeb660eedaedd30311619a9a962198f7325a0cbcb92796b2ad75211"
+    },
+    {
+      "path": "platform/fermi_review/results/event_subsets/GRB090902B_audit_subset.fits",
+      "bytes": 264960,
+      "sha256": "fb10cccdb27272d674c906fbe562c512f3a5587f2762f4fb61fbe5a5e5ee77e4"
+    },
+    {
+      "path": "platform/fermi_review/results/event_subsets/GRB130427A_audit_subset.fits",
+      "bytes": 849600,
+      "sha256": "706b5e4d7f62b2635877f754a7cc208ef9937ff6787b15fa74370865270a867f"
+    },
+    {
+      "path": "research/fractalgo/results/cassini_predictive_draws.npz",
+      "bytes": 362611,
+      "sha256": "c4d28a1077f2c7363c062cec07ffc68557fc56752b80790fed2731113c4a3659"
+    },
+    {
+      "path": "research/fractalgo/results/gp_inputs_and_draws.npz",
+      "bytes": 3446484,
+      "sha256": "031ca30124ce8172418d05ac0dbec13b5e7266f722556945c4a2b5b30a6925c4"
+    },
+    {
+      "path": "research/fractalgo/results/topology_cassini_en.png",
+      "bytes": 120532,
+      "sha256": "54b8120c704dd2d92088c7edd44f7c9581c8b48b0dfe399ef45c9b6e73bb7d1f"
+    },
+    {
+      "path": "research/fractalgo/results/topology_cassini_es.png",
+      "bytes": 126172,
+      "sha256": "940ff2b26bd158726af329235f5ec4bc071ba9f55d9efdb21d69fba1b646ab07"
+    },
+    {
+      "path": "research/fractalgo/results/topology_gp_en.png",
+      "bytes": 63496,
+      "sha256": "9f52235510034d59f32cd849c9bc021fa2bcc50671cc125414ae76b302fae134"
+    },
+    {
+      "path": "research/fractalgo/results/topology_gp_es.png",
+      "bytes": 65635,
+      "sha256": "dd8b7052cff65a24ab6abdc5c9df2027ea204e835a8d5539ea79e3b31e730c2c"
+    },
+    {
+      "path": "research/raw/cassini_sagr_sample.dat",
+      "bytes": 129024,
+      "sha256": "8925008e791394d53a73f55d3eefc57b4d0be85360319c7fd44f044aa9185804"
+    },
+    {
+      "path": "results/desi_operator_arrays.npz",
+      "bytes": 17485,
+      "sha256": "07d5b250a89e3f3d6a039dd326ac042a68a6092ec18a60124603aee1e64cde5a"
+    },
+    {
+      "path": "results/hierarchical_arrays.npz",
+      "bytes": 3195153,
+      "sha256": "678cbf6637ad3cf7d82df99b756268751a3c17b0e6f20ec38be4215d7750d1f1"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Cite this software version and commit / Cite esta versión del software y su commit."
+title: "GRAVITAS: General Relativity and Inference Methods — Reproducible Methods and Visual Software"
+version: "1.11"
+date-released: "2026-11-19"
+type: software
+repository-code: "https://github.com/FacundoFirmenich/general-relativity-and-inference"
+authors:
+  - family-names: "Firmenich"
+    given-names: "Facundo"
+    orcid: "https://orcid.org/0009-0002-6578-3811"

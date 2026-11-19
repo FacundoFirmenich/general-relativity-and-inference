@@ -1,0 +1,8 @@
+.gravitas-env/
+__pycache__/
+*.pyc
+.streamlit/secrets.toml
+publication/
+PAPER_*
+SUPPLEMENTARY_*
+*.log
