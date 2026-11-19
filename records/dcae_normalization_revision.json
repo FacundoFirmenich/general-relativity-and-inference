@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-19",
+  "scope_es": "Normalización DCAE: umbrales convencionales, cambio de base, conservación en la rama invertible y pérdida por recorte o redondeo. Sin nueva inferencia física.",
+  "scope_en": "DCAE normalization: conventional thresholds, base conversion, retention on the invertible branch and loss through clipping or rounding. No new physical inference.",
+  "tests": {
+    "new_normalization_checks": 7,
+    "existing_dcae_checks": 15,
+    "frontier_tests": 16,
+    "ui_checks": 26,
+    "browser_checks": 19
+  },
+  "threshold_relation": "I=c iff R=1/(1-c), 0<c<1",
+  "code": "research/dcae/normalization_audit.py",
+  "results": "research/dcae/results/normalization_checks.json",
+  "public_release_tag_unchanged": "v1.11"
+}

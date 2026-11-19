@@ -29,3 +29,5 @@ Each screen links evidence and limitations. Distinguish mathematical identities,
 
 
 [GRAVITAS identification and citation](DOI_EN.md).
+
+[DCAE: normalization and thresholds](DCAE_NORMALIZATION_EN.md).

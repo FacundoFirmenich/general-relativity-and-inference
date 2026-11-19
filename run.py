@@ -35,6 +35,8 @@ def main():
     plans['frontier']=[['research/frontier_run.py'],['research/frontier_figures.py']]
     plans['calculations'].extend([['research/dcae/verify.py'],['research/frontier_run.py']])
     plans['figures'].append(['research/dcae_figures.py'])
+    plans['dcae'].append(['research/dcae/normalization_audit.py'])
+    plans['calculations'].append(['research/dcae/normalization_audit.py'])
     plans['dcae'].append(['research/dcae_figures.py'])
     plans['dcae'].extend(plans['frontier'])
     plans['figures'].append(['research/frontier_figures.py'])

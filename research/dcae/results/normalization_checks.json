@@ -1,0 +1,162 @@
+{
+  "scope_es": "Identidades y controles finitos de la normalización; ninguna medición física ni probabilidad de barrera.",
+  "scope_en": "Normalization identities and finite controls; no physical measurement or barrier probability.",
+  "all_passed": true,
+  "checks": [
+    {
+      "es": "Cancelación del logaritmo",
+      "en": "Logarithm cancellation",
+      "passed": true,
+      "details": {
+        "max_abs_error": 0.0,
+        "ratios": [
+          0.01,
+          0.1,
+          0.5,
+          1.0,
+          1.01,
+          2.0,
+          5.0,
+          10.0,
+          20.0,
+          100.0,
+          10000.0
+        ]
+      }
+    },
+    {
+      "es": "Umbrales fijados por definición",
+      "en": "Thresholds fixed by definition",
+      "passed": true,
+      "details": [
+        {
+          "chosen_index": 0.5,
+          "relative_asymmetry": 2.0,
+          "signed_log_ratio": 0.6931471805599453,
+          "index_computed": 0.5,
+          "derivative_dI_dR": 0.25
+        },
+        {
+          "chosen_index": 0.9,
+          "relative_asymmetry": 10.000000000000002,
+          "signed_log_ratio": 2.302585092994046,
+          "index_computed": 0.9,
+          "derivative_dI_dR": 0.009999999999999997
+        },
+        {
+          "chosen_index": 0.95,
+          "relative_asymmetry": 19.999999999999982,
+          "signed_log_ratio": 2.99573227355399,
+          "index_computed": 0.95,
+          "derivative_dI_dR": 0.0025000000000000044
+        },
+        {
+          "chosen_index": 0.99,
+          "relative_asymmetry": 99.99999999999991,
+          "signed_log_ratio": 4.605170185988091,
+          "index_computed": 0.99,
+          "derivative_dI_dR": 0.00010000000000000017
+        }
+      ]
+    },
+    {
+      "es": "Cambio de base consistente",
+      "en": "Consistent base conversion",
+      "passed": true,
+      "details": {
+        "bases": [
+          2.0,
+          2.718281828459045,
+          10.0
+        ],
+        "max_abs_error": 1.734723475976807e-18,
+        "inconsistent_base10_at_R10": 0.6321205588285577
+      }
+    },
+    {
+      "es": "Inversa en la rama positiva",
+      "en": "Positive-branch inverse",
+      "passed": true,
+      "details": {
+        "max_relative_error": 1.1013412404281553e-13,
+        "scope": "finite ratios <= 10000; exact invertibility does not prevent floating-point loss"
+      }
+    },
+    {
+      "es": "El recorte conserva cero pero pierde la contracción",
+      "en": "Clipping retains zero but loses contraction",
+      "passed": true,
+      "details": {
+        "signed_gaps": [
+          -2.3025850929940455,
+          -0.6931471805599453,
+          0.0
+        ],
+        "indices": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "es": "Sensibilidad de la coordenada",
+      "en": "Coordinate sensitivity",
+      "passed": true,
+      "details": {
+        "max_relative_error": 1.002076288614262e-08,
+        "finite_difference_relative_step": 0.0001
+      }
+    },
+    {
+      "es": "Saturación numérica explícita",
+      "en": "Explicit numerical saturation",
+      "passed": true,
+      "details": {
+        "status": "OK",
+        "delta": 1000.0,
+        "index": 1.0,
+        "log_remaining": -1000.0,
+        "log_ratio": 1000.0,
+        "numerical_saturation": true
+      }
+    }
+  ],
+  "thresholds": [
+    {
+      "chosen_index": 0.5,
+      "relative_asymmetry": 2.0,
+      "signed_log_ratio": 0.6931471805599453,
+      "index_computed": 0.5,
+      "derivative_dI_dR": 0.25
+    },
+    {
+      "chosen_index": 0.9,
+      "relative_asymmetry": 10.000000000000002,
+      "signed_log_ratio": 2.302585092994046,
+      "index_computed": 0.9,
+      "derivative_dI_dR": 0.009999999999999997
+    },
+    {
+      "chosen_index": 0.95,
+      "relative_asymmetry": 19.999999999999982,
+      "signed_log_ratio": 2.99573227355399,
+      "index_computed": 0.95,
+      "derivative_dI_dR": 0.0025000000000000044
+    },
+    {
+      "chosen_index": 0.99,
+      "relative_asymmetry": 99.99999999999991,
+      "signed_log_ratio": 4.605170185988091,
+      "index_computed": 0.99,
+      "derivative_dI_dR": 0.00010000000000000017
+    }
+  ],
+  "inputs_sha256": {
+    "normalization_audit.py": "4b2c052b894c369b0e50a4e542481d65ca52fe86992a09d2555b6b8723661f19",
+    "dcae.py": "650203a69d7c36ffcd43d264e44c5a097e3a215612121f5b1fa2c1ec55d58cd5"
+  },
+  "python": "3.13.5",
+  "runtime_seconds": 0.0007882720001362031,
+  "executed_at": "2026-11-19T23:36:17.060635+00:00"
+}

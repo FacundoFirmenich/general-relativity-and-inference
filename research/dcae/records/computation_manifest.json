@@ -63,8 +63,8 @@
     "seed": 20261118
   },
   "run": {
-    "started_at": "2026-11-19T22:22:57.805068+00:00",
-    "runtime_seconds": 2.493027879998408,
+    "started_at": "2026-11-19T23:36:14.428589+00:00",
+    "runtime_seconds": 2.376610212999367,
     "exit_status": 0,
     "status": "completed",
     "resource_limits": {
@@ -87,22 +87,22 @@
     },
     {
       "path": "figures/diagnostics_ES.pdf",
-      "sha256": "083b74b3126300bdf9281346ab3d9625f90967fb95f26bd4d46baebece31c7a0",
+      "sha256": "07d52286c6f631c3aa6acd065ac9582fa5378973afc491d606279b0185eec060",
       "kind": "result"
     },
     {
       "path": "figures/diagnostics_EN.pdf",
-      "sha256": "fad42fb76b077ba79cc612a782ff6e6f1e7062909d3629428002bd4d20d3ab3b",
+      "sha256": "628730f0c07b514ea9b895c35cc7cc8b084898b30fbe88bb01afa12ba2f82a80",
       "kind": "result"
     },
     {
       "path": "figures/repair_ES.pdf",
-      "sha256": "15c38f208f6bfc2344614b5d1f12b9ae6cf170000186977b57ac4f004aa1cf66",
+      "sha256": "d1d962382bb948189a22f765c9a4c5cde22b4a5325905703d519b081c0e29499",
       "kind": "result"
     },
     {
       "path": "figures/repair_EN.pdf",
-      "sha256": "14e59ebfabed0dc4314baec4455bdcc31252d129c818ba640e44a4945311ce36",
+      "sha256": "3d6545a90afb327fb1cd30fdef03e2e04d7aba21d3bd27e7a03a241b777d7c21",
       "kind": "result"
     }
   ],

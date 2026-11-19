@@ -2,8 +2,8 @@
   "scope": "Graph structure and artifact integrity, not physical validation",
   "nodes": 36,
   "edges": 33,
-  "artifacts": 25,
-  "content_sha256": "031859167231d2f9cd0497d59f27c21f35842eba398ae79dd9b6dcd10ab7d277",
+  "artifacts": 26,
+  "content_sha256": "4aa19cabbdee4da8b131fc2ef6bf0cdc7d9599d240ab718948dfbb684cea2a7e",
   "checks": {
     "unique_nodes": true,
     "unique_edges": true,

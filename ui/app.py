@@ -141,6 +141,8 @@ elif page==pages[3]:
     download_json(dict(rho=rho,contrast_covariance_reference=S0.tolist(),contrast_covariance_alternative=S1.tolist(),distances=distances,renyi=renyi),'gp_contrast_audit.json')
 
 elif page==pages[4]:
+    st.info(T('DCAE: I = 0.90 equivale por definición a R = 10 y Δ = ln(10). No es una probabilidad ni una barrera física. Conservá R, el desfase firmado y sus incertidumbres.', 'DCAE: I = 0.90 means R = 10 and Δ = ln(10) by definition. It is neither a probability nor a physical barrier. Retain R, the signed gap and their uncertainties.'))
+
     st.title(T('Información: qué se conserva','Information: what is preserved'))
     j=read('research/revision_v18/results/information_audit.json')
     tabs=st.tabs([T('Señal y RMS','Signal & RMS'),T('Colas y censura','Tails & censoring'),T('Jerarquía y Fisher','Hierarchy & Fisher'),T('Umbrales','Thresholds')])

@@ -29,3 +29,5 @@ Cada pantalla enlaza datos y límites. Distinguí identidad matemática, cálcul
 
 
 [Identificación y cita de GRAVITAS](DOI_ES.md).
+
+[DCAE: normalización y umbrales](DCAE_NORMALIZATION_ES.md).
