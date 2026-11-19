@@ -45,4 +45,5 @@ Los autoejecutables `reproducir.bat`, `.bash` y `.command` preparan el entorno y
 
 La convergencia numérica no prueba nueva física. Cassini utiliza épocas reconstruidas; sus discrepancias predictivas se conservan. FractalGo aquí es un diagnóstico de grafos, no una dimensión fractal. Los datos originales y claves técnicas se preservan; toda la navegación, guías e interpretación de usuario se ofrecen en castellano e inglés.
 
-[Antecedente sismológico y alcance de la cita](docs/RELATED_WORK_ES.md) · DOI: [10.5281/zenodo.17875887](https://doi.org/10.5281/zenodo.17875887).
+
+[Identificación y cita de GRAVITAS](docs/DOI_ES.md) · DOI: [10.5281/zenodo.24381484](https://doi.org/10.5281/zenodo.24381484).

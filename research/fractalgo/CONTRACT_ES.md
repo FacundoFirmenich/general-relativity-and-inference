@@ -11,6 +11,3 @@ Grafo GP: camino ordenado fijo, masas previas positivas, cociente posterior/prev
 Grafo Cassini: adyacencia cronológica dentro de pasada; huecos mayores que dos cadencias medianas cortan aristas. Mismo grafo para observado y replicado. Umbrales de signo 0/1/2 desviaciones estándar del ruido normalizado. Plantilla óptica, pesos y base nuisance heredados. Mezcla de cuatro núcleos y diagnósticos exploratorios. Fracciones predictivas no son valores p uniformemente calibrados ni detecciones de fuerza. Sin nueva estación, ajuste físico Yukawa ni SBC jerárquica completa.
 
 Conservar IDs, filas, tiempos, aristas y hashes; sin capturas/eliminación, desplazamiento de colisiones, dimensiones inventadas ni factores de likelihood independientes derivados de los mismos datos. No se estima dimensión fractal ni se valida el constructo completo.
-
-
-[Antecedente metodológico: análisis fractal sísmico](../../docs/RELATED_WORK_ES.md): DOI [10.5281/zenodo.17875888](https://doi.org/10.5281/zenodo.17875888). Cita metodológica; no transfiere evidencia sísmica a gravedad.

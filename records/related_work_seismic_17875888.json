@@ -21,5 +21,7 @@
   ],
   "scope": "Methodological citation only; no imported implementation or seismic numerical result; not the DOI of GRAVITAS",
   "verified_on": "2026-11-19",
-  "record_url": "https://zenodo.org/records/17875888"
+  "record_url": "https://zenodo.org/records/17875888",
+  "status": "withdrawn_citation_user_corrected_doi",
+  "replacement_record": "gravitas_doi_verified.json"
 }

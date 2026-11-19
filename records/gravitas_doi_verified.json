@@ -1,0 +1,15 @@
+{
+  "verified_on": "2026-11-19",
+  "concept_doi": "10.5281/zenodo.24381484",
+  "version_doi": "10.5281/zenodo.24381485",
+  "version": "v1.11",
+  "repository": "https://github.com/FacundoFirmenich/general-relativity-and-inference",
+  "title": "GRAVITAS: General Relativity and Inference Methods — Reproducible Methods and Visual Software, v1.11",
+  "author": "Facundo Firmenich",
+  "orcid": "0009-0002-6578-3811",
+  "record_url": "https://zenodo.org/records/24381485",
+  "correction_es": "El DOI sísmico 17875887 se recibió por error. Se retira su incorporación bibliográfica accidental; no se habían importado datos ni código sísmicos.",
+  "correction_en": "Seismic DOI 17875887 was supplied in error. Its accidental bibliography addition is withdrawn; no seismic data or code had been imported.",
+  "archive_scope_es": "Software v1.11; el depósito no incluye el paper ni el suplemento. La etiqueta publicada no se modifica.",
+  "archive_scope_en": "Software v1.11; the deposit does not include the paper or supplement. The published tag is unchanged."
+}

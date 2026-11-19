@@ -27,4 +27,5 @@ Python 3.13 is the executed reference environment. Launchers create an isolated 
 
 Each screen links evidence and limitations. Distinguish mathematical identities, synthetic calculations, conditional reanalysis and external validation. Agreement between algorithms using the same data does not create independence. New relative observational triangulation remains for a documented future update.
 
-[Methodological antecedent: seismic fractal analysis](RELATED_WORK_EN.md).
+
+[GRAVITAS identification and citation](DOI_EN.md).

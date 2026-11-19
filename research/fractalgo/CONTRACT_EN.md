@@ -11,5 +11,3 @@ GP graph: fixed ordered path, strictly positive cell prior masses, posterior-to-
 Cassini graph: chronological adjacency within pass; gaps exceeding twice that pass's median cadence break edges. Same graph for observed and replicated residuals. Signed thresholds 0/1/2 whitened-noise standard deviations. The inherited optical template, weights and nuisance basis remain conditioned upon. The four-kernel mixture and all new diagnostics are exploratory, not prospectively selected. Posterior predictive tail fractions are not uniformly calibrated p-values or force detections. No new station data, no physical Yukawa fit, no complete hierarchical SBC.
 
 Retain every node ID, original row, timestamp, edge and input hash. No capture/deletion, collision displacement, invented dimensions or independent likelihood factors from derived summaries. The prototype does not estimate a fractal dimension or validate the entire FractalGo construct.
-
-[Methodological antecedent: seismic fractal analysis](../../docs/RELATED_WORK_EN.md): DOI [10.5281/zenodo.17875888](https://doi.org/10.5281/zenodo.17875888). Methodological citation; no transfer of seismic evidence to gravity.

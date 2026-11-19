@@ -9,18 +9,5 @@ authors:
   - family-names: "Firmenich"
     given-names: "Facundo"
     orcid: "https://orcid.org/0009-0002-6578-3811"
-references:
-  - type: software
-    title: "Seismic Fractal Analysis: Multi-Planar Hierarchy Framework"
-    version: "1.0.0"
-    year: 2025
-    doi: "10.5281/zenodo.17875888"
-    url: "https://doi.org/10.5281/zenodo.17875887"
-    authors:
-      - family-names: "Firmenich"
-        given-names: "Facundo"
-        orcid: "https://orcid.org/0009-0002-6578-3811"
-      - family-names: "Firmenich"
-        given-names: "Pau"
-      - family-names: "Firmenich"
-        given-names: "León"
+doi: "10.5281/zenodo.24381485"
+url: "https://doi.org/10.5281/zenodo.24381484"

@@ -1,0 +1,182 @@
+{
+  "checked_on": "2026-11-19",
+  "queries": [
+    "creators.orcid:\"0009-0002-6578-3811\"",
+    "creators.name:\"Firmenich\""
+  ],
+  "scope": "Public search results, latest version per record family; name matches manually distinguished from GRAVITAS. Not a claim to enumerate unindexed, private or every historical version.",
+  "records": [
+    {
+      "title": "Seismic Fractal Analysis: Multi-Planar Hierarchy Framework",
+      "version_doi": "10.5281/zenodo.17875888",
+      "concept_doi": "10.5281/zenodo.17875887",
+      "url": "https://zenodo.org/records/17875888",
+      "creators": [
+        {
+          "name": "Firmenich, Facundo",
+          "affiliation": "Centro de Estudios del Sur (CEDESUR), Argentina / Universitat de Barcelona, Spain",
+          "orcid": "0009-0002-6578-3811"
+        },
+        {
+          "name": "Firmenich, Pau",
+          "affiliation": "Centro de Estudios del Sur (CEDESUR), Argentina"
+        },
+        {
+          "name": "Firmenich, León",
+          "affiliation": "Centro de Estudios del Sur (CEDESUR), Argentina"
+        }
+      ]
+    },
+    {
+      "title": "Seismic Fractal Analysis (SFA): Framework for Precision-Calibrated Dimensional Inference",
+      "version_doi": "10.5281/zenodo.18480821",
+      "concept_doi": "10.5281/zenodo.18480820",
+      "url": "https://zenodo.org/records/18480821",
+      "creators": [
+        {
+          "name": "Firmenich, Facundo",
+          "affiliation": "Centro de Estudios del Sur (CEDESUR)",
+          "orcid": "0009-0002-6578-3811"
+        },
+        {
+          "name": "Firmenich, Pau",
+          "affiliation": "Centro de Estudios del Sur (CEDESUR)"
+        },
+        {
+          "name": "Firmenich, León",
+          "affiliation": "Centro de Estudios del Sur (CEDESUR)"
+        }
+      ]
+    },
+    {
+      "title": "KwanTube v3.5.1: reproducible open-system and convergence-validation framework for tubulin quantum dynamics",
+      "version_doi": "10.5281/zenodo.20102651",
+      "concept_doi": "10.5281/zenodo.19744599",
+      "url": "https://zenodo.org/records/20102651",
+      "creators": [
+        {
+          "name": "Firmenich, Facundo",
+          "affiliation": "Centro de Estudios del Sur (CEDESUR) & Universidad Nacional Arturo Jauretche (UNAJ)",
+          "orcid": "0009-0002-6578-3811"
+        },
+        {
+          "name": "Firmenich, Pau",
+          "affiliation": "Centro de Estudios del Sur (CEDESUR)"
+        },
+        {
+          "name": "Firmenich, León",
+          "affiliation": "Centro de Estudios del Sur (CEDESUR)"
+        }
+      ]
+    },
+    {
+      "title": "ChronoWitness: exact temporal-input identities and kinetic-reader certificates",
+      "version_doi": "10.5281/zenodo.24158489",
+      "concept_doi": "10.5281/zenodo.24117387",
+      "url": "https://zenodo.org/records/24158489",
+      "creators": [
+        {
+          "name": "Firmenich, Facundo",
+          "affiliation": null,
+          "orcid": "0009-0002-6578-3811"
+        },
+        {
+          "name": "Firmenich, Pau",
+          "affiliation": null
+        },
+        {
+          "name": "Firmenich, León",
+          "affiliation": null
+        }
+      ]
+    },
+    {
+      "title": "OpenADS_LifeSearch: Advanced Astro-Complexity and Bayesian Discovery Framework",
+      "version_doi": "10.5281/zenodo.19194518",
+      "concept_doi": "10.5281/zenodo.19194517",
+      "url": "https://zenodo.org/records/19194518",
+      "creators": [
+        {
+          "name": "Firmenich, Facundo",
+          "affiliation": null
+        }
+      ]
+    },
+    {
+      "title": "Primitive radix–Möbius dynamics: RC3.3 exact certificates and verification software",
+      "version_doi": "10.5281/zenodo.24270311",
+      "concept_doi": "10.5281/zenodo.24270310",
+      "url": "https://zenodo.org/records/24270311",
+      "creators": [
+        {
+          "name": "Firmenich, Facundo",
+          "affiliation": "Centro de Estudios del Sur (CEDESUR), Spain and Argentina; academic affiliation UNAJ, Argentina; Universitat de Barcelona, Spain",
+          "orcid": "0009-0002-6578-3811"
+        }
+      ]
+    },
+    {
+      "title": "ardelsistema/scale-dependent-spacetime-geometry: v1.13 – Final arXiv & PRD submission",
+      "version_doi": "10.5281/zenodo.17548048",
+      "concept_doi": "10.5281/zenodo.17542811",
+      "url": "https://zenodo.org/records/17548048",
+      "creators": [
+        {
+          "name": "Facundo Firmenich",
+          "affiliation": "Centro de Estudios del Sur"
+        }
+      ]
+    },
+    {
+      "title": "GRAVITAS: General Relativity and Inference Methods — Reproducible Methods and Visual Software",
+      "version_doi": "10.5281/zenodo.24381485",
+      "concept_doi": "10.5281/zenodo.24381484",
+      "url": "https://zenodo.org/records/24381485",
+      "creators": [
+        {
+          "name": "Firmenich, Facundo",
+          "affiliation": null,
+          "orcid": "0009-0002-6578-3811"
+        }
+      ]
+    },
+    {
+      "title": "CRISPR Observability: evidence graphs, reusable research laboratory and reproducible analysis",
+      "version_doi": "10.5281/zenodo.24207579",
+      "concept_doi": "10.5281/zenodo.24121088",
+      "url": "https://zenodo.org/records/24207579",
+      "creators": [
+        {
+          "name": "Firmenich, Facundo",
+          "affiliation": "Centro de Estudios del Sur (CEDESUR), Spain and Argentina",
+          "orcid": "0009-0002-6578-3811"
+        }
+      ]
+    },
+    {
+      "title": "FacundoFirmenich/cfl_logitsprocessors: RDS expanded architecture preregistration v1.0",
+      "version_doi": "10.5281/zenodo.21119553",
+      "concept_doi": "10.5281/zenodo.20665449",
+      "url": "https://zenodo.org/records/21119553",
+      "creators": [
+        {
+          "name": "Facundo Firmenich",
+          "affiliation": "Centro de Estudios del Sur"
+        }
+      ]
+    },
+    {
+      "title": "ExposureBounds",
+      "version_doi": "10.5281/zenodo.24182710",
+      "concept_doi": "10.5281/zenodo.24182709",
+      "url": "https://zenodo.org/records/24182710",
+      "creators": [
+        {
+          "name": "Firmenich, Facundo",
+          "affiliation": null,
+          "orcid": "0009-0002-6578-3811"
+        }
+      ]
+    }
+  ]
+}

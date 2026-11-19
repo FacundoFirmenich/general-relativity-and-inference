@@ -1,5 +1,0 @@
-# Antecedente metodológico: análisis fractal sísmico
-
-El software relacionado *Seismic Fractal Analysis: Multi-Planar Hierarchy Framework*, versión 1.0.0 (Facundo Firmenich, Pau Firmenich y León Firmenich, 2025), documenta estimación de dimensión de correlación, análisis de Rényi, detección de comunidades en grafos y evaluación de incertidumbre en catálogos sísmicos. Se cita como antecedente metodológico para separar representación de coordenadas, construcción del grafo, estadístico de interés e incertidumbre. La detección de comunidades y la estimación de dimensión fractal no equivalen al conteo de componentes de excursión sobre un grafo fijo empleado aquí. No se trasladan a Cassini ni a la inferencia GP catálogos sísmicos, dimensiones publicadas, presupuestos de error o conclusiones empíricas. El DOI general del proyecto es [10.5281/zenodo.17875887](https://doi.org/10.5281/zenodo.17875887); la referencia identifica la versión archivada mediante el DOI 10.5281/zenodo.17875888. Este estudio no ha repetido independientemente sus resultados numéricos.
-
-Registro verificado: https://zenodo.org/records/17875888
