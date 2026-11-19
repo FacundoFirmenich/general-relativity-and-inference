@@ -1,0 +1,23 @@
+{
+  "stated_mass_eV_c2": 1.01e-24,
+  "reported_lambda_km": 1224800000000000.0,
+  "declared_convention": "lambda = hbar/(m*c)",
+  "lambda_from_hbar_km": 195373247979507.44,
+  "lambda_from_h_km": 1227566321120794.5,
+  "reported_over_reduced": 6.269026146959836,
+  "ordinary_over_reduced": 6.2831853071795845,
+  "mass_rounding_interval_eV_c2": [
+    1.005e-24,
+    1.015e-24
+  ],
+  "reduced_length_rounding_interval_km": [
+    194410818186504.94,
+    196345254188360.72
+  ],
+  "ordinary_length_rounding_interval_km": [
+    1221519196386209.5,
+    1233673616250749.0
+  ],
+  "conclusion": "Quoted length incompatible with the printed reduced-Compton convention even allowing rounding; compatible with ordinary Compton h convention",
+  "non_claim": "Does not establish which constant was used in the underlying force code or a corrected numerical mass bound"
+}

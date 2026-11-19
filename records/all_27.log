@@ -1,0 +1,7 @@
+{
+  "checks_passed": true,
+  "findings": 8,
+  "original_precession_number": 3.6846047117704673e-11,
+  "corrected_rad_per_orbit": 0.00010384852516074833,
+  "corrected_rho": -2.1457944812043513e-11
+}

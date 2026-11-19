@@ -1,0 +1,6 @@
+galaxies,boundary_pct_reported,interior_exact,field_area_deg2,source_precision
+119,10.9,,,percent_rounded_one_decimal
+1000,3.4,,,percent_rounded_one_decimal
+2000,1.9,1963,0.05,exact_interior_and_approximate_area
+5000,1.1,,,percent_rounded_one_decimal
+94043,0.02,94020,2.0,exact_interior_and_approximate_area

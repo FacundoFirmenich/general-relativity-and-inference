@@ -1,0 +1,1822 @@
+[
+  {
+    "path": "inputs/likelihood_spectrum-poles-rotated_syst-rotation-hod-photo_BGS_BRIGHT-21.5_GCcomb_z0.1-0.4_thetacut0.05.h5",
+    "sha256": "db72d5fb076ad732c48a29032ee86c85f68faef14c4b0ee055f1ffad44ecf50d",
+    "datasets": [
+      {
+        "key": "covariance/name",
+        "shape": [],
+        "dtype": "object"
+      },
+      {
+        "key": "covariance/observable/labels_names",
+        "shape": [],
+        "dtype": "object"
+      },
+      {
+        "key": "covariance/observable/labels_values",
+        "shape": [
+          1
+        ],
+        "dtype": "object"
+      },
+      {
+        "key": "covariance/observable/name",
+        "shape": [],
+        "dtype": "object"
+      },
+      {
+        "key": "covariance/observable/spectrum/0/coords_names",
+        "shape": [
+          1
+        ],
+        "dtype": "object"
+      },
+      {
+        "key": "covariance/observable/spectrum/0/k",
+        "shape": [
+          36
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "covariance/observable/spectrum/0/k_edges",
+        "shape": [
+          36,
+          2
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "covariance/observable/spectrum/0/meta/ell",
+        "shape": [],
+        "dtype": "int64"
+      },
+      {
+        "key": "covariance/observable/spectrum/0/name",
+        "shape": [],
+        "dtype": "object"
+      },
+      {
+        "key": "covariance/observable/spectrum/0/nmodes",
+        "shape": [
+          36
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "covariance/observable/spectrum/0/norm",
+        "shape": [
+          36
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "covariance/observable/spectrum/0/num_shotnoise",
+        "shape": [
+          36
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "covariance/observable/spectrum/0/value",
+        "shape": [
+          36
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "covariance/observable/spectrum/0/values_names",
+        "shape": [
+          4
+        ],
+        "dtype": "object"
+      },
+      {
+        "key": "covariance/observable/spectrum/2/coords_names",
+        "shape": [
+          1
+        ],
+        "dtype": "object"
+      },
+      {
+        "key": "covariance/observable/spectrum/2/k",
+        "shape": [
+          36
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "covariance/observable/spectrum/2/k_edges",
+        "shape": [
+          36,
+          2
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "covariance/observable/spectrum/2/meta/ell",
+        "shape": [],
+        "dtype": "int64"
+      },
+      {
+        "key": "covariance/observable/spectrum/2/name",
+        "shape": [],
+        "dtype": "object"
+      },
+      {
+        "key": "covariance/observable/spectrum/2/nmodes",
+        "shape": [
+          36
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "covariance/observable/spectrum/2/norm",
+        "shape": [
+          36
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "covariance/observable/spectrum/2/num_shotnoise",
+        "shape": [
+          36
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "covariance/observable/spectrum/2/value",
+        "shape": [
+          36
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "covariance/observable/spectrum/2/values_names",
+        "shape": [
+          4
+        ],
+        "dtype": "object"
+      },
+      {
+        "key": "covariance/observable/spectrum/labels_names",
+        "shape": [],
+        "dtype": "object"
+      },
+      {
+        "key": "covariance/observable/spectrum/labels_values",
+        "shape": [
+          2
+        ],
+        "dtype": "object"
+      },
+      {
+        "key": "covariance/observable/spectrum/name",
+        "shape": [],
+        "dtype": "object"
+      },
+      {
+        "key": "covariance/value",
+        "shape": [
+          72,
+          72
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "name",
+        "shape": [],
+        "dtype": "object"
+      },
+      {
+        "key": "observable/labels_names",
+        "shape": [],
+        "dtype": "object"
+      },
+      {
+        "key": "observable/labels_values",
+        "shape": [
+          1
+        ],
+        "dtype": "object"
+      },
+      {
+        "key": "observable/name",
+        "shape": [],
+        "dtype": "object"
+      },
+      {
+        "key": "observable/spectrum/0/coords_names",
+        "shape": [
+          1
+        ],
+        "dtype": "object"
+      },
+      {
+        "key": "observable/spectrum/0/k",
+        "shape": [
+          36
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "observable/spectrum/0/k_edges",
+        "shape": [
+          36,
+          2
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "observable/spectrum/0/meta/ell",
+        "shape": [],
+        "dtype": "int64"
+      },
+      {
+        "key": "observable/spectrum/0/name",
+        "shape": [],
+        "dtype": "object"
+      },
+      {
+        "key": "observable/spectrum/0/nmodes",
+        "shape": [
+          36
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "observable/spectrum/0/norm",
+        "shape": [
+          36
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "observable/spectrum/0/num_shotnoise",
+        "shape": [
+          36
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "observable/spectrum/0/value",
+        "shape": [
+          36
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "observable/spectrum/0/values_names",
+        "shape": [
+          4
+        ],
+        "dtype": "object"
+      },
+      {
+        "key": "observable/spectrum/2/coords_names",
+        "shape": [
+          1
+        ],
+        "dtype": "object"
+      },
+      {
+        "key": "observable/spectrum/2/k",
+        "shape": [
+          36
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "observable/spectrum/2/k_edges",
+        "shape": [
+          36,
+          2
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "observable/spectrum/2/meta/ell",
+        "shape": [],
+        "dtype": "int64"
+      },
+      {
+        "key": "observable/spectrum/2/name",
+        "shape": [],
+        "dtype": "object"
+      },
+      {
+        "key": "observable/spectrum/2/nmodes",
+        "shape": [
+          36
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "observable/spectrum/2/norm",
+        "shape": [
+          36
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "observable/spectrum/2/num_shotnoise",
+        "shape": [
+          36
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "observable/spectrum/2/value",
+        "shape": [
+          36
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "observable/spectrum/2/values_names",
+        "shape": [
+          4
+        ],
+        "dtype": "object"
+      },
+      {
+        "key": "observable/spectrum/labels_names",
+        "shape": [],
+        "dtype": "object"
+      },
+      {
+        "key": "observable/spectrum/labels_values",
+        "shape": [
+          2
+        ],
+        "dtype": "object"
+      },
+      {
+        "key": "observable/spectrum/name",
+        "shape": [],
+        "dtype": "object"
+      },
+      {
+        "key": "window/name",
+        "shape": [],
+        "dtype": "object"
+      },
+      {
+        "key": "window/observable/labels_names",
+        "shape": [],
+        "dtype": "object"
+      },
+      {
+        "key": "window/observable/labels_values",
+        "shape": [
+          1
+        ],
+        "dtype": "object"
+      },
+      {
+        "key": "window/observable/name",
+        "shape": [],
+        "dtype": "object"
+      },
+      {
+        "key": "window/observable/spectrum/0/coords_names",
+        "shape": [
+          1
+        ],
+        "dtype": "object"
+      },
+      {
+        "key": "window/observable/spectrum/0/k",
+        "shape": [
+          36
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "window/observable/spectrum/0/k_edges",
+        "shape": [
+          36,
+          2
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "window/observable/spectrum/0/meta/ell",
+        "shape": [],
+        "dtype": "int64"
+      },
+      {
+        "key": "window/observable/spectrum/0/name",
+        "shape": [],
+        "dtype": "object"
+      },
+      {
+        "key": "window/observable/spectrum/0/nmodes",
+        "shape": [
+          36
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "window/observable/spectrum/0/norm",
+        "shape": [
+          36
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "window/observable/spectrum/0/num_shotnoise",
+        "shape": [
+          36
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "window/observable/spectrum/0/value",
+        "shape": [
+          36
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "window/observable/spectrum/0/values_names",
+        "shape": [
+          4
+        ],
+        "dtype": "object"
+      },
+      {
+        "key": "window/observable/spectrum/2/coords_names",
+        "shape": [
+          1
+        ],
+        "dtype": "object"
+      },
+      {
+        "key": "window/observable/spectrum/2/k",
+        "shape": [
+          36
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "window/observable/spectrum/2/k_edges",
+        "shape": [
+          36,
+          2
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "window/observable/spectrum/2/meta/ell",
+        "shape": [],
+        "dtype": "int64"
+      },
+      {
+        "key": "window/observable/spectrum/2/name",
+        "shape": [],
+        "dtype": "object"
+      },
+      {
+        "key": "window/observable/spectrum/2/nmodes",
+        "shape": [
+          36
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "window/observable/spectrum/2/norm",
+        "shape": [
+          36
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "window/observable/spectrum/2/num_shotnoise",
+        "shape": [
+          36
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "window/observable/spectrum/2/value",
+        "shape": [
+          36
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "window/observable/spectrum/2/values_names",
+        "shape": [
+          4
+        ],
+        "dtype": "object"
+      },
+      {
+        "key": "window/observable/spectrum/labels_names",
+        "shape": [],
+        "dtype": "object"
+      },
+      {
+        "key": "window/observable/spectrum/labels_values",
+        "shape": [
+          2
+        ],
+        "dtype": "object"
+      },
+      {
+        "key": "window/observable/spectrum/name",
+        "shape": [],
+        "dtype": "object"
+      },
+      {
+        "key": "window/theory/labels_names",
+        "shape": [],
+        "dtype": "object"
+      },
+      {
+        "key": "window/theory/labels_values",
+        "shape": [
+          1
+        ],
+        "dtype": "object"
+      },
+      {
+        "key": "window/theory/name",
+        "shape": [],
+        "dtype": "object"
+      },
+      {
+        "key": "window/theory/spectrum/0/coords_names",
+        "shape": [
+          1
+        ],
+        "dtype": "object"
+      },
+      {
+        "key": "window/theory/spectrum/0/k",
+        "shape": [
+          349
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "window/theory/spectrum/0/meta/ell",
+        "shape": [],
+        "dtype": "int64"
+      },
+      {
+        "key": "window/theory/spectrum/0/name",
+        "shape": [],
+        "dtype": "object"
+      },
+      {
+        "key": "window/theory/spectrum/0/nmodes",
+        "shape": [
+          349
+        ],
+        "dtype": "int32"
+      },
+      {
+        "key": "window/theory/spectrum/0/norm",
+        "shape": [
+          349
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "window/theory/spectrum/0/num_shotnoise",
+        "shape": [
+          349
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "window/theory/spectrum/0/value",
+        "shape": [
+          349
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "window/theory/spectrum/0/values_names",
+        "shape": [
+          4
+        ],
+        "dtype": "object"
+      },
+      {
+        "key": "window/theory/spectrum/2/coords_names",
+        "shape": [
+          1
+        ],
+        "dtype": "object"
+      },
+      {
+        "key": "window/theory/spectrum/2/k",
+        "shape": [
+          349
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "window/theory/spectrum/2/meta/ell",
+        "shape": [],
+        "dtype": "int64"
+      },
+      {
+        "key": "window/theory/spectrum/2/name",
+        "shape": [],
+        "dtype": "object"
+      },
+      {
+        "key": "window/theory/spectrum/2/nmodes",
+        "shape": [
+          349
+        ],
+        "dtype": "int32"
+      },
+      {
+        "key": "window/theory/spectrum/2/norm",
+        "shape": [
+          349
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "window/theory/spectrum/2/num_shotnoise",
+        "shape": [
+          349
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "window/theory/spectrum/2/value",
+        "shape": [
+          349
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "window/theory/spectrum/2/values_names",
+        "shape": [
+          4
+        ],
+        "dtype": "object"
+      },
+      {
+        "key": "window/theory/spectrum/4/coords_names",
+        "shape": [
+          1
+        ],
+        "dtype": "object"
+      },
+      {
+        "key": "window/theory/spectrum/4/k",
+        "shape": [
+          349
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "window/theory/spectrum/4/meta/ell",
+        "shape": [],
+        "dtype": "int64"
+      },
+      {
+        "key": "window/theory/spectrum/4/name",
+        "shape": [],
+        "dtype": "object"
+      },
+      {
+        "key": "window/theory/spectrum/4/nmodes",
+        "shape": [
+          349
+        ],
+        "dtype": "int32"
+      },
+      {
+        "key": "window/theory/spectrum/4/norm",
+        "shape": [
+          349
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "window/theory/spectrum/4/num_shotnoise",
+        "shape": [
+          349
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "window/theory/spectrum/4/value",
+        "shape": [
+          349
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "window/theory/spectrum/4/values_names",
+        "shape": [
+          4
+        ],
+        "dtype": "object"
+      },
+      {
+        "key": "window/theory/spectrum/labels_names",
+        "shape": [],
+        "dtype": "object"
+      },
+      {
+        "key": "window/theory/spectrum/labels_values",
+        "shape": [
+          3
+        ],
+        "dtype": "object"
+      },
+      {
+        "key": "window/theory/spectrum/name",
+        "shape": [],
+        "dtype": "object"
+      },
+      {
+        "key": "window/value",
+        "shape": [
+          72,
+          1047
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "inputs/spectrum-poles-rotated-corrected_BGS_BRIGHT-21.5_GCcomb_z0.1-0.4_thetacut0.05.h5",
+    "sha256": "01d6745c9e42070b0af0b015d948e66cd44dcd86e706bb2df1b37429d51b0df3",
+    "datasets": [
+      {
+        "key": "0/coords_names",
+        "shape": [
+          1
+        ],
+        "dtype": "object"
+      },
+      {
+        "key": "0/k",
+        "shape": [
+          36
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "0/k_edges",
+        "shape": [
+          36,
+          2
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "0/meta/ell",
+        "shape": [],
+        "dtype": "int64"
+      },
+      {
+        "key": "0/name",
+        "shape": [],
+        "dtype": "object"
+      },
+      {
+        "key": "0/nmodes",
+        "shape": [
+          36
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "0/norm",
+        "shape": [
+          36
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "0/num_shotnoise",
+        "shape": [
+          36
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "0/value",
+        "shape": [
+          36
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "0/values_names",
+        "shape": [
+          4
+        ],
+        "dtype": "object"
+      },
+      {
+        "key": "2/coords_names",
+        "shape": [
+          1
+        ],
+        "dtype": "object"
+      },
+      {
+        "key": "2/k",
+        "shape": [
+          36
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "2/k_edges",
+        "shape": [
+          36,
+          2
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "2/meta/ell",
+        "shape": [],
+        "dtype": "int64"
+      },
+      {
+        "key": "2/name",
+        "shape": [],
+        "dtype": "object"
+      },
+      {
+        "key": "2/nmodes",
+        "shape": [
+          36
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "2/norm",
+        "shape": [
+          36
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "2/num_shotnoise",
+        "shape": [
+          36
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "2/value",
+        "shape": [
+          36
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "2/values_names",
+        "shape": [
+          4
+        ],
+        "dtype": "object"
+      },
+      {
+        "key": "4/coords_names",
+        "shape": [
+          1
+        ],
+        "dtype": "object"
+      },
+      {
+        "key": "4/k",
+        "shape": [
+          36
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "4/k_edges",
+        "shape": [
+          36,
+          2
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "4/meta/ell",
+        "shape": [],
+        "dtype": "int64"
+      },
+      {
+        "key": "4/name",
+        "shape": [],
+        "dtype": "object"
+      },
+      {
+        "key": "4/nmodes",
+        "shape": [
+          36
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "4/norm",
+        "shape": [
+          36
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "4/num_shotnoise",
+        "shape": [
+          36
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "4/value",
+        "shape": [
+          36
+        ],
+        "dtype": "float64"
+      },
+      {
+        "key": "4/values_names",
+        "shape": [
+          4
+        ],
+        "dtype": "object"
+      },
+      {
+        "key": "labels_names",
+        "shape": [],
+        "dtype": "object"
+      },
+      {
+        "key": "labels_values",
+        "shape": [
+          3
+        ],
+        "dtype": "object"
+      },
+      {
+        "key": "name",
+        "shape": [],
+        "dtype": "object"
+      }
+    ]
+  },
+  {
+    "path": "analyses/casimir/sources/casimir/selected/Figure S5/Casimir_pressure_dist_v6_epsilonr_1_06.h5",
+    "sha256": "cf341d8537333fddfbad88942e4a986b997963018c300f9a5859e72dddfdfb32",
+    "datasets": [
+      {
+        "key": "data/axis0",
+        "shape": [
+          4
+        ],
+        "dtype": "|S13"
+      },
+      {
+        "key": "data/axis1",
+        "shape": [
+          101
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "data/block0_items",
+        "shape": [
+          4
+        ],
+        "dtype": "|S13"
+      },
+      {
+        "key": "data/block0_values",
+        "shape": [
+          101,
+          4
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "analyses/casimir/sources/casimir/selected/Figure S5/Casimir_pressure_dist_v6_omegap_12_5eV.h5",
+    "sha256": "6a6b794eef83475875b87eca80398e31bd8960fd9d140eda315a0695fc4f36ab",
+    "datasets": [
+      {
+        "key": "data/axis0",
+        "shape": [
+          4
+        ],
+        "dtype": "|S13"
+      },
+      {
+        "key": "data/axis1",
+        "shape": [
+          101
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "data/block0_items",
+        "shape": [
+          4
+        ],
+        "dtype": "|S13"
+      },
+      {
+        "key": "data/block0_values",
+        "shape": [
+          101,
+          4
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "analyses/casimir/sources/casimir/selected/Figure S5/Casimir_pressure_dist_v6_epsilonr_1.h5",
+    "sha256": "43b6b4154a00680f03e4e52038646e4494668d59570c26a111a8090d96c040a1",
+    "datasets": [
+      {
+        "key": "data/axis0",
+        "shape": [
+          4
+        ],
+        "dtype": "|S13"
+      },
+      {
+        "key": "data/axis1",
+        "shape": [
+          101
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "data/block0_items",
+        "shape": [
+          4
+        ],
+        "dtype": "|S13"
+      },
+      {
+        "key": "data/block0_values",
+        "shape": [
+          101,
+          4
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "analyses/casimir/sources/casimir/selected/Figure S5/Casimir_pressure_dist_v6_RRR_1.h5",
+    "sha256": "5c0f6087b09db1c954734a0433bed73a1e3995e78728aeb492ded795b3b7ca24",
+    "datasets": [
+      {
+        "key": "data/axis0",
+        "shape": [
+          4
+        ],
+        "dtype": "|S13"
+      },
+      {
+        "key": "data/axis1",
+        "shape": [
+          101
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "data/block0_items",
+        "shape": [
+          4
+        ],
+        "dtype": "|S13"
+      },
+      {
+        "key": "data/block0_values",
+        "shape": [
+          101,
+          4
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "analyses/casimir/sources/casimir/selected/Figure S5/Casimir_pressure_dist_v5_closedist.h5",
+    "sha256": "12aca6f9e49e41ec83469035c00b675d6215140332d605cefb290054ff79249c",
+    "datasets": [
+      {
+        "key": "data/axis0",
+        "shape": [
+          4
+        ],
+        "dtype": "|S13"
+      },
+      {
+        "key": "data/axis1",
+        "shape": [
+          101
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "data/block0_items",
+        "shape": [
+          4
+        ],
+        "dtype": "|S13"
+      },
+      {
+        "key": "data/block0_values",
+        "shape": [
+          101,
+          4
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "analyses/casimir/sources/casimir/selected/Figure S5/Casimir_pressure_dist_v6_omegap_10eV.h5",
+    "sha256": "abe0f4cc9b3113d766a869709f84da0cbe4f9300fefbe8fd1754478fd0ac99fe",
+    "datasets": [
+      {
+        "key": "data/axis0",
+        "shape": [
+          4
+        ],
+        "dtype": "|S13"
+      },
+      {
+        "key": "data/axis1",
+        "shape": [
+          101
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "data/block0_items",
+        "shape": [
+          4
+        ],
+        "dtype": "|S13"
+      },
+      {
+        "key": "data/block0_values",
+        "shape": [
+          101,
+          4
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "analyses/casimir/sources/casimir/selected/Figure S5/Casimir_pressure_dist_v6_RRR_10.h5",
+    "sha256": "ef54af5289b0a5ad8cbbc332206545bfc542055eaab20c90e50d7f6916b3542e",
+    "datasets": [
+      {
+        "key": "data/axis0",
+        "shape": [
+          4
+        ],
+        "dtype": "|S13"
+      },
+      {
+        "key": "data/axis1",
+        "shape": [
+          101
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "data/block0_items",
+        "shape": [
+          4
+        ],
+        "dtype": "|S13"
+      },
+      {
+        "key": "data/block0_values",
+        "shape": [
+          101,
+          4
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "analyses/casimir/sources/casimir/selected/Figure S5/Casimir_pressure_dist_v6_omegap_13_5eV.h5",
+    "sha256": "f3f9c46da847f7b6d9f49184d3d2cf22120a52df58f416846fa9d69fe6eb65c8",
+    "datasets": [
+      {
+        "key": "data/axis0",
+        "shape": [
+          4
+        ],
+        "dtype": "|S13"
+      },
+      {
+        "key": "data/axis1",
+        "shape": [
+          101
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "data/block0_items",
+        "shape": [
+          4
+        ],
+        "dtype": "|S13"
+      },
+      {
+        "key": "data/block0_values",
+        "shape": [
+          101,
+          4
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "analyses/casimir/sources/casimir/selected/Figure S5/Casimir_pressure_dist_v6_epsilonr_1_5.h5",
+    "sha256": "a5ce7a9d665e9f38aec502b20495795acc1beaf89f1ab1e85392178dcd349661",
+    "datasets": [
+      {
+        "key": "data/axis0",
+        "shape": [
+          4
+        ],
+        "dtype": "|S13"
+      },
+      {
+        "key": "data/axis1",
+        "shape": [
+          101
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "data/block0_items",
+        "shape": [
+          4
+        ],
+        "dtype": "|S13"
+      },
+      {
+        "key": "data/block0_values",
+        "shape": [
+          101,
+          4
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "analyses/casimir/sources/casimir/selected/Figure S5/Casimir_pressure_dist_v4.h5",
+    "sha256": "9c4622b8f4cce18739ed214f166173e8765be3895237d41d142db41749ff1c59",
+    "datasets": [
+      {
+        "key": "data/axis0",
+        "shape": [
+          4
+        ],
+        "dtype": "|S13"
+      },
+      {
+        "key": "data/axis1",
+        "shape": [
+          101
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "data/block0_items",
+        "shape": [
+          4
+        ],
+        "dtype": "|S13"
+      },
+      {
+        "key": "data/block0_values",
+        "shape": [
+          101,
+          4
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "analyses/casimir/sources/casimir/selected/Figure S5/Casimir_pressure_dist_v6_omegap_15eV.h5",
+    "sha256": "f469c172c752317d890962c6d6df1d7d675e4a808289c1ac2456d56f798fd652",
+    "datasets": [
+      {
+        "key": "data/axis0",
+        "shape": [
+          4
+        ],
+        "dtype": "|S13"
+      },
+      {
+        "key": "data/axis1",
+        "shape": [
+          101
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "data/block0_items",
+        "shape": [
+          4
+        ],
+        "dtype": "|S13"
+      },
+      {
+        "key": "data/block0_values",
+        "shape": [
+          101,
+          4
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "analyses/casimir/sources/casimir/selected/Figure 5/Casimir_pressure_dist_v4.h5",
+    "sha256": "9c4622b8f4cce18739ed214f166173e8765be3895237d41d142db41749ff1c59",
+    "datasets": [
+      {
+        "key": "data/axis0",
+        "shape": [
+          4
+        ],
+        "dtype": "|S13"
+      },
+      {
+        "key": "data/axis1",
+        "shape": [
+          101
+        ],
+        "dtype": "int64"
+      },
+      {
+        "key": "data/block0_items",
+        "shape": [
+          4
+        ],
+        "dtype": "|S13"
+      },
+      {
+        "key": "data/block0_values",
+        "shape": [
+          101,
+          4
+        ],
+        "dtype": "float64"
+      }
+    ]
+  },
+  {
+    "path": "platform/fermi_review/results/event_subsets/GRB090902B_audit_subset.fits",
+    "sha256": "fb10cccdb27272d674c906fbe562c512f3a5587f2762f4fb61fbe5a5e5ee77e4",
+    "hdus": [
+      {
+        "name": "PRIMARY",
+        "rows": 0,
+        "columns": [],
+        "telescope": "GLAST",
+        "instrument": "LAT"
+      },
+      {
+        "name": "EVENTS",
+        "rows": 2389,
+        "columns": [
+          "ENERGY",
+          "RA",
+          "DEC",
+          "L",
+          "B",
+          "THETA",
+          "PHI",
+          "ZENITH_ANGLE",
+          "EARTH_AZIMUTH_ANGLE",
+          "TIME",
+          "EVENT_ID",
+          "RUN_ID",
+          "RECON_VERSION",
+          "CALIB_VERSION",
+          "EVENT_CLASS",
+          "EVENT_TYPE",
+          "CONVERSION_TYPE",
+          "LIVETIME",
+          "DIFRSP0",
+          "DIFRSP1",
+          "DIFRSP2",
+          "DIFRSP3",
+          "DIFRSP4"
+        ],
+        "telescope": "GLAST",
+        "instrument": "LAT"
+      },
+      {
+        "name": "GTI",
+        "rows": 1,
+        "columns": [
+          "START",
+          "STOP"
+        ],
+        "telescope": "GLAST",
+        "instrument": "LAT"
+      }
+    ]
+  },
+  {
+    "path": "platform/fermi_review/results/event_subsets/GRB090510_audit_subset.fits",
+    "sha256": "2ca0bb036aeb660eedaedd30311619a9a962198f7325a0cbcb92796b2ad75211",
+    "hdus": [
+      {
+        "name": "PRIMARY",
+        "rows": 0,
+        "columns": [],
+        "telescope": "GLAST",
+        "instrument": "LAT"
+      },
+      {
+        "name": "EVENTS",
+        "rows": 198,
+        "columns": [
+          "ENERGY",
+          "RA",
+          "DEC",
+          "L",
+          "B",
+          "THETA",
+          "PHI",
+          "ZENITH_ANGLE",
+          "EARTH_AZIMUTH_ANGLE",
+          "TIME",
+          "EVENT_ID",
+          "RUN_ID",
+          "RECON_VERSION",
+          "CALIB_VERSION",
+          "EVENT_CLASS",
+          "EVENT_TYPE",
+          "CONVERSION_TYPE",
+          "LIVETIME",
+          "DIFRSP0",
+          "DIFRSP1",
+          "DIFRSP2",
+          "DIFRSP3",
+          "DIFRSP4"
+        ],
+        "telescope": "GLAST",
+        "instrument": "LAT"
+      },
+      {
+        "name": "GTI",
+        "rows": 1,
+        "columns": [
+          "START",
+          "STOP"
+        ],
+        "telescope": "GLAST",
+        "instrument": "LAT"
+      }
+    ]
+  },
+  {
+    "path": "platform/fermi_review/results/event_subsets/GRB130427A_audit_subset.fits",
+    "sha256": "706b5e4d7f62b2635877f754a7cc208ef9937ff6787b15fa74370865270a867f",
+    "hdus": [
+      {
+        "name": "PRIMARY",
+        "rows": 0,
+        "columns": [],
+        "telescope": "GLAST",
+        "instrument": "LAT"
+      },
+      {
+        "name": "EVENTS",
+        "rows": 8356,
+        "columns": [
+          "ENERGY",
+          "RA",
+          "DEC",
+          "L",
+          "B",
+          "THETA",
+          "PHI",
+          "ZENITH_ANGLE",
+          "EARTH_AZIMUTH_ANGLE",
+          "TIME",
+          "EVENT_ID",
+          "RUN_ID",
+          "RECON_VERSION",
+          "CALIB_VERSION",
+          "EVENT_CLASS",
+          "EVENT_TYPE",
+          "CONVERSION_TYPE",
+          "LIVETIME",
+          "DIFRSP0",
+          "DIFRSP1",
+          "DIFRSP2",
+          "DIFRSP3",
+          "DIFRSP4"
+        ],
+        "telescope": "GLAST",
+        "instrument": "LAT"
+      },
+      {
+        "name": "GTI",
+        "rows": 2,
+        "columns": [
+          "START",
+          "STOP"
+        ],
+        "telescope": "GLAST",
+        "instrument": "LAT"
+      }
+    ]
+  },
+  {
+    "path": "platform/fermi_review/results/event_subsets/GRB080916C_audit_subset.fits",
+    "sha256": "8fb89b00ff6ff2ee1abbf99308da4a7ebbe0d20fa9d64cc5e9b5c9d89d333a78",
+    "hdus": [
+      {
+        "name": "PRIMARY",
+        "rows": 0,
+        "columns": [],
+        "telescope": "GLAST",
+        "instrument": "LAT"
+      },
+      {
+        "name": "EVENTS",
+        "rows": 282,
+        "columns": [
+          "ENERGY",
+          "RA",
+          "DEC",
+          "L",
+          "B",
+          "THETA",
+          "PHI",
+          "ZENITH_ANGLE",
+          "EARTH_AZIMUTH_ANGLE",
+          "TIME",
+          "EVENT_ID",
+          "RUN_ID",
+          "RECON_VERSION",
+          "CALIB_VERSION",
+          "EVENT_CLASS",
+          "EVENT_TYPE",
+          "CONVERSION_TYPE",
+          "LIVETIME",
+          "DIFRSP0",
+          "DIFRSP1",
+          "DIFRSP2",
+          "DIFRSP3",
+          "DIFRSP4"
+        ],
+        "telescope": "GLAST",
+        "instrument": "LAT"
+      },
+      {
+        "name": "GTI",
+        "rows": 1,
+        "columns": [
+          "START",
+          "STOP"
+        ],
+        "telescope": "GLAST",
+        "instrument": "LAT"
+      }
+    ]
+  },
+  {
+    "path": "platform/fermi_review/raw/spacecraft/lat_spacecraft_weekly_w015_p310_v001.fits",
+    "sha256": "f26948474420194636a0f03c7cb8e7e7bc3259f6c4bd50b01fa6af7579955325",
+    "hdus": [
+      {
+        "name": "PRIMARY",
+        "rows": 0,
+        "columns": [],
+        "telescope": "GLAST",
+        "instrument": "LAT"
+      },
+      {
+        "name": "SC_DATA",
+        "rows": 17102,
+        "columns": [
+          "START",
+          "STOP",
+          "SC_POSITION",
+          "LAT_GEO",
+          "LON_GEO",
+          "RAD_GEO",
+          "RA_ZENITH",
+          "DEC_ZENITH",
+          "B_MCILWAIN",
+          "L_MCILWAIN",
+          "GEOMAG_LAT",
+          "LAMBDA",
+          "IN_SAA",
+          "RA_SCZ",
+          "DEC_SCZ",
+          "RA_SCX",
+          "DEC_SCX",
+          "RA_NPOLE",
+          "DEC_NPOLE",
+          "ROCK_ANGLE",
+          "LAT_MODE",
+          "LAT_CONFIG",
+          "DATA_QUAL",
+          "LIVETIME",
+          "QSJ_1",
+          "QSJ_2",
+          "QSJ_3",
+          "QSJ_4",
+          "RA_SUN",
+          "DEC_SUN",
+          "SC_VELOCITY"
+        ],
+        "telescope": "GLAST",
+        "instrument": "LAT"
+      }
+    ]
+  },
+  {
+    "path": "platform/fermi_review/raw/spacecraft/lat_spacecraft_weekly_w065_p310_v001.fits",
+    "sha256": "a7fdf6b7c44427c3a2bc91a6a3106e1b572fa6bf852286db9a83530f90f58615",
+    "hdus": [
+      {
+        "name": "PRIMARY",
+        "rows": 0,
+        "columns": [],
+        "telescope": "GLAST",
+        "instrument": "LAT"
+      },
+      {
+        "name": "SC_DATA",
+        "rows": 17215,
+        "columns": [
+          "START",
+          "STOP",
+          "SC_POSITION",
+          "LAT_GEO",
+          "LON_GEO",
+          "RAD_GEO",
+          "RA_ZENITH",
+          "DEC_ZENITH",
+          "B_MCILWAIN",
+          "L_MCILWAIN",
+          "GEOMAG_LAT",
+          "LAMBDA",
+          "IN_SAA",
+          "RA_SCZ",
+          "DEC_SCZ",
+          "RA_SCX",
+          "DEC_SCX",
+          "RA_NPOLE",
+          "DEC_NPOLE",
+          "ROCK_ANGLE",
+          "LAT_MODE",
+          "LAT_CONFIG",
+          "DATA_QUAL",
+          "LIVETIME",
+          "QSJ_1",
+          "QSJ_2",
+          "QSJ_3",
+          "QSJ_4",
+          "RA_SUN",
+          "DEC_SUN",
+          "SC_VELOCITY"
+        ],
+        "telescope": "GLAST",
+        "instrument": "LAT"
+      }
+    ]
+  },
+  {
+    "path": "platform/fermi_review/raw/spacecraft/lat_spacecraft_weekly_w049_p310_v001.fits",
+    "sha256": "5e0d5b04ab982e9ce32c2ef0a51b7e99deea5d670493e0346c60a14c7d1781a2",
+    "hdus": [
+      {
+        "name": "PRIMARY",
+        "rows": 0,
+        "columns": [],
+        "telescope": "GLAST",
+        "instrument": "LAT"
+      },
+      {
+        "name": "SC_DATA",
+        "rows": 16414,
+        "columns": [
+          "START",
+          "STOP",
+          "SC_POSITION",
+          "LAT_GEO",
+          "LON_GEO",
+          "RAD_GEO",
+          "RA_ZENITH",
+          "DEC_ZENITH",
+          "B_MCILWAIN",
+          "L_MCILWAIN",
+          "GEOMAG_LAT",
+          "LAMBDA",
+          "IN_SAA",
+          "RA_SCZ",
+          "DEC_SCZ",
+          "RA_SCX",
+          "DEC_SCX",
+          "RA_NPOLE",
+          "DEC_NPOLE",
+          "ROCK_ANGLE",
+          "LAT_MODE",
+          "LAT_CONFIG",
+          "DATA_QUAL",
+          "LIVETIME",
+          "QSJ_1",
+          "QSJ_2",
+          "QSJ_3",
+          "QSJ_4",
+          "RA_SUN",
+          "DEC_SUN",
+          "SC_VELOCITY"
+        ],
+        "telescope": "GLAST",
+        "instrument": "LAT"
+      }
+    ]
+  },
+  {
+    "path": "platform/fermi_review/raw/spacecraft/lat_spacecraft_weekly_w256_p310_v001.fits",
+    "sha256": "a551691f9720f061a342975c555d50e40ce7f192c20f9215caca56a83fd0b9aa",
+    "hdus": [
+      {
+        "name": "PRIMARY",
+        "rows": 0,
+        "columns": [],
+        "telescope": "GLAST",
+        "instrument": "LAT"
+      },
+      {
+        "name": "SC_DATA",
+        "rows": 16952,
+        "columns": [
+          "START",
+          "STOP",
+          "SC_POSITION",
+          "LAT_GEO",
+          "LON_GEO",
+          "RAD_GEO",
+          "RA_ZENITH",
+          "DEC_ZENITH",
+          "B_MCILWAIN",
+          "L_MCILWAIN",
+          "GEOMAG_LAT",
+          "LAMBDA",
+          "IN_SAA",
+          "RA_SCZ",
+          "DEC_SCZ",
+          "RA_SCX",
+          "DEC_SCX",
+          "RA_NPOLE",
+          "DEC_NPOLE",
+          "ROCK_ANGLE",
+          "LAT_MODE",
+          "LAT_CONFIG",
+          "DATA_QUAL",
+          "LIVETIME",
+          "QSJ_1",
+          "QSJ_2",
+          "QSJ_3",
+          "QSJ_4",
+          "RA_SUN",
+          "DEC_SUN",
+          "SC_VELOCITY"
+        ],
+        "telescope": "GLAST",
+        "instrument": "LAT"
+      }
+    ]
+  }
+]

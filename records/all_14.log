@@ -1,0 +1,258 @@
+{
+  "executed_at": "2026-11-19T22:22:00.948115+00:00",
+  "density_coordinate_counterexample": {
+    "scope": "One-amplitude conditional SPARC-data statistical control; not a gravity model comparison",
+    "galaxy": "NGC2403",
+    "galaxies_in_input": 175,
+    "rows_in_input": 3391,
+    "observations": 73,
+    "fixed": {
+      "distance_Mpc": 3.16,
+      "inclination_deg": 63.0,
+      "disk_ML": 0.5,
+      "gas_scale": 1.0,
+      "a0_m_s2": 1.2e-10,
+      "delta": 1.0
+    },
+    "assumptions": "Independent tabulated velocity errors; no inclination, distance, disk geometry or intrinsic-scatter marginalization",
+    "prior": "A ~ Normal(1,0.1^2); Gaussian calibration amplitude, not a gravitational coupling",
+    "posterior_mean": 1.0582912318332742,
+    "posterior_sd": 0.0008617068200800354,
+    "mle": 1.0582955605039177,
+    "chi2_fixed": 5521.548469795584,
+    "chi2_at_posterior_mean": 945.1940376754051,
+    "log_evidence": -589.3214383453892,
+    "log_evidence_quadrature": -589.3214383453889,
+    "log_Bayes_factor_free_vs_fixed": 2283.2533123065828,
+    "BIC_likelihood": 1173.0855033925561,
+    "coordinates": [
+      {
+        "scale": 1e-12,
+        "log_evidence": -589.321438345389,
+        "BIC_logjoint": 1115.3959800443406,
+        "BIC_normalized_posterior": -63.24689664643845,
+        "coordinate_shift": -55.262042231857095
+      },
+      {
+        "scale": 1e-06,
+        "log_evidence": -589.321438345389,
+        "BIC_logjoint": 1143.0270011602693,
+        "BIC_normalized_posterior": -35.6158755305099,
+        "coordinate_shift": -27.631021115928547
+      },
+      {
+        "scale": 1.0,
+        "log_evidence": -589.3214383453889,
+        "BIC_logjoint": 1170.6580222761977,
+        "BIC_normalized_posterior": -7.984854414581362,
+        "coordinate_shift": 0.0
+      },
+      {
+        "scale": 1000000.0,
+        "log_evidence": -589.3214383453889,
+        "BIC_logjoint": 1198.2890433921261,
+        "BIC_normalized_posterior": 19.646166701347184,
+        "coordinate_shift": 27.631021115928547
+      },
+      {
+        "scale": 1000000000000.0,
+        "log_evidence": -589.3214383453889,
+        "BIC_logjoint": 1225.9200645080548,
+        "BIC_normalized_posterior": 47.27718781727574,
+        "coordinate_shift": 55.262042231857095
+      }
+    ],
+    "sha256": "9108994b12cc401b94a1768beca61c53ec354779385c9c9cc571049f3043244c"
+  },
+  "fixed_physical_external_field": {
+    "scan": [
+      {
+        "order": 192,
+        "eN": 1.477144719505891,
+        "delta": 1.0,
+        "vmax": 64.0,
+        "a0_m_s2": 1.02e-10,
+        "mu_sun_m3_s2": 1.3271244e+20,
+        "q": -0.23268282389873074,
+        "Q2_s_2": 3.1210449646535764e-26,
+        "physical_external_m_s2": 2.142e-10,
+        "external_equation_relative_error": 3.219646771412954e-15
+      },
+      {
+        "order": 192,
+        "eN": 1.7905203016394144,
+        "delta": 1.5,
+        "vmax": 64.0,
+        "a0_m_s2": 1.02e-10,
+        "mu_sun_m3_s2": 1.3271244e+20,
+        "q": -0.16920357744889614,
+        "Q2_s_2": 2.2695786674313668e-26,
+        "physical_external_m_s2": 2.142e-10,
+        "external_equation_relative_error": 2.220446049250313e-16
+      },
+      {
+        "order": 192,
+        "eN": 1.9438954314576595,
+        "delta": 2.0,
+        "vmax": 64.0,
+        "a0_m_s2": 1.02e-10,
+        "mu_sun_m3_s2": 1.3271244e+20,
+        "q": -0.1155523543581663,
+        "Q2_s_2": 1.5499386146369865e-26,
+        "physical_external_m_s2": 2.142e-10,
+        "external_equation_relative_error": 0.0
+      },
+      {
+        "order": 192,
+        "eN": 2.0632159174225104,
+        "delta": 3.0,
+        "vmax": 64.0,
+        "a0_m_s2": 1.02e-10,
+        "mu_sun_m3_s2": 1.3271244e+20,
+        "q": -0.051629535417569344,
+        "Q2_s_2": 6.925225456802068e-27,
+        "physical_external_m_s2": 2.142e-10,
+        "external_equation_relative_error": 8.881784197001252e-16
+      },
+      {
+        "order": 192,
+        "eN": 2.093408720579105,
+        "delta": 4.0,
+        "vmax": 64.0,
+        "a0_m_s2": 1.02e-10,
+        "mu_sun_m3_s2": 1.3271244e+20,
+        "q": -0.023951517317447032,
+        "Q2_s_2": 3.2126893281974977e-27,
+        "physical_external_m_s2": 2.142e-10,
+        "external_equation_relative_error": 2.220446049250313e-16
+      },
+      {
+        "order": 192,
+        "eN": 2.0999667129496826,
+        "delta": 6.0,
+        "vmax": 64.0,
+        "a0_m_s2": 1.02e-10,
+        "mu_sun_m3_s2": 1.3271244e+20,
+        "q": -0.008373445072233678,
+        "Q2_s_2": 1.123155467241206e-27,
+        "physical_external_m_s2": 2.142e-10,
+        "external_equation_relative_error": 6.994405055138486e-15
+      },
+      {
+        "order": 192,
+        "eN": 2.099999999060435,
+        "delta": 8.0,
+        "vmax": 64.0,
+        "a0_m_s2": 1.02e-10,
+        "mu_sun_m3_s2": 1.3271244e+20,
+        "q": -0.005274363703793376,
+        "Q2_s_2": 7.074663270650506e-28,
+        "physical_external_m_s2": 2.142e-10,
+        "external_equation_relative_error": 0.0
+      },
+      {
+        "order": 192,
+        "eN": 2.1,
+        "delta": 12.0,
+        "vmax": 64.0,
+        "a0_m_s2": 1.02e-10,
+        "mu_sun_m3_s2": 1.3271244e+20,
+        "q": -0.0036578835612854424,
+        "Q2_s_2": 4.906429653444349e-28,
+        "physical_external_m_s2": 2.142e-10,
+        "external_equation_relative_error": 0.0
+      }
+    ],
+    "refined": [
+      {
+        "order": 384,
+        "eN": 1.477144719505891,
+        "delta": 1.0,
+        "vmax": 64.0,
+        "a0_m_s2": 1.02e-10,
+        "mu_sun_m3_s2": 1.3271244e+20,
+        "q": -0.2326828238985525,
+        "Q2_s_2": 3.121044964651185e-26,
+        "physical_external_m_s2": 2.142e-10,
+        "external_equation_relative_error": 3.219646771412954e-15
+      },
+      {
+        "order": 384,
+        "eN": 1.9438954314576595,
+        "delta": 2.0,
+        "vmax": 64.0,
+        "a0_m_s2": 1.02e-10,
+        "mu_sun_m3_s2": 1.3271244e+20,
+        "q": -0.11555235435815481,
+        "Q2_s_2": 1.5499386146368324e-26,
+        "physical_external_m_s2": 2.142e-10,
+        "external_equation_relative_error": 0.0
+      },
+      {
+        "order": 384,
+        "eN": 2.093408720579105,
+        "delta": 4.0,
+        "vmax": 64.0,
+        "a0_m_s2": 1.02e-10,
+        "mu_sun_m3_s2": 1.3271244e+20,
+        "q": -0.02395151731744264,
+        "Q2_s_2": 3.2126893281969087e-27,
+        "physical_external_m_s2": 2.142e-10,
+        "external_equation_relative_error": 2.220446049250313e-16
+      },
+      {
+        "order": 384,
+        "eN": 2.099999999060435,
+        "delta": 8.0,
+        "vmax": 64.0,
+        "a0_m_s2": 1.02e-10,
+        "mu_sun_m3_s2": 1.3271244e+20,
+        "q": -0.005274363703789581,
+        "Q2_s_2": 7.074663270645416e-28,
+        "physical_external_m_s2": 2.142e-10,
+        "external_equation_relative_error": 0.0
+      },
+      {
+        "order": 384,
+        "eN": 2.1,
+        "delta": 12.0,
+        "vmax": 64.0,
+        "a0_m_s2": 1.02e-10,
+        "mu_sun_m3_s2": 1.3271244e+20,
+        "q": -0.0036578835612819647,
+        "Q2_s_2": 4.906429653439685e-28,
+        "physical_external_m_s2": 2.142e-10,
+        "external_equation_relative_error": 0.0
+      }
+    ],
+    "max_relative_refinement_error": 9.50572953684059e-13,
+    "ge_m_s2": 2.142e-10,
+    "a0_m_s2": 1.02e-10,
+    "upper_two_sided_gaussian_95_Q2_units_1e27": 5.127935172172098,
+    "delta_crossing": 3.3780761280789258,
+    "scope": "Conditional theory crossing of a published Gaussian summary band; not a delta confidence bound"
+  },
+  "likelihood_tail_stress": {
+    "point_Q2_units_1e27": 31.210449646535764,
+    "gaussian_log_ratio": -134.91029757253548,
+    "variance_matched_student": [
+      {
+        "df": 4,
+        "scale": 1.2727922061357857,
+        "log_likelihood_ratio_point_vs_zero": -11.454897484447546
+      },
+      {
+        "df": 8,
+        "scale": 1.5588457268119895,
+        "log_likelihood_ratio_point_vs_zero": -16.68213920789038
+      },
+      {
+        "df": 30,
+        "scale": 1.7389652095427326,
+        "log_likelihood_ratio_point_vs_zero": -36.25618001169529
+      }
+    ],
+    "scope": "Hypothetical tail sensitivity, not evidence for Student noise in Cassini"
+  },
+  "luminal_identity_max_abs_error": 0.0
+}

@@ -1,0 +1,142 @@
+[
+  {
+    "id": "1B_1BkRZtxyfU9_jwEuejU5e0bOlKG0_L",
+    "file": "Hunter_1B_1BkRZtxyfU9_jwEuejU5e0bOlKG0_L.ipynb",
+    "cells": 1,
+    "source_chars": 4554,
+    "outputs_chars": 635,
+    "screenshot_phrase": true,
+    "errors": [],
+    "sha256": "3dd7ffbc7d092ae2aac460e444a2a49cd3702fa6b999a6b0753782db6af7792c"
+  },
+  {
+    "id": "1fnT1-k6Ad_--YwzgLR2u6Vx-cseValsa",
+    "file": "Hunter_1fnT1-k6Ad_--YwzgLR2u6Vx-cseValsa.ipynb",
+    "cells": 1,
+    "source_chars": 5931,
+    "outputs_chars": 598,
+    "screenshot_phrase": false,
+    "errors": [],
+    "sha256": "5b12ea190a08fb5ad1371fcdf6d56d4626448711e054eddc5c7ed0d06d205516"
+  },
+  {
+    "id": "1vZfqnIgPTZXxqT5JJ-zp735kIPQo45dN",
+    "file": "Hunter_1vZfqnIgPTZXxqT5JJ-zp735kIPQo45dN.ipynb",
+    "cells": 1,
+    "source_chars": 10737,
+    "outputs_chars": 4319,
+    "screenshot_phrase": false,
+    "errors": [
+      "TypeError"
+    ],
+    "sha256": "e95c76947275b4ad123f11228d5b84087246a27fab882c00014f4452021505b2"
+  },
+  {
+    "id": "1Cq6aIkB2aSWYfZMCInF27dHiUpZLB9k3",
+    "file": "Hunter_1Cq6aIkB2aSWYfZMCInF27dHiUpZLB9k3.ipynb",
+    "cells": 1,
+    "source_chars": 3408,
+    "outputs_chars": 239,
+    "screenshot_phrase": false,
+    "errors": [],
+    "sha256": "adfb8533fbfccefcbe15ad416daa599e33633f483917336da79bcea0e74fe265"
+  },
+  {
+    "id": "1b9jVaqXGnsly-4S12p8A_sCqV_aEnlmT",
+    "file": "Hunter_1b9jVaqXGnsly-4S12p8A_sCqV_aEnlmT.ipynb",
+    "cells": 1,
+    "source_chars": 5659,
+    "outputs_chars": 3062,
+    "screenshot_phrase": false,
+    "errors": [
+      "TypeError"
+    ],
+    "sha256": "36e1ae73e8f0de0fa59f1364238f6d5ab963d1505f31c0b194ef95792ec94f43"
+  },
+  {
+    "id": "1loiBr3Gu6dpNuisfqLSTPhbHzODiqS1l",
+    "file": "Hunter_1loiBr3Gu6dpNuisfqLSTPhbHzODiqS1l.ipynb",
+    "cells": 1,
+    "source_chars": 5187,
+    "outputs_chars": 3077,
+    "screenshot_phrase": false,
+    "errors": [
+      "TypeError"
+    ],
+    "sha256": "0cc1a1c602c7bb49b947c8faa744a92525f11494b8f21ead8fb2610ddbc5df03"
+  },
+  {
+    "id": "1JbCnbCXqo2v8Ndkn4qc1INvQmklUvMKA",
+    "file": "Hunter_1JbCnbCXqo2v8Ndkn4qc1INvQmklUvMKA.ipynb",
+    "cells": 2,
+    "source_chars": 11459,
+    "outputs_chars": 6123,
+    "screenshot_phrase": false,
+    "errors": [
+      "TypeError",
+      "TypeError"
+    ],
+    "sha256": "0b179cee178025408810580573a4b144d189a8176a3eed73ae49aa3de6fd045d"
+  },
+  {
+    "id": "127bEPt1ksTsXzcfg8RBH6V-emB2G0Ev8",
+    "file": "Hunter_127bEPt1ksTsXzcfg8RBH6V-emB2G0Ev8.ipynb",
+    "cells": 1,
+    "source_chars": 5797,
+    "outputs_chars": 2322,
+    "screenshot_phrase": false,
+    "errors": [
+      "TypeError"
+    ],
+    "sha256": "18742c22de06e3ba27ca19f1180bd7e1143a9816ee0c358202e8a0bf1e10339c"
+  },
+  {
+    "id": "1BL7fo3cACgMF6fMzKatqadm541X5bAKk",
+    "file": "Hunter_1BL7fo3cACgMF6fMzKatqadm541X5bAKk.ipynb",
+    "cells": 1,
+    "source_chars": 6252,
+    "outputs_chars": 5116,
+    "screenshot_phrase": false,
+    "errors": [
+      "TypeError"
+    ],
+    "sha256": "84ad67731452f7367dbd2cd5dbe0e7fd3d1c95b9b7271617f6a6c094a8647ce0"
+  },
+  {
+    "id": "10-zWVe-MTITJkgo6kRmtFt41rdwXZQUd",
+    "file": "Hunter_10-zWVe-MTITJkgo6kRmtFt41rdwXZQUd.ipynb",
+    "cells": 1,
+    "source_chars": 4548,
+    "outputs_chars": 2213,
+    "screenshot_phrase": false,
+    "errors": [
+      "TypeError"
+    ],
+    "sha256": "8a30fb5a354343a7b7388d91fcc840b6e6d3bbf4b35beeec8d3e6a67f38b2e2f"
+  },
+  {
+    "id": "12Xmj-FHHwjTTrPFaIZ0XTtMtqRJ5hGeQ",
+    "file": "Hunter_12Xmj-FHHwjTTrPFaIZ0XTtMtqRJ5hGeQ.ipynb",
+    "cells": 4,
+    "source_chars": 32249,
+    "outputs_chars": 11159,
+    "screenshot_phrase": false,
+    "errors": [
+      "TypeError",
+      "SystemExit",
+      "SystemExit",
+      "SystemExit"
+    ],
+    "sha256": "9cea4292e52e886ba92c5d0de7350475840d581b21c1ceadb2c4b4df755815f7"
+  },
+  {
+    "id": "1cbBuOXF3weS61wOH3KJ52i93K5s_Wg6K",
+    "file": "Hunter_1cbBuOXF3weS61wOH3KJ52i93K5s_Wg6K.ipynb",
+    "cells": 1,
+    "source_chars": 4615,
+    "outputs_chars": 0,
+    "screenshot_phrase": false,
+    "errors": [],
+    "sha256": "ab0b8e9f467f1e09ef45af1a4786b68fc74064276819694063bb8f83917a9fdd"
+  }
+]

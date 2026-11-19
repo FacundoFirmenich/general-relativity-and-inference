@@ -1,0 +1,4 @@
+\begin{tikzpicture}
+\begin{axis}[width=.85\linewidth,height=8cm,view={-130}{26},xlabel={$\log_{10}(r/r_0)$},ylabel={$\log_{10}(\lambda/r_0)$},zlabel={Change (\%)},axis line style={navy},tick style={navy},colormap={gv}{color(0cm)=(navy);color(1cm)=(blue);color(2cm)=(violet);color(3cm)=(cyan)},mesh/ordering=x varies]
+\addplot3[surf,shader=interp,mesh/cols=24] table[x=log10_r_over_r0,y=log10_lambda_over_r0,z=relative_shape_percent,col sep=comma]{results/yukawa_surface_tikz.csv};
+\end{axis}\end{tikzpicture}

@@ -1,0 +1,50 @@
+{
+  "date_utc": "2026-11-18T07:27:13.971421+00:00",
+  "builder": "xelatex two passes per document",
+  "input_hashes": {
+    "MAIN_ES.tex": "5f34127ef9494b8e82f6c8809138fd4fe5bf9d8a82d0796e89f6fbe720d0f768",
+    "SUPPLEMENT_EN_body.tex": "fdbe09d72a5f86115d3f24adc87a1a75cedc5c5d68bb193d6c4d4ffad157ed7a",
+    "MAIN_ES_body.tex": "65fa4310c82810d981c14663aa70d1126803c9340871ddccf98583623837aa7f",
+    "SUPPLEMENT_EN.tex": "9ce1561aac6d81c2d455777f65e05af5177310dabdea5fba0cfba23b478e7235",
+    "preamble.tex": "1885827d3688e1edb0fbd2725042fddd7bfead8b586c4bd12b15e174295e6cd6",
+    "MAIN_EN.tex": "8d785b2bee7dbae70a89cd916375d46cad9a3911b392a903577b7af070216a61",
+    "SUPPLEMENT_ES.tex": "e3a1edb32143743f81329ccb9debcf09b0badbdeabd9270e3e98e5daafecfcb9",
+    "SUPPLEMENT_ES_body.tex": "606e3cd6683089b9b3b9fb39dc7b0c54d9a34f7835dafa9a92880a379b020184",
+    "MAIN_EN_body.tex": "56955d50555c2bb56cbae0da5c4e2140660efe891f556a3eb0c8e24d81db4971",
+    "figures/repair_ES.pdf": "7ae31c2d07d8d932886087347a98abd376e2f2d7bcb6f4f4604c2385baabde8d",
+    "figures/repair_EN.pdf": "2d18c081ea94aa8ffb12580b2a703ed2e18cbca7fbc888daf1cbb2c82081f5e7",
+    "figures/diagnostics_EN.pdf": "e9fc269a083ce9778c102ec632aab90a98f5236f0674eff482f33d9e2791eaf1",
+    "figures/diagnostics_ES.pdf": "08ad481943009cc69c091b4372e8e715815f0df35724190c592906eef8a484ad",
+    "build.py": "27edfc75186494b673132a270affe448ec1a943dae9c093e4d50c9008e819c3e"
+  },
+  "outputs": [
+    {
+      "document": "MAIN_ES",
+      "bytes": 309420,
+      "sha256": "300dc9c0412055f6aba500c0591e2e3a78a0180798ee32b715df7ee60765c04b",
+      "seconds": 2.3354555680052727,
+      "exit_status": 0
+    },
+    {
+      "document": "MAIN_EN",
+      "bytes": 312953,
+      "sha256": "2a12269770d5e1ebacd757592909d17a9ff0ab7cccb23733d3fbcc3ebe231d87",
+      "seconds": 1.5426851939992048,
+      "exit_status": 0
+    },
+    {
+      "document": "SUPPLEMENT_ES",
+      "bytes": 114915,
+      "sha256": "b6b9ebf7ac8e8109d0edbf17625d3f706e7aef1271e937db6596b35d7a97605e",
+      "seconds": 1.7265805399947567,
+      "exit_status": 0
+    },
+    {
+      "document": "SUPPLEMENT_EN",
+      "bytes": 114570,
+      "sha256": "4428236a226763824043b4b622ee7648c9d176857ca14df941ff9de70de47c0d",
+      "seconds": 1.4037645530042937,
+      "exit_status": 0
+    }
+  ]
+}

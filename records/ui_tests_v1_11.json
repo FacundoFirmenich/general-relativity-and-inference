@@ -1,0 +1,132 @@
+[
+  {
+    "language": "Español",
+    "page": "Inicio",
+    "errors": []
+  },
+  {
+    "language": "Español",
+    "page": "Dinámica Yukawa",
+    "errors": []
+  },
+  {
+    "language": "Español",
+    "page": "Cassini",
+    "errors": []
+  },
+  {
+    "language": "Español",
+    "page": "Emuladores GP",
+    "errors": []
+  },
+  {
+    "language": "Español",
+    "page": "Información",
+    "errors": []
+  },
+  {
+    "language": "Español",
+    "page": "Reproducir",
+    "errors": []
+  },
+  {
+    "language": "Español",
+    "page": "Documentos y procedencia",
+    "errors": []
+  },
+  {
+    "language": "Español",
+    "page": "Grafo epistémico",
+    "errors": []
+  },
+  {
+    "language": "Español",
+    "page": "Fermi-LAT · auditoría",
+    "errors": []
+  },
+  {
+    "language": "Español",
+    "page": "FractalGo · topología",
+    "errors": []
+  },
+  {
+    "language": "Español",
+    "action": "Topology conditional emulator controls",
+    "errors": []
+  },
+  {
+    "language": "Español",
+    "action": "Real pass IDs and final pass 20",
+    "errors": []
+  },
+  {
+    "language": "Español",
+    "action": "Fermi 1000 s selector",
+    "errors": []
+  },
+  {
+    "language": "English",
+    "page": "Overview",
+    "errors": []
+  },
+  {
+    "language": "English",
+    "page": "Yukawa dynamics",
+    "errors": []
+  },
+  {
+    "language": "English",
+    "page": "Cassini",
+    "errors": []
+  },
+  {
+    "language": "English",
+    "page": "GP emulators",
+    "errors": []
+  },
+  {
+    "language": "English",
+    "page": "Information",
+    "errors": []
+  },
+  {
+    "language": "English",
+    "page": "Reproduce",
+    "errors": []
+  },
+  {
+    "language": "English",
+    "page": "Documents & provenance",
+    "errors": []
+  },
+  {
+    "language": "English",
+    "page": "Epistemic graph",
+    "errors": []
+  },
+  {
+    "language": "English",
+    "page": "Fermi-LAT · audit",
+    "errors": []
+  },
+  {
+    "language": "English",
+    "page": "FractalGo · topology",
+    "errors": []
+  },
+  {
+    "language": "English",
+    "action": "Topology conditional emulator controls",
+    "errors": []
+  },
+  {
+    "language": "English",
+    "action": "Real pass IDs and final pass 20",
+    "errors": []
+  },
+  {
+    "language": "English",
+    "action": "Fermi 1000 s selector",
+    "errors": []
+  }
+]

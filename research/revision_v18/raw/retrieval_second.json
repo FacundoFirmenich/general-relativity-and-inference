@@ -1,0 +1,20 @@
+[
+  {
+    "key": "vantrees",
+    "url": "https://dspace.library.uu.nl/bitstream/handle/1874/1190/van_trees.pdf?isAllowed=y&sequence=1",
+    "bytes": 236442,
+    "pdf": true
+  },
+  {
+    "key": "panasonic",
+    "url": "https://industrial.panasonic.com/cdbs/www-data/pdf/RDB0000/AOB0000PE1.pdf",
+    "bytes": 45777,
+    "pdf": true
+  },
+  {
+    "key": "renard",
+    "url": "https://www.govinfo.gov/content/pkg/GOVPUB-C13-f5fea679df4c3a1c2e3e1dd63488707c/pdf/GOVPUB-C13-f5fea679df4c3a1c2e3e1dd63488707c.pdf",
+    "bytes": 4975064,
+    "pdf": true
+  }
+]

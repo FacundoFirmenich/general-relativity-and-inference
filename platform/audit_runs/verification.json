@@ -1,0 +1,228 @@
+{
+  "source_sha256": "39c07059e27810d403a63d8063f94ae442c9bbc0c042d134865efe70299b125c",
+  "source_read": "Complete notebook cell and saved output",
+  "scope": "Audit and numerical correction of supplied code; no new observations",
+  "findings": [
+    {
+      "id": "G01",
+      "component": "precession",
+      "finding": "Original expression has units s^-1 but is reported rad/orbit; true-anomaly average also lacks the time weight",
+      "original": 3.6846047117704673e-11,
+      "corrected_rad_per_orbit": 0.00010384852516074833,
+      "independent_gauss": 0.00010384852516074833,
+      "original_e0_finite": false
+    },
+    {
+      "id": "G02",
+      "component": "Poisson density",
+      "finding": "Exterior sign reversed; Poisson effective density is not an energy-condition verdict",
+      "original_kg_m3": 2.1457944812043513e-11,
+      "corrected_kg_m3": -2.1457944812043513e-11,
+      "laplacian_relative_error": 1.2711341090820838e-08,
+      "exterior_mass_over_M": -9.999999999986872e-05
+    },
+    {
+      "id": "G03",
+      "component": "optical ansatz",
+      "finding": "Fixed integration endpoints induce a truncation error; replacement checked against infinite-endpoint quadrature",
+      "checks": [
+        {
+          "b_m": 695700000.0,
+          "alpha": 0.0,
+          "analytic": 8.490267017584816e-06,
+          "quadrature": 8.490267017584816e-06,
+          "relative_difference": 0.0
+        },
+        {
+          "b_m": 695700000.0,
+          "alpha": -0.0001,
+          "analytic": 8.48942137434465e-06,
+          "quadrature": 8.489421374344654e-06,
+          "relative_difference": -4.440892098500626e-16
+        },
+        {
+          "b_m": 695700000.0,
+          "alpha": 0.0001,
+          "analytic": 8.49111266082498e-06,
+          "quadrature": 8.491112660824978e-06,
+          "relative_difference": 2.220446049250313e-16
+        },
+        {
+          "b_m": 6957000000.0,
+          "alpha": 0.0,
+          "analytic": 8.490267017584816e-07,
+          "quadrature": 8.490267017584816e-07,
+          "relative_difference": 0.0
+        },
+        {
+          "b_m": 6957000000.0,
+          "alpha": -0.0001,
+          "analytic": 8.489550176907379e-07,
+          "quadrature": 8.489550176907354e-07,
+          "relative_difference": 2.886579864025407e-15
+        },
+        {
+          "b_m": 6957000000.0,
+          "alpha": 0.0001,
+          "analytic": 8.490983858262252e-07,
+          "quadrature": 8.490983858262278e-07,
+          "relative_difference": -3.1086244689504383e-15
+        }
+      ]
+    },
+    {
+      "id": "G04",
+      "component": "multi-probe Fisher",
+      "finding": "Original uses the same Mercury placeholder for every named probe; each probe needs its own observable and joint covariance",
+      "status": "NOT_IMPORTED_AS_PHYSICAL_RESULT"
+    },
+    {
+      "id": "G05",
+      "component": "constraint plot",
+      "finding": "Flat Cassini alpha=2.3e-5 and other curves are schematic; no likelihood-derived force constraint",
+      "status": "NOT_IMPORTED_AS_OBSERVATIONAL_LIMIT"
+    },
+    {
+      "id": "G06",
+      "component": "density plot",
+      "finding": "Plotted denominator is a reference Yukawa density but label claims rho_GR=0",
+      "status": "REPLACED_BY_SIGNED_DENSITY"
+    },
+    {
+      "id": "G07",
+      "component": "ppE, stability, energy conditions",
+      "finding": "Static potential alone does not specify radiation, perturbation action or stress-energy pressures; no universal tachyon verdict from alpha sign",
+      "status": "REQUIRES_ADDITIONAL_MODEL"
+    },
+    {
+      "id": "G08",
+      "component": "Bayes factors",
+      "finding": "compute_bayes_factor returns log B whereas jeffreys_scale expects B; avoid incompatible scales",
+      "status": "EXPLICIT_LOG_EVIDENCE_IN_NEW_UI"
+    }
+  ],
+  "precession_checks": [
+    {
+      "e": 0.0,
+      "a_over_lambda": 0.1,
+      "rad_per_orbit": 2.8426305851949277e-06
+    },
+    {
+      "e": 0.0,
+      "a_over_lambda": 1.0,
+      "rad_per_orbit": 0.00011557273497909218
+    },
+    {
+      "e": 0.0,
+      "a_over_lambda": 3.0,
+      "rad_per_orbit": 0.00014076961940542876
+    },
+    {
+      "e": 0.0,
+      "a_over_lambda": 10.0,
+      "rad_per_orbit": 1.4262808581531504e-06
+    },
+    {
+      "e": 0.0549,
+      "a_over_lambda": 0.1,
+      "rad_per_orbit": 2.8383541874261746e-06
+    },
+    {
+      "e": 0.0549,
+      "a_over_lambda": 1.0,
+      "rad_per_orbit": 0.00011544191681978953
+    },
+    {
+      "e": 0.0549,
+      "a_over_lambda": 3.0,
+      "rad_per_orbit": 0.00014103445408464185
+    },
+    {
+      "e": 0.0549,
+      "a_over_lambda": 10.0,
+      "rad_per_orbit": 1.4784621502554912e-06
+    },
+    {
+      "e": 0.2056,
+      "a_over_lambda": 0.1,
+      "rad_per_orbit": 2.782047940177335e-06
+    },
+    {
+      "e": 0.2056,
+      "a_over_lambda": 1.0,
+      "rad_per_orbit": 0.00011370233621759809
+    },
+    {
+      "e": 0.2056,
+      "a_over_lambda": 3.0,
+      "rad_per_orbit": 0.00014441823161560446
+    },
+    {
+      "e": 0.2056,
+      "a_over_lambda": 10.0,
+      "rad_per_orbit": 2.2753134870277636e-06
+    },
+    {
+      "e": 0.6,
+      "a_over_lambda": 0.1,
+      "rad_per_orbit": 2.2751279686801766e-06
+    },
+    {
+      "e": 0.6,
+      "a_over_lambda": 1.0,
+      "rad_per_orbit": 9.668168590163205e-05
+    },
+    {
+      "e": 0.6,
+      "a_over_lambda": 3.0,
+      "rad_per_orbit": 0.0001648152264138402
+    },
+    {
+      "e": 0.6,
+      "a_over_lambda": 10.0,
+      "rad_per_orbit": 2.3330888060797068e-05
+    },
+    {
+      "e": 0.82697,
+      "a_over_lambda": 0.1,
+      "rad_per_orbit": 1.5996244728167555e-06
+    },
+    {
+      "e": 0.82697,
+      "a_over_lambda": 1.0,
+      "rad_per_orbit": 7.069571012755545e-05
+    },
+    {
+      "e": 0.82697,
+      "a_over_lambda": 3.0,
+      "rad_per_orbit": 0.0001578211614410794
+    },
+    {
+      "e": 0.82697,
+      "a_over_lambda": 10.0,
+      "rad_per_orbit": 0.00010006587860477297
+    },
+    {
+      "e": 0.95,
+      "a_over_lambda": 0.1,
+      "rad_per_orbit": 8.886128286413333e-07
+    },
+    {
+      "e": 0.95,
+      "a_over_lambda": 1.0,
+      "rad_per_orbit": 4.031470706737769e-05
+    },
+    {
+      "e": 0.95,
+      "a_over_lambda": 3.0,
+      "rad_per_orbit": 0.00010652138815907546
+    },
+    {
+      "e": 0.95,
+      "a_over_lambda": 10.0,
+      "rad_per_orbit": 0.00015549518325935077
+    }
+  ],
+  "force_derivative_relative_error": 9.999724381870578e-09,
+  "checks_passed": true
+}

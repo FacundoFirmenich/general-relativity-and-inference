@@ -1,0 +1,3 @@
+mechanism,coverage,rel_rmse_delta_omega,rel_rmse_f_hd,rel_rmse_L_hd
+walk,0.898,0.070,0.043,0.285
+independent_loss,0.900,0.033,0.013,0.320

@@ -1,0 +1,66 @@
+[
+  {
+    "url": "https://fermi.gsfc.nasa.gov/FTP/fermi/data/lat/queries/L25111507473798B1BDAB77_PH00.fits",
+    "status": 404,
+    "bytes": 17951
+  },
+  {
+    "url": "https://fermi.gsfc.nasa.gov/FTP/fermi/data/lat/queries/L25111507473798B1BDAB77_SC00.fits",
+    "status": 404,
+    "bytes": 17951
+  },
+  {
+    "url": "https://fermi.gsfc.nasa.gov/FTP/fermi/data/lat/queries/L25111507575798B1BDAB10_PH00.fits",
+    "status": 404,
+    "bytes": 17951
+  },
+  {
+    "url": "https://fermi.gsfc.nasa.gov/FTP/fermi/data/lat/queries/L25111507575798B1BDAB10_SC00.fits",
+    "status": 404,
+    "bytes": 17951
+  },
+  {
+    "url": "https://fermi.gsfc.nasa.gov/FTP/fermi/data/lat/queries/L25111508024798B1BDAB54_PH00.fits",
+    "status": 404,
+    "bytes": 17951
+  },
+  {
+    "url": "https://fermi.gsfc.nasa.gov/FTP/fermi/data/lat/queries/L25111508024798B1BDAB54_SC00.fits",
+    "status": 404,
+    "bytes": 17951
+  },
+  {
+    "url": "https://fermi.gsfc.nasa.gov/FTP/fermi/data/lat/queries/L25111508051898B1BDAB21_PH00.fits",
+    "status": 404,
+    "bytes": 17951
+  },
+  {
+    "url": "https://fermi.gsfc.nasa.gov/FTP/fermi/data/lat/queries/L25111508051898B1BDAB21_SC00.fits",
+    "status": 404,
+    "bytes": 17951
+  },
+  {
+    "url": "https://fermi.gsfc.nasa.gov/FTP/fermi/data/lat/queries/L25111508093198B1BDAB50_PH00.fits",
+    "status": 404,
+    "bytes": 17951
+  },
+  {
+    "url": "https://fermi.gsfc.nasa.gov/FTP/fermi/data/lat/queries/L25111508093198B1BDAB50_SC00.fits",
+    "status": 404,
+    "bytes": 17951
+  },
+  {
+    "url": "https://heasarc.gsfc.nasa.gov/FTP/heasarc/dbase/dump/heasarc_fermilgrb.tdat.gz",
+    "status": 200,
+    "bytes": 68687,
+    "path": "raw/heasarc_fermilgrb.tdat.gz",
+    "sha256": "4c2e5927ab666900a6d10435a52d5fba2cd32890450f15ad79ecc4d2b0751dd7"
+  },
+  {
+    "url": "https://heasarc.gsfc.nasa.gov/W3Browse/all/fermilgrb.html",
+    "status": 200,
+    "bytes": 24631,
+    "path": "raw/fermilgrb.html",
+    "sha256": "32ef878dad904aa51fc5de8d5c6cb64b1a24fa62dc569462cfab995f75b2bac3"
+  }
+]

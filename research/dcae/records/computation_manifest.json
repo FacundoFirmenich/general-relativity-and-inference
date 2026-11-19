@@ -1,0 +1,372 @@
+{
+  "schema_version": 2,
+  "claim_id": "PAE-DCAE-0.2-synthetic-contract",
+  "repository": {
+    "commit": "unavailable: standalone snapshot identified by hashes",
+    "dirty": false
+  },
+  "command": [
+    "/workspace/gravitas_ui_env/bin/python",
+    "verify.py"
+  ],
+  "environment": {
+    "software": [
+      {
+        "name": "Python",
+        "version": "3.13.5"
+      },
+      {
+        "name": "NumPy",
+        "version": "2.3.5"
+      },
+      {
+        "name": "SciPy",
+        "version": "1.17.0"
+      },
+      {
+        "name": "Matplotlib",
+        "version": "3.10.8"
+      }
+    ],
+    "hardware": "Linux-6.18.57-x86_64-with-glibc2.41; x86_64"
+  },
+  "mathematics": {
+    "assertion_tested": "Finite statements enumerated in CONTRACT.md",
+    "coefficient_domain": "real models evaluated in IEEE float64; exact small examples separately proved in supplement",
+    "conventions": "positive scales; dimensionless s; conditional Gaussian cases",
+    "inputs": [
+      "dcae.py",
+      "verify.py",
+      "CONTRACT.md"
+    ],
+    "bounds": {
+      "quadrature_cases": 101,
+      "powerlaw_cases": 4004,
+      "null_MC_per_sigma": 200000,
+      "sigmas": [
+        0.05,
+        0.1,
+        0.2,
+        0.5,
+        1.0
+      ]
+    },
+    "non_claims": [
+      "No empirical validation of PAE",
+      "No exhaustive survey of models",
+      "Finite numerical checks are not universal proofs"
+    ]
+  },
+  "randomness": {
+    "used": true,
+    "generator": "NumPy PCG64",
+    "seed": 20261118
+  },
+  "run": {
+    "started_at": "2026-11-19T22:22:57.805068+00:00",
+    "runtime_seconds": 2.493027879998408,
+    "exit_status": 0,
+    "status": "completed",
+    "resource_limits": {
+      "memory_bytes": null,
+      "cpu_seconds": null,
+      "max_cores": null,
+      "max_threads": null
+    }
+  },
+  "outputs": [
+    {
+      "path": "results/checks.json",
+      "sha256": "99c32fd9c5390a330af0cbe347f229a512808483c843ec4856432a3d0ba1e557",
+      "kind": "result"
+    },
+    {
+      "path": "results/null_bias.csv",
+      "sha256": "28cae4899253694dcd0d71460b41c908890ebb65ae3165ef4e39ec9d1e45922a",
+      "kind": "result"
+    },
+    {
+      "path": "figures/diagnostics_ES.pdf",
+      "sha256": "083b74b3126300bdf9281346ab3d9625f90967fb95f26bd4d46baebece31c7a0",
+      "kind": "result"
+    },
+    {
+      "path": "figures/diagnostics_EN.pdf",
+      "sha256": "fad42fb76b077ba79cc612a782ff6e6f1e7062909d3629428002bd4d20d3ab3b",
+      "kind": "result"
+    },
+    {
+      "path": "figures/repair_ES.pdf",
+      "sha256": "15c38f208f6bfc2344614b5d1f12b9ae6cf170000186977b57ac4f004aa1cf66",
+      "kind": "result"
+    },
+    {
+      "path": "figures/repair_EN.pdf",
+      "sha256": "14e59ebfabed0dc4314baec4455bdcc31252d129c818ba640e44a4945311ce36",
+      "kind": "result"
+    }
+  ],
+  "checks": [
+    {
+      "assertion": "integral versus endpoints: 101 scales",
+      "passed": true,
+      "details": {
+        "max_absolute_error": 6.661338147750939e-16
+      }
+    },
+    {
+      "assertion": "power laws: 4004 values",
+      "passed": true,
+      "details": {
+        "max_absolute_error": 2.220446049250313e-16
+      }
+    },
+    {
+      "assertion": "common unit invariance",
+      "passed": true,
+      "details": {
+        "base": {
+          "status": "OK",
+          "delta": 0.9162907318741553,
+          "index": 0.6000000000000001,
+          "log_remaining": -0.9162907318741553,
+          "log_ratio": 1.6094379124341005,
+          "numerical_saturation": false
+        },
+        "rescaled": {
+          "status": "OK",
+          "delta": 0.916290731874156,
+          "index": 0.6000000000000003,
+          "log_remaining": -0.916290731874156,
+          "log_ratio": 1.6094379124341014,
+          "numerical_saturation": false
+        }
+      }
+    },
+    {
+      "assertion": "missing is not zero",
+      "passed": true,
+      "details": {}
+    },
+    {
+      "assertion": "zero outside declared domain",
+      "passed": true,
+      "details": {}
+    },
+    {
+      "assertion": "saturation is flagged",
+      "passed": true,
+      "details": {
+        "status": "OK",
+        "delta": 1000.0,
+        "index": 1.0,
+        "log_remaining": -1000.0,
+        "log_ratio": 1000,
+        "numerical_saturation": true
+      }
+    },
+    {
+      "assertion": "clipping breaks general composition",
+      "passed": true,
+      "details": {
+        "I01": 0.5,
+        "I12": 0.0,
+        "I02": 0.0
+      }
+    },
+    {
+      "assertion": "same coverage different scalar Fisher",
+      "passed": true,
+      "details": {
+        "coverage": [
+          0.5,
+          0.5
+        ],
+        "fisher": [
+          1.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "assertion": "repetition versus complementary repair",
+      "passed": true,
+      "details": {
+        "ranks": [
+          1,
+          1,
+          2
+        ],
+        "null_direction": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "assertion": "finite garbling example",
+      "passed": true,
+      "details": {
+        "P": [
+          [
+            0.9,
+            0.1
+          ],
+          [
+            0.1,
+            0.9
+          ]
+        ],
+        "K": [
+          [
+            0.8,
+            0.2
+          ],
+          [
+            0.2,
+            0.8
+          ]
+        ],
+        "PK": [
+          [
+            0.7400000000000001,
+            0.26
+          ],
+          [
+            0.26,
+            0.7400000000000001
+          ]
+        ],
+        "equal_prior_Bayes_error": [
+          0.1,
+          0.26
+        ]
+      }
+    },
+    {
+      "assertion": "Gaussian clipping mean against quadrature",
+      "passed": true,
+      "details": [
+        {
+          "sigma": 0.05,
+          "analytic_mean": 0.019338354141543612,
+          "quadrature_mean": 0.019338354141543727,
+          "MC_mean": 0.019343471516749797,
+          "MC_se": 6.242965387667005e-05,
+          "standardized_difference": 0.08197026394370024,
+          "N": 200000
+        },
+        {
+          "sigma": 0.1,
+          "analytic_mean": 0.037521214712464335,
+          "quadrature_mean": 0.03752121471246436,
+          "MC_mean": 0.03770061789780078,
+          "MC_se": 0.00012037838618928555,
+          "standardized_difference": 1.4903272174985367,
+          "N": 200000
+        },
+        {
+          "sigma": 0.2,
+          "analytic_mean": 0.0707601917665262,
+          "quadrature_mean": 0.07076019176652633,
+          "MC_mean": 0.0707410365467344,
+          "MC_se": 0.0002210301359584726,
+          "standardized_difference": -0.08666338510238977,
+          "N": 200000
+        },
+        {
+          "sigma": 0.5,
+          "analytic_mean": 0.150381165279602,
+          "quadrature_mean": 0.15038116527960196,
+          "MC_mean": 0.15106295467733089,
+          "MC_se": 0.0004464785803369351,
+          "standardized_difference": 1.527037192275565,
+          "N": 200000
+        },
+        {
+          "sigma": 1.0,
+          "analytic_mean": 0.23842170813487662,
+          "quadrature_mean": 0.23842170813487665,
+          "MC_mean": 0.23949503977808098,
+          "MC_se": 0.0006640642880216973,
+          "standardized_difference": 1.6163068283673343,
+          "N": 200000
+        }
+      ]
+    },
+    {
+      "assertion": "Monte Carlo consistency, five fixed sigma cases",
+      "passed": true,
+      "details": {
+        "criterion": "six simulation SE; finite stochastic check, not proof"
+      }
+    },
+    {
+      "assertion": "shared reference cancels exactly",
+      "passed": true,
+      "details": {
+        "variance_same_reference": 0.0,
+        "wrong_independent_reference": 0.22000000000000003
+      }
+    },
+    {
+      "assertion": "linear Gaussian inverse-square exact CR bound",
+      "passed": true,
+      "details": {
+        "s": [
+          1.0,
+          2.0,
+          4.0,
+          8.0
+        ],
+        "sd": [
+          0.2,
+          0.8,
+          3.2,
+          12.8
+        ],
+        "n": 100,
+        "sigma": 2.0
+      }
+    },
+    {
+      "assertion": "scalar chain attains Lipschitz bound",
+      "passed": true,
+      "details": {
+        "error": 0.8,
+        "bound": 0.8000000000000002
+      }
+    }
+  ],
+  "result": "Implementation and finite assertions verified in stated range",
+  "residual_risks": [
+    "Self-review, no independent mathematical audit",
+    "Float64/library dependence",
+    "No real observational data"
+  ],
+  "input_artifacts": [
+    {
+      "path": "dcae.py",
+      "sha256": "650203a69d7c36ffcd43d264e44c5a097e3a215612121f5b1fa2c1ec55d58cd5",
+      "sha256_after": "650203a69d7c36ffcd43d264e44c5a097e3a215612121f5b1fa2c1ec55d58cd5"
+    },
+    {
+      "path": "verify.py",
+      "sha256": "ecdf854b6730faa1511b0ddb174f5cd648733e94e76871ecb30656d31b355161",
+      "sha256_after": "ecdf854b6730faa1511b0ddb174f5cd648733e94e76871ecb30656d31b355161"
+    },
+    {
+      "path": "CONTRACT.md",
+      "sha256": "a60901183ab0e5cdcbb78125e78f3806ef79e4727d24f7fae1ed635629d09063",
+      "sha256_after": "a60901183ab0e5cdcbb78125e78f3806ef79e4727d24f7fae1ed635629d09063"
+    }
+  ],
+  "declared_results": [
+    "results/checks.json",
+    "results/null_bias.csv",
+    "figures/diagnostics_ES.pdf",
+    "figures/diagnostics_EN.pdf",
+    "figures/repair_ES.pdf",
+    "figures/repair_EN.pdf"
+  ]
+}

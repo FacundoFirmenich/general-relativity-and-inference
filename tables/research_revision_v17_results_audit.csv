@@ -1,0 +1,97 @@
+field / campo,value / valor
+/scope,Analytic model controls and reusable Gaussian contrast-law audit
+/cases/common_mode/contrast_mean_reference/0,0.30000000000000004
+/cases/common_mode/contrast_mean_reference/1,0.20000000000000004
+/cases/common_mode/contrast_mean_reference/2,0.10000000000000003
+/cases/common_mode/contrast_covariance_reference/0/0,0.5
+/cases/common_mode/contrast_covariance_reference/0/1,0.25
+/cases/common_mode/contrast_covariance_reference/0/2,0.25
+/cases/common_mode/contrast_covariance_reference/1/0,0.25
+/cases/common_mode/contrast_covariance_reference/1/1,0.5
+/cases/common_mode/contrast_covariance_reference/1/2,0.25
+/cases/common_mode/contrast_covariance_reference/2/0,0.25
+/cases/common_mode/contrast_covariance_reference/2/1,0.25
+/cases/common_mode/contrast_covariance_reference/2/2,0.5
+/cases/common_mode/contrast_mean_alternative/0,0.30000000000000004
+/cases/common_mode/contrast_mean_alternative/1,0.19999999999999996
+/cases/common_mode/contrast_mean_alternative/2,0.10000000000000009
+/cases/common_mode/contrast_covariance_alternative/0/0,0.5
+/cases/common_mode/contrast_covariance_alternative/0/1,0.25
+/cases/common_mode/contrast_covariance_alternative/0/2,0.25
+/cases/common_mode/contrast_covariance_alternative/1/0,0.25
+/cases/common_mode/contrast_covariance_alternative/1/1,0.5
+/cases/common_mode/contrast_covariance_alternative/1/2,0.25
+/cases/common_mode/contrast_covariance_alternative/2/0,0.25
+/cases/common_mode/contrast_covariance_alternative/2/1,0.25
+/cases/common_mode/contrast_covariance_alternative/2/2,0.5
+/cases/common_mode/KL,0.0
+/cases/common_mode/KL_status,FINITE
+/cases/common_mode/H2,4.911121358187452e-33
+/cases/common_mode/rank/0,3
+/cases/common_mode/rank/1,3
+/cases/common_mode/support,common
+/cases/common_mode/rank_rtol,1e-10
+/cases/covariance_loss/contrast_mean_reference/0,-0.0
+/cases/covariance_loss/contrast_mean_reference/1,-0.0
+/cases/covariance_loss/contrast_covariance_reference/0/0,0.04999999999999999
+/cases/covariance_loss/contrast_covariance_reference/0/1,0.024999999999999994
+/cases/covariance_loss/contrast_covariance_reference/1/0,0.024999999999999994
+/cases/covariance_loss/contrast_covariance_reference/1/1,0.04999999999999999
+/cases/covariance_loss/contrast_mean_alternative/0,-0.0
+/cases/covariance_loss/contrast_mean_alternative/1,-0.0
+/cases/covariance_loss/contrast_covariance_alternative/0/0,0.5
+/cases/covariance_loss/contrast_covariance_alternative/0/1,0.25
+/cases/covariance_loss/contrast_covariance_alternative/1/0,0.25
+/cases/covariance_loss/contrast_covariance_alternative/1/1,0.5
+/cases/covariance_loss/KL,1.4025850929940462
+/cases/covariance_loss/KL_status,FINITE
+/cases/covariance_loss/H2,0.4250404254239311
+/cases/covariance_loss/rank/0,2
+/cases/covariance_loss/rank/1,2
+/cases/covariance_loss/support,common
+/cases/covariance_loss/rank_rtol,1e-10
+/cases/singular_common_support/KL,0.34657359027997264
+/cases/singular_common_support/KL_status,FINITE
+/cases/singular_common_support/H2,0.10665201418436518
+/cases/singular_common_support/rank/0,1
+/cases/singular_common_support/rank/1,1
+/cases/singular_common_support/support,common
+/cases/singular_common_support/rank_rtol,1e-10
+/cases/singular_different_support/KL,
+/cases/singular_different_support/KL_status,INFINITE
+/cases/singular_different_support/H2,1.0
+/cases/singular_different_support/rank/0,1
+/cases/singular_different_support/rank/1,1
+/cases/singular_different_support/support,different
+/cases/singular_different_support/rank_rtol,1e-10
+/reference_rejection,0.04
+/target_rejection,0.05
+/threshold,1.7506860712521692
+/mean_error_budget,0.025066939016138552
+/transport/0/bias,0.02
+/transport/0/sd,1.0
+/transport/0/TV,0.007978712629263196
+/transport/0/risk,0.04175388543094431
+/transport/0/uniform_upper,0.0479787126292632
+/transport/0/certified,True
+/transport/1/bias,0.05
+/transport/1/sd,1.0
+/transport/1/TV,0.019945036390476067
+/transport/1/risk,0.04450097600876165
+/transport/1/uniform_upper,0.05994503639047607
+/transport/1/certified,False
+/transport/2/bias,0.15
+/transport/2/sd,1.0
+/transport/2/TV,0.059785288105789425
+/transport/2/risk,0.05472323386210001
+/transport/2/uniform_upper,0.09978528810578943
+/transport/2/certified,False
+/memory/fock_probability,0.31606027941427883
+/memory/thermal_probability,0.5248935341839319
+/memory/scope,"Exact characteristic-function counterexample to moment closure, not GP regression or instrument data"
+/checks/0,Common-mode invariance
+/checks/1,Singular support rejection
+/checks/2,One-dimensional analytic KL/Hellinger
+/checks/3,Invertible contrast-coordinate invariance
+/checks/4,Covariance unit-rescaling invariance
+/checks/5,TV independently integrated for three shifts

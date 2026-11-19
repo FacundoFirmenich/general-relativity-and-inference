@@ -1,0 +1,11 @@
+field / campo,value / valor
+/status,passed
+/checks/0,common_shift_prior_scaling_relabel_mass_n1
+/checks/1,common_shift_prior_scaling_relabel_mass_n2
+/checks/2,common_shift_prior_scaling_relabel_mass_n7
+/checks/3,common_shift_prior_scaling_relabel_mass_n19
+/checks/4,40_independent_scipy_graph_checks
+/checks/5,40_path_vs_bfs_gap_and_mass_checks
+/checks/6,exact_gaussian_witness_5_realizations
+/checks/7,empty_excursion_and_invalid_prior_rejection
+/seed,2026111901

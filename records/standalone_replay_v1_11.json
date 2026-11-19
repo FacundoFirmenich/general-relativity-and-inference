@@ -1,0 +1,15 @@
+{
+  "modes": [
+    "topology",
+    "figures"
+  ],
+  "byte_equal_outputs": {
+    "gp.json": true,
+    "cassini.json": true,
+    "cassini_graph.json": true,
+    "tests.json": true,
+    "gp_draws.csv": true
+  },
+  "figure_commands": 12,
+  "source_adjustment": "run.py regenerates DCAE/COSMOS prerequisites when figures mode starts without prebuilt figures"
+}

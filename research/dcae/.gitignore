@@ -1,0 +1,5 @@
+/.research-cache/
+/__pycache__/
+*.aux
+*.log
+*.out

@@ -1,0 +1,12 @@
+\begin{tikzpicture}[node distance=5mm,>=Stealth,
+box/.style={rounded corners=2mm,draw=blue,fill=pale,text=navy,text width=3.5cm,minimum height=1cm,align=center,font=\small},
+arrow/.style={->,draw=violet,line width=.9pt}]
+\node[box] (geometry) {Acción y geometría\\dinámica y propagación};
+\node[box,right=of geometry] (instrument) {Operador instrumental\\fases, ventanas y relojes};
+\node[box,right=of instrument] (data) {Registros y calibración\\unidades y procedencia};
+\node[box,below=8mm of data] (inference) {Inferencia jerárquica\\ley conjunta y priors};
+\node[box,left=of inference] (checks) {Predicción y contrastes\\incluidos los fallos};
+\node[box,left=of checks] (ledger) {Afirmaciones acotadas\\ledger y reproducción};
+\draw[arrow] (geometry)--(instrument);\draw[arrow] (instrument)--(data);
+\draw[arrow] (data)--(inference);\draw[arrow] (inference)--(checks);\draw[arrow] (checks)--(ledger);
+\end{tikzpicture}

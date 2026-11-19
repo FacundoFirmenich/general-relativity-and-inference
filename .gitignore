@@ -6,3 +6,4 @@ publication/
 PAPER_*
 SUPPLEMENTARY_*
 *.log
+!records/all_*.log

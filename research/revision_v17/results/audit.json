@@ -1,0 +1,164 @@
+{
+  "scope": "Analytic model controls and reusable Gaussian contrast-law audit",
+  "cases": {
+    "common_mode": {
+      "contrast_mean_reference": [
+        0.30000000000000004,
+        0.20000000000000004,
+        0.10000000000000003
+      ],
+      "contrast_covariance_reference": [
+        [
+          0.5,
+          0.25,
+          0.25
+        ],
+        [
+          0.25,
+          0.5,
+          0.25
+        ],
+        [
+          0.25,
+          0.25,
+          0.5
+        ]
+      ],
+      "contrast_mean_alternative": [
+        0.30000000000000004,
+        0.19999999999999996,
+        0.10000000000000009
+      ],
+      "contrast_covariance_alternative": [
+        [
+          0.5,
+          0.25,
+          0.25
+        ],
+        [
+          0.25,
+          0.5,
+          0.25
+        ],
+        [
+          0.25,
+          0.25,
+          0.5
+        ]
+      ],
+      "KL": 0.0,
+      "KL_status": "FINITE",
+      "H2": 4.911121358187452e-33,
+      "rank": [
+        3,
+        3
+      ],
+      "support": "common",
+      "rank_rtol": 1e-10
+    },
+    "covariance_loss": {
+      "contrast_mean_reference": [
+        -0.0,
+        -0.0
+      ],
+      "contrast_covariance_reference": [
+        [
+          0.04999999999999999,
+          0.024999999999999994
+        ],
+        [
+          0.024999999999999994,
+          0.04999999999999999
+        ]
+      ],
+      "contrast_mean_alternative": [
+        -0.0,
+        -0.0
+      ],
+      "contrast_covariance_alternative": [
+        [
+          0.5,
+          0.25
+        ],
+        [
+          0.25,
+          0.5
+        ]
+      ],
+      "KL": 1.4025850929940462,
+      "KL_status": "FINITE",
+      "H2": 0.4250404254239311,
+      "rank": [
+        2,
+        2
+      ],
+      "support": "common",
+      "rank_rtol": 1e-10
+    },
+    "singular_common_support": {
+      "KL": 0.34657359027997264,
+      "KL_status": "FINITE",
+      "H2": 0.10665201418436518,
+      "rank": [
+        1,
+        1
+      ],
+      "support": "common",
+      "rank_rtol": 1e-10
+    },
+    "singular_different_support": {
+      "KL": null,
+      "KL_status": "INFINITE",
+      "H2": 1.0,
+      "rank": [
+        1,
+        1
+      ],
+      "support": "different",
+      "rank_rtol": 1e-10
+    }
+  },
+  "reference_rejection": 0.04,
+  "target_rejection": 0.05,
+  "threshold": 1.7506860712521692,
+  "mean_error_budget": 0.025066939016138552,
+  "transport": [
+    {
+      "bias": 0.02,
+      "sd": 1.0,
+      "TV": 0.007978712629263196,
+      "risk": 0.04175388543094431,
+      "uniform_upper": 0.0479787126292632,
+      "certified": true
+    },
+    {
+      "bias": 0.05,
+      "sd": 1.0,
+      "TV": 0.019945036390476067,
+      "risk": 0.04450097600876165,
+      "uniform_upper": 0.05994503639047607,
+      "certified": false
+    },
+    {
+      "bias": 0.15,
+      "sd": 1.0,
+      "TV": 0.059785288105789425,
+      "risk": 0.05472323386210001,
+      "uniform_upper": 0.09978528810578943,
+      "certified": false
+    }
+  ],
+  "memory": {
+    "fock_probability": 0.31606027941427883,
+    "thermal_probability": 0.5248935341839319,
+    "scope": "Exact characteristic-function counterexample to moment closure, not GP regression or instrument data"
+  },
+  "checks": [
+    "Common-mode invariance",
+    "Singular support rejection",
+    "One-dimensional analytic KL/Hellinger",
+    "Invertible contrast-coordinate invariance",
+    "Covariance unit-rescaling invariance",
+    "TV independently integrated for three shifts"
+  ]
+}

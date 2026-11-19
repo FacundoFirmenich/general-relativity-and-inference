@@ -1,0 +1,47 @@
+{
+  "languages": [
+    "es",
+    "en"
+  ],
+  "pairs": [
+    [
+      "README_ES.md",
+      "README_EN.md"
+    ],
+    [
+      "CONTRIBUTING_ES.md",
+      "CONTRIBUTING_EN.md"
+    ],
+    [
+      "CODE_OF_CONDUCT_ES.md",
+      "CODE_OF_CONDUCT_EN.md"
+    ],
+    [
+      "docs/GUIDE_ES.md",
+      "docs/GUIDE_EN.md"
+    ],
+    [
+      "docs/PHYSICS_ES.md",
+      "docs/PHYSICS_EN.md"
+    ],
+    [
+      "docs/INFORMATION_ES.md",
+      "docs/INFORMATION_EN.md"
+    ],
+    [
+      "research/fractalgo/CONTRACT_ES.md",
+      "research/fractalgo/CONTRACT_EN.md"
+    ],
+    [
+      "GRAVITAS_ES.ipynb",
+      "GRAVITAS_EN.ipynb"
+    ],
+    [
+      "ui/epistemic/epistemic_graph_es.html",
+      "ui/epistemic/epistemic_graph_en.html"
+    ]
+  ],
+  "machine_keys": "Stable identifiers; original external data and archived notebooks preserved without translation",
+  "ui_checks": "records/ui_tests_v1_11.json",
+  "graph_checks": "records/epistemic_browser_tests.json"
+}

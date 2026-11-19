@@ -1,0 +1,2203 @@
+{
+  "schema_version": 2,
+  "claim_id": "GRAVITAS-SI-2026-11-18",
+  "mode": "all",
+  "repository": {
+    "commit": null,
+    "dirty": true,
+    "reason": "Standalone release; file SHA256 identifies code"
+  },
+  "command": [
+    {
+      "argv": [
+        "/workspace/gravitas_ui_env/bin/python",
+        "analyses/gp/code/gp_covarianza_cassini.py"
+      ],
+      "exit_status": 0,
+      "log": "records/all_00.log",
+      "runtime_seconds": 0.6757659912109375
+    },
+    {
+      "argv": [
+        "/workspace/gravitas_ui_env/bin/python",
+        "analyses/gp/code/gp_emulador.py"
+      ],
+      "exit_status": 0,
+      "log": "records/all_01.log",
+      "runtime_seconds": 0.7974061965942383
+    },
+    {
+      "argv": [
+        "/workspace/gravitas_ui_env/bin/python",
+        "analyses/gp/code/gp_realizaciones.py"
+      ],
+      "exit_status": 0,
+      "log": "records/all_02.log",
+      "runtime_seconds": 2.723620891571045
+    },
+    {
+      "argv": [
+        "/workspace/gravitas_ui_env/bin/python",
+        "analyses/gp/code/numeros_y_unidades.py"
+      ],
+      "exit_status": 0,
+      "log": "records/all_03.log",
+      "runtime_seconds": 0.16971397399902344
+    },
+    {
+      "argv": [
+        "/workspace/gravitas_ui_env/bin/python",
+        "analyses/gp/code/verificar_calculos.py"
+      ],
+      "exit_status": 0,
+      "log": "records/all_04.log",
+      "runtime_seconds": 0.48456740379333496
+    },
+    {
+      "argv": [
+        "/workspace/gravitas_ui_env/bin/python",
+        "analyses/casimir/code/auditar_casimir.py"
+      ],
+      "exit_status": 0,
+      "log": "records/all_05.log",
+      "runtime_seconds": 8.799535512924194
+    },
+    {
+      "argv": [
+        "/workspace/gravitas_ui_env/bin/python",
+        "-m",
+        "gravitas_si.audits"
+      ],
+      "exit_status": 0,
+      "log": "records/all_06.log",
+      "runtime_seconds": 0.5343983173370361
+    },
+    {
+      "argv": [
+        "/workspace/gravitas_ui_env/bin/python",
+        "-m",
+        "gravitas_si.inference"
+      ],
+      "exit_status": 0,
+      "log": "records/all_07.log",
+      "runtime_seconds": 80.03986430168152
+    },
+    {
+      "argv": [
+        "/workspace/gravitas_ui_env/bin/python",
+        "-m",
+        "gravitas_si.sensitivity"
+      ],
+      "exit_status": 0,
+      "log": "records/all_08.log",
+      "runtime_seconds": 107.64274024963379
+    },
+    {
+      "argv": [
+        "/workspace/gravitas_ui_env/bin/python",
+        "-m",
+        "gravitas_si.contrast_checks"
+      ],
+      "exit_status": 0,
+      "log": "records/all_09.log",
+      "runtime_seconds": 0.6514160633087158
+    },
+    {
+      "argv": [
+        "/workspace/gravitas_ui_env/bin/python",
+        "research/gaia_covariance.py"
+      ],
+      "exit_status": 0,
+      "log": "records/all_10.log",
+      "runtime_seconds": 0.12933993339538574
+    },
+    {
+      "argv": [
+        "/workspace/gravitas_ui_env/bin/python",
+        "research/inference_checks.py"
+      ],
+      "exit_status": 0,
+      "log": "records/all_11.log",
+      "runtime_seconds": 1.4415907859802246
+    },
+    {
+      "argv": [
+        "/workspace/gravitas_ui_env/bin/python",
+        "research/physical_checks.py"
+      ],
+      "exit_status": 0,
+      "log": "records/all_12.log",
+      "runtime_seconds": 2.0946221351623535
+    },
+    {
+      "argv": [
+        "/workspace/gravitas_ui_env/bin/python",
+        "research/mond_quadrupole.py"
+      ],
+      "exit_status": 0,
+      "log": "records/all_13.log",
+      "runtime_seconds": 0.6564359664916992
+    },
+    {
+      "argv": [
+        "/workspace/gravitas_ui_env/bin/python",
+        "research/mond_diagnostics.py"
+      ],
+      "exit_status": 0,
+      "log": "records/all_14.log",
+      "runtime_seconds": 1.341567039489746
+    },
+    {
+      "argv": [
+        "/workspace/gravitas_ui_env/bin/python",
+        "research/cassini_odf_audit.py"
+      ],
+      "exit_status": 0,
+      "log": "records/all_15.log",
+      "runtime_seconds": 0.1438426971435547
+    },
+    {
+      "argv": [
+        "/workspace/gravitas_ui_env/bin/python",
+        "research/revision_v19/posterior_stability.py"
+      ],
+      "exit_status": 0,
+      "log": "records/all_16.log",
+      "runtime_seconds": 0.18997836112976074
+    },
+    {
+      "argv": [
+        "/workspace/gravitas_ui_env/bin/python",
+        "platform/fermi_review/repaired/catalog_audit.py"
+      ],
+      "exit_status": 0,
+      "log": "records/all_17.log",
+      "runtime_seconds": 2.452286958694458
+    },
+    {
+      "argv": [
+        "/workspace/gravitas_ui_env/bin/python",
+        "platform/fermi_review/repaired/audit_originals.py"
+      ],
+      "exit_status": 0,
+      "log": "records/all_18.log",
+      "runtime_seconds": 0.8900742530822754
+    },
+    {
+      "argv": [
+        "/workspace/gravitas_ui_env/bin/python",
+        "platform/fermi_review/repaired/audit_hunter.py"
+      ],
+      "exit_status": 0,
+      "log": "records/all_19.log",
+      "runtime_seconds": 2.0990021228790283
+    },
+    {
+      "argv": [
+        "/workspace/gravitas_ui_env/bin/python",
+        "platform/fermi_review/photon_followup/run_timing.py"
+      ],
+      "exit_status": 0,
+      "log": "records/all_20.log",
+      "runtime_seconds": 3.8136086463928223
+    },
+    {
+      "argv": [
+        "/workspace/gravitas_ui_env/bin/python",
+        "research/fractalgo/test_core.py"
+      ],
+      "exit_status": 0,
+      "log": "records/all_21.log",
+      "runtime_seconds": 0.3770158290863037
+    },
+    {
+      "argv": [
+        "/workspace/gravitas_ui_env/bin/python",
+        "research/fractalgo/run_cases.py"
+      ],
+      "exit_status": 0,
+      "log": "records/all_22.log",
+      "runtime_seconds": 24.278780937194824
+    },
+    {
+      "argv": [
+        "/workspace/gravitas_ui_env/bin/python",
+        "research/revision_v17/audit.py"
+      ],
+      "exit_status": 0,
+      "log": "records/all_23.log",
+      "runtime_seconds": 1.671783685684204
+    },
+    {
+      "argv": [
+        "/workspace/gravitas_ui_env/bin/python",
+        "research/revision_v17/cassini.py"
+      ],
+      "exit_status": 0,
+      "log": "records/all_24.log",
+      "runtime_seconds": 15.616947889328003
+    },
+    {
+      "argv": [
+        "/workspace/gravitas_ui_env/bin/python",
+        "research/revision_v17/information.py"
+      ],
+      "exit_status": 0,
+      "log": "records/all_25.log",
+      "runtime_seconds": 0.7022421360015869
+    },
+    {
+      "argv": [
+        "/workspace/gravitas_ui_env/bin/python",
+        "research/revision_v18/information_audit.py"
+      ],
+      "exit_status": 0,
+      "log": "records/all_26.log",
+      "runtime_seconds": 3.1433603763580322
+    },
+    {
+      "argv": [
+        "/workspace/gravitas_ui_env/bin/python",
+        "platform/audit_gravitools.py"
+      ],
+      "exit_status": 0,
+      "log": "records/all_27.log",
+      "runtime_seconds": 0.8103327751159668
+    },
+    {
+      "argv": [
+        "/workspace/gravitas_ui_env/bin/python",
+        "research/dcae/verify.py"
+      ],
+      "exit_status": 0,
+      "log": "records/all_28.log",
+      "runtime_seconds": 3.2853353023529053
+    },
+    {
+      "argv": [
+        "/workspace/gravitas_ui_env/bin/python",
+        "research/frontier_run.py"
+      ],
+      "exit_status": 0,
+      "log": "records/all_29.log",
+      "runtime_seconds": 1.390650749206543
+    },
+    {
+      "argv": [
+        "/workspace/gravitas_ui_env/bin/python",
+        "tools/export_tables.py"
+      ],
+      "exit_status": 0,
+      "log": "records/all_30.log",
+      "runtime_seconds": 0.040909528732299805
+    },
+    {
+      "argv": [
+        "/workspace/gravitas_ui_env/bin/python",
+        "-c",
+        "from gravitas_si.visuals import main; main(\"es\"); main(\"en\")"
+      ],
+      "exit_status": 0,
+      "log": "records/all_31.log",
+      "runtime_seconds": 12.065612316131592
+    },
+    {
+      "argv": [
+        "/workspace/gravitas_ui_env/bin/python",
+        "-m",
+        "gravitas_si.record_visuals"
+      ],
+      "exit_status": 0,
+      "log": "records/all_32.log",
+      "runtime_seconds": 1.5953569412231445
+    },
+    {
+      "argv": [
+        "/workspace/gravitas_ui_env/bin/python",
+        "research/figures.py"
+      ],
+      "exit_status": 0,
+      "log": "records/all_33.log",
+      "runtime_seconds": 3.7491111755371094
+    },
+    {
+      "argv": [
+        "/workspace/gravitas_ui_env/bin/python",
+        "research/mond_figures.py"
+      ],
+      "exit_status": 0,
+      "log": "records/all_34.log",
+      "runtime_seconds": 1.5733740329742432
+    },
+    {
+      "argv": [
+        "/workspace/gravitas_ui_env/bin/python",
+        "research/fractalgo/figures.py"
+      ],
+      "exit_status": 0,
+      "log": "records/all_35.log",
+      "runtime_seconds": 1.7021114826202393
+    },
+    {
+      "argv": [
+        "/workspace/gravitas_ui_env/bin/python",
+        "research/revision_v17/figures.py"
+      ],
+      "exit_status": 0,
+      "log": "records/all_36.log",
+      "runtime_seconds": 1.7934515476226807
+    },
+    {
+      "argv": [
+        "/workspace/gravitas_ui_env/bin/python",
+        "tools/build_epistemic_graph.py"
+      ],
+      "exit_status": 0,
+      "log": "records/all_37.log",
+      "runtime_seconds": 0.04191136360168457
+    },
+    {
+      "argv": [
+        "/workspace/gravitas_ui_env/bin/python",
+        "tools/render_epistemic_print.py"
+      ],
+      "exit_status": 0,
+      "log": "records/all_38.log",
+      "runtime_seconds": 0.022599458694458008
+    },
+    {
+      "argv": [
+        "/workspace/gravitas_ui_env/bin/python",
+        "research/dcae_figures.py"
+      ],
+      "exit_status": 0,
+      "log": "records/all_39.log",
+      "runtime_seconds": 0.028070688247680664
+    },
+    {
+      "argv": [
+        "/workspace/gravitas_ui_env/bin/python",
+        "research/frontier_figures.py"
+      ],
+      "exit_status": 0,
+      "log": "records/all_40.log",
+      "runtime_seconds": 0.024391651153564453
+    }
+  ],
+  "environment": {
+    "python": "3.13.5",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+    "software": [
+      {
+        "name": "numpy",
+        "version": "2.3.5"
+      },
+      {
+        "name": "scipy",
+        "version": "1.17.0"
+      },
+      {
+        "name": "mpmath",
+        "version": "1.3.0"
+      },
+      {
+        "name": "matplotlib",
+        "version": "3.10.8"
+      },
+      {
+        "name": "h5py",
+        "version": "3.16.0"
+      },
+      {
+        "name": "dynesty",
+        "version": "3.2.0"
+      },
+      {
+        "name": "emcee",
+        "version": "3.1.6"
+      },
+      {
+        "name": "plotly",
+        "version": "6.9.0"
+      }
+    ],
+    "variables": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "MPLBACKEND": "Agg"
+    }
+  },
+  "mathematics": {
+    "assertion_tested": "Conditional GP, force/PPN benchmarks, hierarchical optical inference, DESI operator, Casimir normalization and finite synthetic DCAE controls",
+    "coefficient_domain": "float64; independent 60-digit sparse GP checks",
+    "conventions": "SI; metric signature -+++; A optical amplitude is not gamma or graviton mass",
+    "bounds": {
+      "cassini_epochs": 1696,
+      "gp_realizations": 4096,
+      "nested_live_points": 250,
+      "mcmc_chains": 4,
+      "mcmc_retained_per_chain": 12000,
+      "sbc_replicates": 4000,
+      "ppc_draws": 256
+    },
+    "non_claims": [
+      "No full INPOP refit",
+      "No new graviton bound",
+      "No external instrument calibration",
+      "No universal GP invalidity",
+      "No independent peer review"
+    ]
+  },
+  "randomness": {
+    "used": true,
+    "generator": "NumPy PCG64 and scrambled SciPy Sobol",
+    "seeds": "Explicit in each module: 20261117; 20261118/19; 20261200--20261400"
+  },
+  "run": {
+    "started_at": "2026-11-19T22:18:32.838753+00:00",
+    "runtime_seconds": 291.7806222438812,
+    "status": "completed",
+    "exit_status": 0
+  },
+  "input_artifacts": [
+    {
+      "path": "analyses/casimir/code/auditar_casimir.py",
+      "sha256": "2e1c166a2f6c6d6943c68d967442ef6cdfff8222e88b9b162b164693271bf7b8",
+      "sha256_after": "2e1c166a2f6c6d6943c68d967442ef6cdfff8222e88b9b162b164693271bf7b8"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Additional information/Fit_of_Casimir_data_for_other_n/Fit_Casimir_weirdn_v3.py",
+      "sha256": "a700236c8c0fb946052553d45d21fa75d0054223af2cce4bc27343781dcfb758",
+      "sha256_after": "a700236c8c0fb946052553d45d21fa75d0054223af2cce4bc27343781dcfb758"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Additional information/Fit_of_Casimir_data_for_other_n/Optimized_mech_freqs_for_n=2_equalizedat15_1nm.txt",
+      "sha256": "68774f99fb3aef3c9978734b3d613f001c0a84cad92532c51869b4c09707d917",
+      "sha256_after": "68774f99fb3aef3c9978734b3d613f001c0a84cad92532c51869b4c09707d917"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Additional information/Fit_of_Casimir_data_for_other_n/Optimized_mech_freqs_for_n=3_193_equalizedat15_1nm.txt",
+      "sha256": "674182245391d99d19877921079a3f5eff3098d875b99fe50f53a06cd354cfe3",
+      "sha256_after": "674182245391d99d19877921079a3f5eff3098d875b99fe50f53a06cd354cfe3"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Additional information/Fit_of_Casimir_data_for_other_n/Optimized_mech_freqs_for_n=3_equalizedat15_1nm.txt",
+      "sha256": "a0189a195d34f2f334727627c0b026d3e6fdd8fe3f75e42eb76197d5f7ef62a2",
+      "sha256_after": "a0189a195d34f2f334727627c0b026d3e6fdd8fe3f75e42eb76197d5f7ef62a2"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Additional information/Fit_of_Casimir_data_for_other_n/Optimized_mech_freqs_for_n=4_equalizedat15_1nm.txt",
+      "sha256": "3d733ca2f28a60e28acc87552cfc3c396c3b99a1bffb084b8861d88f2438e8f1",
+      "sha256_after": "3d733ca2f28a60e28acc87552cfc3c396c3b99a1bffb084b8861d88f2438e8f1"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Figure 1/Casimir_single.m",
+      "sha256": "99258cd38e3c0e928eac640134b342c9bb12863de9e3b5b8ce5dcf5f4ebed212",
+      "sha256_after": "99258cd38e3c0e928eac640134b342c9bb12863de9e3b5b8ce5dcf5f4ebed212"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Figure 1/Fit_Casimir_model_v27_Peakpowers.txt",
+      "sha256": "92b1904b7e9740afec1e0164ff81c2f664ac1fa24c1d280a3d0537e129f95576",
+      "sha256_after": "92b1904b7e9740afec1e0164ff81c2f664ac1fa24c1d280a3d0537e129f95576"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Figure 1/Fit_Casimir_model_v27_Simdata_-15dBm_MW.txt",
+      "sha256": "5c9e144914d93f6b2a227434118d6bca3a8da4710928c8c7c32668740368a452",
+      "sha256_after": "5c9e144914d93f6b2a227434118d6bca3a8da4710928c8c7c32668740368a452"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Figure 1/Fit_Casimir_model_v27_Simdata_-17_5dBm_MW.txt",
+      "sha256": "eb6ed7409482f69d477d015962ef45a6e34821aa57ce478b6b5d203a14a99a35",
+      "sha256_after": "eb6ed7409482f69d477d015962ef45a6e34821aa57ce478b6b5d203a14a99a35"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Figure 1/Fit_Casimir_model_v27_Simdata_-20dBm_MW.txt",
+      "sha256": "09cfd9eb6901a915a2b90d8c8d68acc38a03ea282ca3e9581fcb2a168e5037d6",
+      "sha256_after": "09cfd9eb6901a915a2b90d8c8d68acc38a03ea282ca3e9581fcb2a168e5037d6"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Figure 1/Fit_Casimir_model_v27_Simdata_-20dBm_MW_altfreq.txt",
+      "sha256": "c8c516e2d63282188616b7b912085996cd704f19804eb51f27815d1c148c5f45",
+      "sha256_after": "c8c516e2d63282188616b7b912085996cd704f19804eb51f27815d1c148c5f45"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Figure 1/Fit_Casimir_model_v27_Simdata_-22_5dBm_MW.txt",
+      "sha256": "4da62b391bf494061ec6a78a8c866754a7d4d8bd74015cec30ce551b3d9471c9",
+      "sha256_after": "4da62b391bf494061ec6a78a8c866754a7d4d8bd74015cec30ce551b3d9471c9"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Figure 1/Fit_Casimir_model_v27_Simdata_-25dBm_MW.txt",
+      "sha256": "46a66d2f4043ba15f6e5702446fa33fdba319793bcd1dadfe27256e4db123767",
+      "sha256_after": "46a66d2f4043ba15f6e5702446fa33fdba319793bcd1dadfe27256e4db123767"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Figure 1/Fit_Casimir_model_v27_Simdata_-27_5dBm_MW.txt",
+      "sha256": "95884237077a6a0f44c6dc36a5256147a96d02021fb81a5b10a7e3343e640ace",
+      "sha256_after": "95884237077a6a0f44c6dc36a5256147a96d02021fb81a5b10a7e3343e640ace"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Figure 1/Fit_Casimir_model_v27_Simdata_-30dBm_MW.txt",
+      "sha256": "5fb0904e6e700ce1a00caffbd56e09f16c3cb806c91fae49a902572db663faa6",
+      "sha256_after": "5fb0904e6e700ce1a00caffbd56e09f16c3cb806c91fae49a902572db663faa6"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Figure 1/Fit_Casimir_model_v27_Simdata_-35dBm_MW.txt",
+      "sha256": "1ce1b99237938ec03c2e5f135e7526bcf6167687f1428e7690a016694e57cd8a",
+      "sha256_after": "1ce1b99237938ec03c2e5f135e7526bcf6167687f1428e7690a016694e57cd8a"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Figure 1/Fit_Casimir_model_v27_Simdata_-40dBm_MW.txt",
+      "sha256": "cf0a051eecb872e1dddae6761f87a6acebdf773d632e4673a4c93fc088af8b43",
+      "sha256_after": "cf0a051eecb872e1dddae6761f87a6acebdf773d632e4673a4c93fc088af8b43"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Figure 1/Fit_Casimir_model_v27_fit_d.py",
+      "sha256": "c81952cdffdfa7bb6a1dd9eeead3867cea4c18ac85664cd0d4622ee440c35d34",
+      "sha256_after": "c81952cdffdfa7bb6a1dd9eeead3867cea4c18ac85664cd0d4622ee440c35d34"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Figure 1/Optimized_mech_freqs.txt",
+      "sha256": "ceb3f503569c3b0df82b542dacfc22dbdf3a70d0d743461529de0637ef2f0388",
+      "sha256_after": "ceb3f503569c3b0df82b542dacfc22dbdf3a70d0d743461529de0637ef2f0388"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Figure 1/Optimized_mech_freqs_v2.txt",
+      "sha256": "1a2984bb3bef7579dd1ed5f76f13c1c8ec30858da85bdd547f995d7b8ed6ee75",
+      "sha256_after": "1a2984bb3bef7579dd1ed5f76f13c1c8ec30858da85bdd547f995d7b8ed6ee75"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Figure 1/Power_factors_9_12e-11.txt",
+      "sha256": "aeca28a8b1c9b65dea317db4491af366a5ddd57cd4da4a4561275679b81a594d",
+      "sha256_after": "aeca28a8b1c9b65dea317db4491af366a5ddd57cd4da4a4561275679b81a594d"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Figure 1/Precalculate_mechfreqs_v2.py",
+      "sha256": "292d273458d144ff55e4e39aab6d221cae4a070d29d501fefb2a12335326c43e",
+      "sha256_after": "292d273458d144ff55e4e39aab6d221cae4a070d29d501fefb2a12335326c43e"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Figure 1/Recalculate_mechfreqs.py",
+      "sha256": "596156ba8b7f6eb749a1c4be57822c0ef18bacc3fcad19d7c10db78760be7266",
+      "sha256_after": "596156ba8b7f6eb749a1c4be57822c0ef18bacc3fcad19d7c10db78760be7266"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Figure 1/casimir_.m",
+      "sha256": "7684f2936fb222305cbe6d747b3376253cbefe67ff78db180e43bd8f30ce6396",
+      "sha256_after": "7684f2936fb222305cbe6d747b3376253cbefe67ff78db180e43bd8f30ce6396"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Figure 4/Plot_allsidebands.py",
+      "sha256": "55baa5d6220992945277b7d375683c6236c24b317a03eb3f76a3e216871518d1",
+      "sha256_after": "55baa5d6220992945277b7d375683c6236c24b317a03eb3f76a3e216871518d1"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Figure 5/Calculate_Casimir_Pressure_distance_wplasma.py",
+      "sha256": "810af359123f65448f4a7fe09d501eca9f2b40cd79d3c2de150aff4fed9aa018",
+      "sha256_after": "810af359123f65448f4a7fe09d501eca9f2b40cd79d3c2de150aff4fed9aa018"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Figure 5/Casimir_pressure_dist_v4.h5",
+      "sha256": "9c4622b8f4cce18739ed214f166173e8765be3895237d41d142db41749ff1c59",
+      "sha256_after": "9c4622b8f4cce18739ed214f166173e8765be3895237d41d142db41749ff1c59"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Figure 5/Fit_Casimir_scaling.py",
+      "sha256": "ea021578beab0ae2f6312e335b5b96a5bd9a44cbe11957b53b3f36531cedaee3",
+      "sha256_after": "ea021578beab0ae2f6312e335b5b96a5bd9a44cbe11957b53b3f36531cedaee3"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Figure 5/Plot_Casimir_pressure_distance.py",
+      "sha256": "3a38405bfde0f58256b594337377cf57efe96043301a2760aed7cb3b06d09193",
+      "sha256_after": "3a38405bfde0f58256b594337377cf57efe96043301a2760aed7cb3b06d09193"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Figure S5/Calculate_Casimir_Pressure_distance_wplasma.py",
+      "sha256": "915f99a787b1ee54a3b4a630dbb373eda4ef76fdc1b7565d79dbbf44562f7a84",
+      "sha256_after": "915f99a787b1ee54a3b4a630dbb373eda4ef76fdc1b7565d79dbbf44562f7a84"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Figure S5/Casimir_pressure_dist_v4.h5",
+      "sha256": "9c4622b8f4cce18739ed214f166173e8765be3895237d41d142db41749ff1c59",
+      "sha256_after": "9c4622b8f4cce18739ed214f166173e8765be3895237d41d142db41749ff1c59"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Figure S5/Casimir_pressure_dist_v5_closedist.h5",
+      "sha256": "12aca6f9e49e41ec83469035c00b675d6215140332d605cefb290054ff79249c",
+      "sha256_after": "12aca6f9e49e41ec83469035c00b675d6215140332d605cefb290054ff79249c"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Figure S5/Casimir_pressure_dist_v6_RRR_1.h5",
+      "sha256": "5c0f6087b09db1c954734a0433bed73a1e3995e78728aeb492ded795b3b7ca24",
+      "sha256_after": "5c0f6087b09db1c954734a0433bed73a1e3995e78728aeb492ded795b3b7ca24"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Figure S5/Casimir_pressure_dist_v6_RRR_10.h5",
+      "sha256": "ef54af5289b0a5ad8cbbc332206545bfc542055eaab20c90e50d7f6916b3542e",
+      "sha256_after": "ef54af5289b0a5ad8cbbc332206545bfc542055eaab20c90e50d7f6916b3542e"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Figure S5/Casimir_pressure_dist_v6_epsilonr_1.h5",
+      "sha256": "43b6b4154a00680f03e4e52038646e4494668d59570c26a111a8090d96c040a1",
+      "sha256_after": "43b6b4154a00680f03e4e52038646e4494668d59570c26a111a8090d96c040a1"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Figure S5/Casimir_pressure_dist_v6_epsilonr_1_06.h5",
+      "sha256": "cf341d8537333fddfbad88942e4a986b997963018c300f9a5859e72dddfdfb32",
+      "sha256_after": "cf341d8537333fddfbad88942e4a986b997963018c300f9a5859e72dddfdfb32"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Figure S5/Casimir_pressure_dist_v6_epsilonr_1_5.h5",
+      "sha256": "a5ce7a9d665e9f38aec502b20495795acc1beaf89f1ab1e85392178dcd349661",
+      "sha256_after": "a5ce7a9d665e9f38aec502b20495795acc1beaf89f1ab1e85392178dcd349661"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Figure S5/Casimir_pressure_dist_v6_omegap_10eV.h5",
+      "sha256": "abe0f4cc9b3113d766a869709f84da0cbe4f9300fefbe8fd1754478fd0ac99fe",
+      "sha256_after": "abe0f4cc9b3113d766a869709f84da0cbe4f9300fefbe8fd1754478fd0ac99fe"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Figure S5/Casimir_pressure_dist_v6_omegap_12_5eV.h5",
+      "sha256": "6a6b794eef83475875b87eca80398e31bd8960fd9d140eda315a0695fc4f36ab",
+      "sha256_after": "6a6b794eef83475875b87eca80398e31bd8960fd9d140eda315a0695fc4f36ab"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Figure S5/Casimir_pressure_dist_v6_omegap_13_5eV.h5",
+      "sha256": "f3f9c46da847f7b6d9f49184d3d2cf22120a52df58f416846fa9d69fe6eb65c8",
+      "sha256_after": "f3f9c46da847f7b6d9f49184d3d2cf22120a52df58f416846fa9d69fe6eb65c8"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Figure S5/Casimir_pressure_dist_v6_omegap_15eV.h5",
+      "sha256": "f469c172c752317d890962c6d6df1d7d675e4a808289c1ac2456d56f798fd652",
+      "sha256_after": "f469c172c752317d890962c6d6df1d7d675e4a808289c1ac2456d56f798fd652"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Figure S5/Fit_Casimir_scaling_v2.py",
+      "sha256": "c8ba4ed6abad81b52dfd221c03b9bbfb4ac59a5f44f8212d61fbf0b29565cc0c",
+      "sha256_after": "c8ba4ed6abad81b52dfd221c03b9bbfb4ac59a5f44f8212d61fbf0b29565cc0c"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/README.txt",
+      "sha256": "6853b4f81dc971513d610167956df3088ad9cf4213cffb62bb3bf806d97985db",
+      "sha256_after": "6853b4f81dc971513d610167956df3088ad9cf4213cffb62bb3bf806d97985db"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Raw and filtered data/2024-03-21-1858_QNOF_VNApwr_sweep.m",
+      "sha256": "632ef09f2aca255ef831968edfe5f46d33f867e72c1f768fc0939dc786d68a14",
+      "sha256_after": "632ef09f2aca255ef831968edfe5f46d33f867e72c1f768fc0939dc786d68a14"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Raw and filtered data/2024-03-21-1858_filtdata_down.npy",
+      "sha256": "ba347328b63af61f7e878c215e82085a1b0ae7e8905efc34ed1e2a1e99c87809",
+      "sha256_after": "ba347328b63af61f7e878c215e82085a1b0ae7e8905efc34ed1e2a1e99c87809"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Raw and filtered data/2024-03-21-1858_filtdata_up.npy",
+      "sha256": "374b506440fb28978866aff655762f0c67238b4ea6eeede16cd97f0cf18c1e34",
+      "sha256_after": "374b506440fb28978866aff655762f0c67238b4ea6eeede16cd97f0cf18c1e34"
+    },
+    {
+      "path": "analyses/casimir/sources/casimir/selected/Raw and filtered data/2024-03-21-1858_filtfreqs.npy",
+      "sha256": "8f4509efd67887bb97d91943c52013e527dae5bbec574937570a3d532d62f7b9",
+      "sha256_after": "8f4509efd67887bb97d91943c52013e527dae5bbec574937570a3d532d62f7b9"
+    },
+    {
+      "path": "analyses/gp/code/figuras.py",
+      "sha256": "c6a5a0e6f523b63ed51b4f6d38f363eb3a3e1ba08d1f10f8c62a9c12c76fb59b",
+      "sha256_after": "c6a5a0e6f523b63ed51b4f6d38f363eb3a3e1ba08d1f10f8c62a9c12c76fb59b"
+    },
+    {
+      "path": "analyses/gp/code/gp_covarianza_cassini.py",
+      "sha256": "cdecf76a3ce035cf9bf27e17ab13e8ee30f9b856a16b43f17b9a68ad22678bf2",
+      "sha256_after": "cdecf76a3ce035cf9bf27e17ab13e8ee30f9b856a16b43f17b9a68ad22678bf2"
+    },
+    {
+      "path": "analyses/gp/code/gp_emulador.py",
+      "sha256": "3a0be5360783e24624c32023730c84079f49728892a01bd0506b40939a81698a",
+      "sha256_after": "3a0be5360783e24624c32023730c84079f49728892a01bd0506b40939a81698a"
+    },
+    {
+      "path": "analyses/gp/code/gp_realizaciones.py",
+      "sha256": "f3c73c6779ab7f4ca626285e55fe7ba6999ba13443c866d0d56d429657c2b547",
+      "sha256_after": "f3c73c6779ab7f4ca626285e55fe7ba6999ba13443c866d0d56d429657c2b547"
+    },
+    {
+      "path": "analyses/gp/code/numeros_y_unidades.py",
+      "sha256": "d67d8f1dcb88e4b49cbc2b0d9b7a6abcc2892d383ebfd77b0d1241f7a09c24e9",
+      "sha256_after": "d67d8f1dcb88e4b49cbc2b0d9b7a6abcc2892d383ebfd77b0d1241f7a09c24e9"
+    },
+    {
+      "path": "analyses/gp/code/reproducir.py",
+      "sha256": "d465dc99c64c5c364bccb63cf3485a710446713db2be07edf16d508720bb705e",
+      "sha256_after": "d465dc99c64c5c364bccb63cf3485a710446713db2be07edf16d508720bb705e"
+    },
+    {
+      "path": "analyses/gp/code/verificar_calculos.py",
+      "sha256": "81196c8b47aaa69f8c7e165aa2a54b74303449f8aadb0369f3baa46f6893228e",
+      "sha256_after": "81196c8b47aaa69f8c7e165aa2a54b74303449f8aadb0369f3baa46f6893228e"
+    },
+    {
+      "path": "analyses/gp/sources/cassini/contraste_robusto.json",
+      "sha256": "9a531f45fe71e1115006a251a823fb511af2a00f48e3e321651b1d9f8c3078a5",
+      "sha256_after": "9a531f45fe71e1115006a251a823fb511af2a00f48e3e321651b1d9f8c3078a5"
+    },
+    {
+      "path": "analyses/gp/sources/cassini/contraste_robusto_pesos.npz",
+      "sha256": "eaa6133fb6d2687954e855dff0e5a8e9b2051f445ce327c8c95f8c31ef417481",
+      "sha256_after": "eaa6133fb6d2687954e855dff0e5a8e9b2051f445ce327c8c95f8c31ef417481"
+    },
+    {
+      "path": "analyses/gp/sources/cassini/dss25_diseno_erfa_constant.npz",
+      "sha256": "7e4489236b72005df419edea2e483006334dcf1c0a366167d133ea7b5904eb8c",
+      "sha256_after": "7e4489236b72005df419edea2e483006334dcf1c0a366167d133ea7b5904eb8c"
+    },
+    {
+      "path": "analyses/gp/sources/cassini/dss25_diseno_erfa_four_batches.npz",
+      "sha256": "5a8b9bdd38e88b2b22c46d83164e84eafc066b4085c315173a74a512224fe4de",
+      "sha256_after": "5a8b9bdd38e88b2b22c46d83164e84eafc066b4085c315173a74a512224fe4de"
+    },
+    {
+      "path": "docs/GUIDE_EN.md",
+      "sha256": "263b2ca6b120b64000562445ef2b106e7c521945062cb826f89edf1b53ad254f",
+      "sha256_after": "263b2ca6b120b64000562445ef2b106e7c521945062cb826f89edf1b53ad254f"
+    },
+    {
+      "path": "docs/GUIDE_ES.md",
+      "sha256": "0e35a492116b7131d5a04cdc8e37f46ac79711db812c87df78cbf63692c76e39",
+      "sha256_after": "0e35a492116b7131d5a04cdc8e37f46ac79711db812c87df78cbf63692c76e39"
+    },
+    {
+      "path": "docs/INFORMATION_EN.md",
+      "sha256": "0372b7c20c8a831dcb14a03a821796a8bb29ce656671f8840730b1e6f2aab4f1",
+      "sha256_after": "0372b7c20c8a831dcb14a03a821796a8bb29ce656671f8840730b1e6f2aab4f1"
+    },
+    {
+      "path": "docs/INFORMATION_ES.md",
+      "sha256": "fc3b9c8a78bc5ae31b41929fdf454b3501afe26d2ec97e5b5e900956efcd8301",
+      "sha256_after": "fc3b9c8a78bc5ae31b41929fdf454b3501afe26d2ec97e5b5e900956efcd8301"
+    },
+    {
+      "path": "docs/PHYSICS_EN.md",
+      "sha256": "5d596f75eb0e434492491cc47f4ccf4f208c6d6586601aa2b093cddf74d801f2",
+      "sha256_after": "5d596f75eb0e434492491cc47f4ccf4f208c6d6586601aa2b093cddf74d801f2"
+    },
+    {
+      "path": "docs/PHYSICS_ES.md",
+      "sha256": "051a7256cd9d8356104161c33574a9f3b6a14f5d240335ae26072d509e164c51",
+      "sha256_after": "051a7256cd9d8356104161c33574a9f3b6a14f5d240335ae26072d509e164c51"
+    },
+    {
+      "path": "gravitas_si/__init__.py",
+      "sha256": "897ebb90edc5307dce8dd4f8cb27dc9aabd23483b987fded9f4a52b480efd505",
+      "sha256_after": "897ebb90edc5307dce8dd4f8cb27dc9aabd23483b987fded9f4a52b480efd505"
+    },
+    {
+      "path": "gravitas_si/audits.py",
+      "sha256": "d138a4fd48ec04b975761d08b3054b9196ef9a3165a752b45aaea43e5898cf5c",
+      "sha256_after": "d138a4fd48ec04b975761d08b3054b9196ef9a3165a752b45aaea43e5898cf5c"
+    },
+    {
+      "path": "gravitas_si/contrast_checks.py",
+      "sha256": "05c6cc101d68483ed7fded82f4a5d26f383bd841e088e3ee4748c2bd4e5f5c11",
+      "sha256_after": "05c6cc101d68483ed7fded82f4a5d26f383bd841e088e3ee4748c2bd4e5f5c11"
+    },
+    {
+      "path": "gravitas_si/figure_language.py",
+      "sha256": "9d441a16f37dd4bfe6f4cfdfc3e383f2c0a60398ff327dd00f2baecdb01b9b12",
+      "sha256_after": "9d441a16f37dd4bfe6f4cfdfc3e383f2c0a60398ff327dd00f2baecdb01b9b12"
+    },
+    {
+      "path": "gravitas_si/inference.py",
+      "sha256": "52829d8aef77ea594c925c21ccec0518ce5a4abdaeafe6c7766f5c52042ab83e",
+      "sha256_after": "52829d8aef77ea594c925c21ccec0518ce5a4abdaeafe6c7766f5c52042ab83e"
+    },
+    {
+      "path": "gravitas_si/physics.py",
+      "sha256": "516ccca1a05b5a8f6f3d7052c10dceaed366ff2c29a37a631cb93c7d6abb04d0",
+      "sha256_after": "516ccca1a05b5a8f6f3d7052c10dceaed366ff2c29a37a631cb93c7d6abb04d0"
+    },
+    {
+      "path": "gravitas_si/record_visuals.py",
+      "sha256": "2ab896958d8862b34dd993b3724c0690d0c0dd813767942b50f7eeaae18b626d",
+      "sha256_after": "2ab896958d8862b34dd993b3724c0690d0c0dd813767942b50f7eeaae18b626d"
+    },
+    {
+      "path": "gravitas_si/sensitivity.py",
+      "sha256": "3bfd2140f7575d14fca5e7d95c6fe8b717a5302e5fe13878b3fece4ff45817a9",
+      "sha256_after": "3bfd2140f7575d14fca5e7d95c6fe8b717a5302e5fe13878b3fece4ff45817a9"
+    },
+    {
+      "path": "gravitas_si/visuals.py",
+      "sha256": "160ad06ada9cf3ed3bfa0a9d5b719a207ee70a27176985c6ece4f3e969ec0893",
+      "sha256_after": "160ad06ada9cf3ed3bfa0a9d5b719a207ee70a27176985c6ece4f3e969ec0893"
+    },
+    {
+      "path": "inputs/author_v12/original_es.tex",
+      "sha256": "5320c30b993e1f26256e43003d6e6e7f6bd66545924d22e4a1c6c073f8cc6ec3",
+      "sha256_after": "5320c30b993e1f26256e43003d6e6e7f6bd66545924d22e4a1c6c073f8cc6ec3"
+    },
+    {
+      "path": "inputs/likelihood_spectrum-poles-rotated_syst-rotation-hod-photo_BGS_BRIGHT-21.5_GCcomb_z0.1-0.4_thetacut0.05.h5",
+      "sha256": "db72d5fb076ad732c48a29032ee86c85f68faef14c4b0ee055f1ffad44ecf50d",
+      "sha256_after": "db72d5fb076ad732c48a29032ee86c85f68faef14c4b0ee055f1ffad44ecf50d"
+    },
+    {
+      "path": "inputs/spectrum-poles-rotated-corrected_BGS_BRIGHT-21.5_GCcomb_z0.1-0.4_thetacut0.05.h5",
+      "sha256": "01d6745c9e42070b0af0b015d948e66cd44dcd86e706bb2df1b37429d51b0df3",
+      "sha256_after": "01d6745c9e42070b0af0b015d948e66cd44dcd86e706bb2df1b37429d51b0df3"
+    },
+    {
+      "path": "platform/audit_gravitools.py",
+      "sha256": "d23463c660b138e106a8a8a762880aafbc6c1b4c938131a325961e00c41c39db",
+      "sha256_after": "d23463c660b138e106a8a8a762880aafbc6c1b4c938131a325961e00c41c39db"
+    },
+    {
+      "path": "platform/fermi_review/originals/Hunter_10-zWVe-MTITJkgo6kRmtFt41rdwXZQUd.ipynb",
+      "sha256": "8a30fb5a354343a7b7388d91fcc840b6e6d3bbf4b35beeec8d3e6a67f38b2e2f",
+      "sha256_after": "8a30fb5a354343a7b7388d91fcc840b6e6d3bbf4b35beeec8d3e6a67f38b2e2f"
+    },
+    {
+      "path": "platform/fermi_review/originals/Hunter_127bEPt1ksTsXzcfg8RBH6V-emB2G0Ev8.ipynb",
+      "sha256": "18742c22de06e3ba27ca19f1180bd7e1143a9816ee0c358202e8a0bf1e10339c",
+      "sha256_after": "18742c22de06e3ba27ca19f1180bd7e1143a9816ee0c358202e8a0bf1e10339c"
+    },
+    {
+      "path": "platform/fermi_review/originals/Hunter_12Xmj-FHHwjTTrPFaIZ0XTtMtqRJ5hGeQ.ipynb",
+      "sha256": "9cea4292e52e886ba92c5d0de7350475840d581b21c1ceadb2c4b4df755815f7",
+      "sha256_after": "9cea4292e52e886ba92c5d0de7350475840d581b21c1ceadb2c4b4df755815f7"
+    },
+    {
+      "path": "platform/fermi_review/originals/Hunter_1BL7fo3cACgMF6fMzKatqadm541X5bAKk.ipynb",
+      "sha256": "84ad67731452f7367dbd2cd5dbe0e7fd3d1c95b9b7271617f6a6c094a8647ce0",
+      "sha256_after": "84ad67731452f7367dbd2cd5dbe0e7fd3d1c95b9b7271617f6a6c094a8647ce0"
+    },
+    {
+      "path": "platform/fermi_review/originals/Hunter_1B_1BkRZtxyfU9_jwEuejU5e0bOlKG0_L.ipynb",
+      "sha256": "3dd7ffbc7d092ae2aac460e444a2a49cd3702fa6b999a6b0753782db6af7792c",
+      "sha256_after": "3dd7ffbc7d092ae2aac460e444a2a49cd3702fa6b999a6b0753782db6af7792c"
+    },
+    {
+      "path": "platform/fermi_review/originals/Hunter_1Cq6aIkB2aSWYfZMCInF27dHiUpZLB9k3.ipynb",
+      "sha256": "adfb8533fbfccefcbe15ad416daa599e33633f483917336da79bcea0e74fe265",
+      "sha256_after": "adfb8533fbfccefcbe15ad416daa599e33633f483917336da79bcea0e74fe265"
+    },
+    {
+      "path": "platform/fermi_review/originals/Hunter_1JbCnbCXqo2v8Ndkn4qc1INvQmklUvMKA.ipynb",
+      "sha256": "0b179cee178025408810580573a4b144d189a8176a3eed73ae49aa3de6fd045d",
+      "sha256_after": "0b179cee178025408810580573a4b144d189a8176a3eed73ae49aa3de6fd045d"
+    },
+    {
+      "path": "platform/fermi_review/originals/Hunter_1b9jVaqXGnsly-4S12p8A_sCqV_aEnlmT.ipynb",
+      "sha256": "36e1ae73e8f0de0fa59f1364238f6d5ab963d1505f31c0b194ef95792ec94f43",
+      "sha256_after": "36e1ae73e8f0de0fa59f1364238f6d5ab963d1505f31c0b194ef95792ec94f43"
+    },
+    {
+      "path": "platform/fermi_review/originals/Hunter_1cbBuOXF3weS61wOH3KJ52i93K5s_Wg6K.ipynb",
+      "sha256": "ab0b8e9f467f1e09ef45af1a4786b68fc74064276819694063bb8f83917a9fdd",
+      "sha256_after": "ab0b8e9f467f1e09ef45af1a4786b68fc74064276819694063bb8f83917a9fdd"
+    },
+    {
+      "path": "platform/fermi_review/originals/Hunter_1fnT1-k6Ad_--YwzgLR2u6Vx-cseValsa.ipynb",
+      "sha256": "5b12ea190a08fb5ad1371fcdf6d56d4626448711e054eddc5c7ed0d06d205516",
+      "sha256_after": "5b12ea190a08fb5ad1371fcdf6d56d4626448711e054eddc5c7ed0d06d205516"
+    },
+    {
+      "path": "platform/fermi_review/originals/Hunter_1loiBr3Gu6dpNuisfqLSTPhbHzODiqS1l.ipynb",
+      "sha256": "0cc1a1c602c7bb49b947c8faa744a92525f11494b8f21ead8fb2610ddbc5df03",
+      "sha256_after": "0cc1a1c602c7bb49b947c8faa744a92525f11494b8f21ead8fb2610ddbc5df03"
+    },
+    {
+      "path": "platform/fermi_review/originals/Hunter_1vZfqnIgPTZXxqT5JJ-zp735kIPQo45dN.ipynb",
+      "sha256": "e95c76947275b4ad123f11228d5b84087246a27fab882c00014f4452021505b2",
+      "sha256_after": "e95c76947275b4ad123f11228d5b84087246a27fab882c00014f4452021505b2"
+    },
+    {
+      "path": "platform/fermi_review/originals/Untitled8.ipynb",
+      "sha256": "3d2d1c0495250e23b850775e197449ab07d73efd378b770e8d48c8ae3a1a92d6",
+      "sha256_after": "3d2d1c0495250e23b850775e197449ab07d73efd378b770e8d48c8ae3a1a92d6"
+    },
+    {
+      "path": "platform/fermi_review/originals/Untitled8.source.txt",
+      "sha256": "31106e78e3c549d2cc5d78efd6020b962bddeb077529de19887db940b8cc1760",
+      "sha256_after": "31106e78e3c549d2cc5d78efd6020b962bddeb077529de19887db940b8cc1760"
+    },
+    {
+      "path": "platform/fermi_review/originals/fermiLAT.bayesianogrbs8.ipynb",
+      "sha256": "1845d016d7e7bf69b82a234501043c54b9dc9d6ea606d89aa95a252c811c83ef",
+      "sha256_after": "1845d016d7e7bf69b82a234501043c54b9dc9d6ea606d89aa95a252c811c83ef"
+    },
+    {
+      "path": "platform/fermi_review/originals/fermiLAT.spectralandrdshift.ipynb",
+      "sha256": "86765fd5e711016f65fcd9ee6304473ae41a8725b41e56262edc1850b8b81dfc",
+      "sha256_after": "86765fd5e711016f65fcd9ee6304473ae41a8725b41e56262edc1850b8b81dfc"
+    },
+    {
+      "path": "platform/fermi_review/originals/fermilat.LIV.ipynb",
+      "sha256": "b75fed717717ddf5831fe0d934dd9aa1b70a5201e359d50bcc82902cf0ca2e56",
+      "sha256_after": "b75fed717717ddf5831fe0d934dd9aa1b70a5201e359d50bcc82902cf0ca2e56"
+    },
+    {
+      "path": "platform/fermi_review/photon_followup/fetch_spacecraft.py",
+      "sha256": "263d95efb8e1ee0949c7b159f4236c7ba0705dc90458a908ec62e1fb9af60f06",
+      "sha256_after": "263d95efb8e1ee0949c7b159f4236c7ba0705dc90458a908ec62e1fb9af60f06"
+    },
+    {
+      "path": "platform/fermi_review/photon_followup/run_timing.py",
+      "sha256": "5fd4f788765f69f0e184e1fa50f8a3781ae9977b956791ce3e6b9738195d4727",
+      "sha256_after": "5fd4f788765f69f0e184e1fa50f8a3781ae9977b956791ce3e6b9738195d4727"
+    },
+    {
+      "path": "platform/fermi_review/raw/spacecraft/lat_spacecraft_weekly_w015_p310_v001.fits",
+      "sha256": "f26948474420194636a0f03c7cb8e7e7bc3259f6c4bd50b01fa6af7579955325",
+      "sha256_after": "f26948474420194636a0f03c7cb8e7e7bc3259f6c4bd50b01fa6af7579955325"
+    },
+    {
+      "path": "platform/fermi_review/raw/spacecraft/lat_spacecraft_weekly_w049_p310_v001.fits",
+      "sha256": "5e0d5b04ab982e9ce32c2ef0a51b7e99deea5d670493e0346c60a14c7d1781a2",
+      "sha256_after": "5e0d5b04ab982e9ce32c2ef0a51b7e99deea5d670493e0346c60a14c7d1781a2"
+    },
+    {
+      "path": "platform/fermi_review/raw/spacecraft/lat_spacecraft_weekly_w065_p310_v001.fits",
+      "sha256": "a7fdf6b7c44427c3a2bc91a6a3106e1b572fa6bf852286db9a83530f90f58615",
+      "sha256_after": "a7fdf6b7c44427c3a2bc91a6a3106e1b572fa6bf852286db9a83530f90f58615"
+    },
+    {
+      "path": "platform/fermi_review/raw/spacecraft/lat_spacecraft_weekly_w256_p310_v001.fits",
+      "sha256": "a551691f9720f061a342975c555d50e40ce7f192c20f9215caca56a83fd0b9aa",
+      "sha256_after": "a551691f9720f061a342975c555d50e40ce7f192c20f9215caca56a83fd0b9aa"
+    },
+    {
+      "path": "platform/fermi_review/raw/spacecraft/manifest.json",
+      "sha256": "338fc62472397bf4db46b1400f6a29707ccab6b9e3382743649c116332cceff8",
+      "sha256_after": "338fc62472397bf4db46b1400f6a29707ccab6b9e3382743649c116332cceff8"
+    },
+    {
+      "path": "platform/fermi_review/repaired/audit_hunter.py",
+      "sha256": "e9dc8ee9a4d558b67927b3766bca545d0f0448b72e9e47ee41980bdb30bb3299",
+      "sha256_after": "e9dc8ee9a4d558b67927b3766bca545d0f0448b72e9e47ee41980bdb30bb3299"
+    },
+    {
+      "path": "platform/fermi_review/repaired/audit_originals.py",
+      "sha256": "d468e43bf1f6e2640eb960ebe29efabcadb30741152c7785704f577c54ef84c1",
+      "sha256_after": "d468e43bf1f6e2640eb960ebe29efabcadb30741152c7785704f577c54ef84c1"
+    },
+    {
+      "path": "platform/fermi_review/repaired/catalog_audit.py",
+      "sha256": "c32ba6cff803c3e9a3ab79e8b06109091ef7cf17e4ad63bb96c18dd1a0fb7db4",
+      "sha256_after": "c32ba6cff803c3e9a3ab79e8b06109091ef7cf17e4ad63bb96c18dd1a0fb7db4"
+    },
+    {
+      "path": "platform/fermi_review/repaired/recover_weekly.py",
+      "sha256": "f5424fea00d7f4c81293e4215304cbb4e3e5cd4af0fa7db377bfad8b04ceef61",
+      "sha256_after": "f5424fea00d7f4c81293e4215304cbb4e3e5cd4af0fa7db377bfad8b04ceef61"
+    },
+    {
+      "path": "platform/fermi_review/repaired/request_photons.py",
+      "sha256": "afd5066f09f8e636cb37aef47a64b2f9bd50cfa23ebe8ed4d2355a3d7ed05edf",
+      "sha256_after": "afd5066f09f8e636cb37aef47a64b2f9bd50cfa23ebe8ed4d2355a3d7ed05edf"
+    },
+    {
+      "path": "platform/fermi_review/results/event_subsets/GRB080916C_audit_subset.csv",
+      "sha256": "f3711f2eabe5e7a9ebe8156ade75c96454d1992e61131ff0131c21e6ed661f5b",
+      "sha256_after": "f3711f2eabe5e7a9ebe8156ade75c96454d1992e61131ff0131c21e6ed661f5b"
+    },
+    {
+      "path": "platform/fermi_review/results/event_subsets/GRB080916C_audit_subset.fits",
+      "sha256": "8fb89b00ff6ff2ee1abbf99308da4a7ebbe0d20fa9d64cc5e9b5c9d89d333a78",
+      "sha256_after": "8fb89b00ff6ff2ee1abbf99308da4a7ebbe0d20fa9d64cc5e9b5c9d89d333a78"
+    },
+    {
+      "path": "platform/fermi_review/results/event_subsets/GRB090510_audit_subset.csv",
+      "sha256": "e0c3a035acc6782837cb37e3c8e0665dce2137d4ba200c9c7f91c0320ef051b8",
+      "sha256_after": "e0c3a035acc6782837cb37e3c8e0665dce2137d4ba200c9c7f91c0320ef051b8"
+    },
+    {
+      "path": "platform/fermi_review/results/event_subsets/GRB090510_audit_subset.fits",
+      "sha256": "2ca0bb036aeb660eedaedd30311619a9a962198f7325a0cbcb92796b2ad75211",
+      "sha256_after": "2ca0bb036aeb660eedaedd30311619a9a962198f7325a0cbcb92796b2ad75211"
+    },
+    {
+      "path": "platform/fermi_review/results/event_subsets/GRB090902B_audit_subset.csv",
+      "sha256": "524b001606932b106eea3979f333eb7aab91336199c37495859e0f60516be9fb",
+      "sha256_after": "524b001606932b106eea3979f333eb7aab91336199c37495859e0f60516be9fb"
+    },
+    {
+      "path": "platform/fermi_review/results/event_subsets/GRB090902B_audit_subset.fits",
+      "sha256": "fb10cccdb27272d674c906fbe562c512f3a5587f2762f4fb61fbe5a5e5ee77e4",
+      "sha256_after": "fb10cccdb27272d674c906fbe562c512f3a5587f2762f4fb61fbe5a5e5ee77e4"
+    },
+    {
+      "path": "platform/fermi_review/results/event_subsets/GRB130427A_audit_subset.csv",
+      "sha256": "3506148bb55c57e97ada25235ec7f2eb615c4c0fccbb02153dd6c7272c41134b",
+      "sha256_after": "3506148bb55c57e97ada25235ec7f2eb615c4c0fccbb02153dd6c7272c41134b"
+    },
+    {
+      "path": "platform/fermi_review/results/event_subsets/GRB130427A_audit_subset.fits",
+      "sha256": "706b5e4d7f62b2635877f754a7cc208ef9937ff6787b15fa74370865270a867f",
+      "sha256_after": "706b5e4d7f62b2635877f754a7cc208ef9937ff6787b15fa74370865270a867f"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "acd31ce4d0a4561a6baa7efe9abc5c1ba4ccbda75cd3a9b7f84b2cb861ebceea",
+      "sha256_after": "acd31ce4d0a4561a6baa7efe9abc5c1ba4ccbda75cd3a9b7f84b2cb861ebceea"
+    },
+    {
+      "path": "research/amend_manuscripts.py",
+      "sha256": "fbdb7851500ebaeb4ee4c8e221d875ffbf2b4b8de818ebe8474ad7a8a145f60c",
+      "sha256_after": "fbdb7851500ebaeb4ee4c8e221d875ffbf2b4b8de818ebe8474ad7a8a145f60c"
+    },
+    {
+      "path": "research/cassini_odf_audit.py",
+      "sha256": "9feafceb60940a7051e8363c4453fa5b50389209fd6a9e3ddae5f53dfc279e1d",
+      "sha256_after": "9feafceb60940a7051e8363c4453fa5b50389209fd6a9e3ddae5f53dfc279e1d"
+    },
+    {
+      "path": "research/dcae/CONTRACT.md",
+      "sha256": "a60901183ab0e5cdcbb78125e78f3806ef79e4727d24f7fae1ed635629d09063",
+      "sha256_after": "a60901183ab0e5cdcbb78125e78f3806ef79e4727d24f7fae1ed635629d09063"
+    },
+    {
+      "path": "research/dcae/dcae.py",
+      "sha256": "650203a69d7c36ffcd43d264e44c5a097e3a215612121f5b1fa2c1ec55d58cd5",
+      "sha256_after": "650203a69d7c36ffcd43d264e44c5a097e3a215612121f5b1fa2c1ec55d58cd5"
+    },
+    {
+      "path": "research/dcae/validate_manifest.py",
+      "sha256": "0bfa3794c070a466c423483be75892a36832eaf7dea03ce8810338e8d6cbf817",
+      "sha256_after": "0bfa3794c070a466c423483be75892a36832eaf7dea03ce8810338e8d6cbf817"
+    },
+    {
+      "path": "research/dcae/verify.py",
+      "sha256": "ecdf854b6730faa1511b0ddb174f5cd648733e94e76871ecb30656d31b355161",
+      "sha256_after": "ecdf854b6730faa1511b0ddb174f5cd648733e94e76871ecb30656d31b355161"
+    },
+    {
+      "path": "research/dcae_figures.py",
+      "sha256": "1bc6c592cd3999dd863a754a71c63b1fc24bcffabeca0a9087d415e3b5f10d8c",
+      "sha256_after": "1bc6c592cd3999dd863a754a71c63b1fc24bcffabeca0a9087d415e3b5f10d8c"
+    },
+    {
+      "path": "research/dcae_frontier/data/cosmos_2026_boundary.csv",
+      "sha256": "b4713774653c1dbe6ca7dac3e8d8fd9793ecd60988bab9ee6f86c522433fbe65",
+      "sha256_after": "b4713774653c1dbe6ca7dac3e8d8fd9793ecd60988bab9ee6f86c522433fbe65"
+    },
+    {
+      "path": "research/dcae_frontier/data/cosmos_2026_components_table4.csv",
+      "sha256": "d8214afabb6e4c4f353a463f8794ce10b4aa21bda6333a9b0d3c1a8db9edd459",
+      "sha256_after": "d8214afabb6e4c4f353a463f8794ce10b4aa21bda6333a9b0d3c1a8db9edd459"
+    },
+    {
+      "path": "research/dcae_frontier/data/cosmos_2026_loss_table3.csv",
+      "sha256": "5747c368b0d7ea5c8023734135c9dfb28aef59e3974f06ddfcd3a3f45c78e6db",
+      "sha256_after": "5747c368b0d7ea5c8023734135c9dfb28aef59e3974f06ddfcd3a3f45c78e6db"
+    },
+    {
+      "path": "research/dcae_frontier/data/cosmos_2026_walk_table2.csv",
+      "sha256": "58fc06f5ed36ea7593942d7ee1cae363cd37aafe978e4d344f7ede56bd5f334b",
+      "sha256_after": "58fc06f5ed36ea7593942d7ee1cae363cd37aafe978e4d344f7ede56bd5f334b"
+    },
+    {
+      "path": "research/dcae_frontier/data/scsn_degradation.csv",
+      "sha256": "943ec9128c72bfbd0b62bb5ef89c3c41f25c7f74ce278e336dcdf46073719734",
+      "sha256_after": "943ec9128c72bfbd0b62bb5ef89c3c41f25c7f74ce278e336dcdf46073719734"
+    },
+    {
+      "path": "research/dcae_frontier/scripts/fkp_from_cells.py",
+      "sha256": "87fe47b2f3abda916b202a916b35d19bca1199614a341a3d1c0a5261a40fb940",
+      "sha256_after": "87fe47b2f3abda916b202a916b35d19bca1199614a341a3d1c0a5261a40fb940"
+    },
+    {
+      "path": "research/dcae_frontier/scripts/plot_integrated.py",
+      "sha256": "cfe4276f04a0a20253a6d9106e3e96eeadc7e548a86fa271e2f16247f02eb5c3",
+      "sha256_after": "cfe4276f04a0a20253a6d9106e3e96eeadc7e548a86fa271e2f16247f02eb5c3"
+    },
+    {
+      "path": "research/dcae_frontier/scripts/plot_results.py",
+      "sha256": "80d9e8996c19b35c8fe075c1b8074298813aa4d0ca3ea1edad20af2b655948ff",
+      "sha256_after": "80d9e8996c19b35c8fe075c1b8074298813aa4d0ca3ea1edad20af2b655948ff"
+    },
+    {
+      "path": "research/dcae_frontier/scripts/run_analysis.py",
+      "sha256": "fec634567d0f091b744633faed5471261d3ff4c18d45080cdf6f84c9c67ae025",
+      "sha256_after": "fec634567d0f091b744633faed5471261d3ff4c18d45080cdf6f84c9c67ae025"
+    },
+    {
+      "path": "research/dcae_frontier/src/dcae.py",
+      "sha256": "cc3ea124cc715d4730c2902e14e710c480326fabf8a595cea131165fdde3960f",
+      "sha256_after": "cc3ea124cc715d4730c2902e14e710c480326fabf8a595cea131165fdde3960f"
+    },
+    {
+      "path": "research/dcae_frontier/src/fkp.py",
+      "sha256": "be4545494330e7f97356640257b9c6d261c5090dac8c3945af279b98ea8eb50c",
+      "sha256_after": "be4545494330e7f97356640257b9c6d261c5090dac8c3945af279b98ea8eb50c"
+    },
+    {
+      "path": "research/dcae_frontier/tests/test_reanalysis.py",
+      "sha256": "ff4e9924d55409fd9f2cfcd26ebd887d13b087ca5adcdce09e12936e40d0c6f3",
+      "sha256_after": "ff4e9924d55409fd9f2cfcd26ebd887d13b087ca5adcdce09e12936e40d0c6f3"
+    },
+    {
+      "path": "research/fetch_public.py",
+      "sha256": "d1e7794d40391cb7dccfc8078c77a940d319da40e0cefba9dca9a28bc4724040",
+      "sha256_after": "d1e7794d40391cb7dccfc8078c77a940d319da40e0cefba9dca9a28bc4724040"
+    },
+    {
+      "path": "research/figures.py",
+      "sha256": "61ce1aa2cf7fa2c01fb3ba4f239a7f975a126e0c8ae2e4abcc62a28d89f344bd",
+      "sha256_after": "61ce1aa2cf7fa2c01fb3ba4f239a7f975a126e0c8ae2e4abcc62a28d89f344bd"
+    },
+    {
+      "path": "research/fractalgo/CONTRACT.md",
+      "sha256": "e635070d4c8836f25d616867fef0463060d2158ce17a28289261bb1482830619",
+      "sha256_after": "e635070d4c8836f25d616867fef0463060d2158ce17a28289261bb1482830619"
+    },
+    {
+      "path": "research/fractalgo/core.py",
+      "sha256": "379d76cb79918eaf86a4fad6dbad08e9e069baab0cd0889e1bb4f13ecd2a437e",
+      "sha256_after": "379d76cb79918eaf86a4fad6dbad08e9e069baab0cd0889e1bb4f13ecd2a437e"
+    },
+    {
+      "path": "research/fractalgo/figures.py",
+      "sha256": "be7267fe84b43313849af3c8a8ebffafb792fa408fe8e451d826a927c29a666e",
+      "sha256_after": "be7267fe84b43313849af3c8a8ebffafb792fa408fe8e451d826a927c29a666e"
+    },
+    {
+      "path": "research/fractalgo/run_cases.py",
+      "sha256": "f8dfbaac65bfee2122bb42422513bc7a62746f2c9a480e17447daf40a31fab6e",
+      "sha256_after": "f8dfbaac65bfee2122bb42422513bc7a62746f2c9a480e17447daf40a31fab6e"
+    },
+    {
+      "path": "research/fractalgo/test_core.py",
+      "sha256": "75397e28d03abde989062bbc1d0bce162c07917b3e3b56040422410cbe005e05",
+      "sha256_after": "75397e28d03abde989062bbc1d0bce162c07917b3e3b56040422410cbe005e05"
+    },
+    {
+      "path": "research/frontier_figures.py",
+      "sha256": "e2b50bf999758641455e9af09e05cdc30ff0dae04c83f05e676029c8c2c8b7e4",
+      "sha256_after": "e2b50bf999758641455e9af09e05cdc30ff0dae04c83f05e676029c8c2c8b7e4"
+    },
+    {
+      "path": "research/frontier_run.py",
+      "sha256": "d0ecf5030d22b9bd261f6ac189b43208c00d50afd5d2ec9b6886ff86a99130a9",
+      "sha256_after": "d0ecf5030d22b9bd261f6ac189b43208c00d50afd5d2ec9b6886ff86a99130a9"
+    },
+    {
+      "path": "research/gaia_covariance.py",
+      "sha256": "0f46b7946286ad401d810987105c355b1dee5f4b199ecd9faebf29bab932a3c2",
+      "sha256_after": "0f46b7946286ad401d810987105c355b1dee5f4b199ecd9faebf29bab932a3c2"
+    },
+    {
+      "path": "research/inference_checks.py",
+      "sha256": "507208f3293e4a171fea39b62983441d6d86e824f73b2a4f94448ece46227c6e",
+      "sha256_after": "507208f3293e4a171fea39b62983441d6d86e824f73b2a4f94448ece46227c6e"
+    },
+    {
+      "path": "research/mond_diagnostics.py",
+      "sha256": "829294d28d14d361f574604023b6694437124f7742292caa908a785b0376d729",
+      "sha256_after": "829294d28d14d361f574604023b6694437124f7742292caa908a785b0376d729"
+    },
+    {
+      "path": "research/mond_figures.py",
+      "sha256": "6562fad611cf32bdeaf3e5081d6c425cdf76c8f26f3b032befca4fc96dd2f3d9",
+      "sha256_after": "6562fad611cf32bdeaf3e5081d6c425cdf76c8f26f3b032befca4fc96dd2f3d9"
+    },
+    {
+      "path": "research/mond_quadrupole.py",
+      "sha256": "212766f69cb6ac580a4910932725e41eb8ecaf87bfacf88f830718a7784a3caf",
+      "sha256_after": "212766f69cb6ac580a4910932725e41eb8ecaf87bfacf88f830718a7784a3caf"
+    },
+    {
+      "path": "research/physical_checks.py",
+      "sha256": "ae53c789d9d998c428ec491ed3cf08596b0ffb9edf947481befeaa157eb81161",
+      "sha256_after": "ae53c789d9d998c428ec491ed3cf08596b0ffb9edf947481befeaa157eb81161"
+    },
+    {
+      "path": "research/raw/cassini_sagr_bundle.xml",
+      "sha256": "6bc144ab76b49562b69e2a264254581e2252a14cd96ba37066bcb11e9beb2a14",
+      "sha256_after": "6bc144ab76b49562b69e2a264254581e2252a14cd96ba37066bcb11e9beb2a14"
+    },
+    {
+      "path": "research/raw/cassini_sagr_inventory.csv",
+      "sha256": "dc6afc9285123fcf8c7d45bbbb26ffe1669f315275fc2dae2896271daf6809b8",
+      "sha256_after": "dc6afc9285123fcf8c7d45bbbb26ffe1669f315275fc2dae2896271daf6809b8"
+    },
+    {
+      "path": "research/raw/cassini_sagr_sample.dat",
+      "sha256": "8925008e791394d53a73f55d3eefc57b4d0be85360319c7fd44f044aa9185804",
+      "sha256_after": "8925008e791394d53a73f55d3eefc57b4d0be85360319c7fd44f044aa9185804"
+    },
+    {
+      "path": "research/raw/cassini_sagr_sample.xml",
+      "sha256": "d5a19949d9f4fe92e3dc430eb5aa47aed9a3212291364df335c4f49a3faaeb52",
+      "sha256_after": "d5a19949d9f4fe92e3dc430eb5aa47aed9a3212291364df335c4f49a3faaeb52"
+    },
+    {
+      "path": "research/raw/cassini_sce_inventory.csv",
+      "sha256": "f1174b05ff39734f62c1b6524207586ca2fa7b9295e91cb1c2a93477b5b54494",
+      "sha256_after": "f1174b05ff39734f62c1b6524207586ca2fa7b9295e91cb1c2a93477b5b54494"
+    },
+    {
+      "path": "research/raw/gaia_1566.csv",
+      "sha256": "a4e9c3e5944aa026fc8a080be9511c2765b9b00840842949771264615297c30d",
+      "sha256_after": "a4e9c3e5944aa026fc8a080be9511c2765b9b00840842949771264615297c30d"
+    },
+    {
+      "path": "research/raw/gaia_161989.csv",
+      "sha256": "23144d3b32982bac661442075965f595a534413af244064c958664791e83888e",
+      "sha256_after": "23144d3b32982bac661442075965f595a534413af244064c958664791e83888e"
+    },
+    {
+      "path": "research/raw/gaia_1917.csv",
+      "sha256": "dcf91a7b53054c2314273970242c52403721fc7c942a412242381ac734fbd911",
+      "sha256_after": "dcf91a7b53054c2314273970242c52403721fc7c942a412242381ac734fbd911"
+    },
+    {
+      "path": "research/raw/gaia_21.csv",
+      "sha256": "bbc508fc60a343811e5b9dedc7cb9cd29f0b5621bd098d0680cbc3d6f2cd14c4",
+      "sha256_after": "bbc508fc60a343811e5b9dedc7cb9cd29f0b5621bd098d0680cbc3d6f2cd14c4"
+    },
+    {
+      "path": "research/raw/radar_1566.json",
+      "sha256": "e2fee0306269e0d2eaf9a997f7604ea9e24c545aa4ae36a6e19bcf64445d1565",
+      "sha256_after": "e2fee0306269e0d2eaf9a997f7604ea9e24c545aa4ae36a6e19bcf64445d1565"
+    },
+    {
+      "path": "research/raw/radar_161989.json",
+      "sha256": "1dd82b6f9f05b37b3da90e1078f8a64a30480ff0871d22cf7eef24a5d51cbf03",
+      "sha256_after": "1dd82b6f9f05b37b3da90e1078f8a64a30480ff0871d22cf7eef24a5d51cbf03"
+    },
+    {
+      "path": "research/raw/sparc_massmodels.mrt",
+      "sha256": "9108994b12cc401b94a1768beca61c53ec354779385c9c9cc571049f3043244c",
+      "sha256_after": "9108994b12cc401b94a1768beca61c53ec354779385c9c9cc571049f3043244c"
+    },
+    {
+      "path": "research/raw/sparc_sample.mrt",
+      "sha256": "5aa0501f6b0d881fa579030e315e7b5b6ef561a5bd3a07472f9929c7e5728243",
+      "sha256_after": "5aa0501f6b0d881fa579030e315e7b5b6ef561a5bd3a07472f9929c7e5728243"
+    },
+    {
+      "path": "research/revision_v17/audit.py",
+      "sha256": "1adb51ccde12b649e8e6846c3a050c0b516d976c2b72e3b9acc7dba7953e93dc",
+      "sha256_after": "1adb51ccde12b649e8e6846c3a050c0b516d976c2b72e3b9acc7dba7953e93dc"
+    },
+    {
+      "path": "research/revision_v17/cassini.py",
+      "sha256": "be91f31878b0c9fe74e8b7bd3581d3163bc0fdcee3904b796b3f5d6e2ac1f898",
+      "sha256_after": "be91f31878b0c9fe74e8b7bd3581d3163bc0fdcee3904b796b3f5d6e2ac1f898"
+    },
+    {
+      "path": "research/revision_v17/figures.py",
+      "sha256": "92ee4558ec303f631e328aaa942f882ba0b260cc8685b7b87c55fbde1b2d60a4",
+      "sha256_after": "92ee4558ec303f631e328aaa942f882ba0b260cc8685b7b87c55fbde1b2d60a4"
+    },
+    {
+      "path": "research/revision_v17/information.py",
+      "sha256": "4ffdce97bca70a595b3eb1d3f04d4473ae128f51e37e027ad81fa94b5814c559",
+      "sha256_after": "4ffdce97bca70a595b3eb1d3f04d4473ae128f51e37e027ad81fa94b5814c559"
+    },
+    {
+      "path": "research/revision_v18/information_audit.py",
+      "sha256": "f4edf8ee61929e8f0638ba0dc6c4effa7502622d642c5fe104eca7e812ec4a54",
+      "sha256_after": "f4edf8ee61929e8f0638ba0dc6c4effa7502622d642c5fe104eca7e812ec4a54"
+    },
+    {
+      "path": "research/revision_v19/posterior_stability.py",
+      "sha256": "4f3bf5a50063c6bba19aea2a3a938908d1f6901187752ec2bba5bab82f4d13cb",
+      "sha256_after": "4f3bf5a50063c6bba19aea2a3a938908d1f6901187752ec2bba5bab82f4d13cb"
+    },
+    {
+      "path": "run.py",
+      "sha256": "f0813722f33e0e2951aba97955d963697e8f7048a7fcaa8628a79ff698f1a688",
+      "sha256_after": "f0813722f33e0e2951aba97955d963697e8f7048a7fcaa8628a79ff698f1a688"
+    },
+    {
+      "path": "tools/build_epistemic_graph.py",
+      "sha256": "9809521048f8e850cc85355bc04f731cff576644b385f344942e70592a2fa4cf",
+      "sha256_after": "9809521048f8e850cc85355bc04f731cff576644b385f344942e70592a2fa4cf"
+    },
+    {
+      "path": "tools/render_epistemic_print.py",
+      "sha256": "dde9576979d7720a8c58d46cc32addc48f6d4d4be860d0e3455a2d317e339bb2",
+      "sha256_after": "dde9576979d7720a8c58d46cc32addc48f6d4d4be860d0e3455a2d317e339bb2"
+    },
+    {
+      "path": "ui/epistemic/template.html",
+      "sha256": "259249438b958d3d8fb687d43e85379b8364d65a43372a5c71081ba239c067c3",
+      "sha256_after": "259249438b958d3d8fb687d43e85379b8364d65a43372a5c71081ba239c067c3"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "results/contrast_checks.json",
+      "sha256": "45462ba0771d808e6191918090c6a3c93baee207e13aa8c8ec7e0e4397f3ae1f"
+    },
+    {
+      "path": "results/desi_operator.json",
+      "sha256": "ea8855a30d50a7d1d4bc440795f0e49db096dc17d08657e5201f0054385a3796"
+    },
+    {
+      "path": "results/desi_operator_arrays.npz",
+      "sha256": "07d5b250a89e3f3d6a039dd326ac042a68a6092ec18a60124603aee1e64cde5a"
+    },
+    {
+      "path": "results/hierarchical.json",
+      "sha256": "e1d1b55f20aa71fdb22dfdff80fd197233b19bf63eef1f30c4af49eee5db6433"
+    },
+    {
+      "path": "results/hierarchical_arrays.npz",
+      "sha256": "678cbf6637ad3cf7d82df99b756268751a3c17b0e6f20ec38be4215d7750d1f1"
+    },
+    {
+      "path": "results/hierarchical_sensitivity.json",
+      "sha256": "3992cc5f2aed144367f0dabd19c9d253b5ee749ce5975139a9cea9aa45cf1a15"
+    },
+    {
+      "path": "results/number_registry_extended.csv",
+      "sha256": "e297a4bb7b9b9317afeb4a0c77d73df3b865d3ea62731591bb74ef96d16d11bd"
+    },
+    {
+      "path": "results/physics_validation.json",
+      "sha256": "cc5b1465d2628748dbc0a9cb729598341f558027f02c38758860c5e08938473f"
+    },
+    {
+      "path": "results/prior_sensitivity.csv",
+      "sha256": "dc1e37a06882ae7d9db3b57f667b320bec8bbd5ac68fa576f7f7de4989723d91"
+    },
+    {
+      "path": "results/table_hierarchical.md",
+      "sha256": "0cbc8942cbf3e8bc4e88af2a88c0c2616bc66024f3ff747cbbbcaa79e26d1359"
+    },
+    {
+      "path": "results/yukawa_surface.csv",
+      "sha256": "51e100acd477cf617c38b6e46b4b3d15a56f1e1f1d12bce6bc044a7d41ad82ce"
+    },
+    {
+      "path": "results/yukawa_surface_tikz.csv",
+      "sha256": "315fb4ef44688c99ff9b6f56a8eda1f3e09a74b2c26af071d4ae830ad5452725"
+    },
+    {
+      "path": "figures/cadena_observacion.tex",
+      "sha256": "1d4ad11165d346533bb820010f1307d4d77a8cf9e17c1aad3d55f96a2ab0b7e6"
+    },
+    {
+      "path": "figures/casimir_normalizacion.pdf",
+      "sha256": "83ec9011c7d1dd56cc02cd9f22cc5130941667554e1dc3dad554edf2012f8f64"
+    },
+    {
+      "path": "figures/casimir_normalizacion.png",
+      "sha256": "ea57810ec6017d475a90816ee6012a556c856634f2252ae40f5c493ef73ab8ab"
+    },
+    {
+      "path": "figures/casimir_normalizacion.svg",
+      "sha256": "6c3f94bf61e4e7cd91e45a427871843964fb6b7fafd1f5f9214bf9e5ea0c8004"
+    },
+    {
+      "path": "figures/cassini_blocks_en.pdf",
+      "sha256": "dd7db41d8b1a98eb86732abd9658a57ad67fe98f61e54c24fad3e09cbc62a6a0"
+    },
+    {
+      "path": "figures/cassini_blocks_es.pdf",
+      "sha256": "f9c9de1f7504a2bc3b338e094f9f33ba14858327e8d8d3628f67a95d6c2bb3b6"
+    },
+    {
+      "path": "figures/cassini_inyeccion.pdf",
+      "sha256": "c6257b399c0f7f55dcc0db0ae2d5fcd9f448b4b2d8f99bcf681a345549fd652c"
+    },
+    {
+      "path": "figures/cassini_inyeccion.png",
+      "sha256": "128a817bacd9fef919339f2d813e8cfc76dae09d75d42fcd063325144da61ff8"
+    },
+    {
+      "path": "figures/dcae_cosmos_en.pdf",
+      "sha256": "2ccd3223c5157963c1516f9c341de2acf2f13caafe40960d555438bf886c7c6c"
+    },
+    {
+      "path": "figures/dcae_cosmos_es.pdf",
+      "sha256": "19c7fbd3a7eab3b60f54ec60a0fec460059b40325fa1620dbdd98aa7a430e57a"
+    },
+    {
+      "path": "figures/dcae_diagnostics_en.pdf",
+      "sha256": "fad42fb76b077ba79cc612a782ff6e6f1e7062909d3629428002bd4d20d3ab3b"
+    },
+    {
+      "path": "figures/dcae_diagnostics_es.pdf",
+      "sha256": "083b74b3126300bdf9281346ab3d9625f90967fb95f26bd4d46baebece31c7a0"
+    },
+    {
+      "path": "figures/dcae_repair_en.pdf",
+      "sha256": "14e59ebfabed0dc4314baec4455bdcc31252d129c818ba640e44a4945311ce36"
+    },
+    {
+      "path": "figures/dcae_repair_es.pdf",
+      "sha256": "15c38f208f6bfc2344614b5d1f12b9ae6cf170000186977b57ac4f004aa1cf66"
+    },
+    {
+      "path": "figures/desi_operador.pdf",
+      "sha256": "ae513d39904d4e54582ea83b49ee9f9f437d779434c55f7439faa32b00a336f1"
+    },
+    {
+      "path": "figures/desi_operador.png",
+      "sha256": "5886ceeb5551073eab9b550c15cf7fb0477a1922f34311796e012686b55b74a9"
+    },
+    {
+      "path": "figures/desi_operador.svg",
+      "sha256": "6ba4c32aa610da3d8d00ad9a6b099ca89721ffb5a345d8426f60a5c4f7fe7d89"
+    },
+    {
+      "path": "figures/emulador_fisico.pdf",
+      "sha256": "81f991d9cc76840f234ff4a0855b084250418fc521e4ef4f18d6081d56744fa5"
+    },
+    {
+      "path": "figures/emulador_fisico.png",
+      "sha256": "8f28d9c4dedaaf291e5af2b99899d8eddb207f327f234fa9a8804f5a96c212c8"
+    },
+    {
+      "path": "figures/en/cadena_observacion.tex",
+      "sha256": "dfbb8393faef813e8e9b158b724d5a463237e525df8cb37a5e932f6d42ca0da0"
+    },
+    {
+      "path": "figures/en/casimir_normalizacion.pdf",
+      "sha256": "befacf4f9d650943ce7b75b1e4300aaf5c3f30e167e74144d3e0e14f63c798cf"
+    },
+    {
+      "path": "figures/en/casimir_normalizacion.png",
+      "sha256": "a405c3fcf9ac52ee480e650d5a9104b517e8ddbf403f95d6755a7ac34bf6352e"
+    },
+    {
+      "path": "figures/en/casimir_normalizacion.svg",
+      "sha256": "da0af87a18ad600bcf367d5eddd14d3912572b8e1276329ed14fd5f1c864c8ed"
+    },
+    {
+      "path": "figures/en/cassini_inyeccion.pdf",
+      "sha256": "a4080f0c591076b726db9ad26d7e9549ad7b95d2b0fa729411b2b064eb38153d"
+    },
+    {
+      "path": "figures/en/cassini_inyeccion.png",
+      "sha256": "b79b56a2a545630b268a9eb45d967e506527c038ec515a5ee1a5be3c09236633"
+    },
+    {
+      "path": "figures/en/desi_operador.pdf",
+      "sha256": "45ec31677a90884129dba2391216fe0c224af121cc53053ed989f0a30ac4cc3d"
+    },
+    {
+      "path": "figures/en/desi_operador.png",
+      "sha256": "5293181001d824824ff8f73a639bb4c39c9cbd6c2e2b5191fb8b8d0c70d0ca1a"
+    },
+    {
+      "path": "figures/en/desi_operador.svg",
+      "sha256": "c4cf7bea42788ba43caf3990330548509cf6a2bdc5df52376df7938368aa6af4"
+    },
+    {
+      "path": "figures/en/emulador_fisico.pdf",
+      "sha256": "6dcd32d6a539f82dc97e9826cb7ed53ea2c410a0a5a90dc3d9b1c80ad5aece85"
+    },
+    {
+      "path": "figures/en/emulador_fisico.png",
+      "sha256": "8798a6fc6f3de4a273d7284a37179df4a67dee0bd7b402bdd0a08aeb4f7b3be6"
+    },
+    {
+      "path": "figures/en/epistemic_graph.tex",
+      "sha256": "8f692227bfc28e91d42b990a70b994da9c02a9dfac4cccc7aca603da2fee33ca"
+    },
+    {
+      "path": "figures/en/gaia_reconstruction.pdf",
+      "sha256": "2a5364892fdcef0b8200d377a12ab167e09f18443078d8e98350882ba02653c0"
+    },
+    {
+      "path": "figures/en/gaia_reconstruction.png",
+      "sha256": "1bb3bc908402763663a7a1a9583c0336e970d9defb532cb605bc74cd75926f4b"
+    },
+    {
+      "path": "figures/en/jerarquia_diagnosticos.pdf",
+      "sha256": "5e6a057b6eaed08a39d92f201ba80316118306439551dadac7d42d5c8edc5034"
+    },
+    {
+      "path": "figures/en/jerarquia_diagnosticos.png",
+      "sha256": "dc3c79f3d0b26c79f689fb81a8a6b109d8776df0457604e2c9351e8686982874"
+    },
+    {
+      "path": "figures/en/jerarquia_diagnosticos.svg",
+      "sha256": "6b579da364ce8041b50514c141aae901fd0eea62f47f142c46942d007c33b626"
+    },
+    {
+      "path": "figures/en/ley_conjunta.pdf",
+      "sha256": "04bd5e7b49ebec05e72d3b141e77022bdcae0ef9e18543984a2d3bd549e4ec27"
+    },
+    {
+      "path": "figures/en/ley_conjunta.png",
+      "sha256": "7ac04bfa759f548250deb5c2282824acf88452100bad1d2527226e51301dcec3"
+    },
+    {
+      "path": "figures/en/mond_inference_controls.pdf",
+      "sha256": "73c61d42c2b28a68737589affc9293f560cb80093e0766b9ac0c26fec1a1fbd3"
+    },
+    {
+      "path": "figures/en/mond_inference_controls.png",
+      "sha256": "66ff0f989a8b2f090f75c5c727c1bee8f985d80d35ec3fe03018a685e6fa662f"
+    },
+    {
+      "path": "figures/en/mond_quadrupole.pdf",
+      "sha256": "b7c29ea495eeb1726e47dcc7c03d8533fe3742433e8d0037e7e1e10fae422b1e"
+    },
+    {
+      "path": "figures/en/mond_quadrupole.png",
+      "sha256": "22d1aa9c87c430c5253b0db292552582d493f193a151db52a33de3bc8feb3a74"
+    },
+    {
+      "path": "figures/en/orbital_sensitivity.pdf",
+      "sha256": "90e13a96399c63447fa2c1e9d578ff1fee78051a3fcec2e13c823137eca1f150"
+    },
+    {
+      "path": "figures/en/orbital_sensitivity.png",
+      "sha256": "580634cb2812467c9a26686373d58fbccd7cde1212423913111e182f8572b2ad"
+    },
+    {
+      "path": "figures/en/physical_benchmarks.pdf",
+      "sha256": "8c8eea7b5c328ce5b3edbd09da35464aa3ef21397aa1a9e81df2f5bed64eabb8"
+    },
+    {
+      "path": "figures/en/physical_benchmarks.png",
+      "sha256": "443e58410246389753284c65ed2c94a8e7867af7dfb8c2004eff074200414518"
+    },
+    {
+      "path": "figures/en/pooling_control.pdf",
+      "sha256": "e317ba3a6d0110046b4e769beabdeaf675db219b63d9810d932a3d6a91cdaf0d"
+    },
+    {
+      "path": "figures/en/visual_abstract.tex",
+      "sha256": "d4dadae1779f1e8b39d53a03117ff29a8430ee633905c16b41b4817a1f3f51cd"
+    },
+    {
+      "path": "figures/en/yukawa_3d.pdf",
+      "sha256": "a90d91d9f4b3d83334b18afd8d0e86ac4224a537672aaecb3a80e51978c416e8"
+    },
+    {
+      "path": "figures/en/yukawa_3d.png",
+      "sha256": "588dd0cc461fee4cd177ccd372bb9841bcb4d109f9bb204e7e82c3fecfc6c818"
+    },
+    {
+      "path": "figures/en/yukawa_3d.svg",
+      "sha256": "b8217c70f704361e558c3c5b6ca1b39bd39acea1a6127b084aa9688a329cf954"
+    },
+    {
+      "path": "figures/en/yukawa_interactivo.html",
+      "sha256": "1b42da654af6ea03debbdadb573df4e4a4d19f0e9b1161858d259a53cdd91a8d"
+    },
+    {
+      "path": "figures/en/yukawa_pgfplots.tex",
+      "sha256": "5332187de0fa539acc244616ea688fbb6e18af628af9e44c23a0f3b11aebd73f"
+    },
+    {
+      "path": "figures/en/yukawa_tikz_document.tex",
+      "sha256": "8839cc619f5898a67d9ea983e8a2676a94beda71fce6f798b53f4e951bba22b1"
+    },
+    {
+      "path": "figures/es/epistemic_graph.tex",
+      "sha256": "84afc81f3af53f6485cf54c0654840229672f69e6c9e8f384e1b0cca93a02959"
+    },
+    {
+      "path": "figures/es/gaia_reconstruction.pdf",
+      "sha256": "58fb1475f58ca56bacc4910bcec888f444f4e00d03657489db7d08bc7731a2f6"
+    },
+    {
+      "path": "figures/es/gaia_reconstruction.png",
+      "sha256": "a2e47a3b52ede6d9effffe4b71e9ae30c50bf9b4133cd938a24fa685699b1a59"
+    },
+    {
+      "path": "figures/es/mond_inference_controls.pdf",
+      "sha256": "1dbcfe158eb1ebb35b3d68ae2dab01f8eacec57e56f5ab29fe5373bca9e97d09"
+    },
+    {
+      "path": "figures/es/mond_inference_controls.png",
+      "sha256": "6669217b12cacbe155a9a4e359218987989e45b7495f6d679628bb2139c1395c"
+    },
+    {
+      "path": "figures/es/mond_quadrupole.pdf",
+      "sha256": "dedfbc3cee0bb758c2cb36fc4651ba66ed31b199cc07b4525b70c9c166b8c790"
+    },
+    {
+      "path": "figures/es/mond_quadrupole.png",
+      "sha256": "e0fce871bf30b99a4979f1b2caddf7173e4519505f2534a450c4993216688788"
+    },
+    {
+      "path": "figures/es/orbital_sensitivity.pdf",
+      "sha256": "5ff947842d5bfc469ac02299fd1a34317a997e3126e0a4b750e866e64ec6868b"
+    },
+    {
+      "path": "figures/es/orbital_sensitivity.png",
+      "sha256": "fc04d1021a55032dd0ec02f0a41d0585b56900fd55b9101af86dee0454019703"
+    },
+    {
+      "path": "figures/es/physical_benchmarks.pdf",
+      "sha256": "e371b398484c2a0225904098b1f5fbf5e8db3612bf0e9728df5f9bf2c8f88950"
+    },
+    {
+      "path": "figures/es/physical_benchmarks.png",
+      "sha256": "2cb269ae4b800a25194974b8afcff468faa1307528af5302677bd8aefdd740eb"
+    },
+    {
+      "path": "figures/es/pooling_control.pdf",
+      "sha256": "e68a381f6ddc6b79467ae0de5ae52bcebe29b1d7f01439d0fbb4e3603be82f8f"
+    },
+    {
+      "path": "figures/es/visual_abstract.tex",
+      "sha256": "d62f55adc48c3250dcdd2bc15144e6c6dcff729eac9981ba4d24d8f5cf2e6ad9"
+    },
+    {
+      "path": "figures/governance_transport_en.pdf",
+      "sha256": "ad9e946d66174655dcd1e7ddf812ffa2d669dda8035166f881c8644661c3d931"
+    },
+    {
+      "path": "figures/governance_transport_es.pdf",
+      "sha256": "911c41da0245acb4aa81bb1f4799ef4b3a81ec08defeb990860b6b3cf00c51b3"
+    },
+    {
+      "path": "figures/information_retention_en.pdf",
+      "sha256": "3d0430f9e3b313ade704a23a0fca7433c950878be00c4bf9f811dfa5d1389357"
+    },
+    {
+      "path": "figures/information_retention_es.pdf",
+      "sha256": "ad459fa1d04c23557a37eaca37e43a8224e86dcd4de6ec297118dbaff1487688"
+    },
+    {
+      "path": "figures/jerarquia_diagnosticos.pdf",
+      "sha256": "c2eb9d00e44b004e72661bdd081b519d92e4f71b19d5ab28541aa99957d1be48"
+    },
+    {
+      "path": "figures/jerarquia_diagnosticos.png",
+      "sha256": "42829c40a027f219b83fb34bcaecd80668d263d01abd471b859dfec832667025"
+    },
+    {
+      "path": "figures/jerarquia_diagnosticos.svg",
+      "sha256": "76d5c667ffe101be341a55461282a6c715489c0cd0b25bf493aa1b244f02c17c"
+    },
+    {
+      "path": "figures/ley_conjunta.pdf",
+      "sha256": "220b23ce7661ce5e5797c89c2d884a676a6e5056f7ae349fb2cda52b9d829a99"
+    },
+    {
+      "path": "figures/ley_conjunta.png",
+      "sha256": "247b3376cb75abd358658755b1d12a7ba67fd207552953bf8dc1d854ccb34e7a"
+    },
+    {
+      "path": "figures/orcid_green.svg",
+      "sha256": "2a7f7213afd3ef1c64a31e80e312da5834d2543cd35e08be26b5b87452840fbd"
+    },
+    {
+      "path": "figures/orcid_white.svg",
+      "sha256": "c1690d952f73a28fed3bb70ed8d3470d0e0d291fdd28ae88d1ce71f3e79b8513"
+    },
+    {
+      "path": "figures/threshold_audit_en.pdf",
+      "sha256": "8b1a785ac6877cb14ed0b17fc7e7daf5f757f0f4fc208c6bdd133805efa88e10"
+    },
+    {
+      "path": "figures/threshold_audit_es.pdf",
+      "sha256": "ae7addd5d739cce033c1eba379eac734315b90cf6e62937616918931c26cc0b4"
+    },
+    {
+      "path": "figures/topology_cassini_en.pdf",
+      "sha256": "e23e904cac29d7579c068bbeb3671d177981a589c6c983515a13ebce1618c717"
+    },
+    {
+      "path": "figures/topology_cassini_es.pdf",
+      "sha256": "4ef35e0ab61e1b05fb9ced797d0a6325613382344a2ea47263f5a1c1030c20d8"
+    },
+    {
+      "path": "figures/topology_gp_en.pdf",
+      "sha256": "6119692f49222c0a5f28e5307079a9de617c99e9a9a30649cb05598f67584d48"
+    },
+    {
+      "path": "figures/topology_gp_es.pdf",
+      "sha256": "ab414ccef23ad48690e502f2dc7fca081a93eb0f57c467c1060402aeb0211fd5"
+    },
+    {
+      "path": "figures/yukawa_3d.pdf",
+      "sha256": "9a81f0270402578c5851193063503d492ca488cf2dd2315aa62eca396b29c8ae"
+    },
+    {
+      "path": "figures/yukawa_3d.png",
+      "sha256": "e402f1ebdeda89e5e093ecce10b575cc15b9bf7c82c78e2ccfed2870ef37f146"
+    },
+    {
+      "path": "figures/yukawa_3d.svg",
+      "sha256": "a9a5a7ffff8ff726679f81b6e4d26bec34b91aa623f48f36e2511932529ab4bf"
+    },
+    {
+      "path": "figures/yukawa_interactivo.html",
+      "sha256": "e2fec0130e740152b316d644b969c2c374f9a53c4cf431f9f7cacd9aeb631d5e"
+    },
+    {
+      "path": "figures/yukawa_pgfplots.tex",
+      "sha256": "e9b02cbdd280fb96182da2d2889fad309fd92d17bc49aea67e109dbfe5819dc9"
+    },
+    {
+      "path": "figures/yukawa_tikz_document.pdf",
+      "sha256": "7968038710102bb36ff8e64c355a84b7bb1be586fbd18fb6d7aa576d8d7e2789"
+    },
+    {
+      "path": "figures/yukawa_tikz_document.tex",
+      "sha256": "30e152e7acd02add1f5005ccf41c4f9619dcc15f062c9ca78f5c9cabe32012a4"
+    },
+    {
+      "path": "analyses/gp/results/compton_consistency.json",
+      "sha256": "05503d9da2f74bda4000cf502ccf2459f4b2f9cdf0d06937e66ec5dd32c4b26a"
+    },
+    {
+      "path": "analyses/gp/results/gp_cassini_refits.csv",
+      "sha256": "35a9af14251b99d7ae2f416969d24b938223eb925c8f532b7bd320d592e00bd1"
+    },
+    {
+      "path": "analyses/gp/results/gp_cassini_refits.json",
+      "sha256": "3bd7fe8f8396974a65b6f47e50a282fc87eae21731fdb7b0004be17e46ca2dc5"
+    },
+    {
+      "path": "analyses/gp/results/gp_cassini_weights.npz",
+      "sha256": "6fe9e580a8f3adc2ad1a080ea24bb15a79ccc6d0aac02ad278e3334c90bfc805"
+    },
+    {
+      "path": "analyses/gp/results/gp_emulator.csv",
+      "sha256": "28b1101f7a46a520b55d42c9c5ddc0cb3b956e7f8ff518fa881398e2fa252188"
+    },
+    {
+      "path": "analyses/gp/results/gp_emulator.json",
+      "sha256": "ed372e040e836deb207700774ce1cd553935655fe084b36e73f6462ab4949fe7"
+    },
+    {
+      "path": "analyses/gp/results/gp_emulator_curves.npz",
+      "sha256": "78fd9d32b5c99bcfadc99efc6934410a25be53af32d8f0c5c78560555d3287c1"
+    },
+    {
+      "path": "analyses/gp/results/gp_realizations.csv",
+      "sha256": "98fca1f87bf578e6223dba1ae5451873a082f39a2ec0f68d0762d650556047ef"
+    },
+    {
+      "path": "analyses/gp/results/gp_realizations.json",
+      "sha256": "04295561626f8cf677622fd332e362e8ec74a8d9e7af7e1e5a43d3ba7bf5615f"
+    },
+    {
+      "path": "analyses/gp/results/gp_realizations_curves.npz",
+      "sha256": "b7ff159de1f01bd095a70c663e34867b2a0935736049950244bfff1a87a14a54"
+    },
+    {
+      "path": "analyses/gp/results/independent_checks.json",
+      "sha256": "fb911e8fe1f83e6825601d0399056a0daf54462d05105b70da9a3f108bea41c0"
+    },
+    {
+      "path": "analyses/gp/results/number_registry.csv",
+      "sha256": "f31501914d70506ad1004f105097f93427081d54ba888526708a39ba695b9835"
+    },
+    {
+      "path": "analyses/gp/results/number_registry.json",
+      "sha256": "6c62f00aa08b4dbdd810b62e6a9e9e136c2d92a0d529d25a833fd3df976413d7"
+    },
+    {
+      "path": "analyses/casimir/results/casimir_audit.json",
+      "sha256": "6c77a9420ca8c37ba2361a39c1b163cdcc653214e6661a5322c33e4798131fc6"
+    },
+    {
+      "path": "analyses/casimir/results/casimir_pressure_comparison.csv",
+      "sha256": "6e6678fec5b0c92f9caa2223f471156750447a2af8ac9bc9b6dfe23f30baeb66"
+    },
+    {
+      "path": "research/results/cassini_odf_audit.json",
+      "sha256": "72cb4cc8a54925e47bfa2799ca390a01a9022f2e015b9937c257fb6f2069f390"
+    },
+    {
+      "path": "research/results/cassini_odf_decoded_index.csv",
+      "sha256": "f779b597f803c72953c4c9a0328aaaf37184adeb5173bef20f96ed8dee7621bb"
+    },
+    {
+      "path": "research/results/gaia_covariance.json",
+      "sha256": "0595395fa331d42507e22240dc7776470308bbf31478b807cd2e88f25fdcda49"
+    },
+    {
+      "path": "research/results/gaia_covariance_transits.csv",
+      "sha256": "15738580482077bbb007b331beb892dc2e5697619308b9f6d9e63b34d993f977"
+    },
+    {
+      "path": "research/results/inference_checks.json",
+      "sha256": "b6d977d349926a463fe355fde96e24ed45906a0ce9c5cf53c2eff646c4e31d3f"
+    },
+    {
+      "path": "research/results/mond_diagnostics.json",
+      "sha256": "05f58cbdcc86fea2e38ae3e937a61b2a3e9d573ba8d63e8efd0dd5615785ecfd"
+    },
+    {
+      "path": "research/results/mond_quadrupole.json",
+      "sha256": "c6e63bfae0b997cbfd8b4e4733b32d8b3d5ed6a56d1b368bb0afe446917a0aa6"
+    },
+    {
+      "path": "research/results/physical_checks.json",
+      "sha256": "96622160c87e991dafa97ab165bb84170caf1b4756ffe122dc90ca8ca790e9d6"
+    },
+    {
+      "path": "research/results/radar_inventory.json",
+      "sha256": "b34a6cc54e27ffcb7ab15e8372e8e8b01eceea247f3f0f465b02515aa4e4c98d"
+    },
+    {
+      "path": "research/results/sparc_ngc2403_control.csv",
+      "sha256": "ed9fcdb5f96ca9738dea52e025efb7f67922c6fccd95ef75efc4a8a6ccd80c2b"
+    },
+    {
+      "path": "research/dcae/results/checks.json",
+      "sha256": "99c32fd9c5390a330af0cbe347f229a512808483c843ec4856432a3d0ba1e557"
+    },
+    {
+      "path": "research/dcae/results/null_bias.csv",
+      "sha256": "28cae4899253694dcd0d71460b41c908890ebb65ae3165ef4e39ec9d1e45922a"
+    },
+    {
+      "path": "research/dcae/figures/diagnostics_EN.pdf",
+      "sha256": "fad42fb76b077ba79cc612a782ff6e6f1e7062909d3629428002bd4d20d3ab3b"
+    },
+    {
+      "path": "research/dcae/figures/diagnostics_ES.pdf",
+      "sha256": "083b74b3126300bdf9281346ab3d9625f90967fb95f26bd4d46baebece31c7a0"
+    },
+    {
+      "path": "research/dcae/figures/repair_EN.pdf",
+      "sha256": "14e59ebfabed0dc4314baec4455bdcc31252d129c818ba640e44a4945311ce36"
+    },
+    {
+      "path": "research/dcae/figures/repair_ES.pdf",
+      "sha256": "15c38f208f6bfc2344614b5d1f12b9ae6cf170000186977b57ac4f004aa1cf66"
+    },
+    {
+      "path": "research/dcae/records/computation_manifest.json",
+      "sha256": "6d279fecef1609388df3c67842a6ce6fe9f0c3141dcdb98bda2db5d388137cca"
+    },
+    {
+      "path": "research/dcae/records/document_build.json",
+      "sha256": "5ddc375c2fd59d1f3ba0f087208def85439891b6bb31f652a467f0b014dc6acf"
+    },
+    {
+      "path": "research/dcae_frontier/results/PLOTS_STDOUT.txt",
+      "sha256": "cee77b7d88fb575b905b10a87f58dce0c623eb064d63cc3cc49733d2aab7c179"
+    },
+    {
+      "path": "research/dcae_frontier/results/REANALYSIS.json",
+      "sha256": "c100820ca3acffbc11f5bd29f0c699588010f8f684cf9741f6dee1dc33013800"
+    },
+    {
+      "path": "research/dcae_frontier/results/RUN_STDOUT.json",
+      "sha256": "7845856ef7a0785eb9965994bbd8ca07f80447e27cb208b44ad8301343a18cc5"
+    },
+    {
+      "path": "research/dcae_frontier/results/TESTS.txt",
+      "sha256": "5fd34b9af6979639e674e1f7c8ed0bcabe5e57ad4197e6e217f653e6bdc80341"
+    },
+    {
+      "path": "research/dcae_frontier/records/analysis.log",
+      "sha256": "7845856ef7a0785eb9965994bbd8ca07f80447e27cb208b44ad8301343a18cc5"
+    },
+    {
+      "path": "research/dcae_frontier/records/execution.json",
+      "sha256": "5d8c3ebeadf818d863f06e390a78ee4b526268905ef09ee34a09fc3bc47a8aa8"
+    },
+    {
+      "path": "research/dcae_frontier/records/figures.log",
+      "sha256": "2192c434cbf35a07685f41c7fa1d76b2de9c98551694b673c8fdadd46d586a35"
+    },
+    {
+      "path": "research/dcae_frontier/records/horvitz_thompson_metadata.json",
+      "sha256": "f2f149d362add4c871091bcb9c1d7e509ec359395a7bb5b91f900bb8a7166cbd"
+    },
+    {
+      "path": "research/dcae_frontier/records/source_audit.json",
+      "sha256": "fee931579dc3c2b5df7b41e2ac5a57931ed2c339fa69af5632f8e8b6cddb5c1b"
+    },
+    {
+      "path": "research/dcae_frontier/records/tests.log",
+      "sha256": "179973aad319acf8a0922ed5b9847cb345595ed33a715b2651956f1753b43080"
+    },
+    {
+      "path": "research/dcae_frontier/figures/cosmos_en.pdf",
+      "sha256": "2ccd3223c5157963c1516f9c341de2acf2f13caafe40960d555438bf886c7c6c"
+    },
+    {
+      "path": "research/dcae_frontier/figures/cosmos_en.png",
+      "sha256": "6971f046c8afcb447dc93381e98cbdc5f6d98419a70f6570745d399311107fc6"
+    },
+    {
+      "path": "research/dcae_frontier/figures/cosmos_es.pdf",
+      "sha256": "19c7fbd3a7eab3b60f54ec60a0fec460059b40325fa1620dbdd98aa7a430e57a"
+    },
+    {
+      "path": "research/dcae_frontier/figures/cosmos_es.png",
+      "sha256": "059648e1a8500eaf32b92b0a349d3aacd8edd4b8e91bb865b858931ad53571ed"
+    },
+    {
+      "path": "research/revision_v17/results/audit.json",
+      "sha256": "b93e8609f5190addab329ce4343550a75cff32c21746700efaac5cb857abe0e5"
+    },
+    {
+      "path": "research/revision_v17/results/cassini.json",
+      "sha256": "7de3826d81a0c7acb037ddcaa407609e588047bb3edc36eb94643335f656da26"
+    },
+    {
+      "path": "research/revision_v17/results/information.json",
+      "sha256": "5350b5e5ed555b89b9acde33ba3336251bcb5d0d8a8eaab56851953a3049b53a"
+    },
+    {
+      "path": "research/revision_v18/results/information_audit.json",
+      "sha256": "1421ef3c1ba8c149e355cd03fed9b36136aab5ba21eb4ac84aed828616c8bdab"
+    },
+    {
+      "path": "ui/epistemic/epistemic_graph_en.html",
+      "sha256": "289bc44d1759904098ea27a44aec84951c9aa200b5daea52c3f22576993185b6"
+    },
+    {
+      "path": "ui/epistemic/epistemic_graph_es.html",
+      "sha256": "c00195f0e707ce5d30b1a671ddb65ea77ecd8e08ca15621a2f496f1259600bba"
+    },
+    {
+      "path": "ui/epistemic/graph.json",
+      "sha256": "44a40eedc90b22cd641e478fb128235e535f13dd341dcf8ce9c59e5e45b8304b"
+    },
+    {
+      "path": "ui/epistemic/template.html",
+      "sha256": "259249438b958d3d8fb687d43e85379b8364d65a43372a5c71081ba239c067c3"
+    },
+    {
+      "path": "ui/epistemic/validation.json",
+      "sha256": "8382861b62b0360ed946a61dc3ef437c8523e75f825bca6f62bc807807f588f8"
+    },
+    {
+      "path": "platform/audit_runs/verification.json",
+      "sha256": "a001f101ddf5f9e5e68d33261b2a28590ddd2835e5f398a2b795267e65547690"
+    },
+    {
+      "path": "research/revision_v19/results/posterior_stability.json",
+      "sha256": "0c3605ea580662475fc7eeb7e4e15c4bda3b6b6ed875cad6d3b7a56b835c5153"
+    },
+    {
+      "path": "platform/fermi_review/results/Fermi_catalog_EN.pdf",
+      "sha256": "5c783eeee1addbcc22063df76f4d7b2d316e46a74dbeefea235413a604edcf4a"
+    },
+    {
+      "path": "platform/fermi_review/results/Fermi_catalog_EN.png",
+      "sha256": "a8dea99bd655e050829716db01f53ed7e33945d52af43b7ba132e0c349865335"
+    },
+    {
+      "path": "platform/fermi_review/results/Fermi_catalog_ES.pdf",
+      "sha256": "f564bf7113a6510b465f096b6aa16f15bf15835ab31851d4cc2d30c5fc752974"
+    },
+    {
+      "path": "platform/fermi_review/results/Fermi_catalog_ES.png",
+      "sha256": "c172a608e6c7a10a387c666ef359d6899bbc655954167f77cef012e0f8da196e"
+    },
+    {
+      "path": "platform/fermi_review/results/NASA_HEASARC_FERMILGRB.csv",
+      "sha256": "5b83ef600c85b65c74abcc7db0acb18e1eff7a476d111e79fe415da920648742"
+    },
+    {
+      "path": "platform/fermi_review/results/catalog_audit.json",
+      "sha256": "4e46f42aaa113fc54a8b5e0c44dd4cb0231b475755b5290f8c21918269878844"
+    },
+    {
+      "path": "platform/fermi_review/results/catalog_onset_redshift_selected.csv",
+      "sha256": "a9ce7365c7a729e3db45b5fade8ae095a25559e5edf1808a4c181ca6db5008a1"
+    },
+    {
+      "path": "platform/fermi_review/results/event_subsets/GRB080916C_audit_subset.csv",
+      "sha256": "f3711f2eabe5e7a9ebe8156ade75c96454d1992e61131ff0131c21e6ed661f5b"
+    },
+    {
+      "path": "platform/fermi_review/results/event_subsets/GRB080916C_audit_subset.fits",
+      "sha256": "8fb89b00ff6ff2ee1abbf99308da4a7ebbe0d20fa9d64cc5e9b5c9d89d333a78"
+    },
+    {
+      "path": "platform/fermi_review/results/event_subsets/GRB090510_audit_subset.csv",
+      "sha256": "e0c3a035acc6782837cb37e3c8e0665dce2137d4ba200c9c7f91c0320ef051b8"
+    },
+    {
+      "path": "platform/fermi_review/results/event_subsets/GRB090510_audit_subset.fits",
+      "sha256": "2ca0bb036aeb660eedaedd30311619a9a962198f7325a0cbcb92796b2ad75211"
+    },
+    {
+      "path": "platform/fermi_review/results/event_subsets/GRB090902B_audit_subset.csv",
+      "sha256": "524b001606932b106eea3979f333eb7aab91336199c37495859e0f60516be9fb"
+    },
+    {
+      "path": "platform/fermi_review/results/event_subsets/GRB090902B_audit_subset.fits",
+      "sha256": "fb10cccdb27272d674c906fbe562c512f3a5587f2762f4fb61fbe5a5e5ee77e4"
+    },
+    {
+      "path": "platform/fermi_review/results/event_subsets/GRB130427A_audit_subset.csv",
+      "sha256": "3506148bb55c57e97ada25235ec7f2eb615c4c0fccbb02153dd6c7272c41134b"
+    },
+    {
+      "path": "platform/fermi_review/results/event_subsets/GRB130427A_audit_subset.fits",
+      "sha256": "706b5e4d7f62b2635877f754a7cc208ef9937ff6787b15fa74370865270a867f"
+    },
+    {
+      "path": "platform/fermi_review/results/final_validation.json",
+      "sha256": "06707bfe727db70cdb57a01cff5159624379f91710b7b29d9d1932e240f947c2"
+    },
+    {
+      "path": "platform/fermi_review/results/hunter_exact_replay.json",
+      "sha256": "b33d151abe632c1d6cbb88b49f2fc6fa19c4466048627fb81dd6b1fdd6319c21"
+    },
+    {
+      "path": "platform/fermi_review/results/hunter_exact_replay_stdout.txt",
+      "sha256": "ef69d6c6edb4d638df4f173bfa9e60c98988e570aeb043cb3b6087a3259589b9"
+    },
+    {
+      "path": "platform/fermi_review/results/hunter_inventory.json",
+      "sha256": "6c2b419df5ca740fa7b6c73302c24637cbf61eebc0dffcb3a54f567f96b842f9"
+    },
+    {
+      "path": "platform/fermi_review/results/originals_audit.json",
+      "sha256": "70a55bec6e690f84dec6d937ba7618f50a9d9bed1dee249022cdf3e1791f4b9a"
+    },
+    {
+      "path": "platform/fermi_review/results/weekly_recovery.json",
+      "sha256": "f68ebe56ce484dc025c389edb811f3039433727971233809065301585ec8e7a0"
+    },
+    {
+      "path": "platform/fermi_review/photon_followup/results/GRB080916C_1000s_bootstrap.npy",
+      "sha256": "1f38f480433c5ecdbf8a8d2347079891bc237a25507f9e843ee71ffcb0f43c26"
+    },
+    {
+      "path": "platform/fermi_review/photon_followup/results/GRB080916C_100s_bootstrap.npy",
+      "sha256": "4d697456e8e02afcd422d4320b2350e656a283ae4c00c6b27efba62b03548f27"
+    },
+    {
+      "path": "platform/fermi_review/photon_followup/results/GRB080916C_screened_events.csv",
+      "sha256": "26b3349249a41fc8ce70e3c389f9b16d6c528d301599dbfd289f7073c0774cf7"
+    },
+    {
+      "path": "platform/fermi_review/photon_followup/results/GRB090510_1000s_bootstrap.npy",
+      "sha256": "04108dba44beac7917d70e40992e1675d2f42401f389bc12f82c5dd1c606b771"
+    },
+    {
+      "path": "platform/fermi_review/photon_followup/results/GRB090510_100s_bootstrap.npy",
+      "sha256": "2e06ca0b5f68679b31b5523d7e054a35f95dfb05aad8f84e387fc7f192f3de2a"
+    },
+    {
+      "path": "platform/fermi_review/photon_followup/results/GRB090510_10s_bootstrap.npy",
+      "sha256": "7a7da19762f7ab4a45ef4b3c339ab25b753110743ff4735c8eccd9dd57f81912"
+    },
+    {
+      "path": "platform/fermi_review/photon_followup/results/GRB090510_screened_events.csv",
+      "sha256": "303cc7e8c034485914799f6e580594fd3ce704d28dcb1dfa260ce0e1f3a1757f"
+    },
+    {
+      "path": "platform/fermi_review/photon_followup/results/GRB090902B_1000s_bootstrap.npy",
+      "sha256": "4c78cf1cec31c88820d8187748bfa4c4550f1ae3b622c2f71a0391987f12f301"
+    },
+    {
+      "path": "platform/fermi_review/photon_followup/results/GRB090902B_100s_bootstrap.npy",
+      "sha256": "dc337500132c18134732d6443cd4167b94ac52589eb5e7aec65a817d9c25fefc"
+    },
+    {
+      "path": "platform/fermi_review/photon_followup/results/GRB090902B_10s_bootstrap.npy",
+      "sha256": "23230a8ef68ecefce12c5811170a5e3c5bff3a80b42c4a6e6543b3b8c147146b"
+    },
+    {
+      "path": "platform/fermi_review/photon_followup/results/GRB090902B_screened_events.csv",
+      "sha256": "91cf9472a6c94cf3c3a8eb8f3652ace67e680b27955faa33bdaa089ec1687056"
+    },
+    {
+      "path": "platform/fermi_review/photon_followup/results/GRB130427A_1000s_bootstrap.npy",
+      "sha256": "ddc199994a8412e0c8dce6c86f39c305e7600d11fef22020eb16767b060287e9"
+    },
+    {
+      "path": "platform/fermi_review/photon_followup/results/GRB130427A_100s_bootstrap.npy",
+      "sha256": "c7df1b98a469036f5e3d0d2ad22ea245060afc7cb8a8b6a273234f7fb019cd43"
+    },
+    {
+      "path": "platform/fermi_review/photon_followup/results/GRB130427A_screened_events.csv",
+      "sha256": "c3e573e5e6ce73eb87a4765e6c74aeece9afe3efbdf2560293912763c05ac815"
+    },
+    {
+      "path": "platform/fermi_review/photon_followup/results/cutflow.csv",
+      "sha256": "237332a180f90751a6686395ced161239e49f58d7932fff9bd2d23d860c20715"
+    },
+    {
+      "path": "platform/fermi_review/photon_followup/results/execution.json",
+      "sha256": "85cb157141bd3da5cbfb92a82dd4811ce33407f47d12b32b74c49add8272e9e2"
+    },
+    {
+      "path": "platform/fermi_review/photon_followup/results/livetime.csv",
+      "sha256": "f9276cd87ea6f920a3c6eacebd949bb087c87ea3b201f9bc715bc08b0f9380d4"
+    },
+    {
+      "path": "platform/fermi_review/photon_followup/results/photon_timing_EN.pdf",
+      "sha256": "d3292ed6cb3c7a4d06dc4b6776a4d68cd7d581d3e1dc65d0a95a32ee44f63dc7"
+    },
+    {
+      "path": "platform/fermi_review/photon_followup/results/photon_timing_EN.png",
+      "sha256": "b95d849e66c8a325d9c1af4d933045d898792360bd2b49904be01c94cf53de7b"
+    },
+    {
+      "path": "platform/fermi_review/photon_followup/results/photon_timing_ES.pdf",
+      "sha256": "71de173ccfd9d904d1d7f8277cf56c34c9bd0a3b56651654332cad8efe19d1d3"
+    },
+    {
+      "path": "platform/fermi_review/photon_followup/results/photon_timing_ES.png",
+      "sha256": "944e0ab18f285e4fa0d8142651d641bc6a2427a1d52642bcc5c472d602226de2"
+    },
+    {
+      "path": "platform/fermi_review/photon_followup/results/timing_contrasts.csv",
+      "sha256": "597b197a3667082232ea9cd45d828fb1c24776b72c71120e7ae914f8b06b4da5"
+    },
+    {
+      "path": "research/fractalgo/results/cassini.json",
+      "sha256": "2f9f8641871d666c7093b86442ba1312243e4a108bf240896f39419a0f3413ee"
+    },
+    {
+      "path": "research/fractalgo/results/cassini_graph.json",
+      "sha256": "e7637518f49e7fe3f490a62ee89414dd6eba2bddc8f88db71b804887ea0612c4"
+    },
+    {
+      "path": "research/fractalgo/results/cassini_predictive_draws.npz",
+      "sha256": "c4d28a1077f2c7363c062cec07ffc68557fc56752b80790fed2731113c4a3659"
+    },
+    {
+      "path": "research/fractalgo/results/gp.json",
+      "sha256": "2e3c3c71428e03c5300d9e9d758e91c779df15d714decebb1703c598bd85be77"
+    },
+    {
+      "path": "research/fractalgo/results/gp_draws.csv",
+      "sha256": "f7a5b781f63b5b7b8d2c09b527df006b0bfa550c8e1a79819c82bde4ef00d972"
+    },
+    {
+      "path": "research/fractalgo/results/gp_inputs_and_draws.npz",
+      "sha256": "031ca30124ce8172418d05ac0dbec13b5e7266f722556945c4a2b5b30a6925c4"
+    },
+    {
+      "path": "research/fractalgo/results/tests.json",
+      "sha256": "4b2c9ef51467808f3f7fc37a25db9f29b2fa58f0e4416092cab185314afad111"
+    },
+    {
+      "path": "research/fractalgo/results/topology_cassini_en.png",
+      "sha256": "54b8120c704dd2d92088c7edd44f7c9581c8b48b0dfe399ef45c9b6e73bb7d1f"
+    },
+    {
+      "path": "research/fractalgo/results/topology_cassini_es.png",
+      "sha256": "940ff2b26bd158726af329235f5ec4bc071ba9f55d9efdb21d69fba1b646ab07"
+    },
+    {
+      "path": "research/fractalgo/results/topology_gp_en.png",
+      "sha256": "9f52235510034d59f32cd849c9bc021fa2bcc50671cc125414ae76b302fae134"
+    },
+    {
+      "path": "research/fractalgo/results/topology_gp_es.png",
+      "sha256": "dd8b7052cff65a24ab6abdc5c9df2027ea204e835a8d5539ea79e3b31e730c2c"
+    }
+  ],
+  "checks": {
+    "inputs_unchanged": true,
+    "commands_completed": 41
+  },
+  "result": "Numerical execution passed; temporal posterior predictive discrepancy remains scientifically unresolved",
+  "residual_risks": [
+    "Fixed temporal kernel and empirical baseline weights",
+    "Conditional reconstruction inherited",
+    "Priors are scenarios without independent calibration",
+    "Windows/macOS launchers not executed on those OSs; Colab cloud runtime not externally tested"
+  ]
+}

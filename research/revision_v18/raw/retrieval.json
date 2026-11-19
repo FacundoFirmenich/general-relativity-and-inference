@@ -1,0 +1,39 @@
+[
+  {
+    "key": "renyi1961",
+    "url": "https://digitalassets.lib.berkeley.edu/math/ucb/text/math_s4_v1_article-27.pdf",
+    "status": 200,
+    "pdf": true,
+    "bytes": 879484,
+    "sha256": "1f653d4192b783b8b87cc40cff788c17a2d04da9eb766f6614bd6f69339ea6fa"
+  },
+  {
+    "key": "renyi2014",
+    "url": "https://arxiv.org/pdf/1206.2459",
+    "status": 200,
+    "pdf": true,
+    "bytes": 994194,
+    "sha256": "f59d9ba87db4099093f313d6309f8ab68925cb8638d8acbc1d5fcd87d4b5bb27"
+  },
+  {
+    "key": "cassini2003",
+    "url": "https://www.nature.com/articles/nature01997.pdf",
+    "status": 200,
+    "pdf": false,
+    "bytes": 268114,
+    "sha256": "4f6c509ffb8fae95c9714a28f5ec3aceda8102c3665109279946e782a3e76be3"
+  },
+  {
+    "key": "shannon1948",
+    "url": "https://web.mit.edu/6.441/spring05/reading/shannon1948.pdf",
+    "status": 200,
+    "pdf": true,
+    "bytes": 366296,
+    "sha256": "6e4e3411984f3edf99dbfe8b941cb5e8a321379ff0cae6ae5c1f592ad8882ca8"
+  },
+  {
+    "key": "iec_panasonic",
+    "url": "https://www.ttieurope.com/content/dam/tti-europe/manufacturers/panasonic/resources/Appendix.pdf",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

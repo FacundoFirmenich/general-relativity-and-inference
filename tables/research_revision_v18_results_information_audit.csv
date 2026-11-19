@@ -1,0 +1,297 @@
+field / campo,value / valor
+/scope,Exact statistical controls and source-specific arithmetic; no new physical observations
+/logarithm_base,natural
+/renyi/0/orientation,coherent_to_independent
+/renyi/0/order,0.5
+/renyi/0/value,1.106911091482805
+/renyi/0/status,FINITE
+/renyi/0/rank/0,2
+/renyi/0/rank/1,2
+/renyi/0/rank_rtol,1e-10
+/renyi/0/reason,common-support Gaussian overlap
+/renyi/1/orientation,coherent_to_independent
+/renyi/1/order,1.0
+/renyi/1/value,1.4025850929940458
+/renyi/1/status,FINITE
+/renyi/1/rank/0,2
+/renyi/1/rank/1,2
+/renyi/1/rank_rtol,1e-10
+/renyi/1/reason,KL limit
+/renyi/2/orientation,coherent_to_independent
+/renyi/2/order,2.0
+/renyi/2/value,1.660731206821651
+/renyi/2/status,FINITE
+/renyi/2/rank/0,2
+/renyi/2/rank/1,2
+/renyi/2/rank_rtol,1e-10
+/renyi/2/reason,common-support Gaussian overlap
+/renyi/3/orientation,independent_to_coherent
+/renyi/3/order,0.5
+/renyi/3/value,1.106911091482805
+/renyi/3/status,FINITE
+/renyi/3/rank/0,2
+/renyi/3/rank/1,2
+/renyi/3/rank_rtol,1e-10
+/renyi/3/reason,common-support Gaussian overlap
+/renyi/4/orientation,independent_to_coherent
+/renyi/4/order,1.0
+/renyi/4/value,6.697414907005958
+/renyi/4/status,FINITE
+/renyi/4/rank/0,2
+/renyi/4/rank/1,2
+/renyi/4/rank_rtol,1e-10
+/renyi/4/reason,KL limit
+/renyi/5/orientation,independent_to_coherent
+/renyi/5/order,2.0
+/renyi/5/value,
+/renyi/5/status,INFINITE
+/renyi/5/rank/0,2
+/renyi/5/rank/1,2
+/renyi/5/rank_rtol,1e-10
+/renyi/5/reason,overlap precision not numerically positive definite
+/mixture/noise_sd/0,1.0
+/mixture/noise_sd/1,3.0
+/mixture/prior_label_weights/0,0.5
+/mixture/prior_label_weights/1,0.5
+/mixture/Fisher_mixture,0.3455094101598565
+/mixture/oracle_Fisher,0.5555555555555556
+/mixture/Fisher_quad_error,1.008443901524268e-11
+/mixture/scenarios/0/prior_variance,0.25
+/mixture/scenarios/0/Fisher_mixture,0.3455094101598565
+/mixture/scenarios/0/prior_Fisher,4.0
+/mixture/scenarios/0/Bayes_risk,0.2318306065194244
+/mixture/scenarios/0/van_Trees_lower_bound,0.23012261753754054
+/mixture/scenarios/0/oracle_Bayes_risk,0.22162162162162163
+/mixture/scenarios/0/retained_K,0.07267757392230245
+/mixture/scenarios/0/oracle_K,0.11351351351351346
+/mixture/scenarios/0/risk_quad_error,1.9064807064177428e-12
+/mixture/scenarios/0/variance_identity_error,3.122502256758253e-17
+/mixture/scenarios/1/prior_variance,1.0
+/mixture/scenarios/1/Fisher_mixture,0.3455094101598565
+/mixture/scenarios/1/prior_Fisher,1.0
+/mixture/scenarios/1/Bayes_risk,0.7912871171818779
+/mixture/scenarios/1/van_Trees_lower_bound,0.7432129366387653
+/mixture/scenarios/1/oracle_Bayes_risk,0.7
+/mixture/scenarios/1/retained_K,0.20871288281812206
+/mixture/scenarios/1/oracle_K,0.30000000000000004
+/mixture/scenarios/1/risk_quad_error,6.588797208605648e-12
+/mixture/scenarios/1/variance_identity_error,5.551115123125783e-17
+/mixture/scenarios/2/prior_variance,4.0
+/mixture/scenarios/2/Fisher_mixture,0.3455094101598565
+/mixture/scenarios/2/prior_Fisher,0.25
+/mixture/scenarios/2/Bayes_risk,2.143193244083707
+/mixture/scenarios/2/van_Trees_lower_bound,1.6792345896458016
+/mixture/scenarios/2/oracle_Bayes_risk,1.7846153846153845
+/mixture/scenarios/2/retained_K,0.4642016889790732
+/mixture/scenarios/2/oracle_K,0.5538461538461539
+/mixture/scenarios/2/risk_quad_error,1.5366908828014772e-11
+/mixture/scenarios/2/variance_identity_error,2.220446049250313e-16
+/rms/level,0.05
+/rms/local_amplitude_h,3.0
+/rms/rows/0/n,16
+/rms/rows/0/theta,0.75
+/rms/rows/0/matched_power,0.8508387683270561
+/rms/rows/0/RMS_power,0.39870101267279323
+/rms/rows/0/raw_Fisher_at_null,16
+/rms/rows/0/RMS_Fisher_at_null,0.0
+/rms/rows/1/n,64
+/rms/rows/1/theta,0.375
+/rms/rows/1/matched_power,0.8508387683270561
+/rms/rows/1/RMS_power,0.196675007890711
+/rms/rows/1/raw_Fisher_at_null,64
+/rms/rows/1/RMS_Fisher_at_null,0.0
+/rms/rows/2/n,256
+/rms/rows/2/theta,0.1875
+/rms/rows/2/matched_power,0.8508387683270561
+/rms/rows/2/RMS_power,0.10780420916521431
+/rms/rows/2/raw_Fisher_at_null,256
+/rms/rows/2/RMS_Fisher_at_null,0.0
+/rms/rows/3/n,1024
+/rms/rows/3/theta,0.09375
+/rms/rows/3/matched_power,0.8508387683270561
+/rms/rows/3/RMS_power,0.07459058183168113
+/rms/rows/3/raw_Fisher_at_null,1024
+/rms/rows/3/RMS_Fisher_at_null,0.0
+/rms/rows/4/n,4096
+/rms/rows/4/theta,0.046875
+/rms/rows/4/matched_power,0.8508387683270561
+/rms/rows/4/RMS_power,0.06124981423989245
+/rms/rows/4/raw_Fisher_at_null,4096
+/rms/rows/4/RMS_Fisher_at_null,0.0
+/rms/rows/5/n,16384
+/rms/rows/5/theta,0.0234375
+/rms/rows/5/matched_power,0.8508387683270561
+/rms/rows/5/RMS_power,0.05537256107451361
+/rms/rows/5/raw_Fisher_at_null,16384
+/rms/rows/5/RMS_Fisher_at_null,0.0
+/rms/noncentral_tail_independent_error,6.938893903907228e-17
+/rms/scope,"Yi iid N(theta,1), known variance; two-sided matched test and upper-tail energy test"
+/rms/exact_theorem,"For Z~N(theta*u,I), J_norm(theta=0)=0; J_raw=||u||^2. A symmetric theta prior has E(theta|norm Z)=0 and quadratic K=0."
+/mantissas/constants/ln10,2.302585092994046
+/mantissas/constants/ln9,2.1972245773362196
+/mantissas/constants/ln20_95pct_saturation,2.995732273553991
+/mantissas/constants/ln19_5_95_window,2.9444389791664403
+/mantissas/constants/third_decade,2.154434690031884
+/mantissas/constants/two_pi_over_e,2.3114546995818435
+/mantissas/constants/retain_90pct_exponential_time_over_tau,0.10536051565782628
+/mantissas/constants/logistic_10_90_width_over_tau,4.394449154672439
+/mantissas/gaussian_quantiles/0.97,1.8807936081512509
+/mantissas/gaussian_quantiles/0.98,2.0537489106318225
+/mantissas/gaussian_quantiles/0.985,2.17009037758456
+/mantissas/gaussian_quantiles/0.99,2.3263478740408408
+/mantissas/stretched_exponential/0/fraction,0.5
+/mantissas/stretched_exponential/0/beta,0.5
+/mantissas/stretched_exponential/0/time_over_tau,0.4804530139182014
+/mantissas/stretched_exponential/1/fraction,0.9
+/mantissas/stretched_exponential/1/beta,0.5
+/mantissas/stretched_exponential/1/time_over_tau,5.301898110478399
+/mantissas/stretched_exponential/2/fraction,0.95
+/mantissas/stretched_exponential/2/beta,0.5
+/mantissas/stretched_exponential/2/time_over_tau,8.974411854812958
+/mantissas/stretched_exponential/3/fraction,0.99
+/mantissas/stretched_exponential/3/beta,0.5
+/mantissas/stretched_exponential/3/time_over_tau,21.207592441913587
+/mantissas/stretched_exponential/4/fraction,0.999
+/mantissas/stretched_exponential/4/beta,0.5
+/mantissas/stretched_exponential/4/time_over_tau,47.717082994305564
+/mantissas/stretched_exponential/5/fraction,0.5
+/mantissas/stretched_exponential/5/beta,1.0
+/mantissas/stretched_exponential/5/time_over_tau,0.6931471805599453
+/mantissas/stretched_exponential/6/fraction,0.9
+/mantissas/stretched_exponential/6/beta,1.0
+/mantissas/stretched_exponential/6/time_over_tau,2.302585092994046
+/mantissas/stretched_exponential/7/fraction,0.95
+/mantissas/stretched_exponential/7/beta,1.0
+/mantissas/stretched_exponential/7/time_over_tau,2.99573227355399
+/mantissas/stretched_exponential/8/fraction,0.99
+/mantissas/stretched_exponential/8/beta,1.0
+/mantissas/stretched_exponential/8/time_over_tau,4.605170185988091
+/mantissas/stretched_exponential/9/fraction,0.999
+/mantissas/stretched_exponential/9/beta,1.0
+/mantissas/stretched_exponential/9/time_over_tau,6.907755278982136
+/mantissas/stretched_exponential/10/fraction,0.5
+/mantissas/stretched_exponential/10/beta,2.0
+/mantissas/stretched_exponential/10/time_over_tau,0.8325546111576977
+/mantissas/stretched_exponential/11/fraction,0.9
+/mantissas/stretched_exponential/11/beta,2.0
+/mantissas/stretched_exponential/11/time_over_tau,1.5174271293851465
+/mantissas/stretched_exponential/12/fraction,0.95
+/mantissas/stretched_exponential/12/beta,2.0
+/mantissas/stretched_exponential/12/time_over_tau,1.730818382602285
+/mantissas/stretched_exponential/13/fraction,0.99
+/mantissas/stretched_exponential/13/beta,2.0
+/mantissas/stretched_exponential/13/time_over_tau,2.145966026289347
+/mantissas/stretched_exponential/14/fraction,0.999
+/mantissas/stretched_exponential/14/beta,2.0
+/mantissas/stretched_exponential/14/time_over_tau,2.6282608848784657
+/mantissas/benford/band_probability,0.039508541283673565
+/mantissas/benford/lower_equal_width_probability,0.07918124604762482
+/mantissas/benford/equal_mass_upper_endpoint,8.761904761904761
+/mantissas/benford/density_derivative,"-1/(m^2*ln(10)) < 0 on [1,10)"
+/mantissas/benford/scope,Conditional on Benford significands; not a test on selected reported constants
+/mantissas/published_Cassini_fits/0/solve_for,9
+/mantissas/published_Cassini_fits/0/estimate,2.1
+/mantissas/published_Cassini_fits/0/standard_uncertainty,2.3
+/mantissas/published_Cassini_fits/0/unit,1e-5 in gamma-1
+/mantissas/published_Cassini_fits/0/standardized_estimate,0.9130434782608696
+/mantissas/published_Cassini_fits/1/solve_for,12
+/mantissas/published_Cassini_fits/1/estimate,1.35
+/mantissas/published_Cassini_fits/1/standard_uncertainty,2.47
+/mantissas/published_Cassini_fits/1/unit,1e-5 in gamma-1
+/mantissas/published_Cassini_fits/1/standardized_estimate,0.5465587044534412
+/mantissas/published_Cassini_fits/2/solve_for,8
+/mantissas/published_Cassini_fits/2/estimate,0.21
+/mantissas/published_Cassini_fits/2/standard_uncertainty,2.43
+/mantissas/published_Cassini_fits/2/unit,1e-5 in gamma-1
+/mantissas/published_Cassini_fits/2/standardized_estimate,0.08641975308641975
+/mantissas/reparameterization/0/scale,1.0
+/mantissas/reparameterization/0/estimate,2.1
+/mantissas/reparameterization/0/standard_uncertainty,2.3
+/mantissas/reparameterization/0/z,0.9130434782608696
+/mantissas/reparameterization/1/scale,2.302585092994046
+/mantissas/reparameterization/1/estimate,4.835428695287496
+/mantissas/reparameterization/1/standard_uncertainty,5.295945713886305
+/mantissas/reparameterization/1/z,0.9130434782608696
+/mantissas/reparameterization/2/scale,0.4347826086956522
+/mantissas/reparameterization/2/estimate,0.9130434782608697
+/mantissas/reparameterization/2/standard_uncertainty,1.0
+/mantissas/reparameterization/2/z,0.9130434782608697
+/mantissas/reparameterization/3/scale,10.0
+/mantissas/reparameterization/3/estimate,21.0
+/mantissas/reparameterization/3/standard_uncertainty,23.0
+/mantissas/reparameterization/3/z,0.9130434782608695
+/mantissas/physical_mantissa_artifact,NOT_ESTABLISHED
+/mantissas/source,"Bertotti, Iess, Tortora (2003), doi:10.1038/nature01997; Fig.3 and Method, pp.375-376; author-uploaded full text read"
+/mantissas/original_main_points,1094
+/mantissas/original_main_solve_for,9
+/mantissas/reconstructed_epochs,1696
+/mantissas/boundary,No published observation refit; no derivation of sigma_gamma from ln(10).
+/calibration/seed,2026111818
+/calibration/replicates,4000
+/calibration/prior_variance,1.0
+/calibration/PIT_decile_counts/0,407
+/calibration/PIT_decile_counts/1,444
+/calibration/PIT_decile_counts/2,376
+/calibration/PIT_decile_counts/3,366
+/calibration/PIT_decile_counts/4,408
+/calibration/PIT_decile_counts/5,388
+/calibration/PIT_decile_counts/6,391
+/calibration/PIT_decile_counts/7,395
+/calibration/PIT_decile_counts/8,408
+/calibration/PIT_decile_counts/9,417
+/calibration/coverage/0.9/fraction,0.899
+/calibration/coverage/0.9/binomial_mc_se_under_nominal,0.004743416490252568
+/calibration/coverage/0.95/fraction,0.953
+/calibration/coverage/0.95/binomial_mc_se_under_nominal,0.003446012188022557
+/calibration/source,Synthetic draws from the declared prior and sampling distribution
+/calibration/scope,Calibration of exact posterior CDF for the full two-label toy hierarchy; not Cassini SBC
+/calibration/duplicate_information/copies/0,1
+/calibration/duplicate_information/copies/1,2
+/calibration/duplicate_information/copies/2,5
+/calibration/duplicate_information/copies/3,20
+/calibration/duplicate_information/correct_Fisher/0,1.0
+/calibration/duplicate_information/correct_Fisher/1,1.0
+/calibration/duplicate_information/correct_Fisher/2,1.0
+/calibration/duplicate_information/correct_Fisher/3,1.0
+/calibration/duplicate_information/false_independent_Fisher/0,1.0
+/calibration/duplicate_information/false_independent_Fisher/1,2.0
+/calibration/duplicate_information/false_independent_Fisher/2,5.0
+/calibration/duplicate_information/false_independent_Fisher/3,20.0
+/tails/rows/0/central_probability,0.8
+/tails/rows/0/threshold,1.2815515655446004
+/tails/rows/0/retained_inside_Fisher_per_attempt,0.35017967592291116
+/tails/rows/0/truncated_Fisher_per_retained_record,0.4377245949036389
+/tails/rows/0/two_sided_censored_Fisher_per_attempt,0.9661729661446172
+/tails/rows/0/removed_tail_Fisher,0.6498203240770888
+/tails/rows/0/independent_quad_error,0.0
+/tails/rows/1/central_probability,0.9
+/tails/rows/1/threshold,1.6448536269514722
+/tails/rows/1/retained_inside_Fisher_per_attempt,0.5607139357212154
+/tails/rows/1/truncated_Fisher_per_retained_record,0.6230154841346838
+/tails/rows/1/two_sided_censored_Fisher_per_attempt,0.9861923483467325
+/tails/rows/1/removed_tail_Fisher,0.4392860642787846
+/tails/rows/1/independent_quad_error,2.220446049250313e-16
+/tails/rows/2/central_probability,0.95
+/tails/rows/2/threshold,1.959963984540054
+/tails/rows/2/retained_inside_Fisher_per_attempt,0.7208995362164025
+/tails/rows/2/truncated_Fisher_per_retained_record,0.7588416170698974
+/tails/rows/2/two_sided_censored_Fisher_per_attempt,0.9941656309776391
+/tails/rows/2/removed_tail_Fisher,0.27910046378359754
+/tails/rows/2/independent_quad_error,1.1102230246251565e-16
+/tails/rows/3/central_probability,0.99
+/tails/rows/3/threshold,2.5758293035489004
+/tails/rows/3/retained_inside_Fisher_per_attempt,0.9155083403789585
+/tails/rows/3/truncated_Fisher_per_retained_record,0.9247558993726853
+/tails/rows/3/two_sided_censored_Fisher_per_attempt,0.9991420077407531
+/tails/rows/3/removed_tail_Fisher,0.08449165962104155
+/tails/rows/3/independent_quad_error,2.220446049250313e-16
+/tails/full_Fisher,1.0
+/tails/scope,"N(theta,1) at theta=0; thresholds fixed in measured coordinates, not centered on unknown theta"
+/tails/truncation,Conditional retained values with selected count: acceptance-indicator score vanishes at theta=0 only
+/tails/censoring,Retain left/right censor labels and all trial counts; equivalent to clipping with endpoint atoms
+/tails/transport,Known invertible theta-independent maps preserve experiment; mass conservation alone is insufficient
+/checks/0,equal-covariance analytic Renyi for five orders
+/checks/1,order-half equals independently computed Hellinger affinity
+/checks/2,unequal-covariance overlap independently integrated
+/checks/3,invertible contrasts and covariance units preserve divergence
+/checks/4,common singular support and infinite second-moment case

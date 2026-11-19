@@ -1,7 +1,6 @@
 {
-  "scope_es": "Entradas y resultados binarios preparados localmente; no publicados en este commit. Manuscritos excluidos.",
-  "scope_en": "Binary inputs and results prepared locally; not published in this commit. Manuscripts excluded.",
-  "reason": "Automatic approval review requires specific authorization for public reconstructed scientific-data payloads.",
+  "scope_es": "Entradas y resultados num\u00e9ricos incluidos; manuscritos excluidos.",
+  "scope_en": "Numerical inputs and results included; manuscripts excluded.",
   "files": [
     {
       "path": "analyses/casimir/sources/casimir/selected/Figure 5/Casimir_pressure_dist_v4.h5",
@@ -171,7 +170,7 @@
     {
       "path": "platform/fermi_review/photon_followup/results/photon_timing_EN.pdf",
       "bytes": 35731,
-      "sha256": "69e65a8138d379c2312230cf7c2899311f8db7b4588d7128b79e226bd1f8f1ca"
+      "sha256": "d3292ed6cb3c7a4d06dc4b6776a4d68cd7d581d3e1dc65d0a95a32ee44f63dc7"
     },
     {
       "path": "platform/fermi_review/photon_followup/results/photon_timing_EN.png",
@@ -181,7 +180,7 @@
     {
       "path": "platform/fermi_review/photon_followup/results/photon_timing_ES.pdf",
       "bytes": 35787,
-      "sha256": "9d213b65d04cc17825030fa1746121042e93d7032f692d4d48ac2365717b462a"
+      "sha256": "71de173ccfd9d904d1d7f8277cf56c34c9bd0a3b56651654332cad8efe19d1d3"
     },
     {
       "path": "platform/fermi_review/photon_followup/results/photon_timing_ES.png",
@@ -216,7 +215,7 @@
     {
       "path": "platform/fermi_review/results/Fermi_catalog_EN.pdf",
       "bytes": 32619,
-      "sha256": "bc5bb7b0946de9c2b25a54e8a58b2ec8d8ee3c46d69954aad2c448bd725bf185"
+      "sha256": "5c783eeee1addbcc22063df76f4d7b2d316e46a74dbeefea235413a604edcf4a"
     },
     {
       "path": "platform/fermi_review/results/Fermi_catalog_EN.png",
@@ -226,7 +225,7 @@
     {
       "path": "platform/fermi_review/results/Fermi_catalog_ES.pdf",
       "bytes": 33442,
-      "sha256": "1d359f499d1a07a4c76b09ee3862a22156cdb607581a0e8e0187e3aebb2540dc"
+      "sha256": "f564bf7113a6510b465f096b6aa16f15bf15835ab31851d4cc2d30c5fc752974"
     },
     {
       "path": "platform/fermi_review/results/Fermi_catalog_ES.png",
@@ -298,5 +297,6 @@
       "bytes": 3195153,
       "sha256": "678cbf6637ad3cf7d82df99b756268751a3c17b0e6f20ec38be4215d7750d1f1"
     }
-  ]
+  ],
+  "status": "included"
 }

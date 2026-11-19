@@ -6,8 +6,10 @@ def selected():
  keep=[]
  for p in R.rglob('*'):
   rel=p.relative_to(R)
-  if not p.is_file() or any(x.startswith('.') or x=='__pycache__' for x in rel.parts):continue
-  if p.name.startswith('GRAVITAS_') or p.suffix in ['.log','.aux','.out']:continue
+  if not p.is_file() or any((x.startswith('.') and x not in ['.streamlit','.github']) or x=='__pycache__' for x in rel.parts):continue
+  if rel.parts[0] in ['.streamlit','.github'] and str(rel) not in ['.streamlit/config.toml','.github/workflows/reproduce.yml']:continue
+  if p.name.startswith('GRAVITAS_') or p.suffix in ['.aux','.out']:continue
+  if p.suffix=='.log' and not (rel.parts[0]=='records' and p.name.startswith('all_')):continue
   if any(x in rel.parts for x in ['publication','tables','figures']):continue
   if 'epistemic_export' in p.name or p.name.startswith('epistemic_') and rel.parts[0]=='records':continue
   if rel.parts[0]=='records' and ('standalone' in p.name or 'epistemic_export' in p.name):continue

@@ -1,0 +1,30 @@
+[
+  {
+    "target": "GRB090510",
+    "url": "https://heasarc.gsfc.nasa.gov/FTP/fermi/data/lat/weekly/spacecraft/lat_spacecraft_weekly_w049_p310_v001.fits",
+    "path": "raw/spacecraft/lat_spacecraft_weekly_w049_p310_v001.fits",
+    "bytes": 2710080,
+    "sha256": "5e0d5b04ab982e9ce32c2ef0a51b7e99deea5d670493e0346c60a14c7d1781a2"
+  },
+  {
+    "target": "GRB080916C",
+    "url": "https://heasarc.gsfc.nasa.gov/FTP/fermi/data/lat/weekly/spacecraft/lat_spacecraft_weekly_w015_p310_v001.fits",
+    "path": "raw/spacecraft/lat_spacecraft_weekly_w015_p310_v001.fits",
+    "bytes": 2822400,
+    "sha256": "f26948474420194636a0f03c7cb8e7e7bc3259f6c4bd50b01fa6af7579955325"
+  },
+  {
+    "target": "GRB090902B",
+    "url": "https://heasarc.gsfc.nasa.gov/FTP/fermi/data/lat/weekly/spacecraft/lat_spacecraft_weekly_w065_p310_v001.fits",
+    "path": "raw/spacecraft/lat_spacecraft_weekly_w065_p310_v001.fits",
+    "bytes": 2842560,
+    "sha256": "a7fdf6b7c44427c3a2bc91a6a3106e1b572fa6bf852286db9a83530f90f58615"
+  },
+  {
+    "target": "GRB130427A",
+    "url": "https://heasarc.gsfc.nasa.gov/FTP/fermi/data/lat/weekly/spacecraft/lat_spacecraft_weekly_w256_p310_v001.fits",
+    "path": "raw/spacecraft/lat_spacecraft_weekly_w256_p310_v001.fits",
+    "bytes": 2799360,
+    "sha256": "a551691f9720f061a342975c555d50e40ce7f192c20f9215caca56a83fd0b9aa"
+  }
+]

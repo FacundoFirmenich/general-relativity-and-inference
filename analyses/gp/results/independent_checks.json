@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "review": "self-review with separate numerical formulations",
+  "checks": {
+    "max_quantile_difference_independent_quadrature": 2.4424906541753444e-15,
+    "sparse_gp_60_digit_checks": [
+      {
+        "coordinate": "x",
+        "max_absolute_Q_difference": 4.263256414560601e-14
+      },
+      {
+        "coordinate": "x_squared",
+        "max_absolute_Q_difference": 9.174980220016948e-12
+      }
+    ],
+    "dense_vs_block_A_difference": 5.204170427930421e-18,
+    "dense_vs_block_sigma_difference": -8.673617379884035e-19,
+    "max_joint_injection_deviation": 6.661338147750939e-15,
+    "pointwise_band_counterexample": {
+      "rho": 0.999,
+      "pointwise_standardized_offsets": [
+        1.0,
+        -1.0
+      ],
+      "mahalanobis_squared": 2000.000000000027,
+      "log_density_ratio_to_mean": -1000.0000000000135,
+      "scope": "Counterexample to a general implication, not a measurement of the INPOP kernel"
+    }
+  }
+}

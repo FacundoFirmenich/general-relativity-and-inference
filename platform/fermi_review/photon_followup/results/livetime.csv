@@ -1,0 +1,13 @@
+target,window_end_s,quality_GTI_wall_s,livetime_approx_s,method
+GRB090510,10,10.0,9.24416972529984,FT2 fractional-row approximation; not effective exposure
+GRB090510,100,100.0,92.46439356938745,FT2 fractional-row approximation; not effective exposure
+GRB090510,1000,1000.0,923.6658994606407,FT2 fractional-row approximation; not effective exposure
+GRB080916C,10,10.0,9.245299186306147,FT2 fractional-row approximation; not effective exposure
+GRB080916C,100,100.0,92.60062897055954,FT2 fractional-row approximation; not effective exposure
+GRB080916C,1000,1000.0,925.1422360705201,FT2 fractional-row approximation; not effective exposure
+GRB090902B,10,10.0,9.210647703740086,FT2 fractional-row approximation; not effective exposure
+GRB090902B,100,100.0,92.26354316535648,FT2 fractional-row approximation; not effective exposure
+GRB090902B,1000,1000.0,917.2611595492476,FT2 fractional-row approximation; not effective exposure
+GRB130427A,10,10.0,8.478984668462056,FT2 fractional-row approximation; not effective exposure
+GRB130427A,100,100.0,84.48811754088133,FT2 fractional-row approximation; not effective exposure
+GRB130427A,1000,1000.0,865.6786554101601,FT2 fractional-row approximation; not effective exposure

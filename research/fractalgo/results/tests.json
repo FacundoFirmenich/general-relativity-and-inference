@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "checks": [
+    "common_shift_prior_scaling_relabel_mass_n1",
+    "common_shift_prior_scaling_relabel_mass_n2",
+    "common_shift_prior_scaling_relabel_mass_n7",
+    "common_shift_prior_scaling_relabel_mass_n19",
+    "40_independent_scipy_graph_checks",
+    "40_path_vs_bfs_gap_and_mass_checks",
+    "exact_gaussian_witness_5_realizations",
+    "empty_excursion_and_invalid_prior_rejection"
+  ],
+  "seed": 2026111901
+}

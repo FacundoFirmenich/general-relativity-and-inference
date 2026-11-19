@@ -1,0 +1,30 @@
+\begin{tikzpicture}[x=1cm,y=1cm,>=Latex,font=\small,text=navy]
+\path[use as bounding box] (-.1,.6) rectangle (16.4,-14.0);
+\node[anchor=center,font=\sffamily\bfseries\small,text=violet] at (8.1,.3) {MAPA EPISTÉMICO · DEL RESULTADO A SU ALCANCE};
+\node[draw=navy!35,fill=navy!3,rounded corners=3pt,text width=15.8cm,align=center,inner sep=8pt] at (8.1,-.7) {\textbf{Premisa física y operador de observación}\\[3pt]Plantilla efectiva explícita; calibración de masa; excentricidad; predicciones propias de cada teoría.};
+\node[anchor=west,font=\sffamily\bfseries\footnotesize,text=violet] at (0.0,-1.7) {CRITERIO};
+\node[anchor=west,font=\sffamily\bfseries\footnotesize,text=violet] at (5.55,-1.7) {EVIDENCIA Y CONTROL};
+\node[anchor=west,font=\sffamily\bfseries\footnotesize,text=violet] at (11.1,-1.7) {LÍMITE DE LA AFIRMACIÓN};
+\node[draw=violet!55,fill=violet!3,rounded corners=3pt,text width=4.65cm,minimum height=1.95cm,align=left,inner sep=7pt] (gp0) at (2.45,-3.0) {\textbf{Ley conjunta GP}\\[6pt]$Db=Db^{\prime}$; $DKD^T=DK^{\prime}D^T$\\[5pt]Bandas marginales iguales no fijan la ley posterior.};
+\node[draw=violet!55,fill=violet!3,rounded corners=3pt,text width=4.65cm,minimum height=1.95cm,align=left,inner sep=7pt] (gp1) at (8.0,-3.0) {\textbf{Distancia entre leyes}\\[6pt]$D_{\rm KL}=1.402585$ nats\\[5pt]Control sintético de covarianza; soportes singulares explícitos.};
+\node[draw=violet!55,fill=violet!3,rounded corners=3pt,text width=4.65cm,minimum height=1.95cm,align=left,inner sep=7pt,dashed] (gp2) at (13.55,-3.0) {\textbf{Alcance condicionado}\\[6pt]No es un factor de corrección empírico de INPOP.};
+\draw[->,violet!60,thick] (gp0.east)--(gp1.west);
+\draw[->,violet!60,thick] (gp1.east)--(gp2.west);
+\node[draw=plum!55,fill=plum!3,rounded corners=3pt,text width=4.65cm,minimum height=1.95cm,align=left,inner sep=7pt] (cassini0) at (2.45,-5.55) {\textbf{Jerarquía Cassini}\\[6pt]$y=A s+X\beta+\epsilon$\\[5pt]1696 épocas reconstruidas; cuatro covarianzas temporales.};
+\node[draw=plum!55,fill=plum!3,rounded corners=3pt,text width=4.65cm,minimum height=1.95cm,align=left,inner sep=7pt] (cassini1) at (8.0,-5.55) {\textbf{Discrepancia que persiste}\\[6pt]Pasada 12: $0/1024$ excedencias\\[5pt]La mezcla mejora el control agregado; persiste el fallo local.};
+\node[draw=plum!55,fill=plum!3,rounded corners=3pt,text width=4.65cm,minimum height=1.95cm,align=left,inner sep=7pt,dashed] (cassini2) at (13.55,-5.55) {\textbf{Alcance condicionado}\\[6pt]Sin reducción primaria independiente ni posterior físico $(\alpha,\lambda)$.};
+\draw[->,plum!60,thick] (cassini0.east)--(cassini1.west);
+\draw[->,plum!60,thick] (cassini1.east)--(cassini2.west);
+\node[draw=cyan!55,fill=cyan!3,rounded corners=3pt,text width=4.65cm,minimum height=1.95cm,align=left,inner sep=7pt] (information0) at (2.45,-8.1) {\textbf{Información y decisión}\\[6pt]$K_{\pi,L}=1-R_{\pi,L}(E)/R_{\pi,L}(\varnothing)$\\[5pt]Retención relativa a un objeto, prior y pérdida declarados.};
+\node[draw=cyan!55,fill=cyan!3,rounded corners=3pt,text width=4.65cm,minimum height=1.95cm,align=left,inner sep=7pt] (information1) at (8.0,-8.1) {\textbf{Fisher, Rényi y riesgo}\\[6pt]$J_{\rm mix}=0.345509<0.555556$\\[5pt]Control de mezcla; Fisher, Rényi y riesgo distinguen pérdidas.};
+\node[draw=cyan!55,fill=cyan!3,rounded corners=3pt,text width=4.65cm,minimum height=1.95cm,align=left,inner sep=7pt,dashed] (information2) at (13.55,-8.1) {\textbf{Alcance condicionado}\\[6pt]No es una probabilidad de verdad ni una barrera universal.};
+\draw[->,cyan!60,thick] (information0.east)--(information1.west);
+\draw[->,cyan!60,thick] (information1.east)--(information2.west);
+\node[draw=navy!55,fill=navy!3,rounded corners=3pt,text width=4.65cm,minimum height=1.95cm,align=left,inner sep=7pt] (dcae0) at (2.45,-10.649999999999999) {\textbf{DCAE y COSMOS}\\[6pt]$I_+=1-e^{-\max(0,\Delta)}$\\[5pt]Conservar $\Delta$ firmado junto al índice recortado.};
+\node[draw=navy!55,fill=navy!3,rounded corners=3pt,text width=4.65cm,minimum height=1.95cm,align=left,inner sep=7pt] (dcae1) at (8.0,-10.649999999999999) {\textbf{COSMOS: control adverso}\\[6pt]$\Delta_{\rm soporte}=-0.0092143$\\[5pt]COSMOS: el orden cambia con tolerancia y observable.};
+\node[draw=navy!55,fill=navy!3,rounded corners=3pt,text width=4.65cm,minimum height=1.95cm,align=left,inner sep=7pt,dashed] (dcae2) at (13.55,-10.649999999999999) {\textbf{Alcance condicionado}\\[6pt]Cobertura no identifica. DCAE físico: no estimable con estas tablas.};
+\draw[->,navy!60,thick] (dcae0.east)--(dcae1.west);
+\draw[->,navy!60,thick] (dcae1.east)--(dcae2.west);
+\node[draw=violet!40,fill=violet!5,rounded corners=2pt,text width=15.8cm,align=center,inner sep=7pt] at (8.1,-12.8) {\textbf{Identificabilidad + ley conjunta + adecuación predictiva}\\[4pt]Las comprobaciones numéricas no sustituyen la validación instrumental independiente.};
+\node[anchor=west,font=\tiny,text=navy!65] at (0,-13.8) {Mismo modelo de contenidos que el grafo interactivo. SHA-256: 031859167231d2f9.};
+\end{tikzpicture}

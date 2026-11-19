@@ -1,6 +1,9 @@
 # General Relativity and Inference Methods
 
-> **Source edition:** code, interface and documentation. Public distribution of numerical inputs and self-contained notebooks is pending; the complete package is delivered separately. See `PUBLIC_DATA_PENDING.json`.
+> **Complete software distribution:** numerical inputs, results, interface and self-contained notebooks are included. Manuscripts are distributed separately.
+
+
+[Download complete software](https://github.com/FacundoFirmenich/general-relativity-and-inference/releases/download/v1.11/GRAVITAS_v1_11_SOFTWARE_ES_EN.zip) · [Cuaderno ES](https://github.com/FacundoFirmenich/general-relativity-and-inference/releases/download/v1.11/GRAVITAS_ES.ipynb) · [Notebook EN](https://github.com/FacundoFirmenich/general-relativity-and-inference/releases/download/v1.11/GRAVITAS_EN.ipynb)
 
 **GRAVITAS 1.11 · Reproducible methods and visual software**
 
@@ -12,7 +15,6 @@ A visual platform for statistical and physical auditing: Cassini, GP emulators, 
 
 ## Start
 
-The following entry points require the complete numerical package; this source edition preserves their implementation.
 
 - Windows: double-click `OPEN_GRAVITAS.bat`.
 - Linux: `bash OPEN_GRAVITAS.bash`.

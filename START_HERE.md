@@ -1,14 +1,20 @@
 # General Relativity and Inference Methods
 
+> **Complete software distribution:** numerical inputs, results, interface and self-contained notebooks are included. Manuscripts are distributed separately.
+
+
+[Download complete software](https://github.com/FacundoFirmenich/general-relativity-and-inference/releases/download/v1.11/GRAVITAS_v1_11_SOFTWARE_ES_EN.zip) · [Cuaderno ES](https://github.com/FacundoFirmenich/general-relativity-and-inference/releases/download/v1.11/GRAVITAS_ES.ipynb) · [Notebook EN](https://github.com/FacundoFirmenich/general-relativity-and-inference/releases/download/v1.11/GRAVITAS_EN.ipynb)
+
 **GRAVITAS 1.11 · Reproducible methods and visual software**
 
 Facundo Firmenich · [ORCID](https://orcid.org/0009-0002-6578-3811) · f.firmenich@cedesur.org
 
 [Castellano](README_ES.md) · [English](README_EN.md)
 
-A visual platform for statistical and physical auditing: Cassini, GP emulators, Gaia, QUMOND, DCAE and a bounded topological application of FractalGo. Includes inputs, code, results and figure regeneration. The paper and supplementary information are distributed separately.
+A visual platform for statistical and physical auditing: Cassini, GP emulators, Gaia, QUMOND, DCAE and a bounded topological application of FractalGo. Includes modules for processing inputs, computing results and regenerating figures. The paper and supplementary information are distributed separately.
 
 ## Start
+
 
 - Windows: double-click `OPEN_GRAVITAS.bat`.
 - Linux: `bash OPEN_GRAVITAS.bash`.

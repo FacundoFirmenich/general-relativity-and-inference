@@ -1,0 +1,15 @@
+field / campo,value / valor
+/richardson_relative_errors/0,0.007938107603123787
+/richardson_relative_errors/1,0.000420960251683454
+/richardson_relative_errors/2,2.53209173913791e-05
+/richardson_relative_errors/3,1.5677115830422672e-06
+/original_force_alpha_zero_ratio_at_r_equal_lambda,0.7357588823428847
+/original_relative_error,-0.26424111765711533
+/contact_multiplier_bound_max_excess,1.663491958670301e-16
+/periapsis_1pn/eccentricity,0.20563
+/periapsis_1pn/dimensionless_mu_over_ac2,1e-06
+/periapsis_1pn/integrated_radians_per_orbit,1.9681713446258872e-05
+/periapsis_1pn/leading_prediction,1.9681774091685876e-05
+/periapsis_1pn/relative_error,-3.081298805773791e-06
+/shapiro_quadrature_relative_error,-5.156985949383852e-13
+/scope,Analytic weak-field benchmarks; no claim of full GR ephemeris reproduction

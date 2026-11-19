@@ -1,0 +1,10 @@
+{
+  "checks": {
+    "16_nonuniform_weight_checks": true,
+    "sharpness_6_cases": true,
+    "common_shift_cancels": true,
+    "random_law_vs_conditional_measure_distinguished": true
+  },
+  "sharp_TV_at_omega_0_4": 0.09966799462495576,
+  "KL_bound_at_omega_0_4": 0.020000000000000004
+}

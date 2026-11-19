@@ -1,0 +1,29 @@
+{
+  "source": "https://heasarc.gsfc.nasa.gov/FTP/heasarc/dbase/dump/heasarc_fermilgrb.tdat.gz",
+  "sha256": "4c2e5927ab666900a6d10435a52d5fba2cd32890450f15ad79ecc4d2b0751dd7",
+  "catalog_rows": 231,
+  "redshift_positive": 45,
+  "plotted_positive_onset_and_redshift": 45,
+  "cosmology": {
+    "omega_m": 0.315,
+    "flat": true,
+    "scope": "conditioning parameter, not an SI constant"
+  },
+  "checks": {
+    "published_schema": true,
+    "row_count": true,
+    "finite_K": true,
+    "K_zero": true,
+    "equal_energy_zero_delay": true,
+    "no_synthetic_lags_used": true,
+    "reject_wrong_catalog": true
+  },
+  "status": "DESCRIPTIVE_ONLY",
+  "notebooks_originals_changed": false,
+  "non_claims": [
+    "No raw-photon reduction",
+    "No spectral-lag measurement",
+    "No LIV or GR confirmation",
+    "No synthetic values used as observations"
+  ]
+}

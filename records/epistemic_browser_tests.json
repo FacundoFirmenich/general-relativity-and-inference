@@ -1,0 +1,25 @@
+{
+  "checks": {
+    "initial_36_nodes": true,
+    "cassini_failure_visible": true,
+    "embedded_evidence_exact": true,
+    "english_title": true,
+    "tour_opens": true,
+    "tour_cassini": true,
+    "pause_freezes_timer": true,
+    "automatic_advance": true,
+    "search_filters": true,
+    "state_filters": true,
+    "card_moves": true,
+    "layout_resets": true,
+    "zoom_increases": true,
+    "depth_toggle": true,
+    "svg_export": true,
+    "mobile_no_page_overflow": true,
+    "english_entrypoint": true,
+    "no_external_requests": true,
+    "no_javascript_errors": true
+  },
+  "errors": [],
+  "scope": "UI behavior only; no native Windows/macOS/iOS execution"
+}

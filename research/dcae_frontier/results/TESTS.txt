@@ -1,0 +1,18 @@
+test_contraction_only_negative (test_reanalysis.DCAEAlgebra.test_contraction_only_negative) ... ok
+test_coverage_equivalence (test_reanalysis.DCAEAlgebra.test_coverage_equivalence) ... ok
+test_growth_only_positive (test_reanalysis.DCAEAlgebra.test_growth_only_positive) ... ok
+test_identical_proportional_scaling (test_reanalysis.DCAEAlgebra.test_identical_proportional_scaling) ... ok
+test_invalid_input_abstains (test_reanalysis.DCAEAlgebra.test_invalid_input_abstains) ... ok
+test_reference_is_zero (test_reanalysis.DCAEAlgebra.test_reference_is_zero) ... ok
+test_unit_invariance (test_reanalysis.DCAEAlgebra.test_unit_invariance) ... ok
+test_exact_volume_definition (test_reanalysis.FKPMathematics.test_exact_volume_definition) ... ok
+test_input_guards (test_reanalysis.FKPMathematics.test_input_guards) ... ok
+test_canonical_table_intersections (test_reanalysis.RealTableAudit.test_canonical_table_intersections) ... ok
+test_count_support_improves_on_wider_COSMOS (test_reanalysis.RealTableAudit.test_count_support_improves_on_wider_COSMOS) ... ok
+test_git_blob_original_scsn (test_reanalysis.RealTableAudit.test_git_blob_original_scsn) ... ok
+test_strict_no_promotion_to_cosmic_measurement (test_reanalysis.RealTableAudit.test_strict_no_promotion_to_cosmic_measurement) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.003s
+
+OK

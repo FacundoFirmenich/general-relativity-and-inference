@@ -1,0 +1,221 @@
+{
+  "scope": "Independent Drude T=0 and finite-T theory audit, not a new experimental force fit",
+  "original_table_sha256": "9c4622b8f4cce18739ed214f166173e8765be3895237d41d142db41749ff1c59",
+  "column_labels": [
+    "Gap (nm)",
+    "P Drude (Pa)",
+    "P BCS (Pa)",
+    "P Plasma (Pa)"
+  ],
+  "constants": {
+    "hbar": 1.055e-34,
+    "c": 299790000.0,
+    "eV": 1.602e-19,
+    "kB": 1.381e-23,
+    "Omega_p_eV": 13,
+    "gamma_eV": 0.05,
+    "epsilon_r": 1.03
+  },
+  "perfect_conductor_max_relative_error": 1.4432899320127035e-14,
+  "convergence": [
+    {
+      "gap_nm": 10.0,
+      "p_384_256": -14227.50158132096,
+      "p_768_512": -14227.501581292867,
+      "relative_difference": 1.9744206269933784e-12
+    },
+    {
+      "gap_nm": 20.0,
+      "p_384_256": -1548.348774729956,
+      "p_768_512": -1548.3487747279935,
+      "relative_difference": 1.2674306049120787e-12
+    },
+    {
+      "gap_nm": 40.0,
+      "p_384_256": -158.55209847377728,
+      "p_768_512": -158.5520984736593,
+      "relative_difference": 7.440714711037799e-13
+    },
+    {
+      "gap_nm": 80.0,
+      "p_384_256": -14.998621734639116,
+      "p_768_512": -14.99862173464951,
+      "relative_difference": 6.930012119710227e-13
+    },
+    {
+      "gap_nm": 110.0,
+      "p_384_256": -4.898956410499053,
+      "p_768_512": -4.898956410514671,
+      "relative_difference": 3.1881164375135995e-12
+    }
+  ],
+  "finite_T_025K_same_cutoffs": [
+    {
+      "gap_nm": 10.0,
+      "pressure_Pa": -14173.845163956814,
+      "table_pressure_Pa": -14173.845165115044,
+      "relative_quadrature_difference": 1.0396492555742043e-09,
+      "relative_difference_to_table": -8.171607834839278e-11
+    },
+    {
+      "gap_nm": 40.0,
+      "pressure_Pa": -158.55149728887247,
+      "table_pressure_Pa": -158.55149664364555,
+      "relative_quadrature_difference": 5.218155019193205e-09,
+      "relative_difference_to_table": 4.0695100622656355e-09
+    },
+    {
+      "gap_nm": 110.0,
+      "pressure_Pa": -4.898956341652774,
+      "table_pressure_Pa": -4.898955962707335,
+      "relative_quadrature_difference": 1.1429861501710548e-09,
+      "relative_difference_to_table": 7.735228524374804e-08
+    }
+  ],
+  "power_fit_pi_times_Drude_table": {
+    "amplitude": -69577866.82224412,
+    "exponent": 3.192731767641245,
+    "R_squared": 0.9999791131853106,
+    "meaning": "Fit to numerical theory samples, not independent measurement uncertainty"
+  },
+  "power_fit_raw_Drude_table": {
+    "amplitude": -22147322.826888748,
+    "exponent": 3.192731766865591,
+    "R_squared": 0.9999791131853106
+  },
+  "resonator_fixed_parameter_propagation": {
+    "unperturbed_gap_nm": 18.0,
+    "unperturbed_frequency_Hz": 16247239.773333332,
+    "effective_mass_kg": 3.96e-14,
+    "area_m2": 1.0028749148422017e-10,
+    "results": [
+      {
+        "coefficient_factor": 1.0,
+        "equilibrium_gap_nm": 15.072903436750876,
+        "frequency_Hz": 10015266.569816064,
+        "force_balance_residual_N": -2.8587361969832636e-20
+      },
+      {
+        "coefficient_factor": 0.3183098861837907,
+        "equilibrium_gap_nm": 17.41218261204113,
+        "frequency_Hz": 15346691.151886923,
+        "force_balance_residual_N": -4.3992773698020224e-20
+      }
+    ],
+    "scope": "Static equilibrium and small-amplitude frequency at fixed archived parameters; neither a fit to measured sidebands nor a corrected experimental gap"
+  },
+  "archived_matsubara_cutoff_energy_eV": 27.08201906746257,
+  "BCS_unit_audit": {
+    "energy_gap_eV": 0.00018792426016334273,
+    "correct_tanh_argument_at_gap": 4.359951698503622,
+    "archived_tanh_argument_at_gap": 2.721567851750076e+19,
+    "correct_tanh_at_gap": 0.9996734473955786,
+    "caution": "Dimensional inconsistency in archived expression; force impact not computed; current audit covers Drude only"
+  },
+  "experimental_array_inventory": [
+    {
+      "file": "sources/casimir/selected/Raw and filtered data/2024-03-21-1858_filtdata_down.npy",
+      "shape": [
+        501,
+        6,
+        9,
+        3
+      ],
+      "finite": 81162,
+      "total": 81162,
+      "sha256": "ba347328b63af61f7e878c215e82085a1b0ae7e8905efc34ed1e2a1e99c87809"
+    },
+    {
+      "file": "sources/casimir/selected/Raw and filtered data/2024-03-21-1858_filtfreqs.npy",
+      "shape": [
+        501,
+        6,
+        9,
+        3
+      ],
+      "finite": 81162,
+      "total": 81162,
+      "sha256": "8f4509efd67887bb97d91943c52013e527dae5bbec574937570a3d532d62f7b9"
+    },
+    {
+      "file": "sources/casimir/selected/Raw and filtered data/2024-03-21-1858_filtdata_up.npy",
+      "shape": [
+        501,
+        6,
+        9,
+        3
+      ],
+      "finite": 81162,
+      "total": 81162,
+      "sha256": "374b506440fb28978866aff655762f0c67238b4ea6eeede16cd97f0cf18c1e34"
+    }
+  ]
+}
+Selected pressure comparisons:
+[
+  {
+    "gap_nm": 10.0,
+    "table_Drude_Pa": -14173.845165115044,
+    "table_BCS_Pa": -14173.846038294583,
+    "independent_T0_Drude_Pa": -14227.50158132096,
+    "independent_T0_frequency_cutoff_Pa": -14173.851131217936,
+    "pi_times_table_Drude_Pa": -44528.44784384463,
+    "independent_over_table": 1.003785593505563,
+    "ratio_independent_over_pi_table": 0.31951487802168455,
+    "ratio_frequency_cutoff_over_pi_table": 0.3183100201678656,
+    "relative_frequency_tail": 0.003770897497102362,
+    "relative_coarse_difference": 1.4323320307596532e-10
+  },
+  {
+    "gap_nm": 20.0,
+    "table_Drude_Pa": -1547.6835057498542,
+    "table_BCS_Pa": -1547.684017361193,
+    "independent_T0_Drude_Pa": -1548.348774729956,
+    "independent_T0_frequency_cutoff_Pa": -1547.6834924299296,
+    "pi_times_table_Drude_Pa": -4862.191131745838,
+    "independent_over_table": 1.000429848207098,
+    "ratio_independent_over_pi_table": 0.31844671111766837,
+    "ratio_frequency_cutoff_over_pi_table": 0.31830988344430056,
+    "relative_frequency_tail": 0.00042967211966977537,
+    "relative_coarse_difference": 8.927780736911473e-11
+  },
+  {
+    "gap_nm": 40.0,
+    "table_Drude_Pa": -158.55149664364555,
+    "table_BCS_Pa": -158.5517454960246,
+    "independent_T0_Drude_Pa": -158.55209847377728,
+    "independent_T0_frequency_cutoff_Pa": -158.55149737293053,
+    "pi_times_table_Drude_Pa": -498.1042170713436,
+    "independent_over_table": 1.0000037958022754,
+    "ratio_independent_over_pi_table": 0.3183110944251809,
+    "ratio_frequency_cutoff_over_pi_table": 0.31830988764791196,
+    "relative_frequency_tail": 3.7911882121852773e-06,
+    "relative_coarse_difference": 3.677880222596741e-11
+  },
+  {
+    "gap_nm": 80.0,
+    "table_Drude_Pa": -14.998621976973881,
+    "table_BCS_Pa": -14.998719284833312,
+    "independent_T0_Drude_Pa": -14.998621734639116,
+    "independent_T0_frequency_cutoff_Pa": -14.998621732208253,
+    "pi_times_table_Drude_Pa": -47.11956061683156,
+    "independent_over_table": 0.9999999838428646,
+    "ratio_independent_over_pi_table": 0.31830988104081476,
+    "ratio_frequency_cutoff_over_pi_table": 0.3183098809892255,
+    "relative_frequency_tail": 1.6207240007197366e-10,
+    "relative_coarse_difference": 6.881499814426206e-10
+  },
+  {
+    "gap_nm": 110.0,
+    "table_Drude_Pa": -4.898955962707335,
+    "table_BCS_Pa": -4.899014360759224,
+    "independent_T0_Drude_Pa": -4.898956410499053,
+    "independent_T0_frequency_cutoff_Pa": -4.898956410496158,
+    "pi_times_table_Drude_Pa": -15.390524062701276,
+    "independent_over_table": 1.0000000914055405,
+    "ratio_independent_over_pi_table": 0.31830991527907787,
+    "ratio_frequency_cutoff_over_pi_table": 0.3183099152788898,
+    "relative_frequency_tail": 5.908551183675138e-13,
+    "relative_coarse_difference": 1.6764207799724318e-09
+  }
+]

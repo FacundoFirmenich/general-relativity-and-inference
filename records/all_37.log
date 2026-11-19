@@ -1,0 +1,15 @@
+{
+  "nodes": 36,
+  "edges": 33,
+  "artifacts": 25,
+  "checks": {
+    "unique_nodes": true,
+    "unique_edges": true,
+    "valid_edges": true,
+    "all_evidence_present": true,
+    "bilingual_nodes": true,
+    "source_hashes_match": true,
+    "cassini_failure_retained": true,
+    "DCAE_not_estimable_retained": true
+  }
+}

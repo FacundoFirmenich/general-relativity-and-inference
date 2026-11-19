@@ -1,0 +1,151 @@
+{
+  "schema": "dcae.reanalysis.2026-11-18.v0.2",
+  "study_kind": "reanalysis_of_published_tabular_results_no_raw_observation_rediscovery",
+  "source_manifest": {
+    "cosmos_2026_boundary.csv": {
+      "sha256": "b4713774653c1dbe6ca7dac3e8d8fd9793ecd60988bab9ee6f86c522433fbe65",
+      "bytes": 308
+    },
+    "cosmos_2026_components_table4.csv": {
+      "sha256": "d8214afabb6e4c4f353a463f8794ce10b4aa21bda6333a9b0d3c1a8db9edd459",
+      "bytes": 138
+    },
+    "cosmos_2026_loss_table3.csv": {
+      "sha256": "5747c368b0d7ea5c8023734135c9dfb28aef59e3974f06ddfcd3a3f45c78e6db",
+      "bytes": 425
+    },
+    "cosmos_2026_walk_table2.csv": {
+      "sha256": "58fc06f5ed36ea7593942d7ee1cae363cd37aafe978e4d344f7ede56bd5f334b",
+      "bytes": 668
+    },
+    "scsn_degradation.csv": {
+      "sha256": "943ec9128c72bfbd0b62bb5ef89c3c41f25c7f74ce278e336dcdf46073719734",
+      "bytes": 201
+    }
+  },
+  "cosmos_matched_selection": {
+    "source": "Imbrisak_Tisanić_2026_Tables_2_3_4",
+    "experimental_unit": "published_summary_over_subsamples_of_single_COSMOS_2000_galaxy_patch",
+    "walk_coverage": 0.898,
+    "loss_coverage": 0.9,
+    "coverage_difference_pp": 0.20000000000000018,
+    "geometric_gap_0_1_walk": 0.05237138076142933,
+    "geometric_gap_0_1_loss": 0.05131670194948623,
+    "geometric_gap_difference_abs": 0.0010546788119430994,
+    "tolerance_contrasts": {
+      "1.10": {
+        "walk_success": 0.411,
+        "independent_loss_success": 0.501,
+        "walk_minus_loss_pp": -9.000000000000002,
+        "preferred_under_this_threshold": "independent_loss",
+        "values_are_published_rounded": true
+      },
+      "1.54": {
+        "walk_success": 0.652,
+        "independent_loss_success": 0.574,
+        "walk_minus_loss_pp": 7.800000000000007,
+        "preferred_under_this_threshold": "walk",
+        "values_are_published_rounded": true
+      },
+      "2.03": {
+        "walk_success": 0.858,
+        "independent_loss_success": 0.624,
+        "walk_minus_loss_pp": 23.4,
+        "preferred_under_this_threshold": "walk",
+        "values_are_published_rounded": true
+      },
+      "2.50": {
+        "walk_success": 0.974,
+        "independent_loss_success": 0.754,
+        "walk_minus_loss_pp": 21.999999999999996,
+        "preferred_under_this_threshold": "walk",
+        "values_are_published_rounded": true
+      }
+    },
+    "component_relative_rmse": {
+      "delta_omega": {
+        "walk": 0.07,
+        "independent_loss": 0.033,
+        "walk_over_loss": 2.121212121212121,
+        "lower_error_mechanism": "independent_loss"
+      },
+      "f_hd": {
+        "walk": 0.043,
+        "independent_loss": 0.013,
+        "walk_over_loss": 3.3076923076923075,
+        "lower_error_mechanism": "independent_loss"
+      },
+      "L_hd": {
+        "walk": 0.285,
+        "independent_loss": 0.32,
+        "walk_over_loss": 0.8906249999999999,
+        "lower_error_mechanism": "walk"
+      }
+    },
+    "reason_not_full_DCAE": "coverage is within a fixed field; L_F(s) across physically distinct scales is not measured"
+  },
+  "cosmos_boundary_support": {
+    "status": "SURROGATE_ONLY_NOT_DCAE_VALIDATION",
+    "small_N": 2000,
+    "large_N": 94043,
+    "small_area_deg2_approx": 0.05,
+    "large_area_deg2_approx": 2.0,
+    "angular_linear_ratio_approx": 6.324555320336759,
+    "interior_frac_small": 0.9815,
+    "interior_frac_large": 0.9997554310262327,
+    "interior_increase_percentage_points": 1.8255431026232616,
+    "carrier_support_asymmetry": {
+      "delta": -0.009214333189992709,
+      "increased_0_1": 0.0,
+      "decreased_0_1": 0.009172011310975137,
+      "signed_minus1_1": -0.004607133998058253,
+      "direction": "DECREASING"
+    },
+    "why_not_observational_extent": "eligibility of bounded Voronoi cells is estimator support, NOT instrument sky mask or cosmic physical target coverage"
+  },
+  "scsn_degradation": {
+    "status": "SEPARATE_INSTRUMENTAL_STRESS_REANALYSIS_NOT_PHYSICAL_SCALE_SERIES",
+    "points": 9,
+    "sigma_range_km": [
+      0.1,
+      10.0
+    ],
+    "reported_posterior_boundary_mass_pct_first_last": [
+      0.1,
+      99.6
+    ],
+    "strictly_increasing_reported_boundary_mass": true,
+    "physical_extent_measured_at_each_sigma": false,
+    "does_not_test_DCAE_scale_growth": true,
+    "external_prospective_contradiction": "Sysmic-X2 reported FAIL for threshold mechanism; see observational-degeneration-synergy/CURRENT_EVIDENCE.md",
+    "source_git_blob_sha1": "54225872f65f7949527a6a8ae049868fd275e3dd"
+  },
+  "dcae_cosmic_web_gate": {
+    "state": "NOT_ESTIMABLE_DCAE",
+    "gates": {
+      "G0_domain_and_observable": true,
+      "G1_physical_extent_identified": false,
+      "G2_observational_extent_identified": false,
+      "G3_same_coordinate_and_definition": false,
+      "G4_baseline_fixed_ex_ante": false,
+      "G5_primary_data_or_verifiable_derivation": false
+    },
+    "contract": {
+      "domain": "cosmic_web",
+      "target_observable": "filament_connected_extent",
+      "coordinate_frame": "comoving_3D_not_yet_specified_for_this_table",
+      "length_unit": "cMpc",
+      "physical_extent_definition": "target_connected_extent_or_morphological_scale_required",
+      "observational_extent_definition": "matched_selection_kernel_and_radial_anglar_resolution_required",
+      "source_identifier": "arxiv:2609.26140 Table 2-4 reported aggregate tables",
+      "source_status": "SECONDARY_PUBLISHED_SUMMARY_ONLY",
+      "observational_support_kind": "SUBSET_COVERAGE_NOT_PHYSICAL_OBSERVABILITY",
+      "independent_validation": false
+    },
+    "no_authority_transfer": true
+  },
+  "can_claim_empirical_universal_growth": false,
+  "can_claim_unique_physical_mechanism": false,
+  "can_claim_identifiability_from_coverage_only": false,
+  "new_independent_measurements": 0
+}

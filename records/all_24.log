@@ -1,0 +1,40 @@
+Integrated ell 300.0 logZ -2478.3241350740423 refinement 9.460805040362175e-05
+Integrated ell 1800.0 logZ -2455.633565716096 refinement 0.0
+Integrated ell 7200.0 logZ -2459.9519844441866 refinement 9.094947017729282e-13
+Integrated ell 86400.0 logZ -2475.9754940656867 refinement 9.034574304678245e-06
+{
+  "scope": "Conditional on reconstructed DSS-25 hybrid residuals, fixed weights, fixed optical range and full-design nuisance basis; pass deletion is not independent external validation",
+  "kernel_lengths_seconds": [
+    300.0,
+    1800.0,
+    7200.0,
+    86400.0
+  ],
+  "kernel_prior": [
+    0.25,
+    0.25,
+    0.25,
+    0.25
+  ],
+  "logz_by_kernel": [
+    -2478.3241350740423,
+    -2455.633565716096,
+    -2459.9519844441866,
+    -2475.9754940656867
+  ],
+  "quadrature_refinement_errors": [
+    9.460805040362175e-05,
+    0.0,
+    9.094947017729282e-13,
+    9.034574304678245e-06
+  ],
+  "sum_log_score_difference": 3.808649806070207,
+  "limits": [
+    "No inter-station comparison: this design is DSS-25",
+    "Weights and reconstruction were obtained before this diagnostic; no raw-data cross validation",
+    "Noise-length alternatives chosen after seeing the original failure; exploratory, not preregistered confirmation",
+    "Same data-dependent design prior is held fixed in folds",
+    "No physical alpha/lambda posterior or all-parameter ephemeris hierarchy"
+  ],
+  "runtime_seconds": 14.27779746055603
+}

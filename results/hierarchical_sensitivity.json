@@ -1,0 +1,40 @@
+{
+  "expanded_bounds": [
+    [
+      -2.5,
+      3
+    ],
+    [
+      -15,
+      4
+    ]
+  ],
+  "expanded_domain_logz_change": -1.841544872149825e-08,
+  "nuisance_prior_sensitivity": [
+    {
+      "nuisance_prior_sd": 10.0,
+      "log_B10": 0.6659302871485124,
+      "logz": -2441.930833746783,
+      "A_quantiles_025_50_975": [
+        -0.003392571319891968,
+        -0.0016673163399865106,
+        -7.450316370429966e-06
+      ],
+      "s_mean": 0.9881405657105011,
+      "tau_mean": 8.867433785509287e-15
+    },
+    {
+      "nuisance_prior_sd": 1000.0,
+      "log_B10": 0.8206880132174774,
+      "logz": -2478.368345964992,
+      "A_quantiles_025_50_975": [
+        -0.0035770672134743564,
+        -0.0017737593689133853,
+        -6.295476465179187e-05
+      ],
+      "s_mean": 0.9877116766285805,
+      "tau_mean": 9.088174478855998e-15
+    }
+  ],
+  "scope": "Numerical checks and declared sensitivity; no physical prior calibration"
+}

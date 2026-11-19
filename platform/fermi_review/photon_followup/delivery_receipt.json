@@ -1,0 +1,8 @@
+{
+  "archive": "/workspace/GRAVITAS_DELIVERY_v1_8/FERMI_PHOTONS_EXECUTED_ES_EN_20261118.zip",
+  "bytes": 11420294,
+  "sha256": "b195623d5dddaedf9c71bab1afa4791a7587f83b71c5260037bce3bd99dacf69",
+  "files": 49,
+  "standalone_ES_and_EN_replay": "12 contrasts each exactly match executed results",
+  "physical_bound": "NOT_IDENTIFIED"
+}

@@ -1,0 +1,234 @@
+URN, start_time, stop_time, target_identification_name,target_identification_type,file_size(MB)
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:c32easc2002_157_0000k252v0,2002-06-06T20:41:30.500000Z,2002-06-06T22:45:36.500000Z,Tests of General Relativity,Astrophysical,0.375
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:c32easc2002_157_0000xmmmv0,2002-06-06T05:30:00.500000Z,2002-06-07T04:59:11.500000Z,Tests of General Relativity,Astrophysical,3.031
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:c32easc2002_158_0000k252v0,2002-06-07T17:15:11.500000Z,2002-06-08T02:45:52.500000Z,Tests of General Relativity,Astrophysical,0.832
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:c32easc2002_158_0000xmmmv0,2002-06-07T04:59:13.500000Z,2002-06-08T02:46:03.500000Z,Tests of General Relativity,Astrophysical,3.106
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:c32easc2002_159_0000k252v0,2002-06-08T17:57:24.500000Z,2002-06-09T02:41:25.500000Z,Tests of General Relativity,Astrophysical,0.715
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:c32easc2002_159_0000xmmmv0,2002-06-08T02:46:04.500000Z,2002-06-09T03:55:33.500000Z,Tests of General Relativity,Astrophysical,3.324
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:c32easc2002_160_0000k252v0,2002-06-09T16:51:49.500000Z,2002-06-10T02:50:54.500000Z,Tests of General Relativity,Astrophysical,1.351
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:c32easc2002_160_0000xmmmv0,2002-06-09T03:55:35.500000Z,2002-06-10T06:59:53.500000Z,Tests of General Relativity,Astrophysical,3.785
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:c32easc2002_161_0000k252v0,2002-06-10T16:37:21.500000Z,2002-06-11T02:35:29.500000Z,Tests of General Relativity,Astrophysical,1.351
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:c32easc2002_161_0000xmmmv0,2002-06-10T02:50:54.500000Z,2002-06-11T02:36:08.500000Z,Tests of General Relativity,Astrophysical,3.293
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:c32easc2002_162_0000k252v0,2002-06-12T02:19:41.500000Z,2002-06-12T02:32:00.500000Z,Tests of General Relativity,Astrophysical,0.144
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:c32easc2002_162_0000xmmmv0,2002-06-11T04:03:28.500000Z,2002-06-12T02:02:22.500000Z,Tests of General Relativity,Astrophysical,2.93
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:c32easc2002_163_0000k252v0,2002-06-12T19:00:39.500000Z,2002-06-13T02:31:03.500000Z,Tests of General Relativity,Astrophysical,1.047
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:c32easc2002_163_0000xmmmv0,2002-06-12T04:39:24.500000Z,2002-06-13T13:59:52.500000Z,Tests of General Relativity,Astrophysical,4.231
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:c32easc2002_164_0000k252v0,2002-06-13T16:37:28.500000Z,2002-06-14T02:26:13.500000Z,Tests of General Relativity,Astrophysical,1.332
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:c32easc2002_164_0000xmmmv0,2002-06-13T13:59:53.500000Z,2002-06-14T04:33:59.500000Z,Tests of General Relativity,Astrophysical,2.114
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:c32easc2002_165_0000xmmmv0,2002-06-14T04:35:43.500000Z,2002-06-15T04:29:21.500000Z,Tests of General Relativity,Astrophysical,2.383
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:c32easc2002_166_0000k252v0,2002-06-15T16:21:31.500000Z,2002-06-16T02:30:52.500000Z,Tests of General Relativity,Astrophysical,1.375
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:c32easc2002_166_0000xmmmv0,2002-06-15T04:29:30.500000Z,2002-06-16T04:39:55.500000Z,Tests of General Relativity,Astrophysical,3.333
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:c32easc2002_167_0000k252v0,2002-06-16T16:16:45.500000Z,2002-06-17T02:26:40.500000Z,Tests of General Relativity,Astrophysical,1.375
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:c32easc2002_167_0000xmmmv0,2002-06-16T04:40:00.500000Z,2002-06-17T04:34:13.500000Z,Tests of General Relativity,Astrophysical,3.301
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:c32easc2002_168_0000xmmmv0,2002-06-17T04:36:44.500000Z,2002-06-18T04:25:09.500000Z,Tests of General Relativity,Astrophysical,3.223
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:c32easc2002_169_0000xmmmv0,2002-06-18T04:25:09.500000Z,2002-06-19T04:20:20.500000Z,Tests of General Relativity,Astrophysical,3.293
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:c32easc2002_170_0000xmmmv0,2002-06-19T04:20:26.500000Z,2002-06-20T05:30:14.500000Z,Tests of General Relativity,Astrophysical,2.801
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:c32easc2002_171_0000xmmmv0,2002-06-20T05:08:31.500000Z,2002-06-21T04:14:19.500000Z,Tests of General Relativity,Astrophysical,3.032
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:c32easc2002_172_0000k252v0,2002-06-21T18:44:34.500000Z,2002-06-21T23:40:08.500000Z,Tests of General Relativity,Astrophysical,0.73
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:c32easc2002_172_0000xmmmv0,2002-06-21T04:16:23.500000Z,2002-06-22T04:14:32.500000Z,Tests of General Relativity,Astrophysical,2.93
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:c32easc2002_173_0000k252v0,2002-06-22T15:57:12.500000Z,2002-06-23T01:18:29.500000Z,Tests of General Relativity,Astrophysical,1.277
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:c32easc2002_173_0000xmmmv0,2002-06-22T04:16:27.500000Z,2002-06-23T04:09:31.500000Z,Tests of General Relativity,Astrophysical,3.168
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:c32easc2002_174_0000k252v0,2002-06-23T15:52:11.500000Z,2002-06-24T01:55:49.500000Z,Tests of General Relativity,Astrophysical,1.359
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:c32easc2002_174_0000xmmmv0,2002-06-23T04:11:26.500000Z,2002-06-24T04:05:35.500000Z,Tests of General Relativity,Astrophysical,3.336
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:c32easc2002_175_0000k252v0,2002-06-24T15:52:10.500000Z,2002-06-25T00:32:10.500000Z,Tests of General Relativity,Astrophysical,1.191
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:c32easc2002_175_0000xmmmv0,2002-06-24T04:05:39.500000Z,2002-06-25T04:04:42.500000Z,Tests of General Relativity,Astrophysical,3.317
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:c32easc2002_176_0000k252v0,2002-06-25T15:47:46.500000Z,2002-06-26T01:51:42.500000Z,Tests of General Relativity,Astrophysical,1.351
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:c32easc2002_176_0000xmmmv0,2002-06-25T04:01:00.500000Z,2002-06-26T04:05:38.500000Z,Tests of General Relativity,Astrophysical,3.27
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:c32easc2002_177_0000k252v0,2002-06-26T15:42:11.500000Z,2002-06-26T21:53:11.500000Z,Tests of General Relativity,Astrophysical,0.883
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:c32easc2002_177_0000xmmmv0,2002-06-26T04:05:40.500000Z,2002-06-27T04:00:41.500000Z,Tests of General Relativity,Astrophysical,3.352
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:c32easc2002_178_0000k252v0,2002-06-27T15:42:13.500000Z,2002-06-28T01:46:04.500000Z,Tests of General Relativity,Astrophysical,1.351
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:c32easc2002_178_0000xmmmv0,2002-06-27T04:00:42.500000Z,2002-06-28T03:55:36.500000Z,Tests of General Relativity,Astrophysical,3.254
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:c32easc2002_179_0000xmmmv0,2002-06-28T04:26:43.500000Z,2002-06-29T03:55:43.500000Z,Tests of General Relativity,Astrophysical,3.368
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:c32easc2002_180_0000k252v0,2002-06-29T15:32:14.500000Z,2002-06-30T01:41:08.500000Z,Tests of General Relativity,Astrophysical,1.367
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:c32easc2002_180_0000xmmmv0,2002-06-29T03:55:43.500000Z,2002-06-30T03:50:47.500000Z,Tests of General Relativity,Astrophysical,3.285
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:c32easc2002_181_0000k252v0,2002-06-30T15:32:16.500000Z,2002-07-01T01:31:08.500000Z,Tests of General Relativity,Astrophysical,1.351
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:c32easc2002_181_0000xmmmv0,2002-06-30T03:50:48.500000Z,2002-07-01T03:40:12.500000Z,Tests of General Relativity,Astrophysical,3.301
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:c32easc2002_182_0000xmmmv0,2002-07-01T03:40:13.500000Z,2002-07-01T21:06:09.500000Z,Tests of General Relativity,Astrophysical,2.367
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:c32easc2002_183_0000k252v0,2002-07-02T15:22:33.500000Z,2002-07-02T23:17:14.500000Z,Tests of General Relativity,Astrophysical,1.089
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:c32easc2002_183_0000xmmmv0,2002-07-02T02:53:20.500000Z,2002-07-03T01:25:44.500000Z,Tests of General Relativity,Astrophysical,3.184
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:c32easc2002_184_0000k252v0,2002-07-03T21:57:15.500000Z,2002-07-04T01:26:43.500000Z,Tests of General Relativity,Astrophysical,0.546
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:c32easc2002_184_0000xmmmv0,2002-07-03T01:25:45.500000Z,2002-07-04T03:35:49.500000Z,Tests of General Relativity,Astrophysical,3.399
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:c32easc2002_185_0000k252v0,2002-07-04T15:17:17.500000Z,2002-07-05T01:20:48.500000Z,Tests of General Relativity,Astrophysical,1.34
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:c32easc2002_185_0000xmmmv0,2002-07-04T03:35:52.500000Z,2002-07-05T03:35:42.500000Z,Tests of General Relativity,Astrophysical,3.04
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s12easc2005_202_1515x25mv1,2005-07-21T15:15:01.00Z,2005-07-22T00:20:00.00Z,Solar Wind,Plasma Stream,2.336
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s12easc2005_203_1445x26mv1,2005-07-22T14:45:01.00Z,2005-07-22T23:45:00.00Z,Solar Wind,Plasma Stream,2.176
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s12easc2005_204_1445x25mv1,2005-07-23T14:45:01.00Z,2005-07-23T23:45:00.00Z,Solar Wind,Plasma Stream,0.731
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s12easc2005_205_1445x25mv1,2005-07-24T14:45:01.00Z,2005-07-24T23:45:00.00Z,Solar Wind,Plasma Stream,2.304
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s12easc2005_206_1515x25mv1,2005-07-25T15:15:01.00Z,2005-07-26T00:15:00.00Z,Solar Wind,Plasma Stream,2.313
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s22easc2006_203_1516x14mv1,2006-07-22T15:16:15.00Z,2006-07-23T01:03:32.00Z,Solar Wind,Plasma Stream,4.875
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s22easc2006_204_1018x55mv1,2006-07-23T10:18:56.00Z,2006-07-23T16:25:42.00Z,Solar Wind,Plasma Stream,1.769
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s22easc2006_207_1541x26mv1,2006-07-26T15:41:16.00Z,2006-07-27T00:47:10.00Z,Solar Wind,Plasma Stream,4.46
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s22easc2006_208_1535x25mv1,2006-07-27T15:35:19.00Z,2006-07-28T00:46:53.00Z,Solar Wind,Plasma Stream,2.36
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s22easc2006_209_1544x26mv1,2006-07-28T15:44:51.00Z,2006-07-29T00:46:04.00Z,Solar Wind,Plasma Stream,2.254
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s22easc2006_210_0808x55mv1,2006-07-29T08:08:17.00Z,2006-07-29T17:16:04.00Z,Solar Wind,Plasma Stream,2.344
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s22easc2006_211_1544x26mv1,2006-07-30T15:44:54.00Z,2006-07-31T00:46:11.00Z,Solar Wind,Plasma Stream,2.32
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s22easc2006_212_1525x26mv1,2006-07-31T15:25:06.00Z,2006-08-01T00:30:52.00Z,Solar Wind,Plasma Stream,2.336
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s22easc2006_215_1529x25mv1,2006-08-03T15:29:06.00Z,2006-08-04T00:32:16.00Z,Solar Wind,Plasma Stream,2.328
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s22easc2006_216_1512x25mv1,2006-08-04T15:12:54.00Z,2006-08-05T00:18:35.00Z,Solar Wind,Plasma Stream,2.32
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s22easc2006_217_1407x25mv1,2006-08-05T14:07:05.00Z,2006-08-06T00:16:35.00Z,Solar Wind,Plasma Stream,2.606
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s22easc2006_218_1405x26mv1,2006-08-06T14:05:10.00Z,2006-08-07T00:16:32.00Z,Solar Wind,Plasma Stream,2.613
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s22easc2006_219_1454x25mv1,2006-08-07T14:54:55.00Z,2006-08-08T00:19:01.00Z,Solar Wind,Plasma Stream,2.414
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s22easc2006_220_1347x25mv1,2006-08-08T13:47:24.00Z,2006-08-09T00:17:23.00Z,Solar Wind,Plasma Stream,2.477
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s22easc2006_221_1400x26mv1,2006-08-09T14:00:01.00Z,2006-08-10T00:01:17.00Z,Solar Wind,Plasma Stream,2.567
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s22easc2006_222_1454x25mv1,2006-08-10T14:54:09.00Z,2006-08-11T00:03:39.00Z,Solar Wind,Plasma Stream,2.352
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s22easc2006_223_0730x55mv1,2006-08-11T07:30:09.00Z,2006-08-11T16:30:14.00Z,Solar Wind,Plasma Stream,3.742
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s22easc2006_224_1318x26mv1,2006-08-12T13:18:59.00Z,2006-08-13T01:24:40.00Z,Solar Wind,Plasma Stream,3.941
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s22easc2006_225_1521x14mv1,2006-08-13T14:21:57.00Z,2006-08-13T23:38:29.00Z,Solar Wind,Plasma Stream,4.628
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s22easc2006_226_1438x26mv1,2006-08-14T14:38:41.00Z,2006-08-14T23:46:07.00Z,Solar Wind,Plasma Stream,2.344
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s22easc2006_229_1423x25mv1,2006-08-17T14:23:58.00Z,2006-08-17T23:46:44.00Z,Solar Wind,Plasma Stream,2.399
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s22easc2006_230_1430x14mv1,2006-08-18T14:30:09.00Z,2006-08-18T23:31:56.00Z,Solar Wind,Plasma Stream,5.109
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s22easc2006_231_1418x14mv1,2006-08-19T14:18:10.00Z,2006-08-19T23:31:38.00Z,Solar Wind,Plasma Stream,5.242
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s23easc2006_232_1425x14mv1,2006-08-20T14:25:43.00Z,2006-08-20T23:31:42.00Z,Solar Wind,Plasma Stream,4.558
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s23easc2006_233_1418x26mv1,2006-08-21T14:18:14.00Z,2006-08-21T23:31:47.00Z,Solar Wind,Plasma Stream,2.367
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s32easc2007_219_0831x55mv1,2007-08-07T08:31:47.00Z,2007-08-07T17:31:08.00Z,Solar Wind,Plasma Stream,2.313
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s32easc2007_220_1547x14mv1,2007-08-08T15:47:03.00Z,2007-08-09T01:01:23.00Z,Solar Wind,Plasma Stream,3.476
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s32easc2007_221_1545xmmmv1,2007-08-09T15:45:09.00Z,2007-08-12T17:16:15.00Z,Solar Wind,Plasma Stream,7.633
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s33easc2007_225_1526xmmmv1,2007-08-13T15:26:53.00Z,2007-08-15T00:30:29.00Z,Solar Wind,Plasma Stream,4.297
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s33easc2007_227_1522xmmmv1,2007-08-15T15:22:06.00Z,2007-08-17T17:01:25.00Z,Solar Wind,Plasma Stream,6.828
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s33easc2007_230_1525xmmmv1,2007-08-18T15:25:47.00Z,2007-08-21T00:25:34.00Z,Solar Wind,Plasma Stream,7.996
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s33easc2007_233_1509xmmmv1,2007-08-21T15:09:05.00Z,2007-08-24T00:25:31.00Z,Solar Wind,Plasma Stream,7.089
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s33easc2007_236_1422xmmmv1,2007-08-24T14:22:06.00Z,2007-08-25T16:31:36.00Z,Solar Wind,Plasma Stream,6.601
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s33easc2007_238_1440xmmmv1,2007-08-26T14:40:08.00Z,2007-08-28T23:45:32.00Z,Solar Wind,Plasma Stream,5.734
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s33easc2007_241_1840nnn1v1,2007-08-29T18:40:06.00Z,2007-08-29T20:36:21.00Z,Solar Wind,Plasma Stream,0.824
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s33easc2007_242_0825xmmmv1,2007-08-30T08:25:35.00Z,2007-08-30T22:15:33.00Z,Solar Wind,Plasma Stream,4.926
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s33easc2007_244_0541xmmmv1,2007-09-01T05:41:57.00Z,2007-09-02T16:01:13.00Z,Solar Wind,Plasma Stream,5.145
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s33easc2007_246_1417x25mv1,2007-09-03T14:17:23.00Z,2007-09-04T23:15:26.00Z,Solar Wind,Plasma Stream,5
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s43easc2008_233_1556x26mv1,2008-08-20T15:56:46.00Z,2008-08-21T01:01:13.00Z,Solar Wind,Plasma Stream,2.278
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s43easc2008_234_1556x14mv1,2008-08-21T15:56:39.00Z,2008-08-22T01:01:01.00Z,Solar Wind,Plasma Stream,3.453
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s43easc2008_239_1658xmmmv1,2008-08-26T16:58:09.00Z,2008-08-27T02:01:13.00Z,Solar Wind,Plasma Stream,3.46
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s43easc2008_241_1539x25mv1,2008-08-28T15:39:57.00Z,2008-08-28T20:46:45.00Z,Solar Wind,Plasma Stream,1.352
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s43easc2008_242_0755x63mv1,2008-08-29T07:55:43.00Z,2008-08-29T17:00:51.00Z,Solar Wind,Plasma Stream,2.914
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s43easc2008_243_0747x55mv1,2008-08-30T07:47:54.00Z,2008-08-30T17:01:19.00Z,Solar Wind,Plasma Stream,2.375
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s43easc2008_244_0759x63mv1,2008-08-31T07:59:51.00Z,2008-08-31T17:01:05.00Z,Solar Wind,Plasma Stream,3.445
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s43easc2008_245_0734x54mv1,2008-09-01T07:34:19.00Z,2008-09-01T16:46:08.00Z,Solar Wind,Plasma Stream,2.344
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s43easc2008_246_0740x54mv1,2008-09-02T07:40:09.00Z,2008-09-02T16:47:09.00Z,Solar Wind,Plasma Stream,2.344
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s43easc2008_247_0720x54mv1,2008-09-03T07:20:12.00Z,2008-09-03T16:45:35.00Z,Solar Wind,Plasma Stream,2.414
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s43easc2008_248_0741x54mv1,2008-09-04T07:41:55.00Z,2008-09-04T16:47:18.00Z,Solar Wind,Plasma Stream,2.336
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s43easc2008_249_1321x54mv1,2008-09-05T13:21:12.00Z,2008-09-05T16:46:41.00Z,Solar Wind,Plasma Stream,0.938
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s43easc2008_250_0729x54mv1,2008-09-06T07:29:27.00Z,2008-09-06T16:31:52.00Z,Solar Wind,Plasma Stream,2.328
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s43easc2008_251_0728x63mv1,2008-09-07T07:28:35.00Z,2008-09-07T16:31:18.00Z,Solar Wind,Plasma Stream,2.992
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s43easc2008_252_0730x54mv1,2008-09-08T07:30:09.00Z,2008-09-08T16:31:11.00Z,Solar Wind,Plasma Stream,2.32
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s43easc2008_256_0708x63mv1,2008-09-12T07:08:40.00Z,2008-09-12T16:16:36.00Z,Solar Wind,Plasma Stream,1.343
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s43easc2008_257_1444x14mv1,2008-09-13T14:44:53.00Z,2008-09-13T23:45:28.00Z,Solar Wind,Plasma Stream,3.238
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s44easc2008_258_1445x25mv1,2008-09-14T14:45:09.00Z,2008-09-14T23:45:31.00Z,Solar Wind,Plasma Stream,2.32
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s44easc2008_259_1438x25mv1,2008-09-15T14:38:32.00Z,2008-09-15T23:46:09.00Z,Solar Wind,Plasma Stream,2.352
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s53easc2009_245_1557x26mv1,2009-09-02T15:57:54.00Z,2009-09-04T01:01:09.00Z,Solar Wind,Plasma Stream,4.551
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s53easc2009_248_2206xmmmv1,2009-09-05T22:06:47.00Z,2009-09-08T06:44:15.00Z,Solar Wind,Plasma Stream,5.012
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s53easc2009_251_2158xmmmv1,2009-09-08T21:58:34.00Z,2009-09-10T07:01:35.00Z,Solar Wind,Plasma Stream,3.46
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s53easc2009_253_2143xmmmv1,2009-09-10T21:43:54.00Z,2009-09-12T00:30:07.00Z,Solar Wind,Plasma Stream,3.453
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s53easc2009_255_1526xmmmv1,2009-09-12T15:26:52.00Z,2009-09-14T00:30:49.00Z,Solar Wind,Plasma Stream,4.468
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s53easc2009_256_1526xmmmv1,2009-09-13T15:26:22.00Z,2009-09-15T00:15:25.00Z,Solar Wind,Plasma Stream,3.152
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s53easc2009_258_1449x25mv1,2009-09-15T14:49:04.00Z,2009-09-16T00:15:53.00Z,Solar Wind,Plasma Stream,3.128
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s53easc2009_259_1508xmmmv1,2009-09-16T15:08:17.00Z,2009-09-17T23:48:00.00Z,Solar Wind,Plasma Stream,2.945
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s53easc2009_261_1508x25mv1,2009-09-18T15:08:45.00Z,2009-09-20T00:02:30.00Z,Solar Wind,Plasma Stream,4.09
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s53easc2009_265_1456x14mv1,2009-09-22T14:56:25.00Z,2009-09-23T00:01:13.00Z,Solar Wind,Plasma Stream,3.468
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s53easc2009_266_1422x14mv1,2009-09-23T14:22:43.00Z,2009-09-23T23:45:04.00Z,Solar Wind,Plasma Stream,3.484
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s53easc2009_267_1440x26mv1,2009-09-24T14:40:46.00Z,2009-09-24T20:46:45.00Z,Solar Wind,Plasma Stream,1.598
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s53easc2009_268_1444xmmmv1,2009-09-25T14:44:28.00Z,2009-09-27T06:01:54.00Z,Solar Wind,Plasma Stream,3.46
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s53easc2009_271_0658x55mv1,2009-09-28T06:58:39.00Z,2009-09-28T16:00:43.00Z,Solar Wind,Plasma Stream,2.547
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s53easc2009_272_1427x25mv1,2009-09-29T14:27:54.00Z,2009-09-29T23:31:25.00Z,Solar Wind,Plasma Stream,2.328
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s53easc2009_273_2038x34mv1,2009-09-30T20:38:41.00Z,2009-10-01T05:45:55.00Z,Solar Wind,Plasma Stream,2.328
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s63easc2010_261_0645x55mv1,2010-09-18T08:15:13.00Z,2010-09-18T17:16:05.00Z,Solar Wind,Plasma Stream,2.301
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s63easc2010_262_0645x55mv1,2010-09-19T08:09:04.00Z,2010-09-19T17:15:58.00Z,Solar Wind,Plasma Stream,2.32
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s63easc2010_263_0645x54mv1,2010-09-20T08:14:17.00Z,2010-09-20T15:41:47.00Z,Solar Wind,Plasma Stream,1.793
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s63easc2010_266_2042x43mv1,2010-09-23T22:30:05.00Z,2010-09-24T06:46:23.00Z,Solar Wind,Plasma Stream,2.121
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s63easc2010_268_1851x43mv1,2010-09-25T20:53:46.00Z,2010-09-26T07:44:54.00Z,Solar Wind,Plasma Stream,4.089
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s63easc2010_269_2047x45mv1,2010-09-26T21:45:08.00Z,2010-09-27T06:46:12.00Z,Solar Wind,Plasma Stream,2.313
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s63easc2010_272_2000x34mv1,2010-09-29T21:30:29.00Z,2010-09-30T06:30:45.00Z,Solar Wind,Plasma Stream,2.305
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s63easc2010_274_1940x43mv1,2010-10-01T21:15:07.00Z,2010-10-02T06:17:43.00Z,Solar Wind,Plasma Stream,2.32
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s63easc2010_276_1353x15mv1,2010-10-03T14:53:20.00Z,2010-10-04T00:00:25.00Z,Solar Wind,Plasma Stream,2.32
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s63easc2010_278_0507x55mv1,2010-10-05T07:16:10.00Z,2010-10-05T16:15:59.00Z,Solar Wind,Plasma Stream,2.285
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s63easc2010_279_1927x43mv1,2010-10-06T20:55:37.00Z,2010-10-07T06:00:31.00Z,Solar Wind,Plasma Stream,2.328
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s63easc2010_281_2000x45mv1,2010-10-08T21:00:09.00Z,2010-10-09T06:01:00.00Z,Solar Wind,Plasma Stream,2.313
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s63easc2010_283_1945x43mv1,2010-10-10T20:39:21.00Z,2010-10-11T05:46:24.00Z,Solar Wind,Plasma Stream,2.328
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s64easc2010_284_1946x43mv1,2010-10-11T20:45:10.00Z,2010-10-12T05:46:04.00Z,Solar Wind,Plasma Stream,2.313
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s64easc2010_285_1945x45mv1,2010-10-12T20:45:09.00Z,2010-10-13T05:48:28.00Z,Solar Wind,Plasma Stream,2.305
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s70easc2011_270_0738x63mv1,2011-09-27T08:27:42.00Z,2011-09-27T17:30:59.00Z,Solar Wind,Plasma Stream,2.32
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s70easc2011_273_1445x14mv1,2011-09-30T15:45:05.00Z,2011-10-01T00:47:13.00Z,Solar Wind,Plasma Stream,2.32
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s70easc2011_275_1448x14mv1,2011-10-02T15:45:05.00Z,2011-10-03T00:50:38.00Z,Solar Wind,Plasma Stream,2.336
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s70easc2011_275_2340x143v1,2011-10-03T00:17:32.00Z,2011-10-03T01:46:37.00Z,Solar Wind,Plasma Stream,0.461
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s70easc2011_276_1430x15mv1,2011-10-03T15:30:05.00Z,2011-10-04T00:31:50.00Z,Solar Wind,Plasma Stream,1.215
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s70easc2011_280_2015x34mv1,2011-10-07T20:57:17.00Z,2011-10-08T06:45:48.00Z,Solar Wind,Plasma Stream,2.367
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s70easc2011_281_2045x43mv1,2011-10-08T21:45:05.00Z,2011-10-09T06:45:40.00Z,Solar Wind,Plasma Stream,2.32
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s70easc2011_284_2030x43mv1,2011-10-11T21:30:05.00Z,2011-10-12T06:30:57.00Z,Solar Wind,Plasma Stream,2.313
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s70easc2011_285_2300x34mv1,2011-10-13T00:03:06.00Z,2011-10-13T06:22:25.00Z,Solar Wind,Plasma Stream,1.629
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s70easc2011_287_0630x55mv1,2011-10-14T07:54:54.00Z,2011-10-14T16:16:19.00Z,Solar Wind,Plasma Stream,2.137
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s70easc2011_288_0600x55mv1,2011-10-15T07:27:32.00Z,2011-10-15T16:30:39.00Z,Solar Wind,Plasma Stream,2.313
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s70easc2011_289_0600x55mv1,2011-10-16T07:38:45.00Z,2011-10-16T16:29:44.00Z,Solar Wind,Plasma Stream,2.285
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s70easc2011_290_0545x54mv1,2011-10-17T07:07:58.00Z,2011-10-17T16:16:05.00Z,Solar Wind,Plasma Stream,2.32
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s70easc2011_291_0615x63mv1,2011-10-18T07:15:05.00Z,2011-10-18T16:15:34.00Z,Solar Wind,Plasma Stream,2.305
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s70easc2011_292_1435x14mv1,2011-10-19T15:35:05.00Z,2011-10-19T21:01:21.00Z,Solar Wind,Plasma Stream,1.375
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s70easc2011_292_1940x43mv1,2011-10-19T20:40:05.00Z,2011-10-20T03:00:27.00Z,Solar Wind,Plasma Stream,1.668
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s70easc2011_296_1915x34mv1,2011-10-23T20:12:10.00Z,2011-10-24T05:47:16.00Z,Solar Wind,Plasma Stream,2.375
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s70easc2011_298_0602x63mv1,2011-10-25T06:49:13.00Z,2011-10-25T16:00:39.00Z,Solar Wind,Plasma Stream,2.344
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s70easc2011_299_0515x55mv1,2011-10-26T06:51:33.00Z,2011-10-26T15:45:38.00Z,Solar Wind,Plasma Stream,1.199
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s70easc2011_300_0515x55mv1,2011-10-27T06:37:36.00Z,2011-10-27T15:45:36.00Z,Solar Wind,Plasma Stream,2.32
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s75easc2012_279_0715xmmmv1,2012-10-05T08:45:05.00Z,2012-10-08T17:30:46.00Z,Solar Wind,Plasma Stream,7.453
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s75easc2012_305_0545x55mv1,2012-10-31T07:01:12.00Z,2012-10-31T16:14:38.00Z,Solar Wind,Plasma Stream,2.328
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s75easc2012_307_0600x63mv1,2012-11-02T07:00:05.00Z,2012-11-02T16:00:15.00Z,Solar Wind,Plasma Stream,2.305
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s76easc2012_309_0530x55mv1,2012-11-04T07:00:05.00Z,2012-11-04T16:01:23.00Z,Solar Wind,Plasma Stream,2.262
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s76easc2012_311_0545x63mv1,2012-11-06T06:32:35.00Z,2012-11-06T15:20:47.00Z,Solar Wind,Plasma Stream,2.246
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s76easc2012_312_0515x55mv1,2012-11-07T06:45:05.00Z,2012-11-07T12:46:15.00Z,Solar Wind,Plasma Stream,1.574
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s76easc2012_313_1245xmmmv1,2012-11-08T14:15:05.00Z,2012-11-08T22:50:18.00Z,Solar Wind,Plasma Stream,2.215
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s76easc2012_317_0530x63mv1,2012-11-12T06:22:39.00Z,2012-11-12T12:30:52.00Z,Solar Wind,Plasma Stream,1.59
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s76easc2012_319_0700xmmmv1,2012-11-14T08:00:09.00Z,2012-11-14T18:57:40.00Z,Solar Wind,Plasma Stream,2.89
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s81easc2013_297_2100x43mv1,2013-10-24T22:00:05.00Z,2013-10-25T05:01:54.00Z,Solar Wind,Plasma Stream,1.828
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s81easc2013_299_2100x43mv1,2013-10-26T21:53:01.00Z,2013-10-27T06:00:43.00Z,Solar Wind,Plasma Stream,2.074
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s81easc2013_301_2015x34mv1,2013-10-28T21:37:29.00Z,2013-10-29T06:16:44.00Z,Solar Wind,Plasma Stream,2.215
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s81easc2013_303_0645x55mv1,2013-10-30T08:15:05.00Z,2013-10-30T16:30:31.00Z,Solar Wind,Plasma Stream,2.129
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s81easc2013_304_1400x25mv1,2013-10-31T15:22:39.00Z,2013-10-31T23:16:31.00Z,Solar Wind,Plasma Stream,2.039
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s81easc2013_305_0715x63mv1,2013-11-01T08:15:05.00Z,2013-11-01T16:30:48.00Z,Solar Wind,Plasma Stream,2.129
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s81easc2013_309_0700x55mv1,2013-11-05T08:30:05.00Z,2013-11-05T15:45:35.00Z,Solar Wind,Plasma Stream,1.883
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s81easc2013_310_1416x14mv1,2013-11-06T15:12:17.00Z,2013-11-07T00:01:10.00Z,Solar Wind,Plasma Stream,2.277
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s81easc2013_312_1945x34mv1,2013-11-08T21:05:37.00Z,2013-11-09T06:16:08.00Z,Solar Wind,Plasma Stream,2.328
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s81easc2013_314_2017x43mv1,2013-11-10T21:00:05.00Z,2013-11-11T06:01:05.00Z,Solar Wind,Plasma Stream,2.313
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s81easc2013_316_2159nnn1v1,2013-11-12T23:58:03.00Z,2013-11-13T02:01:05.00Z,Solar Wind,Plasma Stream,0.598
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s81easc2013_318_2000x34mv1,2013-11-14T21:00:05.00Z,2013-11-15T06:01:01.00Z,Solar Wind,Plasma Stream,2.313
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s81easc2013_320_1915x34mv1,2013-11-16T20:43:02.00Z,2013-11-17T05:45:32.00Z,Solar Wind,Plasma Stream,2.32
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s81easc2013_322_0600x63mv1,2013-11-18T07:00:05.00Z,2013-11-18T14:15:44.00Z,Solar Wind,Plasma Stream,1.883
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s81easc2013_324_1245x26mv1,2013-11-20T14:15:05.00Z,2013-11-20T23:15:26.00Z,Solar Wind,Plasma Stream,2.301
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s86easc2014_308_1446xmmmv1,2014-11-04T15:45:05.00Z,2014-11-04T22:16:44.00Z,Solar Wind,Plasma Stream,1.898
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s86easc2014_310_1900x35mv1,2014-11-06T20:22:18.00Z,2014-11-07T00:30:22.00Z,Solar Wind,Plasma Stream,1.074
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s86easc2014_312_1446xmmmv1,2014-11-08T15:45:30.00Z,2014-11-08T21:55:44.00Z,Solar Wind,Plasma Stream,1.335
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s86easc2014_314_2015x35mv1,2014-11-10T21:45:05.00Z,2014-11-11T06:45:04.00Z,Solar Wind,Plasma Stream,2.313
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s86easc2014_316_2346x43mv1,2014-11-13T00:45:05.00Z,2014-11-13T06:45:55.00Z,Solar Wind,Plasma Stream,1.574
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s86easc2014_318_2000x35mv1,2014-11-14T21:30:05.00Z,2014-11-15T06:30:39.00Z,Solar Wind,Plasma Stream,2.313
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s86easc2014_320_2306x43mv1,2014-11-16T23:58:12.00Z,2014-11-17T06:30:22.00Z,Solar Wind,Plasma Stream,1.707
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s86easc2014_322_2015x45mv1,2014-11-18T21:13:52.00Z,2014-11-19T06:16:05.00Z,Solar Wind,Plasma Stream,2.254
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s86easc2014_323_1945x34mv1,2014-11-19T21:15:05.00Z,2014-11-19T22:18:00.00Z,Solar Wind,Plasma Stream,0.352
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s86easc2014_324_0017xmmmv1,2014-11-20T01:15:15.00Z,2014-11-21T06:15:48.00Z,Solar Wind,Plasma Stream,2.468
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s86easc2014_325_2015x45mv1,2014-11-21T21:15:14.00Z,2014-11-22T06:15:31.00Z,Solar Wind,Plasma Stream,1.121
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s86easc2014_327_2000x45mv1,2014-11-23T20:52:53.00Z,2014-11-24T06:00:01.00Z,Solar Wind,Plasma Stream,2.328
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s86easc2014_328_1936x35mv1,2014-11-24T20:53:00.00Z,2014-11-25T06:00:25.00Z,Solar Wind,Plasma Stream,2.328
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s86easc2014_330_1346x14mv1,2014-11-26T14:37:54.00Z,2014-11-26T21:11:54.00Z,Solar Wind,Plasma Stream,1.699
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s86easc2014_332_1331x15mv1,2014-11-28T14:30:05.00Z,2014-11-28T19:41:30.00Z,Solar Wind,Plasma Stream,1.375
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s86easc2014_332_1820x45mv1,2014-11-28T19:20:05.00Z,2014-11-28T23:15:07.00Z,Solar Wind,Plasma Stream,1.063
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s86easc2014_333_2146x43mv1,2014-11-29T22:45:05.00Z,2014-11-30T05:44:52.00Z,Solar Wind,Plasma Stream,1.82
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s86easc2014_335_1945x45mv1,2014-12-01T20:37:23.00Z,2014-12-02T05:30:59.00Z,Solar Wind,Plasma Stream,2.27
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s91easc2015_322_2355xmmmv1,2015-11-19T00:53:16.00Z,2015-11-19T07:00:44.00Z,Solar Wind,Plasma Stream,1.207
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s91easc2015_324_1254x55mv1,2015-11-20T14:15:52.00Z,2015-11-20T15:42:57.00Z,Solar Wind,Plasma Stream,0.445
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s91easc2015_324_1445x14mv1,2015-11-20T15:45:07.00Z,2015-11-20T20:45:54.00Z,Solar Wind,Plasma Stream,1.32
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s91easc2015_326_2046x43mv1,2015-11-22T21:45:06.00Z,2015-11-23T04:15:53.00Z,Solar Wind,Plasma Stream,1.699
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s91easc2015_328_1430x14mv1,2015-11-24T15:30:30.00Z,2015-11-24T18:30:49.00Z,Solar Wind,Plasma Stream,0.836
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s91easc2015_328_2031x43mv1,2015-11-24T21:30:05.00Z,2015-11-25T05:11:03.00Z,Solar Wind,Plasma Stream,1.992
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s92easc2015_332_2015x351v1,2015-11-28T20:48:21.00Z,2015-11-29T06:31:22.00Z,Solar Wind,Plasma Stream,2.375
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s92easc2015_336_2011x43mv1,2015-12-02T21:15:06.00Z,2015-12-03T02:41:24.00Z,Solar Wind,Plasma Stream,1.438
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s92easc2015_338_1930xmmmv1,2015-12-04T20:54:06.00Z,2015-12-05T05:40:57.00Z,Solar Wind,Plasma Stream,2.144
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s92easc2015_339_2001x43mv1,2015-12-05T21:00:06.00Z,2015-12-06T04:41:25.00Z,Solar Wind,Plasma Stream,1.992
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s92easc2015_343_1346x14mv1,2015-12-09T14:45:14.00Z,2015-12-09T21:30:54.00Z,Solar Wind,Plasma Stream,1.762
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s92easc2015_345_1345x14mv1,2015-12-11T14:39:57.00Z,2015-12-11T20:40:49.00Z,Solar Wind,Plasma Stream,1.567
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s92easc2015_347_1315x25mv1,2015-12-13T14:45:07.00Z,2015-12-13T22:45:38.00Z,Solar Wind,Plasma Stream,2.067
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s92easc2015_348_1316x25mv1,2015-12-14T14:41:30.00Z,2015-12-14T20:45:53.00Z,Solar Wind,Plasma Stream,1.582
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s97eabc2016_357_1916x34mv1,2016-12-22T20:45:05.00Z,2016-12-23T05:44:44.00Z,Solar Wind,Plasma Stream,2.313
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s97easc2016333_2131x34mv1,2016-11-28T23:00:05.00Z,2016-11-29T05:40:27.00Z,Solar Wind,Plasma Stream,1.828
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s97easc2016_330_2316x43mv1,2016-11-26T00:15:05.00Z,2016-11-26T07:15:38.00Z,Solar Wind,Plasma Stream,1.82
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s97easc2016_336_0255xmmmv1,2016-12-01T03:55:06.00Z,2016-12-02T05:31:00.00Z,Solar Wind,Plasma Stream,3.507
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s97easc2016_338_0445xmmmv1,2016-12-03T05:45:05.00Z,2016-12-04T16:29:54.00Z,Solar Wind,Plasma Stream,3.863
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s97easc2016_340_2035x34mv1,2016-12-05T21:35:06.00Z,2016-12-06T06:40:20.00Z,Solar Wind,Plasma Stream,1.223
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s97easc2016_341_2026x43mv1,2016-12-06T21:25:06.00Z,2016-12-08T05:36:44.00Z,Solar Wind,Plasma Stream,4.09
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s97easc2016_344_1945x34mv1,2016-12-09T21:15:05.00Z,2016-12-12T05:01:46.00Z,Solar Wind,Plasma Stream,5.207
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s97easc2016_347_1830xmmmv1,2016-12-12T19:23:00.00Z,2016-12-15T05:55:23.00Z,Solar Wind,Plasma Stream,4.504
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s97easc2016_351_1416xmmmv1,2016-12-16T15:11:08.00Z,2016-12-18T04:49:48.00Z,Solar Wind,Plasma Stream,3.496
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s97easc2016_354_0825xmmmv1,2016-12-19T10:19:43.00Z,2016-12-20T07:40:51.00Z,Solar Wind,Plasma Stream,7.59
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s97easc2016_356_1951xmmmv1,2016-12-21T20:42:29.00Z,2016-12-25T11:47:23.00Z,Solar Wind,Plasma Stream,3.539
+urn:nasa:pds:cassini.rss.raw.sce:data.odf:s97easc201_355_2011x43mv1,2016-12-20T21:15:06.00Z,2016-12-21T03:46:46.00Z,Solar Wind,Plasma Stream,1.699

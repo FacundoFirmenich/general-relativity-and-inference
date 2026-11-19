@@ -1,0 +1,156 @@
+{
+  "scope": "Bounded archive accessibility and binary decoding, not Q2 fitting",
+  "source_filename": "sc1sagf2017_200_0410xmmmv1.dat",
+  "bytes": 129024,
+  "sha256": "8925008e791394d53a73f55d3eefc57b4d0be85360319c7fd44f044aa9185804",
+  "label_md5_verified": true,
+  "file_label": {
+    "System ID": "TDDS",
+    "Program ID": "AMMOS",
+    "Spacecraft ID Number": 82,
+    "File Creation Date (YYMMDD)": 1170724,
+    "File Creation Time (hhmmss)": 184716,
+    "File Reference Date (YYYYMMDD)": 19500101,
+    "File Reference Time (HHMMSS)": 0
+  },
+  "tables": [
+    {
+      "name": "ODF File Label Group Header",
+      "offset": 0,
+      "records": 1,
+      "record_length": 36
+    },
+    {
+      "name": "ODF File Label Group Data",
+      "offset": 36,
+      "records": 1,
+      "record_length": 36
+    },
+    {
+      "name": "ODF Identifier Group Header",
+      "offset": 72,
+      "records": 1,
+      "record_length": 36
+    },
+    {
+      "name": "ODF Identifier Group Data",
+      "offset": 108,
+      "records": 1,
+      "record_length": 36
+    },
+    {
+      "name": "ODF Orbit Data Group Header",
+      "offset": 144,
+      "records": 1,
+      "record_length": 36
+    },
+    {
+      "name": "ODF Orbit Data Group Data",
+      "offset": 180,
+      "records": 3131,
+      "record_length": 36
+    },
+    {
+      "name": "ODF Ramp Group Header (Station 43)",
+      "offset": 112896,
+      "records": 1,
+      "record_length": 36
+    },
+    {
+      "name": "ODF Ramp Group Data (Station 43)",
+      "offset": 112932,
+      "records": 341,
+      "record_length": 36
+    },
+    {
+      "name": "ODF Ramp Group Header (Station 36)",
+      "offset": 125208,
+      "records": 1,
+      "record_length": 36
+    },
+    {
+      "name": "ODF Ramp Group Data (Station 36)",
+      "offset": 125244,
+      "records": 3,
+      "record_length": 36
+    },
+    {
+      "name": "ODF End-of-File Group",
+      "offset": 125352,
+      "records": 1,
+      "record_length": 36
+    }
+  ],
+  "header_keys": [
+    {
+      "name": "ODF File Label Group Header",
+      "primary_key": 101
+    },
+    {
+      "name": "ODF Identifier Group Header",
+      "primary_key": 107
+    },
+    {
+      "name": "ODF Orbit Data Group Header",
+      "primary_key": 109
+    },
+    {
+      "name": "ODF Ramp Group Header (Station 43)",
+      "primary_key": 2030
+    },
+    {
+      "name": "ODF Ramp Group Header (Station 36)",
+      "primary_key": 2030
+    },
+    {
+      "name": "ODF End-of-File Group",
+      "primary_key": -1
+    }
+  ],
+  "orbit_records": 3131,
+  "time_tags_nondecreasing": true,
+  "time_seconds_from_file_reference": [
+    2131637225.0,
+    2131639830.0
+  ],
+  "categorical_counts": {
+    "Receiving Station ID": {
+      "36": 3131
+    },
+    "Transmitting Station ID": {
+      "43": 3131
+    },
+    "Data Type ID": {
+      "13": 3131
+    },
+    "Data Validity Indicator": {
+      "0": 3131
+    }
+  },
+  "inventories": {
+    "sagr": {
+      "rows": 74,
+      "columns": [
+        "URN",
+        " start_time",
+        " stop_time",
+        " target_identification_name",
+        "revolution ",
+        "experiment",
+        "file_size(MB)"
+      ]
+    },
+    "sce": {
+      "rows": 233,
+      "columns": [
+        "URN",
+        " start_time",
+        " stop_time",
+        " target_identification_name",
+        "target_identification_type",
+        "file_size(MB)"
+      ]
+    }
+  },
+  "remaining_bytes_after_logical_eof": 3636
+}

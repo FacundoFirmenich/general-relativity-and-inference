@@ -1,0 +1,35 @@
+[
+  {
+    "name": "fkp",
+    "url": "https://arxiv.org/pdf/astro-ph/9304022v1",
+    "http_status": 200,
+    "bytes": 225087,
+    "sha256": "afeef35029cbd0449a209dd68113189f1e754d8ca77e0d16fb60b7748727cb2e",
+    "is_pdf": true,
+    "checked_utc": "2026-11-18T07:14:06.039039+00:00",
+    "retention": "public research sources retained locally for user-authorized scientific verification; excluded from distribution",
+    "extraction": "pdftotext -layout"
+  },
+  {
+    "name": "tegmark",
+    "url": "https://arxiv.org/pdf/astro-ph/9706198v3",
+    "http_status": 200,
+    "bytes": 166961,
+    "sha256": "ca56825003e335e5b30fff49167c926f8e332866efdbb782759a9b5cf13de4fe",
+    "is_pdf": true,
+    "checked_utc": "2026-11-18T07:14:06.485704+00:00",
+    "retention": "public research sources retained locally for user-authorized scientific verification; excluded from distribution",
+    "extraction": "pdftotext -layout"
+  },
+  {
+    "name": "blackwell",
+    "url": "https://projecteuclid.org/download/pdf_1/euclid.aoms/1177729032",
+    "http_status": 200,
+    "bytes": 1163,
+    "sha256": "de23e6c142decbb783492097e1e925a07b5ccd3285859d702f7d3456c3e28bd8",
+    "is_pdf": false,
+    "checked_utc": "2026-11-18T07:14:07.097587+00:00",
+    "retention": "public research sources retained locally for user-authorized scientific verification; excluded from distribution",
+    "extraction": "not a PDF"
+  }
+]

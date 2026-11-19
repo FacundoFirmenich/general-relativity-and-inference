@@ -1,0 +1,6 @@
+This directory contains photon data files broken into weeklong intervals.  It is updated as new data comes in.  
+
+You can use wget to download the weekly files with the following command:
+wget -m -P . -nH --cut-dirs=4 -np -e robots=off https://heasarc.gsfc.nasa.gov/FTP/fermi/data/lat/weekly/photon/
+
+If your downloaded file seems corrupted, the file may have been updated while you were downloading it.  Please try downloading it again.

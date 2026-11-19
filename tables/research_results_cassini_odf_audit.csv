@@ -1,0 +1,93 @@
+field / campo,value / valor
+/scope,"Bounded archive accessibility and binary decoding, not Q2 fitting"
+/source_filename,sc1sagf2017_200_0410xmmmv1.dat
+/bytes,129024
+/sha256,8925008e791394d53a73f55d3eefc57b4d0be85360319c7fd44f044aa9185804
+/label_md5_verified,True
+/file_label/System ID,TDDS
+/file_label/Program ID,AMMOS
+/file_label/Spacecraft ID Number,82
+/file_label/File Creation Date (YYMMDD),1170724
+/file_label/File Creation Time (hhmmss),184716
+/file_label/File Reference Date (YYYYMMDD),19500101
+/file_label/File Reference Time (HHMMSS),0
+/tables/0/name,ODF File Label Group Header
+/tables/0/offset,0
+/tables/0/records,1
+/tables/0/record_length,36
+/tables/1/name,ODF File Label Group Data
+/tables/1/offset,36
+/tables/1/records,1
+/tables/1/record_length,36
+/tables/2/name,ODF Identifier Group Header
+/tables/2/offset,72
+/tables/2/records,1
+/tables/2/record_length,36
+/tables/3/name,ODF Identifier Group Data
+/tables/3/offset,108
+/tables/3/records,1
+/tables/3/record_length,36
+/tables/4/name,ODF Orbit Data Group Header
+/tables/4/offset,144
+/tables/4/records,1
+/tables/4/record_length,36
+/tables/5/name,ODF Orbit Data Group Data
+/tables/5/offset,180
+/tables/5/records,3131
+/tables/5/record_length,36
+/tables/6/name,ODF Ramp Group Header (Station 43)
+/tables/6/offset,112896
+/tables/6/records,1
+/tables/6/record_length,36
+/tables/7/name,ODF Ramp Group Data (Station 43)
+/tables/7/offset,112932
+/tables/7/records,341
+/tables/7/record_length,36
+/tables/8/name,ODF Ramp Group Header (Station 36)
+/tables/8/offset,125208
+/tables/8/records,1
+/tables/8/record_length,36
+/tables/9/name,ODF Ramp Group Data (Station 36)
+/tables/9/offset,125244
+/tables/9/records,3
+/tables/9/record_length,36
+/tables/10/name,ODF End-of-File Group
+/tables/10/offset,125352
+/tables/10/records,1
+/tables/10/record_length,36
+/header_keys/0/name,ODF File Label Group Header
+/header_keys/0/primary_key,101
+/header_keys/1/name,ODF Identifier Group Header
+/header_keys/1/primary_key,107
+/header_keys/2/name,ODF Orbit Data Group Header
+/header_keys/2/primary_key,109
+/header_keys/3/name,ODF Ramp Group Header (Station 43)
+/header_keys/3/primary_key,2030
+/header_keys/4/name,ODF Ramp Group Header (Station 36)
+/header_keys/4/primary_key,2030
+/header_keys/5/name,ODF End-of-File Group
+/header_keys/5/primary_key,-1
+/orbit_records,3131
+/time_tags_nondecreasing,True
+/time_seconds_from_file_reference/0,2131637225.0
+/time_seconds_from_file_reference/1,2131639830.0
+/categorical_counts/Receiving Station ID/36,3131
+/categorical_counts/Transmitting Station ID/43,3131
+/categorical_counts/Data Type ID/13,3131
+/categorical_counts/Data Validity Indicator/0,3131
+/inventories/sagr/rows,74
+/inventories/sagr/columns/0,URN
+/inventories/sagr/columns/1, start_time
+/inventories/sagr/columns/2, stop_time
+/inventories/sagr/columns/3, target_identification_name
+/inventories/sagr/columns/4,revolution 
+/inventories/sagr/columns/5,experiment
+/inventories/sagr/columns/6,file_size(MB)
+/inventories/sce/rows,233
+/inventories/sce/columns/0,URN
+/inventories/sce/columns/1, start_time
+/inventories/sce/columns/2, stop_time
+/inventories/sce/columns/3, target_identification_name
+/inventories/sce/columns/4,target_identification_type
+/inventories/sce/columns/5,file_size(MB)
+/remaining_bytes_after_logical_eof,3636

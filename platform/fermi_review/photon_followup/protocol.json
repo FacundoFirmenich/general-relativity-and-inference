@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "status": "exploratory protocol fixed before this calculation; not a prospective preregistration",
+  "targets": ["GRB090510", "GRB080916C", "GRB090902B", "GRB130427A"],
+  "event_class_mask": 128,
+  "event_type_mask": 3,
+  "energy_MeV": [100, 100000],
+  "ROI_deg": 3,
+  "zenith_max_deg": 90,
+  "spacecraft_quality": "DATA_QUAL>0 and LAT_CONFIG==1",
+  "interval_s": [0, 100],
+  "sensitivity_end_s": [10, 100, 1000],
+  "energy_split_MeV": 1000,
+  "bootstrap_draws": 4096,
+  "bootstrap_seed": 20261118,
+  "minimum_events_per_band": 8,
+  "estimand": "median(selected high-energy event times) minus median(selected low-energy event times)",
+  "scope": "Descriptive selected-event contrast, not intrinsic spectral lag, source-only timing, propagation speed or a GR/LIV bound",
+  "bootstrap_assumption": "Within each band and fixed window, event times are independent draws from the conditional selected-event time distribution. Background, response and intrinsic emission are not propagated by this bootstrap.",
+  "sources": ["https://fermi.gsfc.nasa.gov/ssc/data/analysis/scitools/lat_data_selection.html", "https://fermi.gsfc.nasa.gov/ssc/data/access/lat/lat_data_columns.html"]
+}

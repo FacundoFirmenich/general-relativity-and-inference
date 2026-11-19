@@ -1,0 +1,76 @@
+{
+  "originals": [
+    {
+      "file": "fermiLAT.bayesianogrbs8.ipynb",
+      "sha256": "1845d016d7e7bf69b82a234501043c54b9dc9d6ea606d89aa95a252c811c83ef",
+      "cells": 74
+    },
+    {
+      "file": "fermiLAT.spectralandrdshift.ipynb",
+      "sha256": "86765fd5e711016f65fcd9ee6304473ae41a8725b41e56262edc1850b8b81dfc",
+      "cells": 2
+    },
+    {
+      "file": "fermilat.LIV.ipynb",
+      "sha256": "b75fed717717ddf5831fe0d934dd9aa1b70a5201e359d50bcc82902cf0ca2e56",
+      "cells": 4
+    }
+  ],
+  "mock_execution": {
+    "n": 50,
+    "E_min_GeV": 0.11253391306934718,
+    "E_max_GeV": 26.085325007983972,
+    "injected_noise_sigma_s": 0.1,
+    "declared_likelihood_sigma_s": 0.05,
+    "realized_noise_RMS_s": 0.09094848664744967,
+    "scope": "synthetic only; not a NASA photon sample"
+  },
+  "LIV_kernel_check": [
+    {
+      "z": 0.34,
+      "old_over_correct_linear": 1.1504142403185753,
+      "old_over_correct_quadratic": 0.653805980185001
+    },
+    {
+      "z": 0.903,
+      "old_over_correct_linear": 1.3480032795869237,
+      "old_over_correct_quadratic": 0.6159417469831938
+    },
+    {
+      "z": 1.822,
+      "old_over_correct_linear": 1.609553757098883,
+      "old_over_correct_quadratic": 0.5637990703879258
+    },
+    {
+      "z": 4.35,
+      "old_over_correct_linear": 2.1678205307830756,
+      "old_over_correct_quadratic": 0.47824841071862284
+    }
+  ],
+  "beta8_archived_photon_counts": {
+    "GRB090510": 142,
+    "GRB080916C": 163,
+    "GRB090902B": 401,
+    "GRB130427A": 924,
+    "GRB221009A": 196
+  },
+  "beta8_narrative_photon_counts": {
+    "GRB090510": 196,
+    "GRB080916C": 240,
+    "GRB090902B": 179,
+    "GRB130427A": 475,
+    "GRB221009A": 255
+  },
+  "beta8_example": {
+    "GRB090510_output_N0": 0.033,
+    "GRB090510_narrative_N0": 6.13e-10,
+    "GRB090510_output_alpha": 1.609,
+    "GRB090510_narrative_alpha": 2.45
+  },
+  "checks": {
+    "mock_reproduced_50": true,
+    "noise_sigma_mismatch": true,
+    "kernel_mismatch_nonzero_z": true
+  },
+  "scope": "Checks on archived code and outputs. Raw photon extraction and physical likelihood are not revalidated."
+}

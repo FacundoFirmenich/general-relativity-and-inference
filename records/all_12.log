@@ -1,0 +1,205 @@
+{
+  "executed_at": "2026-11-19T22:21:58.974851+00:00",
+  "scope": "Perturbative two-body dynamics and conditional circular-orbit calibration; no observational refit",
+  "precession_grid": [
+    {
+      "e": 0.0549,
+      "a_over_lambda": 0.1,
+      "first_order_exact": 0.028383541874261745,
+      "gauss_quadrature": 0.02838354187425831,
+      "semilatus_approximation": 0.02826372717558377,
+      "approximation_relative_error": -0.004221273694761218
+    },
+    {
+      "e": 0.0549,
+      "a_over_lambda": 1,
+      "first_order_exact": 1.1544191681978953,
+      "gauss_quadrature": 1.1544191681978913,
+      "semilatus_approximation": 1.1522387318335334,
+      "approximation_relative_error": -0.0018887735273536155
+    },
+    {
+      "e": 0.0549,
+      "a_over_lambda": 3,
+      "first_order_exact": 1.4103445408464186,
+      "gauss_quadrature": 1.4103445408464172,
+      "semilatus_approximation": 1.4119325525786999,
+      "approximation_relative_error": 0.0011259743178275716
+    },
+    {
+      "e": 0.0549,
+      "a_over_lambda": 10,
+      "first_order_exact": 0.014784621502554912,
+      "gauss_quadrature": 0.014784621502554912,
+      "semilatus_approximation": 0.014610761237443964,
+      "approximation_relative_error": -0.011759534397340121
+    },
+    {
+      "e": 0.2056,
+      "a_over_lambda": 0.1,
+      "first_order_exact": 0.027820479401773346,
+      "gauss_quadrature": 0.027820479401772576,
+      "semilatus_approximation": 0.026184313733396608,
+      "approximation_relative_error": -0.05881155550009842
+    },
+    {
+      "e": 0.2056,
+      "a_over_lambda": 1,
+      "first_order_exact": 1.1370233621759809,
+      "gauss_quadrature": 1.1370233621759804,
+      "semilatus_approximation": 1.1058559494610876,
+      "approximation_relative_error": -0.02741140925657548
+    },
+    {
+      "e": 0.2056,
+      "a_over_lambda": 3,
+      "first_order_exact": 1.4441823161560445,
+      "gauss_quadrature": 1.444182316156044,
+      "semilatus_approximation": 1.4657791547630343,
+      "approximation_relative_error": 0.01495437131820987
+    },
+    {
+      "e": 0.2056,
+      "a_over_lambda": 10,
+      "first_order_exact": 0.022753134870277636,
+      "gauss_quadrature": 0.022753134870277632,
+      "semilatus_approximation": 0.019965132058178417,
+      "approximation_relative_error": -0.1225326895829717
+    },
+    {
+      "e": 0.6,
+      "a_over_lambda": 0.1,
+      "first_order_exact": 0.022751279686801764,
+      "gauss_quadrature": 0.022751279686800796,
+      "semilatus_approximation": 0.012070214105318345,
+      "approximation_relative_error": -0.46947098046883085
+    },
+    {
+      "e": 0.6,
+      "a_over_lambda": 1,
+      "first_order_exact": 0.9668168590163204,
+      "gauss_quadrature": 0.9668168590163202,
+      "semilatus_approximation": 0.6785179671212832,
+      "approximation_relative_error": -0.2981939021919461
+    },
+    {
+      "e": 0.6,
+      "a_over_lambda": 3,
+      "first_order_exact": 1.6481522641384019,
+      "gauss_quadrature": 1.648152264138402,
+      "semilatus_approximation": 1.6978797349865167,
+      "approximation_relative_error": 0.030171648536435836
+    },
+    {
+      "e": 0.6,
+      "a_over_lambda": 10,
+      "first_order_exact": 0.23330888060797067,
+      "gauss_quadrature": 0.23330888060797061,
+      "semilatus_approximation": 0.21380858359488186,
+      "approximation_relative_error": -0.08358146060395877
+    },
+    {
+      "e": 0.82697,
+      "a_over_lambda": 0.1,
+      "first_order_exact": 0.015996244728167554,
+      "gauss_quadrature": 0.01599624472816702,
+      "semilatus_approximation": 0.003041771428658165,
+      "approximation_relative_error": -0.8098446553957783
+    },
+    {
+      "e": 0.82697,
+      "a_over_lambda": 1,
+      "first_order_exact": 0.7069571012755544,
+      "gauss_quadrature": 0.7069571012755538,
+      "semilatus_approximation": 0.22885799025514866,
+      "approximation_relative_error": -0.676277400931085
+    },
+    {
+      "e": 0.82697,
+      "a_over_lambda": 3,
+      "first_order_exact": 1.578211614410794,
+      "gauss_quadrature": 1.5782116144107945,
+      "semilatus_approximation": 1.094535137819915,
+      "approximation_relative_error": -0.3064712438904802
+    },
+    {
+      "e": 0.82697,
+      "a_over_lambda": 10,
+      "first_order_exact": 1.0006587860477296,
+      "gauss_quadrature": 1.00065878604773,
+      "semilatus_approximation": 1.3303353009130294,
+      "approximation_relative_error": 0.3294594715621424
+    }
+  ],
+  "orbit_checks": [
+    {
+      "e": 0.2056,
+      "a_over_lambda": 1,
+      "step": 0.0001,
+      "coefficient": 1.1370233621759809,
+      "orbit_derivative": 1.1370233700239976,
+      "relative_error": 6.902247440265796e-09,
+      "events_positive": 6,
+      "events_negative": 5
+    },
+    {
+      "e": 0.2056,
+      "a_over_lambda": 1,
+      "step": 5e-05,
+      "coefficient": 1.1370233621759809,
+      "orbit_derivative": 1.1370233641437686,
+      "relative_error": 1.730648513387223e-09,
+      "events_positive": 6,
+      "events_negative": 5
+    },
+    {
+      "e": 0.82697,
+      "a_over_lambda": 1,
+      "step": 0.0001,
+      "coefficient": 0.7069571012755544,
+      "orbit_derivative": 0.706957363815495,
+      "relative_error": 3.713661551607572e-07,
+      "events_positive": 6,
+      "events_negative": 5
+    },
+    {
+      "e": 0.82697,
+      "a_over_lambda": 1,
+      "step": 5e-05,
+      "coefficient": 0.7069571012755544,
+      "orbit_derivative": 0.7069571670234578,
+      "relative_error": 9.300126313505075e-08,
+      "events_positive": 6,
+      "events_negative": 5
+    },
+    {
+      "e": 0.82697,
+      "a_over_lambda": 3,
+      "step": 0.0001,
+      "coefficient": 1.578211614410794,
+      "orbit_derivative": 1.5782115098802774,
+      "relative_error": -6.623352388768211e-08,
+      "events_positive": 6,
+      "events_negative": 5
+    },
+    {
+      "e": 0.82697,
+      "a_over_lambda": 3,
+      "step": 5e-05,
+      "coefficient": 1.578211614410794,
+      "orbit_derivative": 1.578211588318653,
+      "relative_error": -1.653272663215688e-08,
+      "events_positive": 6,
+      "events_negative": 5
+    }
+  ],
+  "mass_normalization": {
+    "alpha": 0.0001,
+    "r_cal_over_lambda": 1.0,
+    "dynamical_to_bare_mass": 1.0000735758882342,
+    "potential_to_bare_mass": 1.0000367879441172,
+    "gamma_light_from_circular_calibration": 0.9998528590495577,
+    "gamma_from_potential_normalization": 0.9999264268183716,
+    "omitted_factor_in_leading_gamma_deviation": 2.0
+  }
+}

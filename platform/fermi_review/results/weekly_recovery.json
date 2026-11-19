@@ -1,0 +1,98 @@
+[
+  {
+    "target": "GRB090510",
+    "catalog_name": "GRB090510016",
+    "trigger_MET": 263607781.97,
+    "ra_deg": 333.57,
+    "dec_deg": -26.62,
+    "source_url": "https://heasarc.gsfc.nasa.gov/FTP/fermi/data/lat/weekly/photon/lat_photon_weekly_w049_p305_v001.fits",
+    "source_sha256": "604304166152f9b746b7c5b6427eedf221af1c6570e7b03074dc6434c2ac70e0",
+    "source_bytes": 119053440,
+    "source_rows": 1214533,
+    "subset_rows_12deg": 198,
+    "subset_rows_in_GTI": 198,
+    "subset_sha256": "2ca0bb036aeb660eedaedd30311619a9a962198f7325a0cbcb92796b2ad75211",
+    "GTI_duration_s": 1100.0,
+    "status": "ARCHIVE_RECOVERED_NOT_INFERENCE_READY",
+    "limitations": [
+      "No spacecraft-quality selection",
+      "No zenith cut",
+      "No explicit event class/type selection",
+      "No exposure or IRF computation",
+      "No background or intrinsic-delay inference"
+    ],
+    "scope": "Not a reproduction of the original 3-degree extraction: catalogue coordinates, time window and archive processing may differ."
+  },
+  {
+    "target": "GRB080916C",
+    "catalog_name": "GRB080916009",
+    "trigger_MET": 243216766.62,
+    "ra_deg": 119.89,
+    "dec_deg": -56.7,
+    "source_url": "https://heasarc.gsfc.nasa.gov/FTP/fermi/data/lat/weekly/photon/lat_photon_weekly_w015_p305_v001.fits",
+    "source_sha256": "5d62d6d91a081e87a6151675244a2ad33d705a11ee1685a0a6edf6bf5f6bd633",
+    "source_bytes": 56427840,
+    "source_rows": 575483,
+    "subset_rows_12deg": 282,
+    "subset_rows_in_GTI": 282,
+    "subset_sha256": "8fb89b00ff6ff2ee1abbf99308da4a7ebbe0d20fa9d64cc5e9b5c9d89d333a78",
+    "GTI_duration_s": 2100.0,
+    "status": "ARCHIVE_RECOVERED_NOT_INFERENCE_READY",
+    "limitations": [
+      "No spacecraft-quality selection",
+      "No zenith cut",
+      "No explicit event class/type selection",
+      "No exposure or IRF computation",
+      "No background or intrinsic-delay inference"
+    ],
+    "scope": "Not a reproduction of the original 3-degree extraction: catalogue coordinates, time window and archive processing may differ."
+  },
+  {
+    "target": "GRB090902B",
+    "catalog_name": "GRB090902462",
+    "trigger_MET": 273582310.32,
+    "ra_deg": 264.95,
+    "dec_deg": 27.33,
+    "source_url": "https://heasarc.gsfc.nasa.gov/FTP/fermi/data/lat/weekly/photon/lat_photon_weekly_w065_p305_v001.fits",
+    "source_sha256": "69fffef255f0df7fab50537f4780d72895c28f2fa142bdaa88db7bb3f5e40e1e",
+    "source_bytes": 124427520,
+    "source_rows": 1269352,
+    "subset_rows_12deg": 2389,
+    "subset_rows_in_GTI": 2389,
+    "subset_sha256": "fb10cccdb27272d674c906fbe562c512f3a5587f2762f4fb61fbe5a5e5ee77e4",
+    "GTI_duration_s": 1600.0,
+    "status": "ARCHIVE_RECOVERED_NOT_INFERENCE_READY",
+    "limitations": [
+      "No spacecraft-quality selection",
+      "No zenith cut",
+      "No explicit event class/type selection",
+      "No exposure or IRF computation",
+      "No background or intrinsic-delay inference"
+    ],
+    "scope": "Not a reproduction of the original 3-degree extraction: catalogue coordinates, time window and archive processing may differ."
+  },
+  {
+    "target": "GRB130427A",
+    "catalog_name": "GRB130427324",
+    "trigger_MET": 388741629.42,
+    "ra_deg": 173.14,
+    "dec_deg": 27.73,
+    "source_url": "https://heasarc.gsfc.nasa.gov/FTP/fermi/data/lat/weekly/photon/lat_photon_weekly_w256_p305_v001.fits",
+    "source_sha256": "76e03516948b7176d3139c951cc81d896c19b556aefd674f47246dc5f6068488",
+    "source_bytes": 230135040,
+    "source_rows": 2348003,
+    "subset_rows_12deg": 8356,
+    "subset_rows_in_GTI": 8356,
+    "subset_sha256": "706b5e4d7f62b2635877f754a7cc208ef9937ff6787b15fa74370865270a867f",
+    "GTI_duration_s": 10086.45705151558,
+    "status": "ARCHIVE_RECOVERED_NOT_INFERENCE_READY",
+    "limitations": [
+      "No spacecraft-quality selection",
+      "No zenith cut",
+      "No explicit event class/type selection",
+      "No exposure or IRF computation",
+      "No background or intrinsic-delay inference"
+    ],
+    "scope": "Not a reproduction of the original 3-degree extraction: catalogue coordinates, time window and archive processing may differ."
+  }
+]

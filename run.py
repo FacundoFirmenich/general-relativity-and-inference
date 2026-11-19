@@ -41,7 +41,7 @@ def main():
     plan=plans['calculations']+plans['tables']+plans['figures'] if mode=='all' else plans[mode]
     missing=[p for p in ['analyses/gp/sources/cassini/dss25_diseno_erfa_constant.npz','analyses/gp/sources/cassini/contraste_robusto_pesos.npz'] if not (R/p).exists()]
     if missing and mode not in ['documents']:
-        raise SystemExit('Faltan entradas numericas / Numerical inputs missing: '+', '.join(missing)+'. Ver / See PUBLIC_DATA_PENDING.json; usar el paquete completo / use the complete package.')
+        raise SystemExit('Faltan entradas numericas / Numerical inputs missing: '+', '.join(missing)+'. Ver / See NUMERICAL_DATA_MANIFEST.json; usar el paquete completo / use the complete package.')
     if mode=='figures':plan=[['research/dcae/verify.py'],['research/frontier_run.py']]+plan
     # Document compilation is explicit: all numerical results do not require a TeX installation.
     files=[]

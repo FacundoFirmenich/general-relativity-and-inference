@@ -1,0 +1,166 @@
+{
+  "protocol_sha256": "df7a3770aba91e24449ecc5f1b0d316e8f55b6b5e421c911cd5559734b05cecb",
+  "sources": [
+    {
+      "target": "GRB090510",
+      "event_subset_sha256": "2ca0bb036aeb660eedaedd30311619a9a962198f7325a0cbcb92796b2ad75211",
+      "spacecraft_sha256": "5e0d5b04ab982e9ce32c2ef0a51b7e99deea5d670493e0346c60a14c7d1781a2",
+      "weekly_source": "https://heasarc.gsfc.nasa.gov/FTP/fermi/data/lat/weekly/photon/lat_photon_weekly_w049_p305_v001.fits",
+      "weekly_source_sha256": "604304166152f9b746b7c5b6427eedf221af1c6570e7b03074dc6434c2ac70e0"
+    },
+    {
+      "target": "GRB080916C",
+      "event_subset_sha256": "8fb89b00ff6ff2ee1abbf99308da4a7ebbe0d20fa9d64cc5e9b5c9d89d333a78",
+      "spacecraft_sha256": "f26948474420194636a0f03c7cb8e7e7bc3259f6c4bd50b01fa6af7579955325",
+      "weekly_source": "https://heasarc.gsfc.nasa.gov/FTP/fermi/data/lat/weekly/photon/lat_photon_weekly_w015_p305_v001.fits",
+      "weekly_source_sha256": "5d62d6d91a081e87a6151675244a2ad33d705a11ee1685a0a6edf6bf5f6bd633"
+    },
+    {
+      "target": "GRB090902B",
+      "event_subset_sha256": "fb10cccdb27272d674c906fbe562c512f3a5587f2762f4fb61fbe5a5e5ee77e4",
+      "spacecraft_sha256": "a7fdf6b7c44427c3a2bc91a6a3106e1b572fa6bf852286db9a83530f90f58615",
+      "weekly_source": "https://heasarc.gsfc.nasa.gov/FTP/fermi/data/lat/weekly/photon/lat_photon_weekly_w065_p305_v001.fits",
+      "weekly_source_sha256": "69fffef255f0df7fab50537f4780d72895c28f2fa142bdaa88db7bb3f5e40e1e"
+    },
+    {
+      "target": "GRB130427A",
+      "event_subset_sha256": "706b5e4d7f62b2635877f754a7cc208ef9937ff6787b15fa74370865270a867f",
+      "spacecraft_sha256": "a551691f9720f061a342975c555d50e40ce7f192c20f9215caca56a83fd0b9aa",
+      "weekly_source": "https://heasarc.gsfc.nasa.gov/FTP/fermi/data/lat/weekly/photon/lat_photon_weekly_w256_p305_v001.fits",
+      "weekly_source_sha256": "76e03516948b7176d3139c951cc81d896c19b556aefd674f47246dc5f6068488"
+    }
+  ],
+  "contrasts": [
+    {
+      "target": "GRB090510",
+      "window_end_s": 10,
+      "n_low": 93,
+      "n_high": 27,
+      "median_high_minus_low_s": -0.09406527876853943,
+      "bootstrap_95_low_s": -0.38874584436416626,
+      "bootstrap_95_high_s": 0.4852980673313141,
+      "status": "DESCRIPTIVE_CONDITIONAL_ONLY"
+    },
+    {
+      "target": "GRB090510",
+      "window_end_s": 100,
+      "n_low": 108,
+      "n_high": 32,
+      "median_high_minus_low_s": -0.06351840496063232,
+      "bootstrap_95_low_s": -0.5732360612601042,
+      "bootstrap_95_high_s": 1.7895415276288986,
+      "status": "DESCRIPTIVE_CONDITIONAL_ONLY"
+    },
+    {
+      "target": "GRB090510",
+      "window_end_s": 1000,
+      "n_low": 111,
+      "n_high": 32,
+      "median_high_minus_low_s": -0.07381239533424377,
+      "bootstrap_95_low_s": -0.6537548303604126,
+      "bootstrap_95_high_s": 1.7732076663523912,
+      "status": "DESCRIPTIVE_CONDITIONAL_ONLY"
+    },
+    {
+      "target": "GRB080916C",
+      "window_end_s": 10,
+      "n_low": 37,
+      "n_high": 3,
+      "median_high_minus_low_s": null,
+      "bootstrap_95_low_s": null,
+      "bootstrap_95_high_s": null,
+      "status": "INSUFFICIENT_EVENTS"
+    },
+    {
+      "target": "GRB080916C",
+      "window_end_s": 100,
+      "n_low": 109,
+      "n_high": 14,
+      "median_high_minus_low_s": 3.1252731382846832,
+      "bootstrap_95_low_s": -9.152106972411275,
+      "bootstrap_95_high_s": 11.131078481674194,
+      "status": "DESCRIPTIVE_CONDITIONAL_ONLY"
+    },
+    {
+      "target": "GRB080916C",
+      "window_end_s": 1000,
+      "n_low": 142,
+      "n_high": 16,
+      "median_high_minus_low_s": -13.135272070765495,
+      "bootstrap_95_low_s": -26.613770216703415,
+      "bootstrap_95_high_s": 4.134222226217389,
+      "status": "DESCRIPTIVE_CONDITIONAL_ONLY"
+    },
+    {
+      "target": "GRB090902B",
+      "window_end_s": 10,
+      "n_low": 41,
+      "n_high": 10,
+      "median_high_minus_low_s": 0.4156585931777954,
+      "bootstrap_95_low_s": -1.9805521667003632,
+      "bootstrap_95_high_s": 1.3451038300991058,
+      "status": "DESCRIPTIVE_CONDITIONAL_ONLY"
+    },
+    {
+      "target": "GRB090902B",
+      "window_end_s": 100,
+      "n_low": 152,
+      "n_high": 55,
+      "median_high_minus_low_s": 4.3574413657188416,
+      "bootstrap_95_low_s": -0.1079777181148529,
+      "bootstrap_95_high_s": 9.886271052062511,
+      "status": "DESCRIPTIVE_CONDITIONAL_ONLY"
+    },
+    {
+      "target": "GRB090902B",
+      "window_end_s": 1000,
+      "n_low": 203,
+      "n_high": 66,
+      "median_high_minus_low_s": 1.2150379717350006,
+      "bootstrap_95_low_s": -8.962054952979088,
+      "bootstrap_95_high_s": 15.727406173944473,
+      "status": "DESCRIPTIVE_CONDITIONAL_ONLY"
+    },
+    {
+      "target": "GRB130427A",
+      "window_end_s": 10,
+      "n_low": 9,
+      "n_high": 0,
+      "median_high_minus_low_s": null,
+      "bootstrap_95_low_s": null,
+      "bootstrap_95_high_s": null,
+      "status": "INSUFFICIENT_EVENTS"
+    },
+    {
+      "target": "GRB130427A",
+      "window_end_s": 100,
+      "n_low": 94,
+      "n_high": 41,
+      "median_high_minus_low_s": 3.586185395717621,
+      "bootstrap_95_low_s": -8.647461980581284,
+      "bootstrap_95_high_s": 17.897592272609472,
+      "status": "DESCRIPTIVE_CONDITIONAL_ONLY"
+    },
+    {
+      "target": "GRB130427A",
+      "window_end_s": 1000,
+      "n_low": 235,
+      "n_high": 71,
+      "median_high_minus_low_s": -67.34483045339584,
+      "bootstrap_95_low_s": -106.7059434056282,
+      "bootstrap_95_high_s": -22.44692324846983,
+      "status": "DESCRIPTIVE_CONDITIONAL_ONLY"
+    }
+  ],
+  "checks": {
+    "FITS_bit_orientation": true,
+    "input_hashes_verified": true,
+    "SC_GTI_intervals_ordered": true,
+    "event_row_provenance": true,
+    "selected_unique_event_ids": true,
+    "livetime_not_exceed_walltime": true
+  },
+  "status": "DESCRIPTIVE_TIMING_EXECUTED",
+  "physical_inference": "NOT_IDENTIFIED",
+  "reason": "Unmodelled intrinsic emission, energy-dependent effective area/PSF/dispersion and background; selected events are not labelled as source photons."
+}

@@ -1,0 +1,873 @@
+[
+  {
+    "path": "results/desi_operator_arrays.npz",
+    "sha256": "07d5b250a89e3f3d6a039dd326ac042a68a6092ec18a60124603aee1e64cde5a",
+    "arrays": [
+      {
+        "key": "singular",
+        "shape": [
+          72
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "visible",
+        "shape": [
+          1047
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "null",
+        "shape": [
+          1047
+        ],
+        "dtype": "float64",
+        "object": false
+      }
+    ]
+  },
+  {
+    "path": "results/hierarchical_arrays.npz",
+    "sha256": "678cbf6637ad3cf7d82df99b756268751a3c17b0e6f20ec38be4215d7750d1f1",
+    "arrays": [
+      {
+        "key": "x",
+        "shape": [
+          180901,
+          2
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "weights",
+        "shape": [
+          180901
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "mean",
+        "shape": [
+          180901
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "variance",
+        "shape": [
+          180901
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "chains",
+        "shape": [
+          4,
+          12000,
+          2
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "ppc_obs",
+        "shape": [
+          256,
+          2
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "ppc_rep",
+        "shape": [
+          256,
+          2
+        ],
+        "dtype": "float64",
+        "object": false
+      }
+    ]
+  },
+  {
+    "path": "platform/fermi_review/photon_followup/results/GRB130427A_100s_bootstrap.npy",
+    "sha256": "c7df1b98a469036f5e3d0d2ad22ea245060afc7cb8a8b6a273234f7fb019cd43",
+    "arrays": [
+      {
+        "key": "array",
+        "shape": [
+          4096
+        ],
+        "dtype": "float64",
+        "object": false
+      }
+    ]
+  },
+  {
+    "path": "platform/fermi_review/photon_followup/results/GRB090902B_100s_bootstrap.npy",
+    "sha256": "dc337500132c18134732d6443cd4167b94ac52589eb5e7aec65a817d9c25fefc",
+    "arrays": [
+      {
+        "key": "array",
+        "shape": [
+          4096
+        ],
+        "dtype": "float64",
+        "object": false
+      }
+    ]
+  },
+  {
+    "path": "platform/fermi_review/photon_followup/results/GRB090510_10s_bootstrap.npy",
+    "sha256": "7a7da19762f7ab4a45ef4b3c339ab25b753110743ff4735c8eccd9dd57f81912",
+    "arrays": [
+      {
+        "key": "array",
+        "shape": [
+          4096
+        ],
+        "dtype": "float64",
+        "object": false
+      }
+    ]
+  },
+  {
+    "path": "platform/fermi_review/photon_followup/results/GRB090902B_1000s_bootstrap.npy",
+    "sha256": "4c78cf1cec31c88820d8187748bfa4c4550f1ae3b622c2f71a0391987f12f301",
+    "arrays": [
+      {
+        "key": "array",
+        "shape": [
+          4096
+        ],
+        "dtype": "float64",
+        "object": false
+      }
+    ]
+  },
+  {
+    "path": "platform/fermi_review/photon_followup/results/GRB090902B_10s_bootstrap.npy",
+    "sha256": "23230a8ef68ecefce12c5811170a5e3c5bff3a80b42c4a6e6543b3b8c147146b",
+    "arrays": [
+      {
+        "key": "array",
+        "shape": [
+          4096
+        ],
+        "dtype": "float64",
+        "object": false
+      }
+    ]
+  },
+  {
+    "path": "platform/fermi_review/photon_followup/results/GRB090510_1000s_bootstrap.npy",
+    "sha256": "04108dba44beac7917d70e40992e1675d2f42401f389bc12f82c5dd1c606b771",
+    "arrays": [
+      {
+        "key": "array",
+        "shape": [
+          4096
+        ],
+        "dtype": "float64",
+        "object": false
+      }
+    ]
+  },
+  {
+    "path": "platform/fermi_review/photon_followup/results/GRB090510_100s_bootstrap.npy",
+    "sha256": "2e06ca0b5f68679b31b5523d7e054a35f95dfb05aad8f84e387fc7f192f3de2a",
+    "arrays": [
+      {
+        "key": "array",
+        "shape": [
+          4096
+        ],
+        "dtype": "float64",
+        "object": false
+      }
+    ]
+  },
+  {
+    "path": "platform/fermi_review/photon_followup/results/GRB080916C_1000s_bootstrap.npy",
+    "sha256": "1f38f480433c5ecdbf8a8d2347079891bc237a25507f9e843ee71ffcb0f43c26",
+    "arrays": [
+      {
+        "key": "array",
+        "shape": [
+          4096
+        ],
+        "dtype": "float64",
+        "object": false
+      }
+    ]
+  },
+  {
+    "path": "platform/fermi_review/photon_followup/results/GRB130427A_1000s_bootstrap.npy",
+    "sha256": "ddc199994a8412e0c8dce6c86f39c305e7600d11fef22020eb16767b060287e9",
+    "arrays": [
+      {
+        "key": "array",
+        "shape": [
+          4096
+        ],
+        "dtype": "float64",
+        "object": false
+      }
+    ]
+  },
+  {
+    "path": "platform/fermi_review/photon_followup/results/GRB080916C_100s_bootstrap.npy",
+    "sha256": "4d697456e8e02afcd422d4320b2350e656a283ae4c00c6b27efba62b03548f27",
+    "arrays": [
+      {
+        "key": "array",
+        "shape": [
+          4096
+        ],
+        "dtype": "float64",
+        "object": false
+      }
+    ]
+  },
+  {
+    "path": "analyses/gp/results/gp_cassini_weights.npz",
+    "sha256": "6fe9e580a8f3adc2ad1a080ea24bb15a79ccc6d0aac02ad278e3334c90bfc805",
+    "arrays": [
+      {
+        "key": "constant__joint_raw_weights",
+        "shape": [
+          1696
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "four_batches__joint_raw_weights",
+        "shape": [
+          1696
+        ],
+        "dtype": "float64",
+        "object": false
+      }
+    ]
+  },
+  {
+    "path": "analyses/gp/results/gp_emulator_curves.npz",
+    "sha256": "78fd9d32b5c99bcfadc99efc6934410a25be53af32d8f0c5c78560555d3287c1",
+    "arrays": [
+      {
+        "key": "x",
+        "shape": [
+          12001
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "delta_Q_exact",
+        "shape": [
+          12001
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "mean__4__x",
+        "shape": [
+          12001
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "sd__4__x",
+        "shape": [
+          12001
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "mean__4__x_squared",
+        "shape": [
+          12001
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "sd__4__x_squared",
+        "shape": [
+          12001
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "mean__7__x",
+        "shape": [
+          12001
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "sd__7__x",
+        "shape": [
+          12001
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "mean__7__x_squared",
+        "shape": [
+          12001
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "sd__7__x_squared",
+        "shape": [
+          12001
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "mean__13__x",
+        "shape": [
+          12001
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "sd__13__x",
+        "shape": [
+          12001
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "mean__13__x_squared",
+        "shape": [
+          12001
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "sd__13__x_squared",
+        "shape": [
+          12001
+        ],
+        "dtype": "float64",
+        "object": false
+      }
+    ]
+  },
+  {
+    "path": "analyses/gp/results/gp_realizations_curves.npz",
+    "sha256": "b7ff159de1f01bd095a70c663e34867b2a0935736049950244bfff1a87a14a54",
+    "arrays": [
+      {
+        "key": "x",
+        "shape": [
+          801
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "mean",
+        "shape": [
+          801
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "pointwise_sd",
+        "shape": [
+          801
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "joint_draw_examples",
+        "shape": [
+          5,
+          801
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "independent_draw_examples",
+        "shape": [
+          5,
+          801
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "joint_GP__pooled_density",
+        "shape": [
+          801
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "joint_GP__q997_draws",
+        "shape": [
+          4096
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "independent_marginals__pooled_density",
+        "shape": [
+          801
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "independent_marginals__q997_draws",
+        "shape": [
+          4096
+        ],
+        "dtype": "float64",
+        "object": false
+      }
+    ]
+  },
+  {
+    "path": "analyses/gp/sources/cassini/contraste_robusto_pesos.npz",
+    "sha256": "eaa6133fb6d2687954e855dff0e5a8e9b2051f445ce327c8c95f8c31ef417481",
+    "arrays": [
+      {
+        "key": "constant__unprotected",
+        "shape": [
+          1696
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "constant__exclude_passes_10_11",
+        "shape": [
+          1696
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "constant__minimax_d_1e-14",
+        "shape": [
+          1696
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "constant__minimax_d_3e-14",
+        "shape": [
+          1696
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "constant__minimax_d_1e-13",
+        "shape": [
+          1696
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "constant__minimax_d_3e-13",
+        "shape": [
+          1696
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "constant__epoch_unix",
+        "shape": [
+          1696
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "constant__delta_SPI",
+        "shape": [
+          1696
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "constant__template_per_A",
+        "shape": [
+          1696
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "four_batches__unprotected",
+        "shape": [
+          1696
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "four_batches__exclude_passes_10_11",
+        "shape": [
+          1696
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "four_batches__minimax_d_1e-14",
+        "shape": [
+          1696
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "four_batches__minimax_d_3e-14",
+        "shape": [
+          1696
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "four_batches__minimax_d_1e-13",
+        "shape": [
+          1696
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "four_batches__minimax_d_3e-13",
+        "shape": [
+          1696
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "four_batches__epoch_unix",
+        "shape": [
+          1696
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "four_batches__delta_SPI",
+        "shape": [
+          1696
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "four_batches__template_per_A",
+        "shape": [
+          1696
+        ],
+        "dtype": "float64",
+        "object": false
+      }
+    ]
+  },
+  {
+    "path": "analyses/gp/sources/cassini/dss25_diseno_erfa_four_batches.npz",
+    "sha256": "5a8b9bdd38e88b2b22c46d83164e84eafc066b4085c315173a74a512224fe4de",
+    "arrays": [
+      {
+        "key": "epoch",
+        "shape": [
+          1696
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "design",
+        "shape": [
+          1696,
+          11
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "pass_id",
+        "shape": [
+          1696
+        ],
+        "dtype": "int64",
+        "object": false
+      },
+      {
+        "key": "residual",
+        "shape": [
+          1696
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "weights",
+        "shape": [
+          1696
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "gamma_point",
+        "shape": [],
+        "dtype": "float64",
+        "object": false
+      }
+    ]
+  },
+  {
+    "path": "analyses/gp/sources/cassini/dss25_diseno_erfa_constant.npz",
+    "sha256": "7e4489236b72005df419edea2e483006334dcf1c0a366167d133ea7b5904eb8c",
+    "arrays": [
+      {
+        "key": "epoch",
+        "shape": [
+          1696
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "design",
+        "shape": [
+          1696,
+          8
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "pass_id",
+        "shape": [
+          1696
+        ],
+        "dtype": "int64",
+        "object": false
+      },
+      {
+        "key": "residual",
+        "shape": [
+          1696
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "weights",
+        "shape": [
+          1696
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "gamma_point",
+        "shape": [],
+        "dtype": "float64",
+        "object": false
+      }
+    ]
+  },
+  {
+    "path": "analyses/casimir/sources/casimir/selected/Raw and filtered data/2024-03-21-1858_filtdata_down.npy",
+    "sha256": "ba347328b63af61f7e878c215e82085a1b0ae7e8905efc34ed1e2a1e99c87809",
+    "arrays": [
+      {
+        "key": "array",
+        "shape": [
+          501,
+          6,
+          9,
+          3
+        ],
+        "dtype": "float64",
+        "object": false
+      }
+    ]
+  },
+  {
+    "path": "analyses/casimir/sources/casimir/selected/Raw and filtered data/2024-03-21-1858_filtfreqs.npy",
+    "sha256": "8f4509efd67887bb97d91943c52013e527dae5bbec574937570a3d532d62f7b9",
+    "arrays": [
+      {
+        "key": "array",
+        "shape": [
+          501,
+          6,
+          9,
+          3
+        ],
+        "dtype": "float64",
+        "object": false
+      }
+    ]
+  },
+  {
+    "path": "analyses/casimir/sources/casimir/selected/Raw and filtered data/2024-03-21-1858_filtdata_up.npy",
+    "sha256": "374b506440fb28978866aff655762f0c67238b4ea6eeede16cd97f0cf18c1e34",
+    "arrays": [
+      {
+        "key": "array",
+        "shape": [
+          501,
+          6,
+          9,
+          3
+        ],
+        "dtype": "float64",
+        "object": false
+      }
+    ]
+  },
+  {
+    "path": "research/fractalgo/results/gp_inputs_and_draws.npz",
+    "sha256": "031ca30124ce8172418d05ac0dbec13b5e7266f722556945c4a2b5b30a6925c4",
+    "arrays": [
+      {
+        "key": "x",
+        "shape": [
+          201
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "mean",
+        "shape": [
+          201
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "covariance",
+        "shape": [
+          201,
+          201
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "joint_delta",
+        "shape": [
+          1024,
+          201
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "independent_delta",
+        "shape": [
+          1024,
+          201
+        ],
+        "dtype": "float64",
+        "object": false
+      }
+    ]
+  },
+  {
+    "path": "research/fractalgo/results/cassini_predictive_draws.npz",
+    "sha256": "c4d28a1077f2c7363c062cec07ffc68557fc56752b80790fed2731113c4a3659",
+    "arrays": [
+      {
+        "key": "thresholds",
+        "shape": [
+          3
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "reference_7200_observed",
+        "shape": [
+          512,
+          20,
+          3,
+          3
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "reference_7200_replicated",
+        "shape": [
+          512,
+          20,
+          3,
+          3
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "mixture_observed",
+        "shape": [
+          512,
+          20,
+          3,
+          3
+        ],
+        "dtype": "float64",
+        "object": false
+      },
+      {
+        "key": "mixture_replicated",
+        "shape": [
+          512,
+          20,
+          3,
+          3
+        ],
+        "dtype": "float64",
+        "object": false
+      }
+    ]
+  }
+]

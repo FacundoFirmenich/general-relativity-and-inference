@@ -1,0 +1,16 @@
+{
+  "source_original": "/workspace/cassini_inferencia_2026-11-17/inputs/archive03/codigo/cassini_aceleracion_lotes.py",
+  "sha256": "80d076fc8695d7dbdb281140b197cc10cda44d19ae01b87ad537ccdbe3b477f0",
+  "read_scope": "Full generator, not executed in revision",
+  "columns": [
+    "dx",
+    "dy",
+    "dz",
+    "du",
+    "dv",
+    "dw",
+    "acc",
+    "gamma_1e4"
+  ],
+  "interpretation": "Six initial-state variations, constant Earthward acceleration and gamma scaled 1e-4; not station/clock or planetary mass posterior"
+}

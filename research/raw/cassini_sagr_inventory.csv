@@ -1,0 +1,75 @@
+URN, start_time, stop_time, target_identification_name,revolution ,experiment,file_size(MB)
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s11sags2005_157_1750x14mv1,2005-06-06T17:50:01.00Z,2005-06-07T02:54:55.00Z,Saturn,7,Saturn GSE,4.336
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s11sags2005_160_0940x63mv1,2005-06-09T10:32:46.00Z,2005-06-09T18:45:00.00Z,Saturn,7,Saturn GSE,3.129
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s12sags2005178_1550x15mv1,2005-06-27T15:50:01.00Z,2005-06-28T01:54:45.00Z,Saturn,9,Saturn GSE,3.828
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s12sags2005_177_0956x63mv1,2005-06-26T10:13:14.00Z,2005-06-26T17:55:00.00Z,Saturn,9,Saturn GSE,2.938
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s12sags2005_194_2112x14mv1,2005-07-13T21:12:23.00Z,2005-07-14T02:09:14.00Z,Saturn,10,Saturn GSE,2.52
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s12sags2005_196_0540x63mv1,2005-07-15T05:40:07.00Z,2005-07-15T11:05:55.00Z,Saturn,10,Saturn GSE,2.781
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s13sags2005_213_0829x55mv1,2005-08-01T08:29:42.00Z,2005-08-01T13:29:32.00Z,Saturn,11,Saturn GSE,1.309
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s13sags2005_214_0805x14mv1,2005-08-02T08:05:47.00Z,2005-08-02T22:00:00.00Z,Saturn,11,Saturn GSE,5.629
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s13sags2005_232_0614x63mv1,2005-08-20T06:14:38.00Z,2005-08-20T11:25:19.00Z,Saturn,12,Saturn GSE,2.004
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s13sags2005_233_1312x14mv1,2005-08-21T13:12:07.00Z,2005-08-21T22:44:52.00Z,Saturn,12,Saturn GSE,2.864
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s13sags2005_235_0602x63mv1,2005-08-23T06:02:07.00Z,2005-08-23T15:06:43.00Z,Saturn,13,Saturn GSE,3.45
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s14sags2005248_0707x63mv1,2005-09-05T07:07:51.00Z,2005-09-05T12:16:28.00Z,Saturn,13,Saturn GSE,2.141
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s14sags2005249_1235x14mv1,2005-09-06T12:35:19.00Z,2005-09-06T21:54:31.00Z,Saturn,13,Saturn GSE,2.957
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s23sagf2006_252_1602x25v1,2006-09-09T16:02:30.00Z,2006-09-09T22:23:38.00Z,Saturn,14,Saturn GSE,3.07
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s23sags2006_251_1151x14v1,2006-09-08T11:51:07.00Z,2006-09-08T22:31:01.00Z,Saturn,14,Saturn GSE,7.055
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s23sags2006_260_1920xmmv1,2006-09-16T19:20:09.00Z,2006-09-17T15:31:20.00Z,Saturn,28,Saturn GSE,5.949
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s30sags2007_131_0206x25mv1,2007-05-11T02:06:26.00Z,2007-05-11T08:08:02.00Z,Saturn,28,Saturn GSE,2.348
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s31sags2007_163_1909x14mv1,2007-06-12T19:09:43.00Z,2007-06-13T04:16:53.00Z,Saturn,44,Saturn GSE,3.445
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s34sags2007_296_0413x63mv1,2007-10-23T04:13:37.00Z,2007-10-23T09:27:17.00Z,Saturn,46,Saturn GSE,2.028
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s34sags2007_297_1213x26mv1,2007-10-24T12:13:43.00Z,2007-10-24T17:59:43.00Z,Saturn,51,Saturn GSE,2.227
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s36sags2008_014_2241x552v1,2008-01-14T22:41:10.00Z,2008-01-15T07:45:44.00Z,Saturn,51,Saturn GSE,2.336
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s37sags2008040_2040x63mv1,2008-02-09T20:40:26.00Z,2008-02-10T05:45:52.00Z,Saturn,56,Saturn GSE,2.27
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s37sags2008_039_0002x552v1,2008-02-08T00:02:23.00Z,2008-02-08T06:01:49.00Z,Saturn,58,Saturn GSE,1.574
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s39sags2008_091_1942x55mv1,2008-03-31T19:42:33.00Z,2008-04-01T02:16:30.00Z,Saturn,58,Saturn GSE,1.668
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s39sags2008_093_1708x63mv1,2008-04-02T17:08:03.00Z,2008-04-03T02:15:56.00Z,Saturn,63,Saturn GSE,3.481
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s40sagf2008_138_2038xmmmv1,2008-05-17T20:38:04.00Z,2008-05-18T05:22:14.00Z,Saturn,63,Saturn GSE,4.637
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s41sags2008_160_1559x55mv1,2008-06-08T15:59:20.00Z,2008-06-08T20:01:01.00Z,Saturn,71,Saturn GSE,1.582
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s41sags2008_161_1319x54mv1,2008-06-09T13:19:59.00Z,2008-06-09T19:11:32.00Z,Saturn,71,Saturn GSE,1.539
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s41sags2008_166_1952x14mv1,2008-06-14T19:52:10.00Z,2008-06-15T05:00:33.00Z,Saturn,72,Saturn GSE,1.231
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s41sags2008_166_1954x14mv1,2008-06-14T19:54:00.00Z,2008-06-15T05:01:34.00Z,Saturn,72,Saturn GSE,2.344
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s41sags2008_168_0022x252v1,2008-06-17T00:22:20.00Z,2008-06-17T06:20:30.00Z,Saturn,73,Saturn GSE,1.574
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s41sags2008_168_0022x253v1,2008-06-17T00:22:26.00Z,2008-06-17T06:20:28.00Z,Saturn,74,Saturn GSE,0.812
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s41sags2008_173_1923x14mv1,2008-06-21T19:23:33.00Z,2008-06-22T04:30:26.00Z,Saturn,74,Saturn GSE,3.465
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s41sags2008_181_1130x63mv1,2008-06-29T11:30:09.00Z,2008-06-29T20:30:31.00Z,Saturn,81,Saturn GSE,3.442
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s41sags2008_183_1058x63mv1,2008-07-01T10:58:24.00Z,2008-07-01T20:30:30.00Z,Saturn,81,Saturn GSE,3.625
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s43sags2008_230_1612x14mv1,2008-08-17T16:12:19.00Z,2008-08-18T01:16:04.00Z,Saturn,82,Saturn GSE,2.328
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s43sags2008_232_1610x14mv1,2008-08-19T16:10:54.00Z,2008-08-20T01:15:59.00Z,Saturn,82,Saturn GSE,3.473
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s43sags2008_237_2211x45mv1,2008-08-24T22:11:44.00Z,2008-08-25T07:15:39.00Z,Saturn,84,Saturn GSE,1.215
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s43sags2008_240_1541x14mv1,2008-08-27T15:41:48.00Z,2008-08-28T00:48:35.00Z,Saturn,84,Saturn GSE,3.372
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s43sags2008_253_0730x54mv1,2008-09-09T07:30:09.00Z,2008-09-09T16:31:17.00Z,Saturn,85,Saturn GSE,3.204
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s43sags2008_255_0709x54mv1,2008-09-11T07:09:37.00Z,2008-09-11T16:16:32.00Z,Saturn,85,Saturn GSE,2.336
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s44sags2008282_1307x14mv1,2008-10-08T13:07:03.00Z,2008-10-08T22:16:58.00Z,Saturn,86,Saturn GSE,4.164
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s44sags2008284_1248xmmmv1,2008-10-10T12:48:22.00Z,2008-10-10T22:16:17.00Z,Saturn,86,Saturn GSE,4.102
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s44sags2008_260_1425x14mv1,2008-09-16T14:25:51.00Z,2008-09-16T23:01:42.00Z,Saturn,88,Saturn GSE,3.274
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s44sags2008_262_0656x54mv1,2008-09-18T06:56:26.00Z,2008-09-18T16:00:23.00Z,Saturn,88,Saturn GSE,2.328
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s44sags2008_268_0758x54mv1,2008-09-24T07:58:52.00Z,2008-09-24T15:30:35.00Z,Saturn,90,Saturn GSE,1.953
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s44sags2008_269_1355x14mv1,2008-09-25T13:55:03.00Z,2008-09-25T23:00:56.00Z,Saturn,90,Saturn GSE,3.45
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s45sagf2008_321_2004xmmmv1,2008-11-16T20:04:27.00Z,2008-11-17T03:45:40.00Z,Saturn,124,Saturn GSE,2.188
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s45sags2008_297_1208x25mv1,2008-10-23T12:08:50.00Z,2008-10-23T21:15:19.00Z,Saturn,135,Saturn GSE,2.18
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s45sags2008_299_1211xmmmv1,2008-10-25T12:11:13.00Z,2008-10-25T21:16:36.00Z,Saturn,137,Saturn GSE,6.071
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s56sagf2010_011_0107xmmmv1,2010-01-11T01:07:04.00Z,2010-01-11T08:07:57.00Z,Saturn,151,Saturn GSE,1.832
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s56sags2010_012_0030x54mv1,2010-01-12T00:30:21.00Z,2010-01-12T09:31:20.00Z,Saturn,151,Saturn GSE,3.422
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s61sags2010_204_1745x25mv1,2010-07-23T19:15:07.00Z,2010-07-24T04:15:37.00Z,Saturn,167,Saturn GSE,2.305
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s62sags2010_244_1515x26mv1,2010-09-01T16:45:09.00Z,2010-09-02T01:46:21.00Z,Saturn,168,Saturn GSE,2.305
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s69sags2011_212_1800x25mv1,2011-07-31T19:29:56.00Z,2011-08-01T04:30:56.00Z,Saturn,168,Saturn GSE,2.285
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s69sags2011_214_1745x14mv1,2011-08-02T19:08:37.00Z,2011-08-03T04:15:26.00Z,Saturn,169,Saturn GSE,2.313
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s73sags2012_158_0150x14mv1,2012-06-06T02:45:26.00Z,2012-06-06T08:45:31.00Z,Saturn,170,Saturn GSE,1.574
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s74sags2012_179_1610x63mv1,2012-06-27T17:03:30.00Z,2012-07-23T22:00:19.00Z,Saturn,171,Saturn GSE,3.704
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s74sags2012_225_0505xmmmv1,2012-08-12T05:26:52.00Z,2012-08-12T17:57:36.00Z,Saturn,179,Saturn GSE,4.274
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s75sags_246_0225x43mv1,2012-09-02T03:25:43.00Z,2012-09-02T09:18:00.00Z,Saturn,179,Saturn GSE,1.547
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s77sags2013_017_0830x25mv1,2013-01-17T09:46:46.00Z,2013-01-17T19:00:53.00Z,Saturn,191,Saturn GSE,2.344
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s77sags2013_019_0830x14mv1,2013-01-19T09:59:38.00Z,2013-01-19T16:48:34.00Z,Saturn,191,Saturn GSE,1.778
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s78sags2013_150_0545x34mv1,2013-05-30T07:15:05.00Z,2013-05-30T16:16:06.00Z,Saturn,193,Saturn GSE,2.313
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s78sags2013_151_1546x63mv1,2013-05-31T17:15:05.00Z,2013-06-01T02:17:06.00Z,Saturn,193,Saturn GSE,3.379
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s79sags2013_174_0416x34mv1,2013-06-23T05:45:05.00Z,2013-06-23T14:45:08.00Z,Saturn,194,Saturn GSE,2.313
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s79sags2013_175_1415x54mv1,2013-06-24T15:45:34.00Z,2013-06-25T00:45:27.00Z,Saturn,47,Saturn Occ,2.313
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s79sags2013_186_1400x54mv1,2013-07-05T15:30:05.00Z,2013-07-06T00:00:47.00Z,Saturn,51,Saturn Occ,2.199
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s99sagf2017_128_0940xmmmv1,2017-05-08T10:49:37.00Z,2017-05-09T21:50:30.00Z,Saturn,,,13.59
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s99sagf2017_135_0147xmmmv1,2017-05-15T04:23:06.00Z,2017-05-16T08:15:33.00Z,Saturn,,,12.207
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:s99sagf2017_141_1205xmmmv1,2017-05-21T15:00:04.00Z,2017-05-22T18:35:05.00Z,Saturn,,,12.137
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:sc0sagf2017_160_1620xmmmv1,2017-06-09T20:45:05.00Z,2017-06-11T03:46:01.00Z,Saturn,,,12.668
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:sc0sagf2017_173_2005xmmmv1,2017-06-22T21:28:41.00Z,2017-06-24T02:01:13.00Z,Saturn,,,11.852
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:sc1sagf2017_199_1325xmmmv1,2017-07-18T18:00:06.00Z,2017-07-19T22:00:03.00Z,Saturn,,,11.25
+urn:nasa:pds:cassini.rss.raw.sagr:data.odf:sc1sagf2017_200_0410xmmmv1,2017-07-19T17:27:05.00Z,2017-07-19T18:10:30.00Z,Saturn,,,0.227

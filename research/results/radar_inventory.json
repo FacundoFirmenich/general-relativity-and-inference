@@ -1,0 +1,242 @@
+[
+  {
+    "number_mp": 1566,
+    "signature": {
+      "source": "NASA/JPL Small-Body Radar Astrometry API",
+      "version": "1.1"
+    },
+    "all_delay_records": 10,
+    "selected_records": 10,
+    "dates": [
+      "2015-06-14",
+      "2015-06-15",
+      "2015-06-16",
+      "2015-06-18",
+      "2015-06-19",
+      "2015-06-20"
+    ],
+    "stations": [
+      "-1",
+      "-14"
+    ],
+    "records": [
+      {
+        "des": "1566",
+        "epoch": "2015-06-20 01:33:00",
+        "value": "80022300.658",
+        "sigma": "2.000",
+        "units": "us",
+        "freq": "2380",
+        "rcvr": "-1",
+        "xmit": "-1",
+        "bp": "C",
+        "ref": null,
+        "notes": "Based on shape-based correction to UCLA ephemeris. Images at 1 us baud, 2 smpb.  Details in Greenberg et al., AJ 153, 2017."
+      },
+      {
+        "des": "1566",
+        "epoch": "2015-06-20 00:58:00",
+        "value": "79708409.313",
+        "sigma": "2.000",
+        "units": "us",
+        "freq": "2380",
+        "rcvr": "-1",
+        "xmit": "-1",
+        "bp": "C",
+        "ref": null,
+        "notes": "Based on shape-based correction to UCLA ephemeris. Images at 1 us baud, 2 smpb.  Details in Greenberg et al., AJ 153, 2017."
+      },
+      {
+        "des": "1566",
+        "epoch": "2015-06-19 01:37:00",
+        "value": "68163275.576",
+        "sigma": "1.000",
+        "units": "us",
+        "freq": "2380",
+        "rcvr": "-1",
+        "xmit": "-1",
+        "bp": "C",
+        "ref": null,
+        "notes": "Based on shape-based correction to UCLA ephemeris. Images at 0.5 us baud, 1 smpb.  Details in Greenberg et al., AJ 153, 2017."
+      },
+      {
+        "des": "1566",
+        "epoch": "2015-06-18 23:41:00",
+        "value": "67308377.46",
+        "sigma": "1.000",
+        "units": "us",
+        "freq": "2380",
+        "rcvr": "-1",
+        "xmit": "-1",
+        "bp": "C",
+        "ref": null,
+        "notes": "Based on shape-based correction to UCLA ephemeris. Images at 0.5 us baud, 1 smpb.  Details in Greenberg et al., AJ 153, 2017."
+      },
+      {
+        "des": "1566",
+        "epoch": "2015-06-18 00:58:00",
+        "value": "58866141.404",
+        "sigma": "0.400",
+        "units": "us",
+        "freq": "2380",
+        "rcvr": "-1",
+        "xmit": "-1",
+        "bp": "C",
+        "ref": null,
+        "notes": "Based on shape-based correction to UCLA ephemeris. Images at 0.2 us baud, 4 smpb.  Details in Greenberg et al., AJ 153, 2017."
+      },
+      {
+        "des": "1566",
+        "epoch": "2015-06-18 00:02:00",
+        "value": "58591220.063",
+        "sigma": "0.400",
+        "units": "us",
+        "freq": "2380",
+        "rcvr": "-1",
+        "xmit": "-1",
+        "bp": "C",
+        "ref": null,
+        "notes": "Based on shape-based correction to UCLA ephemeris. Images at 0.1 us baud, 2 smpb.  Details in Greenberg et al., AJ 153, 2017."
+      },
+      {
+        "des": "1566",
+        "epoch": "2015-06-16 23:20:00",
+        "value": "53984215.88",
+        "sigma": "2.5",
+        "units": "us",
+        "freq": "8560",
+        "rcvr": "-14",
+        "xmit": "-14",
+        "bp": "C",
+        "ref": null,
+        "notes": "GSSR, delay correction based on 0.5 usec bauds and 255 length code. Range correction to s92 is +2 usec."
+      },
+      {
+        "des": "1566",
+        "epoch": "2015-06-15 00:00:00",
+        "value": "60903291.94",
+        "sigma": "2.5",
+        "units": "us",
+        "freq": "8560",
+        "rcvr": "-14",
+        "xmit": "-14",
+        "bp": "C",
+        "ref": null,
+        "notes": "GSSR, delay correction based on 0.5 usec baud, 255 length code. Range correction to s90  is 0 usec."
+      },
+      {
+        "des": "1566",
+        "epoch": "2015-06-14 01:10:00",
+        "value": "70272229.12",
+        "sigma": "3.0",
+        "units": "us",
+        "freq": "8560",
+        "rcvr": "-14",
+        "xmit": "-14",
+        "bp": "C",
+        "ref": null,
+        "notes": "GSSR, delay correction based on 1 usec baud, 1023 length code. Range correction to s84  is -12  usec."
+      },
+      {
+        "des": "1566",
+        "epoch": "2015-06-14 00:30:00",
+        "value": "70583814.78",
+        "sigma": "20.0",
+        "units": "us",
+        "freq": "8560",
+        "rcvr": "-14",
+        "xmit": "-14",
+        "bp": "C",
+        "ref": null,
+        "notes": "GSSR, delay correction based on 10 and 11 usec bauds  and 127 length code. Range correction to s82 is -1600 usec."
+      }
+    ],
+    "input_sha256": "e2fee0306269e0d2eaf9a997f7604ea9e24c545aa4ae36a6e19bcf64445d1565"
+  },
+  {
+    "number_mp": 161989,
+    "signature": {
+      "source": "NASA/JPL Small-Body Radar Astrometry API",
+      "version": "1.1"
+    },
+    "all_delay_records": 5,
+    "selected_records": 5,
+    "dates": [
+      "2022-08-24",
+      "2022-08-26",
+      "2022-08-29",
+      "2022-09-02"
+    ],
+    "stations": [
+      "-14"
+    ],
+    "records": [
+      {
+        "des": "161989",
+        "epoch": "2022-09-02 11:40:00",
+        "value": "58224907.73",
+        "sigma": "1.5",
+        "units": "us",
+        "freq": "8560",
+        "rcvr": "-14",
+        "xmit": "-14",
+        "bp": "C",
+        "ref": null,
+        "notes": "GSSR, delay correction based on 0.5 sec bauds and 127 length code. Range correction to s234  is  -4  usec."
+      },
+      {
+        "des": "161989",
+        "epoch": "2022-08-29 09:30:00",
+        "value": "62078989.8",
+        "sigma": "1.0",
+        "units": "us",
+        "freq": "8560",
+        "rcvr": "-14",
+        "xmit": "-14",
+        "bp": "C",
+        "ref": null,
+        "notes": "Correction of -5.5 usec to soln 233 from 1/2 usec imaging.  Placed the COM at the TE of the echo which is 10 rows deep."
+      },
+      {
+        "des": "161989",
+        "epoch": "2022-08-26 12:30:00",
+        "value": "74230837.",
+        "sigma": "1.0",
+        "units": "us",
+        "freq": "8560",
+        "rcvr": "-14",
+        "xmit": "-14",
+        "bp": "C",
+        "ref": null,
+        "notes": "Correction of -7 usec to solution 232 from 1 and 1/2 usec ranging. Placed COM at the TE of the 1/2 usec echo, which is 5 rows deep."
+      },
+      {
+        "des": "161989",
+        "epoch": "2022-08-24 07:50:00",
+        "value": "86635720.898",
+        "sigma": "1.000",
+        "units": "us",
+        "freq": "8560",
+        "rcvr": "-14",
+        "xmit": "-14",
+        "bp": "C",
+        "ref": null,
+        "notes": "11 us correction to s230 based on 1 us ranging. Assumed echo to be at brightest pixel."
+      },
+      {
+        "des": "161989",
+        "epoch": "2022-08-24 07:20:00",
+        "value": "86764067.",
+        "sigma": "10.00",
+        "units": "us",
+        "freq": "8560",
+        "rcvr": "-14",
+        "xmit": "-14",
+        "bp": "C",
+        "ref": null,
+        "notes": "120 us correction to s229 based on 10 us ranging. Echo was unresolved."
+      }
+    ],
+    "input_sha256": "1dd82b6f9f05b37b3da90e1078f8a64a30480ff0871d22cf7eef24a5d51cbf03"
+  }
+]

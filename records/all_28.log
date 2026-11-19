@@ -1,0 +1,52 @@
+{
+  "status": "completed",
+  "checks": 15,
+  "seconds": 2.493027879998408,
+  "null_bias": [
+    {
+      "sigma": 0.05,
+      "analytic_mean": 0.019338354141543612,
+      "quadrature_mean": 0.019338354141543727,
+      "MC_mean": 0.019343471516749797,
+      "MC_se": 6.242965387667005e-05,
+      "standardized_difference": 0.08197026394370024,
+      "N": 200000
+    },
+    {
+      "sigma": 0.1,
+      "analytic_mean": 0.037521214712464335,
+      "quadrature_mean": 0.03752121471246436,
+      "MC_mean": 0.03770061789780078,
+      "MC_se": 0.00012037838618928555,
+      "standardized_difference": 1.4903272174985367,
+      "N": 200000
+    },
+    {
+      "sigma": 0.2,
+      "analytic_mean": 0.0707601917665262,
+      "quadrature_mean": 0.07076019176652633,
+      "MC_mean": 0.0707410365467344,
+      "MC_se": 0.0002210301359584726,
+      "standardized_difference": -0.08666338510238977,
+      "N": 200000
+    },
+    {
+      "sigma": 0.5,
+      "analytic_mean": 0.150381165279602,
+      "quadrature_mean": 0.15038116527960196,
+      "MC_mean": 0.15106295467733089,
+      "MC_se": 0.0004464785803369351,
+      "standardized_difference": 1.527037192275565,
+      "N": 200000
+    },
+    {
+      "sigma": 1.0,
+      "analytic_mean": 0.23842170813487662,
+      "quadrature_mean": 0.23842170813487665,
+      "MC_mean": 0.23949503977808098,
+      "MC_se": 0.0006640642880216973,
+      "standardized_difference": 1.6163068283673343,
+      "N": 200000
+    }
+  ]
+}

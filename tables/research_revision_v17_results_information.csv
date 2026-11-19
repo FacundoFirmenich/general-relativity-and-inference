@@ -1,0 +1,229 @@
+field / campo,value / valor
+/definition,"K_pi,L(E)=1-R_pi,L(E)/R_pi,L(no observation), when 0<R0<infinity and no-observation action remains feasible"
+/cassini/0/ell_seconds,300.0
+/cassini/0/s,1.0
+/cassini/0/tau,0.0
+/cassini/0/J_a_with_beta_prior,2.1224416251754055
+/cassini/0/J_a_profiled,2.122293736990488
+/cassini/0/K_quadratic_conditional,0.950253643307369
+/cassini/1/ell_seconds,300.0
+/cassini/1/s,1.0
+/cassini/1/tau,3e-14
+/cassini/1/J_a_with_beta_prior,1.3009296018109588
+/cassini/1/J_a_profiled,1.3003973794490098
+/cassini/1/K_quadratic_conditional,0.9213116802551831
+/cassini/2/ell_seconds,300.0
+/cassini/2/s,1.0
+/cassini/2/tau,1e-13
+/cassini/2/J_a_with_beta_prior,0.4234775855414199
+/cassini/2/J_a_profiled,0.4221149278109795
+/cassini/2/K_quadratic_conditional,0.7921558914229522
+/cassini/3/ell_seconds,300.0
+/cassini/3/s,1.0
+/cassini/3/tau,3.0000000000000003e-13
+/cassini/3/J_a_with_beta_prior,0.1500051117703517
+/cassini/3/J_a_profiled,0.14702355383979365
+/cassini/3/K_quadratic_conditional,0.5744764155785469
+/cassini/4/ell_seconds,1800.0
+/cassini/4/s,1.0
+/cassini/4/tau,0.0
+/cassini/4/J_a_with_beta_prior,2.1224416251753984
+/cassini/4/J_a_profiled,2.1222937369904815
+/cassini/4/K_quadratic_conditional,0.9502536433073688
+/cassini/5/ell_seconds,1800.0
+/cassini/5/s,1.0
+/cassini/5/tau,3e-14
+/cassini/5/J_a_with_beta_prior,0.6421219671919716
+/cassini/5/J_a_profiled,0.6410626366398182
+/cassini/5/K_quadratic_conditional,0.8524877434201015
+/cassini/6/ell_seconds,1800.0
+/cassini/6/s,1.0
+/cassini/6/tau,1e-13
+/cassini/6/J_a_with_beta_prior,0.20647191027533435
+/cassini/6/J_a_profiled,0.20423346790250613
+/cassini/6/K_quadratic_conditional,0.6501352288102724
+/cassini/7/ell_seconds,1800.0
+/cassini/7/s,1.0
+/cassini/7/tau,3.0000000000000003e-13
+/cassini/7/J_a_with_beta_prior,0.055520406954115725
+/cassini/7/J_a_profiled,0.05089524810270202
+/cassini/7/K_quadratic_conditional,0.3331927092711393
+/cassini/8/ell_seconds,7200.0
+/cassini/8/s,1.0
+/cassini/8/tau,0.0
+/cassini/8/J_a_with_beta_prior,2.1224416251753975
+/cassini/8/J_a_profiled,2.122293736990481
+/cassini/8/K_quadratic_conditional,0.9502536433073688
+/cassini/9/ell_seconds,7200.0
+/cassini/9/s,1.0
+/cassini/9/tau,3e-14
+/cassini/9/J_a_with_beta_prior,0.40024713634668774
+/cassini/9/J_a_profiled,0.39885534477907847
+/cassini/9/K_quadratic_conditional,0.7827137595540965
+/cassini/10/ell_seconds,7200.0
+/cassini/10/s,1.0
+/cassini/10/tau,1e-13
+/cassini/10/J_a_with_beta_prior,0.12697193151756456
+/cassini/10/J_a_profiled,0.12370886818407925
+/cassini/10/K_quadratic_conditional,0.5333094289944678
+/cassini/11/ell_seconds,7200.0
+/cassini/11/s,1.0
+/cassini/11/tau,3.0000000000000003e-13
+/cassini/11/J_a_with_beta_prior,0.027868623662762618
+/cassini/11/J_a_profiled,0.022976949503631355
+/cassini/11/K_quadratic_conditional,0.20052293025386844
+/cassini/12/ell_seconds,86400.0
+/cassini/12/s,1.0
+/cassini/12/tau,0.0
+/cassini/12/J_a_with_beta_prior,2.1224416251754015
+/cassini/12/J_a_profiled,2.1222937369904846
+/cassini/12/K_quadratic_conditional,0.9502536433073688
+/cassini/13/ell_seconds,86400.0
+/cassini/13/s,1.0
+/cassini/13/tau,3e-14
+/cassini/13/J_a_with_beta_prior,0.3420728802340541
+/cassini/13/J_a_profiled,0.33998484508020266
+/cassini/13/K_quadratic_conditional,0.7548211913194349
+/cassini/14/ell_seconds,86400.0
+/cassini/14/s,1.0
+/cassini/14/tau,1e-13
+/cassini/14/J_a_with_beta_prior,0.10151233780682306
+/cassini/14/J_a_profiled,0.09575510501215592
+/cassini/14/K_quadratic_conditional,0.47742776407508825
+/cassini/15/ell_seconds,86400.0
+/cassini/15/s,1.0
+/cassini/15/tau,3.0000000000000003e-13
+/cassini/15/J_a_with_beta_prior,0.0251601372832122
+/cassini/15/J_a_profiled,0.01854259237319665
+/cassini/15/K_quadratic_conditional,0.18463276428206776
+/gaia/0/object,Cacus
+/gaia/0/transits,30
+/gaia/0/conditional_common_shift_J_per_mas2,17.29240843454542
+/gaia/0/between_transit_common_sd_mas/0,0
+/gaia/0/between_transit_common_sd_mas/1,0.01
+/gaia/0/between_transit_common_sd_mas/2,0.1
+/gaia/0/sigma_common_shift_mas/0,0.24047628696609455
+/gaia/0/sigma_common_shift_mas/1,0.24068411786613478
+/gaia/0/sigma_common_shift_mas/2,0.2604397139320335
+/gaia/0/conditional_K_at_prior_sd_0_1mas/0,0.14742990331036968
+/gaia/0/conditional_K_at_prior_sd_0_1mas/1,0.14721286752212137
+/gaia/0/conditional_K_at_prior_sd_0_1mas/2,0.12848706738863086
+/gaia/0/scope,"Hypothetical common-shift design with declared common calibration covariance, not measured cross-transit covariance"
+/gaia/1/object,Cuyo
+/gaia/1/transits,63
+/gaia/1/conditional_common_shift_J_per_mas2,133.56415773271385
+/gaia/1/between_transit_common_sd_mas/0,0
+/gaia/1/between_transit_common_sd_mas/1,0.01
+/gaia/1/between_transit_common_sd_mas/2,0.1
+/gaia/1/sigma_common_shift_mas/0,0.0865276751458672
+/gaia/1/sigma_common_shift_mas/1,0.08710360822691977
+/gaia/1/sigma_common_shift_mas/2,0.1322385668636375
+/gaia/1/conditional_K_at_prior_sd_0_1mas/0,0.5718521156211048
+/gaia/1/conditional_K_at_prior_sd_0_1mas/1,0.5686005612819803
+/gaia/1/conditional_K_at_prior_sd_0_1mas/2,0.3638078353160736
+/gaia/1/scope,"Hypothetical common-shift design with declared common calibration covariance, not measured cross-transit covariance"
+/gaia/2/object,Icarus
+/gaia/2/transits,18
+/gaia/2/conditional_common_shift_J_per_mas2,26.6534991224436
+/gaia/2/between_transit_common_sd_mas/0,0
+/gaia/2/between_transit_common_sd_mas/1,0.01
+/gaia/2/between_transit_common_sd_mas/2,0.1
+/gaia/2/sigma_common_shift_mas/0,0.19369699534811904
+/gaia/2/sigma_common_shift_mas/1,0.19395495870662666
+/gaia/2/sigma_common_shift_mas/2,0.21798744460837474
+/gaia/2/conditional_K_at_prior_sd_0_1mas/0,0.21044423807569698
+/gaia/2/conditional_K_at_prior_sd_0_1mas/1,0.21000230033481596
+/gaia/2/conditional_K_at_prior_sd_0_1mas/2,0.17385702823473356
+/gaia/2/scope,"Hypothetical common-shift design with declared common calibration covariance, not measured cross-transit covariance"
+/gaia/3/object,Lutetia
+/gaia/3/transits,30
+/gaia/3/conditional_common_shift_J_per_mas2,2208.065665462249
+/gaia/3/between_transit_common_sd_mas/0,0
+/gaia/3/between_transit_common_sd_mas/1,0.01
+/gaia/3/between_transit_common_sd_mas/2,0.1
+/gaia/3/sigma_common_shift_mas/0,0.02128109682361763
+/gaia/3/sigma_common_shift_mas/1,0.02351350850077862
+/gaia/3/sigma_common_shift_mas/2,0.102239351924864
+/gaia/3/conditional_K_at_prior_sd_0_1mas/0,0.9566736763618151
+/gaia/3/conditional_K_at_prior_sd_0_1mas/1,0.9476081585538733
+/gaia/3/conditional_K_at_prior_sd_0_1mas/2,0.4889285770638197
+/gaia/3/scope,"Hypothetical common-shift design with declared common calibration covariance, not measured cross-transit covariance"
+/eccentricity/0/benchmark,Mercury-like benchmark
+/eccentricity/0/e,0.2056
+/eccentricity/0/a_over_lambda,0.1
+/eccentricity/0/approximation_relative_error,-0.05881155550009842
+/eccentricity/0/alpha_limit_exact_over_approx,0.9411884444999016
+/eccentricity/0/scope,Same external absolute precession limit and fixed mass/orbit; no published bound recomputed
+/eccentricity/1/benchmark,Mercury-like benchmark
+/eccentricity/1/e,0.2056
+/eccentricity/1/a_over_lambda,1.0
+/eccentricity/1/approximation_relative_error,-0.02741140925657548
+/eccentricity/1/alpha_limit_exact_over_approx,0.9725885907434245
+/eccentricity/1/scope,Same external absolute precession limit and fixed mass/orbit; no published bound recomputed
+/eccentricity/2/benchmark,Mercury-like benchmark
+/eccentricity/2/e,0.2056
+/eccentricity/2/a_over_lambda,3.0
+/eccentricity/2/approximation_relative_error,0.01495437131820987
+/eccentricity/2/alpha_limit_exact_over_approx,1.0149543713182099
+/eccentricity/2/scope,Same external absolute precession limit and fixed mass/orbit; no published bound recomputed
+/eccentricity/3/benchmark,Mercury-like benchmark
+/eccentricity/3/e,0.2056
+/eccentricity/3/a_over_lambda,10.0
+/eccentricity/3/approximation_relative_error,-0.1225326895829717
+/eccentricity/3/alpha_limit_exact_over_approx,0.8774673104170283
+/eccentricity/3/scope,Same external absolute precession limit and fixed mass/orbit; no published bound recomputed
+/eccentricity/4/benchmark,synthetic eccentric benchmark
+/eccentricity/4/e,0.6
+/eccentricity/4/a_over_lambda,0.1
+/eccentricity/4/approximation_relative_error,-0.46947098046883085
+/eccentricity/4/alpha_limit_exact_over_approx,0.5305290195311692
+/eccentricity/4/scope,Same external absolute precession limit and fixed mass/orbit; no published bound recomputed
+/eccentricity/5/benchmark,synthetic eccentric benchmark
+/eccentricity/5/e,0.6
+/eccentricity/5/a_over_lambda,1.0
+/eccentricity/5/approximation_relative_error,-0.2981939021919461
+/eccentricity/5/alpha_limit_exact_over_approx,0.7018060978080539
+/eccentricity/5/scope,Same external absolute precession limit and fixed mass/orbit; no published bound recomputed
+/eccentricity/6/benchmark,synthetic eccentric benchmark
+/eccentricity/6/e,0.6
+/eccentricity/6/a_over_lambda,3.0
+/eccentricity/6/approximation_relative_error,0.030171648536435836
+/eccentricity/6/alpha_limit_exact_over_approx,1.0301716485364358
+/eccentricity/6/scope,Same external absolute precession limit and fixed mass/orbit; no published bound recomputed
+/eccentricity/7/benchmark,synthetic eccentric benchmark
+/eccentricity/7/e,0.6
+/eccentricity/7/a_over_lambda,10.0
+/eccentricity/7/approximation_relative_error,-0.08358146060395877
+/eccentricity/7/alpha_limit_exact_over_approx,0.9164185393960412
+/eccentricity/7/scope,Same external absolute precession limit and fixed mass/orbit; no published bound recomputed
+/eccentricity/8/benchmark,Icarus-like benchmark
+/eccentricity/8/e,0.82697
+/eccentricity/8/a_over_lambda,0.1
+/eccentricity/8/approximation_relative_error,-0.8098446553957783
+/eccentricity/8/alpha_limit_exact_over_approx,0.19015534460422165
+/eccentricity/8/scope,Same external absolute precession limit and fixed mass/orbit; no published bound recomputed
+/eccentricity/9/benchmark,Icarus-like benchmark
+/eccentricity/9/e,0.82697
+/eccentricity/9/a_over_lambda,1.0
+/eccentricity/9/approximation_relative_error,-0.676277400931085
+/eccentricity/9/alpha_limit_exact_over_approx,0.32372259906891504
+/eccentricity/9/scope,Same external absolute precession limit and fixed mass/orbit; no published bound recomputed
+/eccentricity/10/benchmark,Icarus-like benchmark
+/eccentricity/10/e,0.82697
+/eccentricity/10/a_over_lambda,3.0
+/eccentricity/10/approximation_relative_error,-0.3064712438904802
+/eccentricity/10/alpha_limit_exact_over_approx,0.6935287561095198
+/eccentricity/10/scope,Same external absolute precession limit and fixed mass/orbit; no published bound recomputed
+/eccentricity/11/benchmark,Icarus-like benchmark
+/eccentricity/11/e,0.82697
+/eccentricity/11/a_over_lambda,10.0
+/eccentricity/11/approximation_relative_error,0.3294594715621424
+/eccentricity/11/alpha_limit_exact_over_approx,1.3294594715621424
+/eccentricity/11/scope,Same external absolute precession limit and fixed mass/orbit; no published bound recomputed
+/graph_xor/I_target_single_bit_nats,0.0
+/graph_xor/I_target_both_bits_nats,0.6931471805599453
+/graph_xor/scope,"Independent fair bits, target XOR; graph adjacency alone does not assign information"
+/non_claims/0,No universal Fisher threshold
+/non_claims/1,No empirical fractal law
+/non_claims/2,No physical force posterior from an optical template
+/non_claims/3,No model-independent index

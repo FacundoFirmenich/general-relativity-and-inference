@@ -1,0 +1,7 @@
+# Computational contract — frozen before execution
+
+Command: `python3 verify.py`; fixed PCG64 seed 20261118.
+
+Finite assertions: (1) log-integral identity on 101 scales s in [1,exp(3)] for LF=s^1.3 and LO=s^.7 exp(.1 sin(log s)); quadrature tolerance 1e-11. (2) analytic power law beta in {0,.5,1,1.5} at 1001 relative scales in [1,100]. (3) stable index bounds and missing/invalid input statuses. (4) exact two-dimensional rank, target-identifiability and complementary-observation examples. (5) analytic Gaussian clipping bias against independent numerical integration and 200000 Monte Carlo draws at each sigma in {.05,.1,.2,.5,1}; Monte Carlo deviations reported in simulation standard errors (not a theorem). (6) shared-reference uncertainty cancellation. (7) scalar Gaussian s^-2 sensitivity and explicit Lipschitz error propagation. (8) finite Markov garbling binary discrimination.
+
+Declared results: results/checks.json, results/null_bias.csv, figures/diagnostics_ES.pdf, figures/diagnostics_EN.pdf, figures/repair_ES.pdf, figures/repair_EN.pdf. Manifest records inputs before/after, software, seed, elapsed time, output hashes and status. Numerical assertions use float64 and are conditional on SciPy/NumPy and stated tolerances; small rank/garbling examples additionally use exact integer/fraction arguments in the supplement. No empirical PAE test, exhaustive parameter survey, or automatic theorem proof.

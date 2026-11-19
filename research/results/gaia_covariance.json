@@ -1,0 +1,64 @@
+{
+  "executed_at": "2026-11-19T22:21:55.473539+00:00",
+  "scope": "Uncertainty of a common along-scan transit displacement, not a Yukawa-amplitude fit",
+  "selection": "ESA is_rejected=false, at least two accepted CCDs per transit",
+  "max_dense_woodbury_relative_difference": 5.551115123125783e-16,
+  "objects": [
+    {
+      "number_mp": 21,
+      "name": "Lutetia",
+      "raw_ccd": 493,
+      "total_transits": 68,
+      "rejected_transits": 37,
+      "single_accepted_ccd_transits": 1,
+      "compared_transits": 30,
+      "ratio_min": 1.036485238507934,
+      "ratio_median": 1.1044535328898082,
+      "ratio_max": 1.1427368941068243,
+      "two_dimensional_max_relative_change": 7.014093017509992e-08,
+      "input_sha256": "bbc508fc60a343811e5b9dedc7cb9cd29f0b5621bd098d0680cbc3d6f2cd14c4"
+    },
+    {
+      "number_mp": 1917,
+      "name": "Cuyo",
+      "raw_ccd": 380,
+      "total_transits": 63,
+      "rejected_transits": 0,
+      "single_accepted_ccd_transits": 0,
+      "compared_transits": 63,
+      "ratio_min": 1.000116453798984,
+      "ratio_median": 1.0017131901581813,
+      "ratio_max": 1.0147738474433854,
+      "two_dimensional_max_relative_change": 2.175144508953508e-09,
+      "input_sha256": "dcf91a7b53054c2314273970242c52403721fc7c942a412242381ac734fbd911"
+    },
+    {
+      "number_mp": 1566,
+      "name": "Icarus",
+      "raw_ccd": 103,
+      "total_transits": 19,
+      "rejected_transits": 1,
+      "single_accepted_ccd_transits": 0,
+      "compared_transits": 18,
+      "ratio_min": 1.000060990495254,
+      "ratio_median": 1.0005910604299055,
+      "ratio_max": 1.0111825796610996,
+      "two_dimensional_max_relative_change": 2.5227435695995837e-09,
+      "input_sha256": "a4e9c3e5944aa026fc8a080be9511c2765b9b00840842949771264615297c30d"
+    },
+    {
+      "number_mp": 161989,
+      "name": "Cacus",
+      "raw_ccd": 149,
+      "total_transits": 30,
+      "rejected_transits": 0,
+      "single_accepted_ccd_transits": 0,
+      "compared_transits": 30,
+      "ratio_min": 1.0000191321073024,
+      "ratio_median": 1.000206339299935,
+      "ratio_max": 1.0029803779283868,
+      "two_dimensional_max_relative_change": 2.5944468795557896e-10,
+      "input_sha256": "23144d3b32982bac661442075965f595a534413af244064c958664791e83888e"
+    }
+  ]
+}

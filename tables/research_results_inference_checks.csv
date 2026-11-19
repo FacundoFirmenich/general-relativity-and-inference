@@ -1,0 +1,32 @@
+field / campo,value / valor
+/executed_at,2026-11-19T22:21:56.864212+00:00
+/seed,2026111803
+/scope,Synthetic controls with known probability laws; no external-chain reanalysis
+/mcmc_pooling/rho,0.9
+/mcmc_pooling/chains,5
+/mcmc_pooling/retained_per_chain,15000
+/mcmc_pooling/repetitions,500
+/mcmc_pooling/total_states,75000
+/mcmc_pooling/exact_variance_inflation,18.988000000000003
+/mcmc_pooling/exact_ess_for_mean,3949.863071413524
+/mcmc_pooling/exact_mcse,0.015911421474316283
+/mcmc_pooling/incorrect_iid_mcse,0.0036514837167011074
+/mcmc_pooling/empirical_mcse,0.016311351736419923
+/mcmc_pooling/pooled_lag1,0.8997395156367899
+/mcmc_pooling/shuffled_lag1,-0.0013231189166519398
+/mcmc_pooling/unchanged_mean_error,3.469446951953614e-18
+/transit_covariance/n_ccd,9
+/transit_covariance/random_variance,1.0
+/transit_covariance/systematic_variance,0.25
+/transit_covariance/common_information_block,2.7692307692307696
+/transit_covariance/common_information_inflated,2.769230769230769
+/transit_covariance/contrast_information_block,0.9999999999999999
+/transit_covariance/contrast_information_inflated,0.30769230769230765
+/group_reweighting/group_size,12
+/group_reweighting/fitted_parameters,2
+/group_reweighting/naive_df,10
+/group_reweighting/trace_noise,9.37548456934394
+/group_reweighting/omitted_signal_term,3.0587093692158196
+/group_reweighting/expected_group_quadratic,12.434193938559758
+/group_reweighting/simulated_group_quadratic,12.421126895547964
+/group_reweighting/simulation_mcse,0.04664058088652716

@@ -1,0 +1,444 @@
+{
+  "scope": "Exact statistical controls and source-specific arithmetic; no new physical observations",
+  "logarithm_base": "natural",
+  "renyi": [
+    {
+      "orientation": "coherent_to_independent",
+      "order": 0.5,
+      "value": 1.106911091482805,
+      "status": "FINITE",
+      "rank": [
+        2,
+        2
+      ],
+      "rank_rtol": 1e-10,
+      "reason": "common-support Gaussian overlap"
+    },
+    {
+      "orientation": "coherent_to_independent",
+      "order": 1.0,
+      "value": 1.4025850929940458,
+      "status": "FINITE",
+      "rank": [
+        2,
+        2
+      ],
+      "rank_rtol": 1e-10,
+      "reason": "KL limit"
+    },
+    {
+      "orientation": "coherent_to_independent",
+      "order": 2.0,
+      "value": 1.660731206821651,
+      "status": "FINITE",
+      "rank": [
+        2,
+        2
+      ],
+      "rank_rtol": 1e-10,
+      "reason": "common-support Gaussian overlap"
+    },
+    {
+      "orientation": "independent_to_coherent",
+      "order": 0.5,
+      "value": 1.106911091482805,
+      "status": "FINITE",
+      "rank": [
+        2,
+        2
+      ],
+      "rank_rtol": 1e-10,
+      "reason": "common-support Gaussian overlap"
+    },
+    {
+      "orientation": "independent_to_coherent",
+      "order": 1.0,
+      "value": 6.697414907005958,
+      "status": "FINITE",
+      "rank": [
+        2,
+        2
+      ],
+      "rank_rtol": 1e-10,
+      "reason": "KL limit"
+    },
+    {
+      "orientation": "independent_to_coherent",
+      "order": 2.0,
+      "value": null,
+      "status": "INFINITE",
+      "rank": [
+        2,
+        2
+      ],
+      "rank_rtol": 1e-10,
+      "reason": "overlap precision not numerically positive definite"
+    }
+  ],
+  "mixture": {
+    "noise_sd": [
+      1.0,
+      3.0
+    ],
+    "prior_label_weights": [
+      0.5,
+      0.5
+    ],
+    "Fisher_mixture": 0.3455094101598565,
+    "oracle_Fisher": 0.5555555555555556,
+    "Fisher_quad_error": 1.008443901524268e-11,
+    "scenarios": [
+      {
+        "prior_variance": 0.25,
+        "Fisher_mixture": 0.3455094101598565,
+        "prior_Fisher": 4.0,
+        "Bayes_risk": 0.2318306065194244,
+        "van_Trees_lower_bound": 0.23012261753754054,
+        "oracle_Bayes_risk": 0.22162162162162163,
+        "retained_K": 0.07267757392230245,
+        "oracle_K": 0.11351351351351346,
+        "risk_quad_error": 1.9064807064177428e-12,
+        "variance_identity_error": 3.122502256758253e-17
+      },
+      {
+        "prior_variance": 1.0,
+        "Fisher_mixture": 0.3455094101598565,
+        "prior_Fisher": 1.0,
+        "Bayes_risk": 0.7912871171818779,
+        "van_Trees_lower_bound": 0.7432129366387653,
+        "oracle_Bayes_risk": 0.7,
+        "retained_K": 0.20871288281812206,
+        "oracle_K": 0.30000000000000004,
+        "risk_quad_error": 6.588797208605648e-12,
+        "variance_identity_error": 5.551115123125783e-17
+      },
+      {
+        "prior_variance": 4.0,
+        "Fisher_mixture": 0.3455094101598565,
+        "prior_Fisher": 0.25,
+        "Bayes_risk": 2.143193244083707,
+        "van_Trees_lower_bound": 1.6792345896458016,
+        "oracle_Bayes_risk": 1.7846153846153845,
+        "retained_K": 0.4642016889790732,
+        "oracle_K": 0.5538461538461539,
+        "risk_quad_error": 1.5366908828014772e-11,
+        "variance_identity_error": 2.220446049250313e-16
+      }
+    ]
+  },
+  "rms": {
+    "level": 0.05,
+    "local_amplitude_h": 3.0,
+    "rows": [
+      {
+        "n": 16,
+        "theta": 0.75,
+        "matched_power": 0.8508387683270561,
+        "RMS_power": 0.39870101267279323,
+        "raw_Fisher_at_null": 16,
+        "RMS_Fisher_at_null": 0.0
+      },
+      {
+        "n": 64,
+        "theta": 0.375,
+        "matched_power": 0.8508387683270561,
+        "RMS_power": 0.196675007890711,
+        "raw_Fisher_at_null": 64,
+        "RMS_Fisher_at_null": 0.0
+      },
+      {
+        "n": 256,
+        "theta": 0.1875,
+        "matched_power": 0.8508387683270561,
+        "RMS_power": 0.10780420916521431,
+        "raw_Fisher_at_null": 256,
+        "RMS_Fisher_at_null": 0.0
+      },
+      {
+        "n": 1024,
+        "theta": 0.09375,
+        "matched_power": 0.8508387683270561,
+        "RMS_power": 0.07459058183168113,
+        "raw_Fisher_at_null": 1024,
+        "RMS_Fisher_at_null": 0.0
+      },
+      {
+        "n": 4096,
+        "theta": 0.046875,
+        "matched_power": 0.8508387683270561,
+        "RMS_power": 0.06124981423989245,
+        "raw_Fisher_at_null": 4096,
+        "RMS_Fisher_at_null": 0.0
+      },
+      {
+        "n": 16384,
+        "theta": 0.0234375,
+        "matched_power": 0.8508387683270561,
+        "RMS_power": 0.05537256107451361,
+        "raw_Fisher_at_null": 16384,
+        "RMS_Fisher_at_null": 0.0
+      }
+    ],
+    "noncentral_tail_independent_error": 6.938893903907228e-17,
+    "scope": "Yi iid N(theta,1), known variance; two-sided matched test and upper-tail energy test",
+    "exact_theorem": "For Z~N(theta*u,I), J_norm(theta=0)=0; J_raw=||u||^2. A symmetric theta prior has E(theta|norm Z)=0 and quadratic K=0."
+  },
+  "mantissas": {
+    "constants": {
+      "ln10": 2.302585092994046,
+      "ln9": 2.1972245773362196,
+      "ln20_95pct_saturation": 2.995732273553991,
+      "ln19_5_95_window": 2.9444389791664403,
+      "third_decade": 2.154434690031884,
+      "two_pi_over_e": 2.3114546995818435,
+      "retain_90pct_exponential_time_over_tau": 0.10536051565782628,
+      "logistic_10_90_width_over_tau": 4.394449154672439
+    },
+    "gaussian_quantiles": {
+      "0.97": 1.8807936081512509,
+      "0.98": 2.0537489106318225,
+      "0.985": 2.17009037758456,
+      "0.99": 2.3263478740408408
+    },
+    "stretched_exponential": [
+      {
+        "fraction": 0.5,
+        "beta": 0.5,
+        "time_over_tau": 0.4804530139182014
+      },
+      {
+        "fraction": 0.9,
+        "beta": 0.5,
+        "time_over_tau": 5.301898110478399
+      },
+      {
+        "fraction": 0.95,
+        "beta": 0.5,
+        "time_over_tau": 8.974411854812958
+      },
+      {
+        "fraction": 0.99,
+        "beta": 0.5,
+        "time_over_tau": 21.207592441913587
+      },
+      {
+        "fraction": 0.999,
+        "beta": 0.5,
+        "time_over_tau": 47.717082994305564
+      },
+      {
+        "fraction": 0.5,
+        "beta": 1.0,
+        "time_over_tau": 0.6931471805599453
+      },
+      {
+        "fraction": 0.9,
+        "beta": 1.0,
+        "time_over_tau": 2.302585092994046
+      },
+      {
+        "fraction": 0.95,
+        "beta": 1.0,
+        "time_over_tau": 2.99573227355399
+      },
+      {
+        "fraction": 0.99,
+        "beta": 1.0,
+        "time_over_tau": 4.605170185988091
+      },
+      {
+        "fraction": 0.999,
+        "beta": 1.0,
+        "time_over_tau": 6.907755278982136
+      },
+      {
+        "fraction": 0.5,
+        "beta": 2.0,
+        "time_over_tau": 0.8325546111576977
+      },
+      {
+        "fraction": 0.9,
+        "beta": 2.0,
+        "time_over_tau": 1.5174271293851465
+      },
+      {
+        "fraction": 0.95,
+        "beta": 2.0,
+        "time_over_tau": 1.730818382602285
+      },
+      {
+        "fraction": 0.99,
+        "beta": 2.0,
+        "time_over_tau": 2.145966026289347
+      },
+      {
+        "fraction": 0.999,
+        "beta": 2.0,
+        "time_over_tau": 2.6282608848784657
+      }
+    ],
+    "benford": {
+      "band_probability": 0.039508541283673565,
+      "lower_equal_width_probability": 0.07918124604762482,
+      "equal_mass_upper_endpoint": 8.761904761904761,
+      "density_derivative": "-1/(m^2*ln(10)) < 0 on [1,10)",
+      "scope": "Conditional on Benford significands; not a test on selected reported constants"
+    },
+    "published_Cassini_fits": [
+      {
+        "solve_for": 9,
+        "estimate": 2.1,
+        "standard_uncertainty": 2.3,
+        "unit": "1e-5 in gamma-1",
+        "standardized_estimate": 0.9130434782608696
+      },
+      {
+        "solve_for": 12,
+        "estimate": 1.35,
+        "standard_uncertainty": 2.47,
+        "unit": "1e-5 in gamma-1",
+        "standardized_estimate": 0.5465587044534412
+      },
+      {
+        "solve_for": 8,
+        "estimate": 0.21,
+        "standard_uncertainty": 2.43,
+        "unit": "1e-5 in gamma-1",
+        "standardized_estimate": 0.08641975308641975
+      }
+    ],
+    "reparameterization": [
+      {
+        "scale": 1.0,
+        "estimate": 2.1,
+        "standard_uncertainty": 2.3,
+        "z": 0.9130434782608696
+      },
+      {
+        "scale": 2.302585092994046,
+        "estimate": 4.835428695287496,
+        "standard_uncertainty": 5.295945713886305,
+        "z": 0.9130434782608696
+      },
+      {
+        "scale": 0.4347826086956522,
+        "estimate": 0.9130434782608697,
+        "standard_uncertainty": 1.0,
+        "z": 0.9130434782608697
+      },
+      {
+        "scale": 10.0,
+        "estimate": 21.0,
+        "standard_uncertainty": 23.0,
+        "z": 0.9130434782608695
+      }
+    ],
+    "physical_mantissa_artifact": "NOT_ESTABLISHED",
+    "source": "Bertotti, Iess, Tortora (2003), doi:10.1038/nature01997; Fig.3 and Method, pp.375-376; author-uploaded full text read",
+    "original_main_points": 1094,
+    "original_main_solve_for": 9,
+    "reconstructed_epochs": 1696,
+    "boundary": "No published observation refit; no derivation of sigma_gamma from ln(10)."
+  },
+  "calibration": {
+    "seed": 2026111818,
+    "replicates": 4000,
+    "prior_variance": 1.0,
+    "PIT_decile_counts": [
+      407,
+      444,
+      376,
+      366,
+      408,
+      388,
+      391,
+      395,
+      408,
+      417
+    ],
+    "coverage": {
+      "0.9": {
+        "fraction": 0.899,
+        "binomial_mc_se_under_nominal": 0.004743416490252568
+      },
+      "0.95": {
+        "fraction": 0.953,
+        "binomial_mc_se_under_nominal": 0.003446012188022557
+      }
+    },
+    "source": "Synthetic draws from the declared prior and sampling distribution",
+    "scope": "Calibration of exact posterior CDF for the full two-label toy hierarchy; not Cassini SBC",
+    "duplicate_information": {
+      "copies": [
+        1,
+        2,
+        5,
+        20
+      ],
+      "correct_Fisher": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "false_independent_Fisher": [
+        1.0,
+        2.0,
+        5.0,
+        20.0
+      ]
+    }
+  },
+  "tails": {
+    "rows": [
+      {
+        "central_probability": 0.8,
+        "threshold": 1.2815515655446004,
+        "retained_inside_Fisher_per_attempt": 0.35017967592291116,
+        "truncated_Fisher_per_retained_record": 0.4377245949036389,
+        "two_sided_censored_Fisher_per_attempt": 0.9661729661446172,
+        "removed_tail_Fisher": 0.6498203240770888,
+        "independent_quad_error": 0.0
+      },
+      {
+        "central_probability": 0.9,
+        "threshold": 1.6448536269514722,
+        "retained_inside_Fisher_per_attempt": 0.5607139357212154,
+        "truncated_Fisher_per_retained_record": 0.6230154841346838,
+        "two_sided_censored_Fisher_per_attempt": 0.9861923483467325,
+        "removed_tail_Fisher": 0.4392860642787846,
+        "independent_quad_error": 2.220446049250313e-16
+      },
+      {
+        "central_probability": 0.95,
+        "threshold": 1.959963984540054,
+        "retained_inside_Fisher_per_attempt": 0.7208995362164025,
+        "truncated_Fisher_per_retained_record": 0.7588416170698974,
+        "two_sided_censored_Fisher_per_attempt": 0.9941656309776391,
+        "removed_tail_Fisher": 0.27910046378359754,
+        "independent_quad_error": 1.1102230246251565e-16
+      },
+      {
+        "central_probability": 0.99,
+        "threshold": 2.5758293035489004,
+        "retained_inside_Fisher_per_attempt": 0.9155083403789585,
+        "truncated_Fisher_per_retained_record": 0.9247558993726853,
+        "two_sided_censored_Fisher_per_attempt": 0.9991420077407531,
+        "removed_tail_Fisher": 0.08449165962104155,
+        "independent_quad_error": 2.220446049250313e-16
+      }
+    ],
+    "full_Fisher": 1.0,
+    "scope": "N(theta,1) at theta=0; thresholds fixed in measured coordinates, not centered on unknown theta",
+    "truncation": "Conditional retained values with selected count: acceptance-indicator score vanishes at theta=0 only",
+    "censoring": "Retain left/right censor labels and all trial counts; equivalent to clipping with endpoint atoms",
+    "transport": "Known invertible theta-independent maps preserve experiment; mass conservation alone is insufficient"
+  },
+  "checks": [
+    "equal-covariance analytic Renyi for five orders",
+    "order-half equals independently computed Hellinger affinity",
+    "unequal-covariance overlap independently integrated",
+    "invertible contrasts and covariance units preserve divergence",
+    "common singular support and infinite second-moment case"
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "assertion_tested": "Joint conditional GP versus independent draws with identical pointwise variances",
+  "scope": "Controlled Gaussian-function uncertainty law; exact mean profile; not a replication of published INPOP data",
+  "integration": "Exact integration of exp(-Q/2) on linearly interpolated Q segments; exact per-curve quantile inversion; pooled quantile by scalar root",
+  "seed": 20261117,
+  "simulations": 4096,
+  "ell": 0.5,
+  "sigma_delta_Q": 3.0,
+  "conditioning_nodes": [
+    0.0,
+    0.6,
+    1.5,
+    3.0
+  ],
+  "max_variance_delta_Q": 7.083018054268791,
+  "eigen_rank": 17,
+  "exact_mean_quantile_997": 1.3201120091564822,
+  "quantile_997_of_averaged_unnormalized_likelihood": 1.3199756884342386,
+  "increments": [
+    {
+      "delta_x": 0.0037499999999999756,
+      "variance_increment_joint": 9.641889816336402e-06,
+      "variance_increment_independent": 1.034892505783679,
+      "variance_ratio": 107332.95292695057
+    },
+    {
+      "delta_x": 0.007500000000000007,
+      "variance_increment_joint": 3.899817210495371e-05,
+      "variance_increment_independent": 1.0339347898942428,
+      "variance_ratio": 26512.391070834525
+    },
+    {
+      "delta_x": 0.015000000000000013,
+      "variance_increment_joint": 0.000160791532925586,
+      "variance_increment_independent": 1.0309403944990727,
+      "variance_ratio": 6411.658473187079
+    },
+    {
+      "delta_x": 0.02999999999999997,
+      "variance_increment_joint": 0.0007030159032552774,
+      "variance_increment_independent": 1.0207062086825403,
+      "variance_ratio": 1451.8963283137905
+    }
+  ],
+  "results": [
+    {
+      "law": "joint_GP",
+      "grid_points": 51,
+      "quantile_997_mean": 1.312184533471359,
+      "quantile_997_std": 0.03324278203810919,
+      "q997_distribution_025": 1.2272779031578491,
+      "q997_distribution_975": 1.350395521442627,
+      "pooled_posterior_quantile_997": 1.3214619482386998,
+      "std_first_half": 0.032928122134150306,
+      "std_second_half": 0.03354970686735255
+    },
+    {
+      "law": "independent_marginals",
+      "grid_points": 51,
+      "quantile_997_mean": 1.317020959397548,
+      "quantile_997_std": 0.017916865207289766,
+      "q997_distribution_025": 1.2787865821048947,
+      "q997_distribution_975": 1.3493162230462494,
+      "pooled_posterior_quantile_997": 1.3203457688509195,
+      "std_first_half": 0.018196781107907293,
+      "std_second_half": 0.017629265110087132
+    },
+    {
+      "law": "joint_GP",
+      "grid_points": 101,
+      "quantile_997_mean": 1.3123749714463346,
+      "quantile_997_std": 0.033384709255398645,
+      "q997_distribution_025": 1.226845963868087,
+      "q997_distribution_975": 1.350615659382742,
+      "pooled_posterior_quantile_997": 1.3217053243589847,
+      "std_first_half": 0.03306996374809864,
+      "std_second_half": 0.03369168539261414
+    },
+    {
+      "law": "independent_marginals",
+      "grid_points": 101,
+      "quantile_997_mean": 1.3184847220123541,
+      "quantile_997_std": 0.013679614431859251,
+      "q997_distribution_025": 1.2908246576677387,
+      "q997_distribution_975": 1.344326363224406,
+      "pooled_posterior_quantile_997": 1.3203727738183613,
+      "std_first_half": 0.013743200875471533,
+      "std_second_half": 0.013615685908433511
+    },
+    {
+      "law": "joint_GP",
+      "grid_points": 201,
+      "quantile_997_mean": 1.31242079701514,
+      "quantile_997_std": 0.03341844032081393,
+      "q997_distribution_025": 1.2267610772908715,
+      "q997_distribution_975": 1.3506813180023984,
+      "pooled_posterior_quantile_997": 1.321766801529019,
+      "std_first_half": 0.03310352906031143,
+      "std_second_half": 0.033725571229157834
+    },
+    {
+      "law": "independent_marginals",
+      "grid_points": 201,
+      "quantile_997_mean": 1.3188975163852819,
+      "quantile_997_std": 0.009835357183725215,
+      "q997_distribution_025": 1.2993159543552966,
+      "q997_distribution_975": 1.3370922184924425,
+      "pooled_posterior_quantile_997": 1.319896215300831,
+      "std_first_half": 0.009785645136699366,
+      "std_second_half": 0.009886887634332514
+    },
+    {
+      "law": "joint_GP",
+      "grid_points": 401,
+      "quantile_997_mean": 1.3124323128211692,
+      "quantile_997_std": 0.033426942272992574,
+      "q997_distribution_025": 1.2267397797022361,
+      "q997_distribution_975": 1.3506993466678188,
+      "pooled_posterior_quantile_997": 1.3217821666893197,
+      "std_first_half": 0.033112007620289895,
+      "std_second_half": 0.03373409441545551
+    },
+    {
+      "law": "independent_marginals",
+      "grid_points": 401,
+      "quantile_997_mean": 1.3193123912401155,
+      "quantile_997_std": 0.0071333865364297646,
+      "q997_distribution_025": 1.3047696167021439,
+      "q997_distribution_975": 1.3325744437193372,
+      "pooled_posterior_quantile_997": 1.3198207308130492,
+      "std_first_half": 0.007129075932207776,
+      "std_second_half": 0.007139349145126638
+    },
+    {
+      "law": "joint_GP",
+      "grid_points": 801,
+      "quantile_997_mean": 1.3124351903059677,
+      "quantile_997_std": 0.033429067351202574,
+      "q997_distribution_025": 1.2267344363109236,
+      "q997_distribution_975": 1.350704053665612,
+      "pooled_posterior_quantile_997": 1.3217859864553463,
+      "std_first_half": 0.033114126875126104,
+      "std_second_half": 0.033736224780536304
+    },
+    {
+      "law": "independent_marginals",
+      "grid_points": 801,
+      "quantile_997_mean": 1.3196599026608382,
+      "quantile_997_std": 0.0051862722639113325,
+      "q997_distribution_025": 1.309394344773921,
+      "q997_distribution_975": 1.3296550961662494,
+      "pooled_posterior_quantile_997": 1.3199636069661334,
+      "std_first_half": 0.005141394178686415,
+      "std_second_half": 0.0052310509461076194
+    }
+  ]
+}

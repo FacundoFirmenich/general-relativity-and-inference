@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1D00.sch" 
+   schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Bundle 
+   xmlns="http://pds.nasa.gov/pds4/pds/v1"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="
+      http://pds.nasa.gov/pds4/pds/v1
+      https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1D00.xsd
+   ">
+   <Identification_Area>
+      <logical_identifier>urn:nasa:pds:cassini.rss.raw.sagr</logical_identifier>
+      <version_id>1.0</version_id>
+      <title>Cassini Radio Science Saturn Gravity Science Experiment (SAGR) Raw Data Bundle</title>
+      <information_model_version>1.13.0.0</information_model_version>
+      <product_class>Product_Bundle</product_class>
+      <Citation_Information>
+         <author_list>Verma, A. K.; Simpson, R. A.; Barbinis, E.; Goltz, G. L.; Kliore, A. J.</author_list>
+         <publication_year>2025</publication_year>
+         <doi>10.17189/ec4s-6p49</doi>
+         <description>
+             This bundle contains the Cassini radio science raw data acquired
+             during the Saturn Gravity Science Experiment (SAGR). 
+             The primary data in this bundle are the Radio Science Receiver
+             (RSR) files, the Orbit Data Files (ODFs), and the Tracking and Navigation Files (TNFs).
+             The primary data files are accompanied by supplementary data files. 
+             These include 0158-Monitor (158) files, C-Kernel (CKF) files,
+             Earth Orientation Parameters (EOP) files, Ionosphere Calibration (ION) files,
+             Path Delay (PD1 and PD2) files, Spacecraft/Planetary Ephemeris
+             (SPK) files, Telemetry (TLM) files, and Troposphere Calibration (TRO) files.
+             The bundle is a migration of data from the original PDS3 archive with
+             minor improvements and corrections.
+         </description>
+      </Citation_Information>
+     
+      <Modification_History>
+         <Modification_Detail>
+            <modification_date>2025-06-27</modification_date>
+            <version_id>1.0</version_id>
+            <description>Initial version of Cassini Radio Science SAGR raw data migrated from PDS3 to PDS4</description>
+         </Modification_Detail>
+      </Modification_History>
+   </Identification_Area>
+
+   <Context_Area>
+      <Time_Coordinates>
+          <start_date_time>2005-05-02T00:00:00Z</start_date_time> 
+          <stop_date_time>2017-07-19T23:59:59Z</stop_date_time>
+      </Time_Coordinates>
+
+      <Primary_Result_Summary>
+         <purpose>Science</purpose>
+         <processing_level>Raw</processing_level>
+      </Primary_Result_Summary>
+
+      <Investigation_Area>
+         <name>Cassini-Huygens</name>
+         <type>Mission</type>
+         <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:investigation:mission.cassini-huygens</lid_reference>
+            <reference_type>bundle_to_investigation</reference_type>
+         </Internal_Reference>
+      </Investigation_Area>
+
+      <Investigation_Area>
+        <name>DSN Media Calibration</name>
+         <type>Other Investigation</type>
+         <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:investigation:other_investigation.media.dsn</lid_reference>
+            <reference_type>bundle_to_investigation</reference_type>
+         </Internal_Reference>
+      </Investigation_Area>
+      
+      <Investigation_Area>
+         <name>Geodesy</name>
+         <type>Other Investigation</type>
+         <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:investigation:other_investigation.geodesy</lid_reference>
+            <reference_type>bundle_to_investigation</reference_type>
+         </Internal_Reference>
+      </Investigation_Area>
+
+      <Observing_System>
+         <Observing_System_Component>
+           <name>Deep Space Network</name>
+           <type>Observatory</type>
+           <Internal_Reference>
+             <lid_reference>urn:nasa:pds:context:facility:observatory.dsn</lid_reference>
+             <reference_type>is_facility</reference_type>
+           </Internal_Reference>
+         </Observing_System_Component>
+
+         <Observing_System_Component>
+           <name>NASA Deep Space Network Radio Science</name>
+           <type>Instrument</type>
+           <Internal_Reference>
+             <lid_reference>urn:nasa:pds:context:instrument:dsn.rss</lid_reference>
+             <reference_type>is_instrument</reference_type>
+           </Internal_Reference>
+         </Observing_System_Component>
+
+         <Observing_System_Component>
+           <name>Deep Space Station Media Calibration Subsystem</name>
+           <type>Instrument</type>
+           <Internal_Reference>
+             <lid_reference>urn:nasa:pds:context:instrument:dsn.media</lid_reference>
+             <reference_type>is_instrument</reference_type>
+           </Internal_Reference>
+         </Observing_System_Component>
+
+         <Observing_System_Component>
+            <name>Cassini Orbiter</name>
+            <type>Spacecraft</type>   
+            <Internal_Reference>
+               <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.co</lid_reference>
+               <reference_type>is_instrument_host</reference_type>
+            </Internal_Reference>
+         </Observing_System_Component>
+
+         <Observing_System_Component>
+            <name>Cassini Engineering</name>
+            <type>Instrument</type>
+            <Internal_Reference>
+               <lid_reference>urn:nasa:pds:context:instrument:eng.co</lid_reference>
+               <reference_type>is_instrument</reference_type>
+            </Internal_Reference>
+         </Observing_System_Component>
+
+         <Observing_System_Component>
+            <name>Radio Science Subsystem</name>
+            <type>Instrument</type>
+            <Internal_Reference>
+               <lid_reference>urn:nasa:pds:context:instrument:rss.co</lid_reference>
+               <reference_type>is_instrument</reference_type>
+            </Internal_Reference>
+         </Observing_System_Component>
+
+        <Observing_System_Component>
+          <name>DSS-14 70-m Radio Telescope</name>
+          <type>Telescope</type>
+          <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:telescope:goldstone.dss14_70m</lid_reference>
+            <reference_type>is_telescope</reference_type>
+          </Internal_Reference>
+        </Observing_System_Component>
+
+        <Observing_System_Component>
+          <name>DSS-15 34-m Radio Telescope</name>
+          <type>Telescope</type>
+          <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:telescope:goldstone.dss15_34m</lid_reference>
+            <reference_type>is_telescope</reference_type>
+          </Internal_Reference>
+        </Observing_System_Component>
+
+        <Observing_System_Component>
+          <name>DSS-24 34-m Radio Telescope</name>
+          <type>Telescope</type>
+          <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:telescope:goldstone.dss24_34m</lid_reference>
+            <reference_type>is_telescope</reference_type>
+          </Internal_Reference>
+        </Observing_System_Component>
+
+        <Observing_System_Component>
+          <name>DSS-25 34-m Radio Telescope</name>
+          <type>Telescope</type>
+          <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:telescope:goldstone.dss25_34m</lid_reference>
+            <reference_type>is_telescope</reference_type>
+          </Internal_Reference>
+        </Observing_System_Component>
+
+        <Observing_System_Component>
+          <name>DSS-26 34-m Radio Telescope</name>
+          <type>Telescope</type>
+          <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:telescope:goldstone.dss26_34m</lid_reference>
+            <reference_type>is_telescope</reference_type>
+          </Internal_Reference>
+        </Observing_System_Component>
+        
+        <Observing_System_Component>
+           <name>DSS-34 34-m Radio Telescope</name>
+           <type>Telescope</type>
+           <Internal_Reference>
+             <lid_reference>urn:nasa:pds:context:telescope:canberra.dss34_34m</lid_reference>
+             <reference_type>is_telescope</reference_type>
+           </Internal_Reference>
+         </Observing_System_Component>
+
+        <Observing_System_Component>
+          <name>DSS-35 34-m Radio Telescope</name>
+          <type>Telescope</type>
+          <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:telescope:canberra.dss35_34m</lid_reference>
+            <reference_type>is_telescope</reference_type>
+          </Internal_Reference>
+        </Observing_System_Component>
+
+        <Observing_System_Component>
+          <name>DSS-36 34-m Radio Telescope</name>
+          <type>Telescope</type>
+          <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:telescope:canberra.dss36_34m</lid_reference>
+            <reference_type>is_telescope</reference_type>
+          </Internal_Reference>
+        </Observing_System_Component>
+
+        <Observing_System_Component>
+          <name>DSS-43 70-m Radio Telescope</name>
+          <type>Telescope</type>
+          <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:telescope:canberra.dss43_70m</lid_reference>
+            <reference_type>is_telescope</reference_type>
+          </Internal_Reference>
+        </Observing_System_Component>
+
+        <Observing_System_Component>
+          <name>DSS-45 34-m Radio Telescope</name>
+          <type>Telescope</type>
+          <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:telescope:canberra.dss45_34m</lid_reference>
+            <reference_type>is_telescope</reference_type>
+          </Internal_Reference>
+        </Observing_System_Component>
+
+        <Observing_System_Component>
+          <name>DSS-54 34-m Radio Telescope</name>
+          <type>Telescope</type>
+          <Internal_Reference>
+            <lid_reference>urn:nasa:pds:context:telescope:madrid.dss54_34m</lid_reference>
+            <reference_type>is_telescope</reference_type>
+          </Internal_Reference>
+        </Observing_System_Component>
+        
+        <Observing_System_Component>
+           <name>DSS-55 34-m Radio Telescope</name>
+           <type>Telescope</type>
+           <Internal_Reference>
+             <lid_reference>urn:nasa:pds:context:telescope:madrid.dss55_34m</lid_reference>
+             <reference_type>is_telescope</reference_type>
+           </Internal_Reference>
+         </Observing_System_Component>
+
+         <Observing_System_Component>
+           <name>DSS-63 70-m Radio Telescope</name>
+           <type>Telescope</type>
+           <Internal_Reference>
+             <lid_reference>urn:nasa:pds:context:telescope:madrid.dss63_70m</lid_reference>
+             <reference_type>is_telescope</reference_type>
+           </Internal_Reference>
+         </Observing_System_Component>
+
+         <Observing_System_Component>
+           <name>DSS-65 34-m Radio Telescope after 2005 Relocation</name>
+           <type>Telescope</type>
+           <Internal_Reference>
+             <lid_reference>urn:nasa:pds:context:telescope:madrid.dss65_34m-post2005</lid_reference>
+             <reference_type>is_telescope</reference_type>
+           </Internal_Reference>
+         </Observing_System_Component>
+
+         <Observing_System_Component>
+           <name>ESTRACK station DSA1 (DSS-74) 35-m Radio Telescope</name>
+           <type>Telescope</type>
+           <Internal_Reference>
+             <lid_reference>urn:esa:psa:context:telescope:new_norcia.dsa1_35m</lid_reference>
+             <reference_type>is_telescope</reference_type>
+           </Internal_Reference>
+         </Observing_System_Component>
+
+         <Observing_System_Component>
+           <name>ESTRACK station DSA3 (DSS-84) 35-m Radio Telescope</name>
+           <type>Telescope</type>
+           <Internal_Reference>
+             <lid_reference>urn:esa:psa:context:telescope:malarguee.dsa3_35m</lid_reference>
+             <reference_type>is_telescope</reference_type>
+           </Internal_Reference>
+         </Observing_System_Component>
+
+      </Observing_System>
+
+      <Target_Identification>
+        <name>Earth</name>
+        <type>Planet</type>
+        <Internal_Reference>
+          <lid_reference>urn:nasa:pds:context:target:planet.earth</lid_reference>
+          <reference_type>bundle_to_target</reference_type>
+        </Internal_Reference>
+      </Target_Identification>
+
+      <Target_Identification>
+        <name>Saturn</name>
+        <type>Planet</type>
+        <Internal_Reference>
+          <lid_reference>urn:nasa:pds:context:target:planet.saturn</lid_reference>
+          <reference_type>bundle_to_target</reference_type>
+        </Internal_Reference>
+      </Target_Identification>
+
+      <Target_Identification>
+        <name>Cassini Orbiter</name>
+        <type>Equipment</type>
+        <Internal_Reference>
+          <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.co</lid_reference>
+          <reference_type>bundle_to_target</reference_type>
+        </Internal_Reference>
+      </Target_Identification>
+
+     <Target_Identification>
+       <name>DSS-14 70-m Radio Telescope</name>
+       <type>Equipment</type>
+       <description>The target is a DSN antenna used to track the Cassini-Huygens spacecraft.</description>
+       <Internal_Reference>
+         <lid_reference>urn:nasa:pds:context:telescope:goldstone.dss14_70m</lid_reference>
+         <reference_type>bundle_to_target</reference_type>
+       </Internal_Reference>
+     </Target_Identification>
+
+     <Target_Identification>
+       <name>DSS-15 34-m Radio Telescope</name>
+       <type>Equipment</type>
+       <description>The target is a DSN antenna used to track the Cassini-Huygens spacecraft.</description>
+       <Internal_Reference>
+         <lid_reference>urn:nasa:pds:context:telescope:goldstone.dss15_34m</lid_reference>
+         <reference_type>bundle_to_target</reference_type>
+       </Internal_Reference>
+     </Target_Identification>
+
+     <Target_Identification>
+       <name>DSS-24 34-m Radio Telescope</name>
+       <type>Equipment</type>
+       <description>The target is a DSN antenna used to track the Cassini-Huygens spacecraft.</description>
+       <Internal_Reference>
+         <lid_reference>urn:nasa:pds:context:telescope:goldstone.dss24_34m</lid_reference>
+         <reference_type>bundle_to_target</reference_type>
+       </Internal_Reference>
+     </Target_Identification>
+
+     <Target_Identification>
+       <name>DSS-25 34-m Radio Telescope</name>
+       <type>Equipment</type>
+       <description>The target is a DSN antenna used to track the Cassini-Huygens spacecraft.</description>
+       <Internal_Reference>
+         <lid_reference>urn:nasa:pds:context:telescope:goldstone.dss25_34m</lid_reference>
+         <reference_type>bundle_to_target</reference_type>
+       </Internal_Reference>
+     </Target_Identification>
+
+     <Target_Identification>
+       <name>DSS-26 34-m Radio Telescope</name>
+       <type>Equipment</type>
+       <description>The target is a DSN antenna used to track the Cassini-Huygens spacecraft.</description>
+       <Internal_Reference>
+         <lid_reference>urn:nasa:pds:context:telescope:goldstone.dss26_34m</lid_reference>
+         <reference_type>bundle_to_target</reference_type>
+       </Internal_Reference>
+     </Target_Identification>
+     
+     <Target_Identification>
+        <name>DSS-34 34-m Radio Telescope</name>
+        <type>Equipment</type>
+        <description>The target is a DSN antenna used to track the Cassini-Huygens spacecraft.</description>
+        <Internal_Reference>
+          <lid_reference>urn:nasa:pds:context:telescope:canberra.dss34_34m</lid_reference>
+          <reference_type>bundle_to_target</reference_type>
+        </Internal_Reference>
+      </Target_Identification>
+
+     <Target_Identification>
+       <name>DSS-35 34-m Radio Telescope</name>
+       <type>Equipment</type>
+       <description>The target is a DSN antenna used to track the Cassini-Huygens spacecraft.</description>
+       <Internal_Reference>
+         <lid_reference>urn:nasa:pds:context:telescope:canberra.dss35_34m</lid_reference>
+         <reference_type>bundle_to_target</reference_type>
+       </Internal_Reference>
+     </Target_Identification>
+     
+     <Target_Identification>
+       <name>DSS-36 34-m Radio Telescope</name>
+       <type>Equipment</type>
+       <description>The target is a DSN antenna used to track the Cassini-Huygens spacecraft.</description>
+       <Internal_Reference>
+         <lid_reference>urn:nasa:pds:context:telescope:canberra.dss36_34m</lid_reference>
+         <reference_type>bundle_to_target</reference_type>
+       </Internal_Reference>
+     </Target_Identification>
+     
+     <Target_Identification>
+       <name>DSS-43 70-m Radio Telescope</name>
+       <type>Equipment</type>
+       <description>The target is a DSN antenna used to track the Cassini-Huygens spacecraft.</description>
+       <Internal_Reference>
+         <lid_reference>urn:nasa:pds:context:telescope:canberra.dss43_70m</lid_reference>
+         <reference_type>bundle_to_target</reference_type>
+       </Internal_Reference>
+     </Target_Identification>
+
+     <Target_Identification>
+       <name>DSS-45 34-m Radio Telescope</name>
+       <type>Equipment</type>
+       <description>The target is a DSN antenna used to track the Cassini-Huygens spacecraft.</description>
+       <Internal_Reference>
+         <lid_reference>urn:nasa:pds:context:telescope:canberra.dss45_34m</lid_reference>
+         <reference_type>bundle_to_target</reference_type>
+       </Internal_Reference>
+     </Target_Identification>
+
+     <Target_Identification>
+       <name>DSS-54 34-m Radio Telescope</name>
+       <type>Equipment</type>
+       <description>The target is a DSN antenna used to track the Cassini-Huygens spacecraft.</description>
+       <Internal_Reference>
+         <lid_reference>urn:nasa:pds:context:telescope:madrid.dss54_34m</lid_reference>
+         <reference_type>bundle_to_target</reference_type>
+       </Internal_Reference>
+     </Target_Identification>
+     
+     <Target_Identification>
+        <name>DSS-55 34-m Radio Telescope</name>
+        <type>Equipment</type>
+        <description>The target is a DSN antenna used to track the Cassini-Huygens spacecraft.</description>
+        <Internal_Reference>
+          <lid_reference>urn:nasa:pds:context:telescope:madrid.dss55_34m</lid_reference>
+          <reference_type>bundle_to_target</reference_type>
+        </Internal_Reference>
+      </Target_Identification>
+
+      <Target_Identification>
+        <name>DSS-63 70-m Radio Telescope</name>
+        <type>Equipment</type>
+        <description>The target is a DSN antenna used to track the Cassini-Huygens spacecraft.</description>
+        <Internal_Reference>
+          <lid_reference>urn:nasa:pds:context:telescope:madrid.dss63_70m</lid_reference>
+          <reference_type>bundle_to_target</reference_type>
+        </Internal_Reference>
+      </Target_Identification>
+
+      <Target_Identification>
+        <name>DSS 65 34-m Radio Telescope before 2005 Relocation</name>
+        <type>Equipment</type>
+        <description>The target is a DSN antenna used to track the Cassini-Huygens spacecraft.</description>
+        <Internal_Reference>
+          <lid_reference>urn:nasa:pds:context:telescope:madrid.dss65_34m</lid_reference>
+          <reference_type>bundle_to_target</reference_type>
+        </Internal_Reference>
+      </Target_Identification>
+     
+     <Target_Identification>
+       <name>DSS-65 34-m Radio Telescope after 2005 Relocation</name>
+       <type>Equipment</type>
+       <description>The target is a DSN antenna used to track the Cassini-Huygens spacecraft.</description>
+       <Internal_Reference>
+         <lid_reference>urn:nasa:pds:context:telescope:madrid.dss65_34m-post2005</lid_reference>
+         <reference_type>bundle_to_target</reference_type>
+       </Internal_Reference>
+     </Target_Identification>
+
+   </Context_Area>
+  
+    <Reference_List>
+      <External_Reference>
+        <reference_text>https://pds-atmospheres.nmsu.edu/data_and_services/atmospheres_data/Cassini/Cassini/RSS%20PDS%20page%202019-01-23/rss/activities/data</reference_text>
+        <description>
+          The referenced URL is the root of a data base that contains over 11,000 files that
+          document planning and real-time operations for Cassini radio science observations
+          between 2004 and 2017. The documents are organized into directories by year and date,
+          then by observation type, and finally by document type.  The data base and its 
+          contents are described in an appendix to the "Software Interface Specification: 
+          Cassini Radio Science Raw Data Archive" (see the Document collection in this bundle).  
+          The data base is not a PDS archive itself; but it is hosted by the PDS Atmospheres 
+          Discipline Node.
+        </description>
+      </External_Reference>
+    </Reference_List>
+
+   <Bundle>
+      <bundle_type>Archive</bundle_type>
+      <description>
+             This bundle contains the Cassini radio science raw data acquired
+             during the Saturn Gravity Science Experiment (SAGR).
+             The primary data in this bundle are the Radio Science Receiver
+             (RSR) files, the Orbit Data Files (ODFs), and the Tracking and Navigation Files (TNFs).
+             The primary data files are accompanied by supplementary data files.
+             These include 0158-Monitor (158) files, C-Kernel (CKF) files,
+             Earth Orientation Parameters (EOP) files, Ionosphere Calibration (ION) files,
+             Path Delay (PD1 and PD2) files, Spacecraft/Planetary Ephemeris
+             (SPK) files, Telemetry (TLM) files, and Troposphere Calibration (TRO) files.
+             The bundle is a migration of data from the original PDS3 archive with
+             minor improvements and corrections.
+      </description>
+   </Bundle>
+
+   <Bundle_Member_Entry>
+      <lidvid_reference>urn:nasa:pds:cassini.rss.raw.sagr:data.158::1.0</lidvid_reference>
+      <member_status>Primary</member_status>
+      <reference_type>bundle_has_data_collection</reference_type>
+   </Bundle_Member_Entry>
+  
+   <Bundle_Member_Entry>
+      <lidvid_reference>urn:nasa:pds:cassini.rss.raw.sagr:data.odf::1.0</lidvid_reference>
+      <member_status>Primary</member_status>
+      <reference_type>bundle_has_data_collection</reference_type>
+   </Bundle_Member_Entry>
+  
+   <Bundle_Member_Entry>
+      <lidvid_reference>urn:nasa:pds:cassini.rss.raw.sagr:data.pd1::1.0</lidvid_reference>
+      <member_status>Primary</member_status>
+      <reference_type>bundle_has_data_collection</reference_type>
+   </Bundle_Member_Entry>
+  
+   <Bundle_Member_Entry>
+      <lidvid_reference>urn:nasa:pds:cassini.rss.raw.sagr:data.pd2::1.0</lidvid_reference>
+      <member_status>Primary</member_status>
+      <reference_type>bundle_has_data_collection</reference_type>
+   </Bundle_Member_Entry>
+  
+   <Bundle_Member_Entry>
+      <lidvid_reference>urn:nasa:pds:cassini.rss.raw.sagr:data.rsr01::1.0</lidvid_reference>
+      <member_status>Primary</member_status>
+      <reference_type>bundle_has_data_collection</reference_type>
+   </Bundle_Member_Entry>
+  
+  <Bundle_Member_Entry>
+    <lidvid_reference>urn:nasa:pds:cassini.rss.raw.sagr:data.rsr02::1.0</lidvid_reference>
+    <member_status>Primary</member_status>
+    <reference_type>bundle_has_data_collection</reference_type>
+  </Bundle_Member_Entry>
+  
+   <Bundle_Member_Entry>
+      <lidvid_reference>urn:nasa:pds:cassini.rss.raw.sagr:data.tlm::1.0</lidvid_reference>
+      <member_status>Primary</member_status>
+      <reference_type>bundle_has_data_collection</reference_type>
+   </Bundle_Member_Entry>
+  
+   <Bundle_Member_Entry>
+      <lidvid_reference>urn:nasa:pds:cassini.rss.raw.sagr:data.tnf::1.0</lidvid_reference>
+      <member_status>Primary</member_status>
+      <reference_type>bundle_has_data_collection</reference_type>
+   </Bundle_Member_Entry>
+  
+   <Bundle_Member_Entry>
+      <lidvid_reference>urn:nasa:pds:cassini.rss.raw.sagr:calib.ckf::1.0</lidvid_reference>
+      <member_status>Primary</member_status>
+      <reference_type>bundle_has_spice_kernel_collection</reference_type>
+   </Bundle_Member_Entry>
+  
+   <Bundle_Member_Entry>
+      <lidvid_reference>urn:nasa:pds:cassini.rss.raw.sagr:calib.spk::1.0</lidvid_reference>
+      <member_status>Primary</member_status>
+      <reference_type>bundle_has_spice_kernel_collection</reference_type>
+   </Bundle_Member_Entry>
+  
+   <Bundle_Member_Entry>
+      <lidvid_reference>urn:nasa:pds:cassini.rss.raw.sagr:calib.eop::1.0</lidvid_reference>
+      <member_status>Primary</member_status>
+      <reference_type>bundle_has_calibration_collection</reference_type>
+   </Bundle_Member_Entry>
+  
+   <Bundle_Member_Entry>
+      <lidvid_reference>urn:nasa:pds:cassini.rss.raw.sagr:calib.tro::1.0</lidvid_reference>
+      <member_status>Primary</member_status>
+      <reference_type>bundle_has_calibration_collection</reference_type>
+   </Bundle_Member_Entry>
+  
+   <Bundle_Member_Entry>
+      <lidvid_reference>urn:nasa:pds:cassini.rss.raw.sagr:calib.ion::1.0</lidvid_reference>
+      <member_status>Primary</member_status>
+      <reference_type>bundle_has_calibration_collection</reference_type>
+   </Bundle_Member_Entry>
+  
+   <Bundle_Member_Entry>
+      <lidvid_reference>urn:nasa:pds:cassini.rss.raw.sagr:context::1.0</lidvid_reference>
+      <member_status>Primary</member_status>
+      <reference_type>bundle_has_context_collection</reference_type>
+  </Bundle_Member_Entry>
+  
+   <Bundle_Member_Entry>
+      <lidvid_reference>urn:nasa:pds:cassini.rss.raw.gwe:calib.boresight::1.0</lidvid_reference>
+      <member_status>Secondary</member_status>
+      <reference_type>bundle_has_calibration_collection</reference_type>
+   </Bundle_Member_Entry>
+  
+   <Bundle_Member_Entry>
+      <lidvid_reference>urn:nasa:pds:cassini.rss.raw.gwe:calib.hga::1.0</lidvid_reference>
+      <member_status>Secondary</member_status>
+      <reference_type>bundle_has_calibration_collection</reference_type>
+   </Bundle_Member_Entry>
+  
+   <Bundle_Member_Entry>
+      <lidvid_reference>urn:nasa:pds:cassini.rss.raw.gwe:calib.lsk::1.0</lidvid_reference>
+      <member_status>Secondary</member_status>
+      <reference_type>bundle_has_spice_kernel_collection</reference_type>
+   </Bundle_Member_Entry>
+  
+   <Bundle_Member_Entry>
+      <lidvid_reference>urn:nasa:pds:cassini.rss.raw.gwe:calib.tsc::1.0</lidvid_reference>
+      <member_status>Secondary</member_status>
+      <reference_type>bundle_has_spice_kernel_collection</reference_type>
+   </Bundle_Member_Entry>
+  
+   <Bundle_Member_Entry>
+      <lidvid_reference>urn:nasa:pds:cassini.rss.raw.gwe:calib.uso::1.0</lidvid_reference>
+      <member_status>Secondary</member_status>
+      <reference_type>bundle_has_calibration_collection</reference_type>
+   </Bundle_Member_Entry>
+  
+   <Bundle_Member_Entry>
+      <lidvid_reference>urn:nasa:pds:cassini.rss.raw.gwe:document::1.0</lidvid_reference>
+      <member_status>Secondary</member_status>
+      <reference_type>bundle_has_document_collection</reference_type>
+   </Bundle_Member_Entry>
+</Product_Bundle>

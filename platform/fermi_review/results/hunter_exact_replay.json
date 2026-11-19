@@ -1,0 +1,57 @@
+{
+  "original_id": "1B_1BkRZtxyfU9_jwEuejU5e0bOlKG0_L",
+  "snapshot_sha256": "4c2e5927ab666900a6d10435a52d5fba2cd32890450f15ad79ecc4d2b0751dd7",
+  "source_executed_unchanged": true,
+  "network_replaced_with_verified_snapshot": true,
+  "figure_display_suppressed": true,
+  "warning_messages": [
+    "`trapz` is deprecated. Use `trapezoid` instead, or one of the numerical integration functions in `scipy.integrate`."
+  ],
+  "warning_count": 45,
+  "parsed_rows_original": 232,
+  "parsed_rows_correct": 231,
+  "original_dataframe_index_first": "GRB140323433",
+  "original_first_NAME": "GRB140323A",
+  "correct_first_name": "GRB140323433",
+  "original_first_REDSHIFT": null,
+  "correct_first_redshift": null,
+  "original_first_TL0": 488.82001,
+  "correct_first_tl0": 226.8,
+  "selected_rows_original": 45,
+  "X_minmax_original": [
+    7.076593231639671e+24,
+    1.371892323812338e+27
+  ],
+  "Y_minmax_original": [
+    4.34,
+    34667.46094
+  ],
+  "original_slope": -7.803101889653571e-26,
+  "original_slope_se": 1.488903754860694e-25,
+  "fit_rows_original": 11,
+  "interpretation": "Exact archived parser and fit replay on current verified catalogue; descriptive audit, not physical inference.",
+  "all_positive_onsets": {
+    "n": 45,
+    "slope_s": -37.19540111073211,
+    "intercept_s": 570.7584372000305,
+    "scope": "Unweighted descriptive regression only; not a LIV estimator or bound."
+  },
+  "archived_cut_tl0_lt_200": {
+    "n": 27,
+    "slope_s": 0.5861864626412335,
+    "intercept_s": 15.968284698532583,
+    "scope": "Unweighted descriptive regression only; not a LIV estimator or bound."
+  },
+  "column_shift_checks": {
+    "original_REDSHIFT_equals_catalog_luminosity_distance": true,
+    "original_TL0_equals_catalog_TL100": true,
+    "valid_redshift_range": [
+      0.05,
+      4.618
+    ],
+    "original_redshift_range": [
+      6.92988e+26,
+      1.34345e+29
+    ]
+  }
+}

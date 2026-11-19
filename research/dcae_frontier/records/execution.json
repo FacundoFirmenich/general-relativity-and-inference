@@ -1,0 +1,71 @@
+{
+  "schema": "dcae.frontier.execution.v1",
+  "scope": "Published table reanalysis, 16 finite tests and publication figures; no raw-catalogue Monte Carlo or empirical FKP execution",
+  "started_at": "2026-11-19T22:23:00.542131+00:00",
+  "runtime_seconds": 1.3220741748809814,
+  "status": "completed",
+  "commands": [
+    {
+      "argv": [
+        "/workspace/gravitas_ui_env/bin/python",
+        "scripts/run_analysis.py"
+      ],
+      "cwd": "research/dcae_frontier",
+      "exit_status": 0,
+      "log": "records/analysis.log"
+    },
+    {
+      "argv": [
+        "/workspace/gravitas_ui_env/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "cwd": "research/dcae_frontier",
+      "exit_status": 0,
+      "log": "records/tests.log"
+    },
+    {
+      "argv": [
+        "/workspace/gravitas_ui_env/bin/python",
+        "scripts/plot_integrated.py"
+      ],
+      "cwd": "research/dcae_frontier",
+      "exit_status": 0,
+      "log": "records/figures.log"
+    }
+  ],
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "matplotlib": "3.10.8"
+  },
+  "inputs": {
+    "data/cosmos_2026_boundary.csv": "b4713774653c1dbe6ca7dac3e8d8fd9793ecd60988bab9ee6f86c522433fbe65",
+    "data/cosmos_2026_components_table4.csv": "d8214afabb6e4c4f353a463f8794ce10b4aa21bda6333a9b0d3c1a8db9edd459",
+    "data/cosmos_2026_loss_table3.csv": "5747c368b0d7ea5c8023734135c9dfb28aef59e3974f06ddfcd3a3f45c78e6db",
+    "data/cosmos_2026_walk_table2.csv": "58fc06f5ed36ea7593942d7ee1cae363cd37aafe978e4d344f7ede56bd5f334b",
+    "data/scsn_degradation.csv": "943ec9128c72bfbd0b62bb5ef89c3c41f25c7f74ce278e336dcdf46073719734",
+    "records/source_audit.json": "fee931579dc3c2b5df7b41e2ac5a57931ed2c339fa69af5632f8e8b6cddb5c1b",
+    "scripts/fkp_from_cells.py": "87fe47b2f3abda916b202a916b35d19bca1199614a341a3d1c0a5261a40fb940",
+    "scripts/plot_integrated.py": "cfe4276f04a0a20253a6d9106e3e96eeadc7e548a86fa271e2f16247f02eb5c3",
+    "scripts/plot_results.py": "80d9e8996c19b35c8fe075c1b8074298813aa4d0ca3ea1edad20af2b655948ff",
+    "scripts/run_analysis.py": "fec634567d0f091b744633faed5471261d3ff4c18d45080cdf6f84c9c67ae025",
+    "src/dcae.py": "cc3ea124cc715d4730c2902e14e710c480326fabf8a595cea131165fdde3960f",
+    "src/fkp.py": "be4545494330e7f97356640257b9c6d261c5090dac8c3945af279b98ea8eb50c",
+    "tests/test_reanalysis.py": "ff4e9924d55409fd9f2cfcd26ebd887d13b087ca5adcdce09e12936e40d0c6f3"
+  },
+  "inputs_unchanged": true,
+  "outputs": {
+    "results/REANALYSIS.json": "c100820ca3acffbc11f5bd29f0c699588010f8f684cf9741f6dee1dc33013800",
+    "figures/cosmos_es.pdf": "19c7fbd3a7eab3b60f54ec60a0fec460059b40325fa1620dbdd98aa7a430e57a",
+    "figures/cosmos_en.png": "6971f046c8afcb447dc93381e98cbdc5f6d98419a70f6570745d399311107fc6",
+    "figures/cosmos_en.pdf": "2ccd3223c5157963c1516f9c341de2acf2f13caafe40960d555438bf886c7c6c",
+    "figures/cosmos_es.png": "059648e1a8500eaf32b92b0a349d3aacd8edd4b8e91bb865b858931ad53571ed"
+  },
+  "new_independent_measurements": 0,
+  "physical_DCAE": "NOT_ESTIMABLE"
+}

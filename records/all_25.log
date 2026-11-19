@@ -1,0 +1,328 @@
+{
+  "definition": "K_pi,L(E)=1-R_pi,L(E)/R_pi,L(no observation), when 0<R0<infinity and no-observation action remains feasible",
+  "cassini": [
+    {
+      "ell_seconds": 300.0,
+      "s": 1.0,
+      "tau": 0.0,
+      "J_a_with_beta_prior": 2.1224416251754055,
+      "J_a_profiled": 2.122293736990488,
+      "K_quadratic_conditional": 0.950253643307369
+    },
+    {
+      "ell_seconds": 300.0,
+      "s": 1.0,
+      "tau": 3e-14,
+      "J_a_with_beta_prior": 1.3009296018109588,
+      "J_a_profiled": 1.3003973794490098,
+      "K_quadratic_conditional": 0.9213116802551831
+    },
+    {
+      "ell_seconds": 300.0,
+      "s": 1.0,
+      "tau": 1e-13,
+      "J_a_with_beta_prior": 0.4234775855414199,
+      "J_a_profiled": 0.4221149278109795,
+      "K_quadratic_conditional": 0.7921558914229522
+    },
+    {
+      "ell_seconds": 300.0,
+      "s": 1.0,
+      "tau": 3.0000000000000003e-13,
+      "J_a_with_beta_prior": 0.1500051117703517,
+      "J_a_profiled": 0.14702355383979365,
+      "K_quadratic_conditional": 0.5744764155785469
+    },
+    {
+      "ell_seconds": 1800.0,
+      "s": 1.0,
+      "tau": 0.0,
+      "J_a_with_beta_prior": 2.1224416251753984,
+      "J_a_profiled": 2.1222937369904815,
+      "K_quadratic_conditional": 0.9502536433073688
+    },
+    {
+      "ell_seconds": 1800.0,
+      "s": 1.0,
+      "tau": 3e-14,
+      "J_a_with_beta_prior": 0.6421219671919716,
+      "J_a_profiled": 0.6410626366398182,
+      "K_quadratic_conditional": 0.8524877434201015
+    },
+    {
+      "ell_seconds": 1800.0,
+      "s": 1.0,
+      "tau": 1e-13,
+      "J_a_with_beta_prior": 0.20647191027533435,
+      "J_a_profiled": 0.20423346790250613,
+      "K_quadratic_conditional": 0.6501352288102724
+    },
+    {
+      "ell_seconds": 1800.0,
+      "s": 1.0,
+      "tau": 3.0000000000000003e-13,
+      "J_a_with_beta_prior": 0.055520406954115725,
+      "J_a_profiled": 0.05089524810270202,
+      "K_quadratic_conditional": 0.3331927092711393
+    },
+    {
+      "ell_seconds": 7200.0,
+      "s": 1.0,
+      "tau": 0.0,
+      "J_a_with_beta_prior": 2.1224416251753975,
+      "J_a_profiled": 2.122293736990481,
+      "K_quadratic_conditional": 0.9502536433073688
+    },
+    {
+      "ell_seconds": 7200.0,
+      "s": 1.0,
+      "tau": 3e-14,
+      "J_a_with_beta_prior": 0.40024713634668774,
+      "J_a_profiled": 0.39885534477907847,
+      "K_quadratic_conditional": 0.7827137595540965
+    },
+    {
+      "ell_seconds": 7200.0,
+      "s": 1.0,
+      "tau": 1e-13,
+      "J_a_with_beta_prior": 0.12697193151756456,
+      "J_a_profiled": 0.12370886818407925,
+      "K_quadratic_conditional": 0.5333094289944678
+    },
+    {
+      "ell_seconds": 7200.0,
+      "s": 1.0,
+      "tau": 3.0000000000000003e-13,
+      "J_a_with_beta_prior": 0.027868623662762618,
+      "J_a_profiled": 0.022976949503631355,
+      "K_quadratic_conditional": 0.20052293025386844
+    },
+    {
+      "ell_seconds": 86400.0,
+      "s": 1.0,
+      "tau": 0.0,
+      "J_a_with_beta_prior": 2.1224416251754015,
+      "J_a_profiled": 2.1222937369904846,
+      "K_quadratic_conditional": 0.9502536433073688
+    },
+    {
+      "ell_seconds": 86400.0,
+      "s": 1.0,
+      "tau": 3e-14,
+      "J_a_with_beta_prior": 0.3420728802340541,
+      "J_a_profiled": 0.33998484508020266,
+      "K_quadratic_conditional": 0.7548211913194349
+    },
+    {
+      "ell_seconds": 86400.0,
+      "s": 1.0,
+      "tau": 1e-13,
+      "J_a_with_beta_prior": 0.10151233780682306,
+      "J_a_profiled": 0.09575510501215592,
+      "K_quadratic_conditional": 0.47742776407508825
+    },
+    {
+      "ell_seconds": 86400.0,
+      "s": 1.0,
+      "tau": 3.0000000000000003e-13,
+      "J_a_with_beta_prior": 0.0251601372832122,
+      "J_a_profiled": 0.01854259237319665,
+      "K_quadratic_conditional": 0.18463276428206776
+    }
+  ],
+  "gaia": [
+    {
+      "object": "Cacus",
+      "transits": 30,
+      "conditional_common_shift_J_per_mas2": 17.29240843454542,
+      "between_transit_common_sd_mas": [
+        0,
+        0.01,
+        0.1
+      ],
+      "sigma_common_shift_mas": [
+        0.24047628696609455,
+        0.24068411786613478,
+        0.2604397139320335
+      ],
+      "conditional_K_at_prior_sd_0_1mas": [
+        0.14742990331036968,
+        0.14721286752212137,
+        0.12848706738863086
+      ],
+      "scope": "Hypothetical common-shift design with declared common calibration covariance, not measured cross-transit covariance"
+    },
+    {
+      "object": "Cuyo",
+      "transits": 63,
+      "conditional_common_shift_J_per_mas2": 133.56415773271385,
+      "between_transit_common_sd_mas": [
+        0,
+        0.01,
+        0.1
+      ],
+      "sigma_common_shift_mas": [
+        0.0865276751458672,
+        0.08710360822691977,
+        0.1322385668636375
+      ],
+      "conditional_K_at_prior_sd_0_1mas": [
+        0.5718521156211048,
+        0.5686005612819803,
+        0.3638078353160736
+      ],
+      "scope": "Hypothetical common-shift design with declared common calibration covariance, not measured cross-transit covariance"
+    },
+    {
+      "object": "Icarus",
+      "transits": 18,
+      "conditional_common_shift_J_per_mas2": 26.6534991224436,
+      "between_transit_common_sd_mas": [
+        0,
+        0.01,
+        0.1
+      ],
+      "sigma_common_shift_mas": [
+        0.19369699534811904,
+        0.19395495870662666,
+        0.21798744460837474
+      ],
+      "conditional_K_at_prior_sd_0_1mas": [
+        0.21044423807569698,
+        0.21000230033481596,
+        0.17385702823473356
+      ],
+      "scope": "Hypothetical common-shift design with declared common calibration covariance, not measured cross-transit covariance"
+    },
+    {
+      "object": "Lutetia",
+      "transits": 30,
+      "conditional_common_shift_J_per_mas2": 2208.065665462249,
+      "between_transit_common_sd_mas": [
+        0,
+        0.01,
+        0.1
+      ],
+      "sigma_common_shift_mas": [
+        0.02128109682361763,
+        0.02351350850077862,
+        0.102239351924864
+      ],
+      "conditional_K_at_prior_sd_0_1mas": [
+        0.9566736763618151,
+        0.9476081585538733,
+        0.4889285770638197
+      ],
+      "scope": "Hypothetical common-shift design with declared common calibration covariance, not measured cross-transit covariance"
+    }
+  ],
+  "eccentricity": [
+    {
+      "benchmark": "Mercury-like benchmark",
+      "e": 0.2056,
+      "a_over_lambda": 0.1,
+      "approximation_relative_error": -0.05881155550009842,
+      "alpha_limit_exact_over_approx": 0.9411884444999016,
+      "scope": "Same external absolute precession limit and fixed mass/orbit; no published bound recomputed"
+    },
+    {
+      "benchmark": "Mercury-like benchmark",
+      "e": 0.2056,
+      "a_over_lambda": 1.0,
+      "approximation_relative_error": -0.02741140925657548,
+      "alpha_limit_exact_over_approx": 0.9725885907434245,
+      "scope": "Same external absolute precession limit and fixed mass/orbit; no published bound recomputed"
+    },
+    {
+      "benchmark": "Mercury-like benchmark",
+      "e": 0.2056,
+      "a_over_lambda": 3.0,
+      "approximation_relative_error": 0.01495437131820987,
+      "alpha_limit_exact_over_approx": 1.0149543713182099,
+      "scope": "Same external absolute precession limit and fixed mass/orbit; no published bound recomputed"
+    },
+    {
+      "benchmark": "Mercury-like benchmark",
+      "e": 0.2056,
+      "a_over_lambda": 10.0,
+      "approximation_relative_error": -0.1225326895829717,
+      "alpha_limit_exact_over_approx": 0.8774673104170283,
+      "scope": "Same external absolute precession limit and fixed mass/orbit; no published bound recomputed"
+    },
+    {
+      "benchmark": "synthetic eccentric benchmark",
+      "e": 0.6,
+      "a_over_lambda": 0.1,
+      "approximation_relative_error": -0.46947098046883085,
+      "alpha_limit_exact_over_approx": 0.5305290195311692,
+      "scope": "Same external absolute precession limit and fixed mass/orbit; no published bound recomputed"
+    },
+    {
+      "benchmark": "synthetic eccentric benchmark",
+      "e": 0.6,
+      "a_over_lambda": 1.0,
+      "approximation_relative_error": -0.2981939021919461,
+      "alpha_limit_exact_over_approx": 0.7018060978080539,
+      "scope": "Same external absolute precession limit and fixed mass/orbit; no published bound recomputed"
+    },
+    {
+      "benchmark": "synthetic eccentric benchmark",
+      "e": 0.6,
+      "a_over_lambda": 3.0,
+      "approximation_relative_error": 0.030171648536435836,
+      "alpha_limit_exact_over_approx": 1.0301716485364358,
+      "scope": "Same external absolute precession limit and fixed mass/orbit; no published bound recomputed"
+    },
+    {
+      "benchmark": "synthetic eccentric benchmark",
+      "e": 0.6,
+      "a_over_lambda": 10.0,
+      "approximation_relative_error": -0.08358146060395877,
+      "alpha_limit_exact_over_approx": 0.9164185393960412,
+      "scope": "Same external absolute precession limit and fixed mass/orbit; no published bound recomputed"
+    },
+    {
+      "benchmark": "Icarus-like benchmark",
+      "e": 0.82697,
+      "a_over_lambda": 0.1,
+      "approximation_relative_error": -0.8098446553957783,
+      "alpha_limit_exact_over_approx": 0.19015534460422165,
+      "scope": "Same external absolute precession limit and fixed mass/orbit; no published bound recomputed"
+    },
+    {
+      "benchmark": "Icarus-like benchmark",
+      "e": 0.82697,
+      "a_over_lambda": 1.0,
+      "approximation_relative_error": -0.676277400931085,
+      "alpha_limit_exact_over_approx": 0.32372259906891504,
+      "scope": "Same external absolute precession limit and fixed mass/orbit; no published bound recomputed"
+    },
+    {
+      "benchmark": "Icarus-like benchmark",
+      "e": 0.82697,
+      "a_over_lambda": 3.0,
+      "approximation_relative_error": -0.3064712438904802,
+      "alpha_limit_exact_over_approx": 0.6935287561095198,
+      "scope": "Same external absolute precession limit and fixed mass/orbit; no published bound recomputed"
+    },
+    {
+      "benchmark": "Icarus-like benchmark",
+      "e": 0.82697,
+      "a_over_lambda": 10.0,
+      "approximation_relative_error": 0.3294594715621424,
+      "alpha_limit_exact_over_approx": 1.3294594715621424,
+      "scope": "Same external absolute precession limit and fixed mass/orbit; no published bound recomputed"
+    }
+  ],
+  "graph_xor": {
+    "I_target_single_bit_nats": 0.0,
+    "I_target_both_bits_nats": 0.6931471805599453,
+    "scope": "Independent fair bits, target XOR; graph adjacency alone does not assign information"
+  },
+  "non_claims": [
+    "No universal Fisher threshold",
+    "No empirical fractal law",
+    "No physical force posterior from an optical template",
+    "No model-independent index"
+  ]
+}

@@ -1,0 +1,14 @@
+field / campo,value / valor
+/source,"DESI DR1 BGS public likelihood, z=0.1--0.4, theta=0.05"
+/raw_sha256,db72d5fb076ad732c48a29032ee86c85f68faef14c4b0ee055f1ffad44ecf50d
+/shape/0,72
+/shape/1,1047
+/numerical_rank,72
+/nullity,975
+/svd_threshold,4.759552364545229e-16
+/whitened_singular_max,0.0020472892316538926
+/whitened_singular_min,1.3694277489096787e-05
+/relative_null_residual,2.4022245014591224e-17
+/equal_input_norm_squared_responses/0,4.1913931980459925e-06
+/equal_input_norm_squared_responses/1,1.7645685365822393e-38
+/scope,Linear observation operator; singular values depend on stated input units and discretization. No cosmological fit or f_R0 bound is derived.

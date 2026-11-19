@@ -1,0 +1,39 @@
+{
+  "executed_at": "2026-11-19T22:21:56.864212+00:00",
+  "seed": 2026111803,
+  "scope": "Synthetic controls with known probability laws; no external-chain reanalysis",
+  "mcmc_pooling": {
+    "rho": 0.9,
+    "chains": 5,
+    "retained_per_chain": 15000,
+    "repetitions": 500,
+    "total_states": 75000,
+    "exact_variance_inflation": 18.988000000000003,
+    "exact_ess_for_mean": 3949.863071413524,
+    "exact_mcse": 0.015911421474316283,
+    "incorrect_iid_mcse": 0.0036514837167011074,
+    "empirical_mcse": 0.016311351736419923,
+    "pooled_lag1": 0.8997395156367899,
+    "shuffled_lag1": -0.0013231189166519398,
+    "unchanged_mean_error": 3.469446951953614e-18
+  },
+  "transit_covariance": {
+    "n_ccd": 9,
+    "random_variance": 1.0,
+    "systematic_variance": 0.25,
+    "common_information_block": 2.7692307692307696,
+    "common_information_inflated": 2.769230769230769,
+    "contrast_information_block": 0.9999999999999999,
+    "contrast_information_inflated": 0.30769230769230765
+  },
+  "group_reweighting": {
+    "group_size": 12,
+    "fitted_parameters": 2,
+    "naive_df": 10,
+    "trace_noise": 9.37548456934394,
+    "omitted_signal_term": 3.0587093692158196,
+    "expected_group_quadratic": 12.434193938559758,
+    "simulated_group_quadratic": 12.421126895547964,
+    "simulation_mcse": 0.04664058088652716
+  }
+}

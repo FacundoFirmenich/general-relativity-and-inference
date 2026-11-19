@@ -1,0 +1,38 @@
+{
+  "original_hashes_match": {
+    "fermiLAT.bayesianogrbs8.ipynb": true,
+    "fermilat.LIV.ipynb": true,
+    "fermiLAT.spectralandrdshift.ipynb": true,
+    "Hunter_1B_1BkRZtxyfU9_jwEuejU5e0bOlKG0_L.ipynb": true,
+    "Hunter_1fnT1-k6Ad_--YwzgLR2u6Vx-cseValsa.ipynb": true,
+    "Hunter_1vZfqnIgPTZXxqT5JJ-zp735kIPQo45dN.ipynb": true,
+    "Hunter_1Cq6aIkB2aSWYfZMCInF27dHiUpZLB9k3.ipynb": true,
+    "Hunter_1b9jVaqXGnsly-4S12p8A_sCqV_aEnlmT.ipynb": true,
+    "Hunter_1loiBr3Gu6dpNuisfqLSTPhbHzODiqS1l.ipynb": true,
+    "Hunter_1JbCnbCXqo2v8Ndkn4qc1INvQmklUvMKA.ipynb": true,
+    "Hunter_127bEPt1ksTsXzcfg8RBH6V-emB2G0Ev8.ipynb": true,
+    "Hunter_1BL7fo3cACgMF6fMzKatqadm541X5bAKk.ipynb": true,
+    "Hunter_10-zWVe-MTITJkgo6kRmtFt41rdwXZQUd.ipynb": true,
+    "Hunter_12Xmj-FHHwjTTrPFaIZ0XTtMtqRJ5hGeQ.ipynb": true,
+    "Hunter_1cbBuOXF3weS61wOH3KJ52i93K5s_Wg6K.ipynb": true
+  },
+  "catalogue_checks": {
+    "published_schema": true,
+    "row_count": true,
+    "finite_K": true,
+    "K_zero": true,
+    "equal_energy_zero_delay": true,
+    "no_synthetic_lags_used": true,
+    "reject_wrong_catalog": true
+  },
+  "original_code_checks": {
+    "mock_reproduced_50": true,
+    "noise_sigma_mismatch": true,
+    "kernel_mismatch_nonzero_z": true
+  },
+  "hunter_column_shift_verified": true,
+  "recovered_archives": 4,
+  "local_code_execution": true,
+  "native_Colab_Windows_macOS_iOS_execution": false,
+  "physical_GR_LIV_bound": false
+}

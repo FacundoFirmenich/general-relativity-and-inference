@@ -1,0 +1,191 @@
+field / campo,value / valor
+/0/number_mp,1566
+/0/signature/source,NASA/JPL Small-Body Radar Astrometry API
+/0/signature/version,1.1
+/0/all_delay_records,10
+/0/selected_records,10
+/0/dates/0,2015-06-14
+/0/dates/1,2015-06-15
+/0/dates/2,2015-06-16
+/0/dates/3,2015-06-18
+/0/dates/4,2015-06-19
+/0/dates/5,2015-06-20
+/0/stations/0,-1
+/0/stations/1,-14
+/0/records/0/des,1566
+/0/records/0/epoch,2015-06-20 01:33:00
+/0/records/0/value,80022300.658
+/0/records/0/sigma,2.000
+/0/records/0/units,us
+/0/records/0/freq,2380
+/0/records/0/rcvr,-1
+/0/records/0/xmit,-1
+/0/records/0/bp,C
+/0/records/0/ref,
+/0/records/0/notes,"Based on shape-based correction to UCLA ephemeris. Images at 1 us baud, 2 smpb.  Details in Greenberg et al., AJ 153, 2017."
+/0/records/1/des,1566
+/0/records/1/epoch,2015-06-20 00:58:00
+/0/records/1/value,79708409.313
+/0/records/1/sigma,2.000
+/0/records/1/units,us
+/0/records/1/freq,2380
+/0/records/1/rcvr,-1
+/0/records/1/xmit,-1
+/0/records/1/bp,C
+/0/records/1/ref,
+/0/records/1/notes,"Based on shape-based correction to UCLA ephemeris. Images at 1 us baud, 2 smpb.  Details in Greenberg et al., AJ 153, 2017."
+/0/records/2/des,1566
+/0/records/2/epoch,2015-06-19 01:37:00
+/0/records/2/value,68163275.576
+/0/records/2/sigma,1.000
+/0/records/2/units,us
+/0/records/2/freq,2380
+/0/records/2/rcvr,-1
+/0/records/2/xmit,-1
+/0/records/2/bp,C
+/0/records/2/ref,
+/0/records/2/notes,"Based on shape-based correction to UCLA ephemeris. Images at 0.5 us baud, 1 smpb.  Details in Greenberg et al., AJ 153, 2017."
+/0/records/3/des,1566
+/0/records/3/epoch,2015-06-18 23:41:00
+/0/records/3/value,67308377.46
+/0/records/3/sigma,1.000
+/0/records/3/units,us
+/0/records/3/freq,2380
+/0/records/3/rcvr,-1
+/0/records/3/xmit,-1
+/0/records/3/bp,C
+/0/records/3/ref,
+/0/records/3/notes,"Based on shape-based correction to UCLA ephemeris. Images at 0.5 us baud, 1 smpb.  Details in Greenberg et al., AJ 153, 2017."
+/0/records/4/des,1566
+/0/records/4/epoch,2015-06-18 00:58:00
+/0/records/4/value,58866141.404
+/0/records/4/sigma,0.400
+/0/records/4/units,us
+/0/records/4/freq,2380
+/0/records/4/rcvr,-1
+/0/records/4/xmit,-1
+/0/records/4/bp,C
+/0/records/4/ref,
+/0/records/4/notes,"Based on shape-based correction to UCLA ephemeris. Images at 0.2 us baud, 4 smpb.  Details in Greenberg et al., AJ 153, 2017."
+/0/records/5/des,1566
+/0/records/5/epoch,2015-06-18 00:02:00
+/0/records/5/value,58591220.063
+/0/records/5/sigma,0.400
+/0/records/5/units,us
+/0/records/5/freq,2380
+/0/records/5/rcvr,-1
+/0/records/5/xmit,-1
+/0/records/5/bp,C
+/0/records/5/ref,
+/0/records/5/notes,"Based on shape-based correction to UCLA ephemeris. Images at 0.1 us baud, 2 smpb.  Details in Greenberg et al., AJ 153, 2017."
+/0/records/6/des,1566
+/0/records/6/epoch,2015-06-16 23:20:00
+/0/records/6/value,53984215.88
+/0/records/6/sigma,2.5
+/0/records/6/units,us
+/0/records/6/freq,8560
+/0/records/6/rcvr,-14
+/0/records/6/xmit,-14
+/0/records/6/bp,C
+/0/records/6/ref,
+/0/records/6/notes,"GSSR, delay correction based on 0.5 usec bauds and 255 length code. Range correction to s92 is +2 usec."
+/0/records/7/des,1566
+/0/records/7/epoch,2015-06-15 00:00:00
+/0/records/7/value,60903291.94
+/0/records/7/sigma,2.5
+/0/records/7/units,us
+/0/records/7/freq,8560
+/0/records/7/rcvr,-14
+/0/records/7/xmit,-14
+/0/records/7/bp,C
+/0/records/7/ref,
+/0/records/7/notes,"GSSR, delay correction based on 0.5 usec baud, 255 length code. Range correction to s90  is 0 usec."
+/0/records/8/des,1566
+/0/records/8/epoch,2015-06-14 01:10:00
+/0/records/8/value,70272229.12
+/0/records/8/sigma,3.0
+/0/records/8/units,us
+/0/records/8/freq,8560
+/0/records/8/rcvr,-14
+/0/records/8/xmit,-14
+/0/records/8/bp,C
+/0/records/8/ref,
+/0/records/8/notes,"GSSR, delay correction based on 1 usec baud, 1023 length code. Range correction to s84  is -12  usec."
+/0/records/9/des,1566
+/0/records/9/epoch,2015-06-14 00:30:00
+/0/records/9/value,70583814.78
+/0/records/9/sigma,20.0
+/0/records/9/units,us
+/0/records/9/freq,8560
+/0/records/9/rcvr,-14
+/0/records/9/xmit,-14
+/0/records/9/bp,C
+/0/records/9/ref,
+/0/records/9/notes,"GSSR, delay correction based on 10 and 11 usec bauds  and 127 length code. Range correction to s82 is -1600 usec."
+/0/input_sha256,e2fee0306269e0d2eaf9a997f7604ea9e24c545aa4ae36a6e19bcf64445d1565
+/1/number_mp,161989
+/1/signature/source,NASA/JPL Small-Body Radar Astrometry API
+/1/signature/version,1.1
+/1/all_delay_records,5
+/1/selected_records,5
+/1/dates/0,2022-08-24
+/1/dates/1,2022-08-26
+/1/dates/2,2022-08-29
+/1/dates/3,2022-09-02
+/1/stations/0,-14
+/1/records/0/des,161989
+/1/records/0/epoch,2022-09-02 11:40:00
+/1/records/0/value,58224907.73
+/1/records/0/sigma,1.5
+/1/records/0/units,us
+/1/records/0/freq,8560
+/1/records/0/rcvr,-14
+/1/records/0/xmit,-14
+/1/records/0/bp,C
+/1/records/0/ref,
+/1/records/0/notes,"GSSR, delay correction based on 0.5 sec bauds and 127 length code. Range correction to s234  is  -4  usec."
+/1/records/1/des,161989
+/1/records/1/epoch,2022-08-29 09:30:00
+/1/records/1/value,62078989.8
+/1/records/1/sigma,1.0
+/1/records/1/units,us
+/1/records/1/freq,8560
+/1/records/1/rcvr,-14
+/1/records/1/xmit,-14
+/1/records/1/bp,C
+/1/records/1/ref,
+/1/records/1/notes,Correction of -5.5 usec to soln 233 from 1/2 usec imaging.  Placed the COM at the TE of the echo which is 10 rows deep.
+/1/records/2/des,161989
+/1/records/2/epoch,2022-08-26 12:30:00
+/1/records/2/value,74230837.
+/1/records/2/sigma,1.0
+/1/records/2/units,us
+/1/records/2/freq,8560
+/1/records/2/rcvr,-14
+/1/records/2/xmit,-14
+/1/records/2/bp,C
+/1/records/2/ref,
+/1/records/2/notes,"Correction of -7 usec to solution 232 from 1 and 1/2 usec ranging. Placed COM at the TE of the 1/2 usec echo, which is 5 rows deep."
+/1/records/3/des,161989
+/1/records/3/epoch,2022-08-24 07:50:00
+/1/records/3/value,86635720.898
+/1/records/3/sigma,1.000
+/1/records/3/units,us
+/1/records/3/freq,8560
+/1/records/3/rcvr,-14
+/1/records/3/xmit,-14
+/1/records/3/bp,C
+/1/records/3/ref,
+/1/records/3/notes,11 us correction to s230 based on 1 us ranging. Assumed echo to be at brightest pixel.
+/1/records/4/des,161989
+/1/records/4/epoch,2022-08-24 07:20:00
+/1/records/4/value,86764067.
+/1/records/4/sigma,10.00
+/1/records/4/units,us
+/1/records/4/freq,8560
+/1/records/4/rcvr,-14
+/1/records/4/xmit,-14
+/1/records/4/bp,C
+/1/records/4/ref,
+/1/records/4/notes,120 us correction to s229 based on 10 us ranging. Echo was unresolved.
+/1/input_sha256,1dd82b6f9f05b37b3da90e1078f8a64a30480ff0871d22cf7eef24a5d51cbf03

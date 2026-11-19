@@ -1,0 +1,22 @@
+field / campo,value / valor
+/seed,2026111803
+/posterior_common_shift_max_error,2.3314683517128287e-15
+/contrast_common_shift_max_error,2.220446049250313e-16
+/independent_marginals_contrast_covariance_change,2.3608372636563795
+/information_direct,8.703522314481468
+/information_quotient,8.703522314481463
+/information_absolute_difference,5.329070518200751e-15
+/information_without_added_noise,10.019641027842406
+/information_lower_bound,2.0130840023830228
+/pointwise_threshold,3.841458820694124
+/five_range_bonferroni_threshold,6.6348966010212145
+/eighty_two_marginal_bonferroni_threshold,11.745955106476735
+/v12_rounded_endpoint_width_ratios/0,0.021686292270531402
+/v12_rounded_endpoint_width_ratios/1,3.347156398104265
+/v12_rounded_endpoint_width_ratios/2,3.7560749826429065
+/v12_rounded_endpoint_width_ratios/3,3.8209843158464034
+/v12_rounded_endpoint_width_ratios/4,3.8358128696899088
+/v12_cacus_logscore_from_rounded_values,0.2182677460373914
+/v12_crossover_relative_sigma_difference,2.2461166247931004e-05
+/v12_source_sha256,5320c30b993e1f26256e43003d6e6e7f6bd66545924d22e4a1c6c073f8cc6ec3
+/scope,Algebraic numerical checks and arithmetic on printed source values; no orbital or event-level replay

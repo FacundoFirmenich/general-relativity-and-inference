@@ -1,0 +1,58 @@
+{
+  "DOI": "10.1080/01621459.1952.10483446",
+  "title": [
+    "A Generalization of Sampling Without Replacement from a Finite Universe"
+  ],
+  "author": [
+    {
+      "given": "D. G.",
+      "family": "Horvitz",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Iowa State College"
+        },
+        {
+          "name": "Now at the University of Pittsburgh."
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "D. J.",
+      "family": "Thompson",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Iowa State College"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "container-title": [
+    "Journal of the American Statistical Association"
+  ],
+  "volume": "47",
+  "issue": "260",
+  "page": "663-685",
+  "published": {
+    "date-parts": [
+      [
+        1952,
+        12
+      ]
+    ]
+  },
+  "URL": "https://doi.org/10.1080/01621459.1952.10483446"
+}

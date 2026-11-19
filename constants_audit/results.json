@@ -1,0 +1,60 @@
+{
+  "source": "https://www.bipm.org/en/publications/si-brochure",
+  "archived_code_sha256": "2e1c166a2f6c6d6943c68d967442ef6cdfff8222e88b9b162b164693271bf7b8",
+  "old": {
+    "C": 299790000.0,
+    "HBAR": 1.055e-34,
+    "EV": 1.602e-19,
+    "KB": 1.381e-23,
+    "WP": 1.9740284360189576e+16,
+    "GAMMA": 75924170616113.75
+  },
+  "SI": {
+    "C": 299792458.0,
+    "HBAR": 1.0545718176461565e-34,
+    "EV": 1.602176634e-19,
+    "KB": 1.380649e-23,
+    "WP": 1.9750476822422136e+16,
+    "GAMMA": 75963372393931.31
+  },
+  "h_exact_J_s": "6.62607015e-34",
+  "scope_es": "Sensibilidad de presi\u00f3n Drude T=0, con par\u00e1metros materiales fijos; no es un ajuste experimental ni una cota Yukawa. hbar se deriva de h/(2 pi); no tiene una \u00faltima cifra decimal finita.",
+  "scope_en": "Sensitivity of T=0 Drude pressure with fixed material parameters; not an experimental fit or a Yukawa bound. hbar is derived from h/(2 pi); it has no final finite decimal digit.",
+  "rows": [
+    {
+      "gap_nm": 10.0,
+      "pressure_archived_constants_Pa": -14227.50158132096,
+      "pressure_SI_Pa": -14227.928171232841,
+      "relative_SI_shift": 2.9983473165851038e-05,
+      "relative_quadrature_difference": 1.9737544931786033e-12
+    },
+    {
+      "gap_nm": 20.0,
+      "pressure_archived_constants_Pa": -1548.348774729956,
+      "pressure_SI_Pa": -1548.3288518261306,
+      "relative_SI_shift": -1.2867193845744751e-05,
+      "relative_quadrature_difference": 1.2672085603071537e-12
+    },
+    {
+      "gap_nm": 40.0,
+      "pressure_archived_constants_Pa": -158.55209847377728,
+      "pressure_SI_Pa": -158.5424048134153,
+      "relative_SI_shift": -6.113864436552152e-05,
+      "relative_quadrature_difference": 7.431832926840798e-13
+    },
+    {
+      "gap_nm": 80.0,
+      "pressure_archived_constants_Pa": -14.998621734639116,
+      "pressure_SI_Pa": -14.996652612394161,
+      "relative_SI_shift": -0.0001312868795408928,
+      "relative_quadrature_difference": -6.946665465079604e-13
+    },
+    {
+      "gap_nm": 110.0,
+      "pressure_archived_constants_Pa": -4.898956410499053,
+      "pressure_SI_Pa": -4.898121244091301,
+      "relative_SI_shift": -0.00017047843209261337,
+      "relative_quadrature_difference": -3.1943336864515004e-12
+    }
+  ]
+}

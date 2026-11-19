@@ -1,0 +1,284 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{amsmath,amssymb,booktabs}
+\usepackage[hidelinks]{hyperref}
+\usepackage[spanish]{babel}
+\title{Identificabilidad de una quinta fuerza Yukawa con Cassini y órbitas de asteroides}
+\date{Borrador de trabajo, versión 12}
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Estudiamos cuánta respuesta a una fuerza solar de tipo Yukawa sobrevive al reajuste de la órbita y de la calibración. Combinamos astrometría de Gaia en el Focused Product Release y retardos radar de Ícaro y Cacus. Con desplazamientos libres por estación, la incertidumbre perfilada de la amplitud de ambos objetos se iguala cerca de 0.254 UA en la reducción nominal. Esa igualdad cambia al retirar una sola medición de Cacus. Contrastamos además la sensibilidad térmica de Ícaro y distinguimos el Doppler de conjunción solar de Cassini de los sobrevuelos de Encélado. El resultado científico es una caracterización de la identificabilidad condicionada a la dinámica, la geometría y la covarianza.
+\end{abstract}
+
+\paragraph{Tesis.} Una prueba de quinta fuerza exige una respuesta física que sobreviva al reajuste de órbita y calibración. Cassini muestra dos límites. La sensibilidad directa se anula en un modelo de propagación y el contraste de Encélado depende de la navegación. El ajuste de asteroides cuantifica la respuesta que sobrevive a alcances fijos.
+
+\paragraph{Explanans.} Un potencial exponencial cambia la dinámica orbital. El medio de observación determina cómo ese cambio llega a una posición angular o a un tiempo de llegada. La geometría de observación, el ajuste de órbita y la calibración pueden absorber una respuesta antes de que intervenga el estimador.
+
+\paragraph{Explanandum.} Se comparan las respuestas del Doppler de Cassini en la conjunción solar y en Encélado. Se ajustan órbitas de asteroides con y sin Yukawa a posiciones Gaia y se contrastan en tránsitos y retardos radar reservados. El control Fermi-LAT reproduce el cambio de un estimador de retardo al corregir la identidad de los eventos y aplicar la ventana instrumental publicada.
+
+\section{Hipótesis y respuesta física}
+La hipótesis nula adopta dinámica convencional con $\alpha=0$. La alternativa añade la aceleración de la Ec.~\eqref{eq:force}, para cada alcance fijo $\lambda>0$, con $\alpha$ adimensional y de cualquier signo. $r$ es la distancia heliocéntrica en metros y $\hat{\mathbf r}$ el vector unitario radial.
+\begin{equation}
+\delta\Phi=-\frac{GM_\odot\alpha}{r}e^{-r/\lambda},
+\qquad
+\delta\mathbf a=-\frac{GM_\odot\alpha}{r^2}
+(1+r/\lambda)e^{-r/\lambda}\hat{\mathbf r}.
+\label{eq:force}
+\end{equation}
+
+Cuando $\lambda\gg r$, el factor de forma es $1-\tfrac12(r/\lambda)^2+O((r/\lambda)^3)$. En el sector dinámico newtoniano el término constante es degenerado con $GM_\odot$. Cuando $\lambda\ll r$ la respuesta se suprime exponencialmente. La respuesta angular de interés se obtiene integrando la perturbación y proyectándola en la dirección de escaneo en las épocas efectivamente observadas.
+
+El límite newtoniano analizado por Domínguez y Barraco en $f(R)$ de Palatini singular tiene condiciones propias \cite{barraco}. En la clase escalar--tensor libre de Huang y Deng, la contribución Yukawa se cancela en la combinación de potenciales que gobierna la propagación directa de la luz al orden considerado \cite{huang}. Un test de dinámica orbital y esa prueba de propagación tienen respuestas distintas.
+
+\section{Contraste por tránsito y reajuste}
+Sean $y$ las posiciones observadas, $m$ su predicción convencional, $C=LL^\top$ su covarianza, $s_\lambda=\partial_\alpha m$ la respuesta de interés y $X$ el Jacobiano de los parámetros auxiliares. Con $P_A$ la proyección ortogonal sobre las columnas de $A$,
+\begin{equation}
+z=L^{-1}(y-m),\quad A=L^{-1}X,\quad
+v_\perp=(I-P_A)L^{-1}s_\lambda,\quad
+S_\lambda=v_\perp^\top z,\quad J_\lambda=v_\perp^\top v_\perp .
+\label{eq:score}
+\end{equation}
+
+Para el modelo local lineal gaussiano de covarianza fija, $\hat\alpha=S_\lambda/J_\lambda$ cuando $J_\lambda>0$. Un $J_\lambda=0$ significa falta de identificabilidad local. El RMS de un residual fijo pierde signo y orden. La proyección firmada conserva el contraste direccional. Con covarianza por bloques se pueden publicar las contribuciones al score y a la información de cada tránsito, después de la proyección global. Una búsqueda sobre varios alcances requiere calibrar el contraste global porque $\lambda$ queda indeterminado bajo la nula.
+
+\section{Qué pierde un RMS y cuándo un estadístico sí basta}
+\label{sec:rmsloss}
+Trabajamos en una base ortonormal del espacio que queda después de blanquear y proyectar los auxiliares. Sean $e$ los residuos y $u$ la firma de la amplitud, con $u\ne0$. Entonces
+\begin{equation}
+ Q(\alpha)-Q(0)=\alpha^2\|u\|^2-2\alpha\,u^\top e .
+\end{equation}
+Para $a>0$, los residuos $e=au$ y $e=-au$ tienen el mismo RMS. Frente a $\alpha=a$, dan respectivamente $-a^2\|u\|^2$ y $+3a^2\|u\|^2$. Un mismo RMS de referencia admite decisiones opuestas. La norma también es invariante bajo permutaciones que cambian el alineamiento con la plantilla temporal. Bajo el modelo normal local, el RMS tiene la misma distribución a $+\alpha$ y $-\alpha$, con score nulo en cero. En cambio, el producto firmado $u^\top e$ es suficiente para $\alpha$ en este modelo de covarianza y firma fijas, por factorización de la verosimilitud. Más generalmente, una compresión conserva los cocientes de verosimilitud solo si estos son constantes entre todas las muestras con el mismo valor comprimido. La curva $Q(\alpha)$ sí preserva ese producto y puede usarse para inferencia bajo su modelo. La selección del alcance con los mismos datos pide calibración adicional porque $\lambda$ queda indeterminado en $\alpha=0$.
+
+\paragraph{Usos documentados.} Emelyanov et al.\ usan el RMS para describir el cambio al incorporar la deflexión solar en órbitas de satélites \cite{emelyanov}. Dziadura et al.\ lo usan para calidad de ajuste y examinan aparte señal, incertidumbre y sensibilidad al arco en Yarkovsky \cite{dziadura}. En el trabajo de Vavilov et al.\ los residuos por grupo sí cambian los pesos \cite{vavilov}. La reponderación de Lutetia eleva la incertidumbre efectiva Gaia por un factor 17. Si los residuos contienen una firma omitida, una regla de pesos dependiente de ellos puede degradar su sensibilidad. Se puede probar recalculando íntegramente los pesos bajo las dos hipótesis y evaluando la predicción reservada. Una media o mediana atiende a la localización que define y requiere comprobar si preserva la fase y la dirección de respuesta. $\chi^2$ con covarianza y reajuste de auxiliares conserva la información que el RMS aislado pierde en el modelo anterior. La comparación con efemérides congeladas no reproduce el ajuste bajo la alternativa \cite{inpop}. Fisher mide curvatura local, condicionada al modelo y al rango del diseño, y requiere comprobación directa de linealidad y cobertura. El intervalo bayesiano incorpora un prior y una verosimilitud. El muestreo Monte Carlo por cadenas de Markov comprueba la exploración de esa distribución. La convergencia de la cadena deja por validar el observable, el ruido y los errores sistemáticos.
+
+\paragraph{Procesos gaussianos en B-INPOP.} Se emula el costo de las efemérides reajustadas a masas del gravitón fijas, con matriz de kernel $K$, error de entrada $D$ y media $b$. La distribución de predicción conjunta es
+\begin{equation}
+\mu_*=b_*+K_{*X}(K+D)^{-1}(q-b_X),\qquad
+\Sigma_*=K_{**}-K_{*X}(K+D)^{-1}K_{X*}.
+\end{equation}
+El costo $q$ es el promedio de cuadrados estandarizados y la log-verosimilitud usa $-Nq/2$ \cite{mariani,marianimethod}. Un error diferencial $\delta q$ entre dos masas altera el log-cociente en $-N\delta q/2$. Las barras marginales del emulador dejan por especificar $\operatorname{Var}(q_i-q_j)=\Sigma_{ii}+\Sigma_{jj}-2\Sigma_{ij}$. La metodología publicada describe sorteos normales marginales e interpolación entre nodos. El texto deja abierta la implementación de la covarianza cruzada y el efecto en el cuantil. Una validación requiere refits exactos reservados cerca del cuantil y comparar la distribución conjunta del emulador con el perfil directo. Perfilar los auxiliares en cada masa y marginalizarlos son integraciones distintas y pueden producir intervalos distintos cuando cambia el volumen de soluciones plausibles.
+
+\section{Cassini, conjunción solar y sobrevuelos de Encélado}
+\label{sec:cassini}
+\paragraph{Conjunción solar de 2002.} El observable histórico es el desplazamiento fraccional de frecuencia durante la conjunción. Bertotti, Iess y Tortora publicaron la estimación de ajuste $\gamma-1=(2.1\pm2.3)\times10^{-5}$ \cite{bertotti}. Cada cuenta Doppler integra un intervalo finito y el valor de $\gamma$ se infiere del conjunto con un modelo orbital, radiométrico y de propagación. En la clase escalar--tensor libre considerada por Huang y Deng \cite{huang,zhang}, $h_{00}=2\mu(1+\alpha e^{-r/\lambda})/(c^2r)$ y $h_{ij}=h_s\delta_{ij}$ con $h_s=2\mu(1-\alpha e^{-r/\lambda})/(c^2r)$. La condición nula da $c\,dt/d\ell=1+(h_{00}+h_s)/2+O(h^2)$. A geometría y $\mu$ dadas, la suma $4\mu/(c^2r)$ deja el retardo directo y su derivada Doppler sin esa contribución al orden estudiado. La dinámica y los efectos indirectos requieren su propio modelo. El límite de Palatini analizado por Domínguez y Barraco corresponde a otra formulación \cite{barraco}.
+
+En la reducción parcial propia se usaron 1696 cuentas de 300 s, de las que 115 se reemplazaron por cuentas reconstruidas con tres enlaces. A $2.82R_\odot$, el cambio de radiómetro conserva el signo de la amplitud de la plantilla óptica en las variantes comprobadas. Dar desplazamiento y deriva propios a los pases iniciados el 22 y 23 de junio lo invierte, de $-0.000960$ a $+0.005656$ para el promedio de ambos radiómetros en el ejemplo documentado. Retirar ambos pases completos deja solo el 4.9--6.8\% de la información proyectada en ese alcance. En el control de 38 ventanas, el error estándar que admite autocorrelación y heterocedasticidad crece cerca del 27\% frente al diagonal. La serie calibrada histórica de 1094 cuentas usada para $\gamma$ queda sin cotejo por época. La reproducción parcial caracteriza sensibilidad a la reducción y al modelo de error.
+
+\paragraph{Encélado.} Los sobrevuelos E09, E12 y E19 aportan seguimiento Doppler continuo durante el paso cercano \cite{iess,park,jplenc}. Aquí $r$ está centrado en Encélado y el modelo añade una fuerza radial a la trayectoria de Cassini. El soporte de E09 seleccionó exploratoriamente $\lambda=3000$ km y $\alpha=-4.54893\times10^{-5}$. La preferencia por ese punto dependió del ajuste de la masa y de la referencia orbital. En E12 y E19 el campo de Encélado, los estados orbitales y las calibraciones se ajustaron usando los flancos para evaluar los núcleos. El contraste X/Ka y las reducciones de lazo abierto y de datos orbitales conservan una componente común dominante. Cambiar de receptor o de banda aporta controles que comparten geometría o señal. Park et al.\ ajustan también arrastre de pluma en E09 y E19 \cite{park}; su solución reutiliza estos encuentros.
+
+En E12, bajo dos elecciones de margen armónico, el RMS central convencional en 14 cuentas era 117.67 o 120.75 mHz frente a 119.10 o 134.16 mHz para el punto fijado. Con margen estrecho, una referencia geométrica reconstruida después del encuentro desplazó la diferencia de cuadrados medios de $+338.81$ a $-10.67$ mHz$^2$ en el control condicionado. La reconstrucción posterior carece de independencia para una verificación predictiva. Un control adversarial posterior permitió un impulso libre en E12 y perfiló órbita y campo compartido con E19. Logró empatar ambos modelos en el centro sin aumentar el RMS de nueve grupos exteriores de control. Los impulsos que lograron ese óptimo fueron 17.82 y 18.52 mm/s en las dos cajas. El núcleo de E12 intervino en construir el empate. Los valores son diagnósticos de sensibilidad de navegación, con atribución física pendiente. El estado empírico es que la preferencia inicial depende del modelo y todavía carece de una exclusión calibrada.
+
+\section{Diagnóstico Gaia FPR}
+Usamos el indicador publicado de rechazo y proyectamos las varianzas individuales aleatoria $d_i$ y sistemática $s_i^2$ sobre la dirección de escaneo. En ambos brazos las varianzas marginales son idénticas. Para estimar un desplazamiento común por tránsito se usa
+\begin{equation}
+C_{\rm shared}=\operatorname{diag}(d_i)+ss^\top,\quad
+C_{\rm ind}=\operatorname{diag}(d_i+s_i^2),\qquad
+\sigma(C)=\left(\mathbf{1}^\top C^{-1}\mathbf{1}\right)^{-1/2}.
+\label{eq:gaia}
+\end{equation}
+
+En Lutetia se compararon 30 de 68 tránsitos, con 37 enteramente rechazados y uno de un solo CCD aceptado. El cociente $\sigma(C_{\rm shared})/\sigma(C_{\rm ind})$ fue de 1.03649 a 1.14274, con mediana 1.10445. En Cuyo se compararon 63 de 63 tránsitos y el cociente fue de 1.00012 a 1.01477, con mediana 1.00171. Compartir la matriz sistemática bidimensional del primer CCD en lugar de las desviaciones proyectadas cambió la incertidumbre relativa por menos de $7.1\times10^{-8}$. Estas precisiones nominales pertenecen a los dos objetos seleccionados por los resultados distintos de ponderación de Vavilov et al. \cite{vavilov}. Gaia FPR emplea covarianza no diagonal \cite{gaia}. La tabla local mide un contraste de errores para un desplazamiento angular. La estimación de $\alpha$ mediante las Ec.~\eqref{eq:force} y \eqref{eq:score} queda pendiente del ajuste orbital.
+
+\section{Ajuste orbital y tránsitos reservados}
+Integramos la órbita y sus derivadas variacionales con efemérides de Horizons, fuerzas de los planetas y los tres mayores perturbadores del cinturón, aceleración solar de primer orden posnewtoniano, tiempo de vuelo y deflexión con fuente a distancia finita. Se ajustaron solo los primeros 23 tránsitos aceptados de Lutetia y los primeros 47 de Cuyo. Se reservaron 8 y 16, respectivamente. Reajustamos los estados iniciales y, en un segundo brazo, $GM_\odot$. A $\lambda=100$ UA la fracción $J_\lambda/\|L^{-1}s_\lambda\|^2$ con estado ajustado y masa solar fija es de $4.60\times10^{-5}$ para Lutetia y $5.66\times10^{-5}$ para Cuyo. Con masa libre baja a $3.43\times10^{-12}$ y $3.66\times10^{-11}$. Son magnitudes de sensibilidad geométrica condicionadas al modelo.
+
+Para validar las predicciones usamos la covarianza nominal de las mediciones más la propagación lineal de incertidumbre del ajuste. Con fotocentro esférico de radio externo fijo, el cociente de la discrepancia cuadrática predictiva por registro es 30.37 en Lutetia y 1.542 en Cuyo. En el segundo, un radio libre lo baja a 1.074 a costa de un radio efectivo de $-70.7$ km. Este radio es inadmisible para el modelo de esfera iluminada. Los brazos de fotocentro reutilizan la reserva original y son exploratorios. Reducir de dos a un día el paso máximo de integración cambia las predicciones hasta 0.00110 mas con las mismas efemérides interpoladas. La comparación aún requiere validación convencional antes de inferir $\alpha$.
+
+\section{Origen del observador y contraste predictivo en Cuyo}
+
+La posición baricéntrica publicada de Gaia y la reconstruida como Tierra de JPL más Gaia geocéntrica difieren entre 22.1 y 22.7 km en las épocas estudiadas. El cambio de origen reduce $Q/N$ predictivo de 30.374 a 19.941 en Lutetia y de 1.542 a 0.904 en Cuyo, con radio externo fijado. Cuyo habilita un contraste exploratorio. Lutetia conserva desajustes importantes.
+
+En Cuyo reajustamos el estado inicial y $GM_\odot$ con los primeros 47 tránsitos, añadiendo la amplitud $\alpha$ en el modelo planetario-relativista más Yukawa. Se compara la densidad predictiva gaussiana lineal de los 16 tránsitos reservados. El marcador es el logaritmo de la densidad para el modelo más Yukawa menos el del modelo convencional. Los cambios en 0.1, 1, 3, 10 y 100 UA son $-4.688$, $-4.742$, $-4.657$, $-4.613$ y $-4.594$, respectivamente. La factorización cronológica de la densidad da los mismos cinco tránsitos favorables a Yukawa y once favorables al modelo convencional en cada alcance. El tránsito del 2 de febrero de 2019 a las 12:09 TDB concentra del 32.5 al 34.5\% de la norma cuadrática de la plantilla residualizada reservada y localmente favorece al modelo convencional. La puntuación conjunta sigue favoreciendo al modelo convencional en las 80 combinaciones de alcance y retiro de un tránsito, con diferencias entre $-4.906$ y $-3.507$. Esta comparación reutiliza la reserva en el proceso de diagnóstico. La prueba confirmatoria requiere astrometría externa y un protocolo fijado antes del ajuste.
+
+\section{Evaluación terrestre externa}
+El ajuste orbital usa únicamente los mismos 47 tránsitos de Gaia. Los datos CCD del Minor Planet Center se agrupan por estación, catálogo y noche local. Con 79 noches de 2022--2023 calibramos desplazamientos angulares y covarianzas por combinación de estación y catálogo. La comparación usa 66 noches de 2024--2025 en cinco estaciones. Se usa la incertidumbre compartida de calibración y se propaga la del ajuste orbital. La estimación inicial de la órbita procede de Horizons.
+
+La discrepancia predictiva convencional por coordenada es 0.953. Las diferencias de predicción de Yukawa a las amplitudes ajustadas en Gaia tienen medianas angulares de 8.67--11.08 mas según el alcance. Su separación conjunta blanqueada es 0.59--0.71 desviaciones estándar. El logaritmo de densidad predictiva terrestre favorece levemente al modelo extendido, con diferencias entre $+0.347$ y $+0.444$. Bajo una aproximación gaussiana de covarianza fija, un contraste bilateral al 5\% tiene potencia nominal de 9--11\% para esas amplitudes. Alcanzar 80\% requeriría, con este mismo diseño, una amplitud de 3.94--4.76 veces la ajustada en Gaia. Este umbral es de sensibilidad condicional. La comparación terrestre deja abierto el contraste físico a las amplitudes ensayadas.
+
+\section{Contraste independiente con radar en Cacus}
+La búsqueda cruzada de astrometría Gaia FPR y retardos posteriores identificó a Cacus como un candidato con 30 tránsitos aceptados y cinco retardos radar al centro de masa en cuatro fechas. Ambos modelos se ajustaron con los primeros 22 tránsitos de Gaia, dejando libres el estado orbital, el parámetro de masa solar y una aceleración transversal térmica. La solución de Horizons se usó como semilla numérica. El contraste radar evalúa una fuerza solar con alcance de 0.1 UA y amplitud fija $\alpha=7.8707\times10^{-5}$, obtenida en el ajuste exploratorio de Cuyo bajo la hipótesis de un acoplamiento solar común. Se resolvieron por separado los tiempos de vuelo de ida y vuelta con la antena en movimiento y retardo solar relativista.
+
+Antes de usar los retardos medidos, el modelo convencional pasó el control en los ocho tránsitos restantes de Gaia. La integración no lineal confirmó la separación de las dos predicciones a 42.15 desviaciones estándar bajo la covarianza predictiva convencional. Un nuevo ajuste desde otra semilla y con paso máximo de integración más corto cambió las predicciones radar por hasta 1.86 m. La reserva radar dio $Q=3.21$ para la dinámica convencional y $Q=1713.49$ para la extensión fija, con covarianza predictiva propia por hipótesis. La diferencia de log densidad predictiva fue de $-855.14$ para Yukawa respecto al modelo convencional. La preferencia persiste al retirar por turno cada fecha, introducir una correlación de 0.5 entre registros de la misma fecha y perfilar un sesgo constante de alcance de la antena. Este resultado desestima un punto del modelo común a los dos objetos.
+
+\noindent Fuentes de observación y reducción: \href{https://ssd-api.jpl.nasa.gov/doc/sb_radar.html}{archivo radar de JPL} y \href{https://echo.jpl.nasa.gov/asteroids/yeomans%2B1992AJ_orbits.pdf}{Yeomans et al.}.
+
+\section{Intervalos de Cacus y contraste externo en 1990 UQ}
+Ajustamos una amplitud de signo libre en cinco alcances prefijados. Para cada alcance, sean $g$ y $h$ las derivadas respecto de $\alpha$ en Gaia blanqueado y en radar, y $G$ y $R$ las matrices de derivadas correspondientes a los auxiliares. Al volver a ajustar los auxiliares con Gaia, sobreviven $g_\perp=(I-GG^+)g$ y $h-RG^+g$. La covarianza predictiva del radar incorpora $R(G^\top G)^{-1}R^\top$, además de su covarianza de medida. Con errores condicionalmente gaussianos e independientes entre instrumentos, la proyección en Gaia que informa $\alpha$ es ortogonal a la que propaga la incertidumbre de los auxiliares al radar.
+
+\begin{table}[ht]
+\centering
+\small
+\begin{tabular}{rlll}
+\toprule
+$\lambda$ (UA) & $\hat\alpha$ & Intervalo puntual al 95\% & Intervalo simultáneo al 95\% \\
+\midrule
+0.1 & $2.59\times10^{-6}$ & $[-8.65\times10^{-7},\,6.05\times10^{-6}]$ & $[-1.95,\,7.13]\times10^{-6}$ \\
+1 & $2.08\times10^{-8}$ & $[-5.88\times10^{-9},\,4.74\times10^{-8}]$ & $[-1.43,\,5.58]\times10^{-8}$ \\
+3 & $8.92\times10^{-8}$ & $[-2.49\times10^{-8},\,2.03\times10^{-7}]$ & $[-6.08\times10^{-8},\,2.39\times10^{-7}]$ \\
+10 & $7.64\times10^{-7}$ & $[-2.12\times10^{-7},\,1.74\times10^{-6}]$ & $[-5.19\times10^{-7},\,2.05\times10^{-6}]$ \\
+100 & $6.91\times10^{-5}$ & $[-1.92\times10^{-5},\,1.57\times10^{-4}]$ & $[-4.69\times10^{-5},\,1.85\times10^{-4}]$ \\
+\bottomrule
+\end{tabular}
+\caption{Perfiles nominales de Cacus con desplazamiento de radar fijado a cero. Bonferroni cubre los cinco alcances discretos bajo el modelo estadístico declarado.}
+\end{table}
+
+A 0.1 UA el radar aporta un 88.6\% de la información nominal. La integración dinámica en los extremos del intervalo puntual reproduce el incremento esperado de $Q$ con un error inferior a 0.008. Con un desplazamiento de alcance libre para la campaña radar, la amplitud de mejor ajuste es $6.90\times10^{-6}$ ($z=2.67$). Al inflar la varianza de Gaia por la dispersión del ajuste (factor 1.490), baja a $z=2.18$ y cero vuelve a entrar en el intervalo simultáneo. Incluso en los controles más permisivos de fecha, correlación y desplazamiento, el límite positivo simultáneo a 0.1 UA es $2.26\times10^{-5}$, por debajo del punto de Cuyo.
+
+En 1990 UQ ajustamos ambas órbitas usando 20 tránsitos de Gaia. Siete tránsitos adicionales verificaron el ajuste convencional. Antes de consultar los cuatro retardos radar de tres fechas, fijamos $\alpha=0$ frente a $\alpha=6.8988422\times10^{-6}$ a 0.1 UA. Con desplazamiento cero la separación predictiva es de 5.81 desviaciones estándar y los retardos dan $Q=4.56$ para la dinámica convencional y $Q=43.00$ para Yukawa. La diferencia de log densidad predictiva (Yukawa menos convencional) es $-19.22$. Con un desplazamiento libre por hipótesis, la separación esperada cae a 1.50 y la diferencia de log verosimilitud perfilada cambia a $+1.27$. Ambas campañas se realizaron con la antena DSS-14 de Goldstone.
+
+En el análisis de sensibilidad con desplazamiento gaussiano centrado e incertidumbre externa, conservar 80\% de potencia nominal a nivel bilateral del 5\% en 1990 UQ requiere una desviación estándar inferior a aproximadamente 0.94 km de alcance unidireccional. La preferencia cambia de signo alrededor de 1.7 km. Estas cifras caracterizan el diseño y su covarianza. El desplazamiento puede representar errores instrumentales, orbitales u otros errores de extrapolación. Su magnitud y causa física siguen por determinar.
+
+\section{Controles por geometría orbital y por estación}
+Un cruce de 95 objetos con al menos tres fechas radar desde 2015 dio cuatro con un arco Gaia de al menos 365 días y radar posterior, todos observados en Goldstone. Al admitir radar anterior o intercalado y buscar enlaces distintos de Goldstone monostático, 14 objetos tuvieron cobertura Gaia suficiente. Comparamos el punto de 1990 UQ, $\alpha=6.8988422\times10^{-6}$ a 0.1 UA, con $\alpha=0$ en dos geometrías.
+
+Alinda aporta 16 retardos en 15 fechas. En la predicción sellada, la separación es 0.49 desviaciones estándar con desplazamiento fijo y 0.15 con desplazamiento libre. Con una órbita exactamente conocida y los mismos errores radar sube a 11.19. Los retardos permanecen reservados. La propagación de la incertidumbre orbital limita este ensayo aunque los tránsitos Gaia reservados sean compatibles con el ajuste convencional.
+
+En Ícaro, la linealización difiere en 21.99\% de la predicción directamente integrada. Se mantuvo ese resultado y se evaluó un contraste no lineal con covarianza separada por hipótesis. El control de 31 registros Gaia reservados da $Q=22.96$ para $\alpha=0$ y $Q=6526.65$ para el punto Yukawa. El radar de junio de 2015, anterior al arco Gaia de Ícaro, aporta seis fechas, con seis retardos de Arecibo y cuatro de Goldstone \cite{icarusradar}. Con desplazamientos libres por estación, los diez retardos dan $Q=2.60$ y $Q=15858.42$, respectivamente. Ambas estaciones por separado favorecen la dinámica convencional. La preferencia persiste al retirar cada fecha y al introducir correlación intrafecha. La incertidumbre orbital nominal de alcance, de 129 a 338 km, limita la precisión absoluta. La comparación adjudica el punto fijo del modelo solar común.
+
+\subsection{Perfil local de amplitudes en Ícaro}
+Se perfiló con signo la amplitud a 0.1 UA usando los 13 tránsitos Gaia de ajuste y los diez retardos ya abiertos en la prueba puntual. Los cinco tránsitos Gaia restantes se conservaron como comprobación. El perfil es retrospectivo. Se ajustaron las seis componentes de la órbita, el parámetro gravitatorio solar, una aceleración térmica transversal $A_2/r^2$ y un desplazamiento radar por estación.
+
+El intervalo bilateral nominal al 95\% es $[-1.65\times10^{-7},\,5.30\times10^{-8}]$, con mejor ajuste $\hat\alpha=-5.61\times10^{-8}$. Con la covarianza fijada en amplitud cero, la integración directa da incrementos de $Q$ de 3.84353 y 3.84125 en los extremos, frente al umbral 3.84146. Con covarianza recalculada por amplitud da 3.83633 y 3.84425. Cero pertenece al intervalo bajo todos los controles por estación, omisión de fechas, correlación intrafecha, deriva por estación, radio de fotocentro y separación dinámica entre Tierra y Luna.
+
+Con aceleración térmica libre, el radar aporta 99.98\% de la información local combinada. La prueba de sensibilidad con $A_2=0$ conserva la compatibilidad con cero y reduce la fracción radar a 72\%. La estimación térmica publicada usa también los retardos de 2015 \cite{icarusradar}; se conserva como referencia física externa al ajuste en lugar de introducirla como medición independiente. El intervalo describe un modelo de fuerza y covarianza a alcance fijo. La cobertura empírica, el control de efemérides planetarias alternativas y la extensión a otros alcances quedan por establecer.
+
+Un reajuste conjunto directo de Gaia y radar, reintegrando la órbita en cada paso, da incrementos de $Q$ de 3.84104 y 3.84173 en esos extremos y $\Delta Q(0)=1.01638$. Los extremos interpolados son $[-1.65269\times10^{-7},\,5.29980\times10^{-8}]$. Los desplazamientos ajustados en el centro son $-2.38$ km y $-2.25$ km para Arecibo y Goldstone. Son términos efectivos del ajuste y su atribución física queda abierta.
+
+
+\paragraph{Control térmico con dos estimaciones publicadas.}
+Para la aceleración transversal $a_T=A_2/r^2$, la ecuación planetaria de Gauss y el promedio temporal de una órbita kepleriana dan
+$\langle\dot a\rangle=2A_2/[na^2(1-e^2)]$, con $n=\sqrt{GM_\odot/a^3}$. Usando $a=1.07793$ UA y $e=0.82697$, el valor central de Nugent et al.\ \cite{nugent}, anterior a Gaia y al radar de 2015, da $A_2=-2.47\times10^{-15}$ UA$^3$/día$^2$. Greenberg et al.\ \cite{icarusradar} dan $-3.57\times10^{-15}$ al convertir su tasa orbital equivalente. Su reducción comparte el radar de 2015. Ambos valores se fijan como controles y se reajustan las restantes variables. La anchura del intervalo nominal disminuye un 12.4\% y el mínimo de $Q$ aumenta apenas 0.03. A amplitud cero, el ajuste térmico libre devuelve $+1.14\times10^{-13}$ UA$^3$/día$^2$, 32 veces la magnitud de Greenberg y de signo opuesto. La escasa penalización al imponer los valores externos revela la baja capacidad de este ajuste para medir $A_2$ bajo su covarianza.
+\begin{center}
+\begin{tabular}{lrr}
+\toprule
+Ajuste térmico & Intervalo nominal sobre $\alpha$ en $10^{-8}$ & $\Delta Q(0)$ \\
+\midrule
+Libre & $[-16.53,5.30]$ & 1.016 \\
+Nugent, fijo & $[-15.65,3.48]$ & 1.556 \\
+Greenberg, fijo & $[-15.66,3.46]$ & 1.565 \\
+\bottomrule
+\end{tabular}
+\end{center}
+El criterio común es $\Delta Q=3.84146$ a 0.1 UA, con reajuste no lineal en tres nodos y un perfil cuadrático local. Los intervalos condicionados a $A_2$ fijo omiten la incertidumbre de la estimación externa. Los tres incluyen $\alpha=0$.
+
+\subsection{Comparación de Ícaro y Cacus en cinco alcances}
+Los intervalos de la tabla \ref{tab:icarusfive} usan el corte de Bonferroni $\Delta Q=6.63490$ al 95\% nominal simultáneo para cinco alcances discretos. En ambas reducciones se perfila un desplazamiento de alcance por estación. Los cinco intervalos de Ícaro incluyen cero. Los reajustes conjuntos directos de su órbita reproducen el corte en ambos extremos con error máximo de $5.5\times10^{-5}$ en $\Delta Q$. La menor cola nominal de la reserva Gaia entre los nodos fue 0.654.
+
+\begin{table}[htbp]
+\centering
+\small
+\begin{tabular}{rlll}
+\toprule
+$\lambda$ (UA) & Ícaro, intervalo simultáneo & Cacus, intervalo simultáneo & Anchura Ícaro/Cacus \\
+\midrule
+0.1 & $[-2.00,\,0.873]\times10^{-7}$ & $[0.0252,\,1.35]\times10^{-5}$ & 0.0216 \\
+1 & $[-2.36,\,1.03]\times10^{-7}$ & $[0.0272,\,1.04]\times10^{-7}$ & 3.35 \\
+3 & $[-1.13,\,0.493]\times10^{-6}$ & $[0.0119,\,0.444]\times10^{-6}$ & 3.74 \\
+10 & $[-9.83,\,4.30]\times10^{-6}$ & $[0.102,\,3.80]\times10^{-6}$ & 3.82 \\
+100 & $[-8.93,\,3.91]\times10^{-4}$ & $[0.0926,\,3.44]\times10^{-4}$ & 3.84 \\
+\bottomrule
+\end{tabular}
+\caption{Intervalos simultáneos nominales sobre $\alpha$ con desplazamientos radar libres. Los resultados de Cacus conservan su covarianza de referencia.}
+\label{tab:icarusfive}
+\end{table}
+
+A 0.1 UA, la banda de Ícaro es unas 46 veces más estrecha. De 1 a 100 UA la banda de Cacus es entre 3.35 y 3.84 veces más estrecha en esta malla. La discrepancia de las bandas nominales a 0.1 UA desaparece al inflar la varianza óptica de Cacus por el factor 1.490 de su análisis de sensibilidad. Se conserva la comparación por objeto. Una cota común requiere modelar parámetros compartidos.
+
+Al aumentar $\lambda$, el término constante en $(1+r/\lambda)e^{-r/\lambda}=1-(r/\lambda)^2/2+O((r/\lambda)^3)$ se absorbe en el parámetro gravitatorio solar. La proporción de norma de la derivada blanqueada de $\alpha$ que sobrevive al reajuste en Ícaro baja de $1.74\times10^{-2}$ a 0.1 UA a $9.19\times10^{-8}$ a 100 UA. Usar el monopolo total de alcance infinito en el término de primer orden postnewtoniano cambia la desviación estándar local de 100 UA en 0.090\%. La cobertura empírica bajo errores de dinámica o efemérides queda abierta.
+
+\subsection{Cruce de precisión de 0.1 a 1 UA}
+Recalculamos la respuesta a $\alpha$ en una malla de 41 alcances equiespaciados en $\log\lambda$. La igualdad entre las incertidumbres perfiladas de ambos objetos, con desplazamientos radar libres, cae en el tramo $[0.25119,0.26607]$ UA, con valor interpolado 0.25409 UA. Al reintegrar y reajustar ambas órbitas en ese punto se obtiene $\sigma_\alpha=3.11656\times10^{-8}$ en Ícaro y $3.11649\times10^{-8}$ en Cacus. Los errores del perfil en los extremos puntuales quedan por debajo de 0.001 en $\Delta Q$.
+
+Multiplicar la varianza Gaia de Cacus por 1.490 desplaza el cruce a 0.26758 UA. Retirar el 2 de septiembre de 2022 de Cacus lo desplaza a 0.31976 UA y reduce en 56.9\% su información perfilada a 0.25409 UA. Al retirar por turno cada fecha de Ícaro el cruce permanece entre 0.25347 y 0.25408 UA. Estas operaciones son controles de sensibilidad. La dependencia en una fecha mide su contribución en el diseño y deja abierta la procedencia de cualquier error en ella.
+
+Para contrastar una amplitud común sin especificar la correlación cruzada, se intersectan por alcance los intervalos marginales Bonferroni de ambos objetos, ajustados simultáneamente sobre las 82 marginales. Las 41 intersecciones contienen cero en el modelo nominal y en los tres controles de covarianza de medida. Esta cobertura es nominal, depende de la validez de las marginales y se restringe a la malla discreta. Un ajuste físico conjunto puede usar una covarianza cruzada explícita si se dispone de ella.
+
+
+\paragraph{Predicción del retardo decisivo de Cacus.}
+El registro de Goldstone del 2 de septiembre a las 11:40 UTC \cite{cacusjpl} se retiró del ajuste de órbita y del desplazamiento radar. A 0.25409 UA se comparó la predicción convencional con la de un candidato Yukawa fijado en $\alpha=8.415\times10^{-8}$ a partir del ajuste completo. Los residuos observado menos calculado son $-340.9$ m y $+421.0$ m en alcance equivalente de ida. Sus desviaciones predictivas son 373.9 m, incluida la propagación lineal de la covarianza de los parámetros ajustados. Las innovaciones normalizadas son $-0.912$ y $+1.126$. La diferencia de puntuación logarítmica gaussiana es 0.218 a favor de la dinámica convencional. El retardo aporta geometría al ajuste nominal y discrimina poco por sí solo entre esas predicciones. La selección del candidato con el conjunto completo convierte esta comprobación en retrospectiva.
+
+\section{Alcance}
+Los resultados permiten cuestionar reanálisis que descartan covarianzas o mezclan épocas instrumentales. Los intervalos de Cacus dependen de la dinámica, la covarianza de medida y el desplazamiento radar. Cacus y 1990 UQ dependen del control del desplazamiento para el contraste de amplitud menor. Ícaro desfavorece esa amplitud fija aun con desplazamientos por estación libres. Los intervalos de Ícaro contienen cero en cinco alcances. El cruce nominal de precisión está en 0.254 UA. La mayor variación por retirada de fecha se obtiene al omitir el 2 de septiembre de 2022 de Cacus. La cobertura empírica y un modelo conjunto de covarianza quedan abiertos. INPOP establece el precedente del reajuste global \cite{inpop}. El análisis de Bennu, también disponible como informe de Fermilab, ofrece un control con 51 alcances y amplitud compatible con cero bajo su modelo \cite{bennu}. Se conservan un programa de reproducción y las tablas derivadas por tránsito y por evento astronómico.
+
+\section{Precedentes y comparación de sensibilidad}
+Hees et al.\ simularon la cadencia y la geometría de Gaia para pronosticar sensibilidad a una quinta fuerza. Tsai et al.\ estimaron el alcance de una búsqueda con asteroides mediante la precesión; su trabajo posterior con Bennu y Apophis ajusta observaciones orbitales \cite{hees,tsaiforecast,bennu}. En el régimen de largo alcance, la ecuación (9) y la comparación con Apophis de ese trabajo equivalen a los valores aproximados de la tabla \ref{tab:benchmark} a 100 UA. Las 343 masas perturbadoras y el sesgo de pseudoalcance de Bennu forman parte de un ajuste de mayor complejidad que el nuestro. El propósito de la tabla es fijar la escala de sensibilidad; cada fila conserva su convención y su modelo.
+
+\begin{table}[htbp]
+\centering
+\small
+\begin{tabular}{lll}
+\toprule
+Objeto & Resultado a 100 UA en amplitud adimensional & Convención \\
+\midrule
+Bennu & amplitud $\lesssim 2.15\times10^{-6}$ & $2\sigma$, aproximación asintótica \\
+Apophis & amplitud $\lesssim 9.75\times10^{-8}$ & $2\sigma$, aproximación asintótica \\
+Ícaro & $\alpha\in[-8.93,3.91]\times10^{-4}$ & simultánea nominal en 5 alcances \\
+Cacus & $\alpha\in[0.0926,3.44]\times10^{-4}$ & simultánea nominal en 5 alcances \\
+\bottomrule
+\end{tabular}
+\caption{Comparación de escalas de amplitud. Las dos primeras filas se calcularon con $1\,\mathrm{UA}=149\,597\,870.7$ km y la aproximación de largo alcance de \cite{bennu}.}
+\label{tab:benchmark}
+\end{table}
+
+INPOP19a contrasta un modelo de gravitón masivo mediante un reajuste global y un criterio de verosimilitud \cite{inpop19a}. En nuestro problema el alcance queda sin identificar cuando $\alpha=0$. Por ello un barrido de detección exige calibrar el máximo sobre $\lambda$ con la selección incluida; los perfiles a alcance fijo tienen otro objetivo \cite{davies}. Fuentes-Muñoz et al.\ y Yao et al.\ documentan controles de fotocentro, perturbadores y marco astrométrico \cite{fuentes,yao}. Liberato et al.\ muestran un precedente de calibración para señales estructuradas en astrometría FPR, con un modelo de ruido y una búsqueda de binarias que corresponden a otro observable \cite{liberato}.
+
+\section{Datos y reproducción}
+El programa \texttt{audit\_yukawa\_v12.py} repite los dos controles nuevos con los registros y máscaras especificados en los resultados. El índice empírico de reproducción de la versión 12 identifica los insumos, archivos numéricos y comandos. La verificación de un motor orbital independiente y una muestra de validación nueva constituyen pruebas adicionales de la reducción.
+
+\appendix
+\section{Auditoría de procedencia de Fermi-LAT}
+Los archivos semanales de HEASARC reproducen la quinta entrada del cuaderno histórico con 196 eventos, los extremos 0.116550 y 99.325359 GeV, y los tiempos $-98.381700$ y 4997.551380 s. El centro de selección es $(288.26^\circ,19.77^\circ)$, con radio $3^\circ$, energía de 100 MeV a 500 GeV y tiempo desde el disparo de $-100$ a 5000 s. La huella pertenece a GRB221009A. Un control con la posición LAT de GRB090926A devuelve 239 eventos y un máximo de 19.459947 GeV. La réplica se cotejó con las cifras archivadas. El CSV original queda sin cotejo fila a fila.
+
+El cuaderno atribuye a la quinta entrada el redshift 2.106 de GRB090926A. Con $\Omega_m=0.315$, el factor cosmológico de propagación de orden $n$ \cite{vasileiou} cambia por factores 14.513 y 27.443 para $n=1,2$ respecto de $z=0.151$. El intervalo instrumental de 203 a 294 s \cite{gcn} contiene 109 eventos. Al excluirlo, la diferencia de medianas de tiempos alta menos baja pasa de $-13.824$ a $+4.242$ s para las bandas $[0.1,0.3)$ y $[0.3,1)$ GeV, y de $+4.004$ a $-35.520$ s para $[0.3,1)$ y $[1,10)$ GeV. La banda $[10,100)$ GeV pasa de cuatro eventos a cero. La auditoría es descriptiva. Una inferencia de dispersión precisa un modelo de emisión, pertenencia a la fuente, fondo y exposición.
+
+La publicación definitiva de Fermi-LAT reconsidera el intervalo con una reconstrucción especializada \cite{axelsson}. Sus fronteras de 216.6 a 280.6 s y el corte espectral que comienza en 215.6 s excluyen los mismos 95 eventos al corregir el origen temporal en 0.99 s. Los retardos quedan en $+14.972$ y $-37.402$ s y vuelve a quedar vacía la banda de 10 a 100 GeV. Esto verifica la estabilidad de los signos frente a las máscaras publicadas dentro de la muestra histórica. Si el perfil de emisión $g(t,E)$ es arbitrario, una dispersión $\kappa$ que traslada tiempos por $\kappa I_n(z)E^n$ puede absorberse en una traslación del argumento temporal de $g$ dependiente de energía. Se requieren restricciones sobre la emisión para identificar esa dispersión.
+
+\begin{thebibliography}{99}
+\bibitem{barraco} A. E. Domínguez and D. E. Barraco,
+  \emph{Phys. Rev. D} \textbf{70}, 043505 (2004).
+  \href{https://doi.org/10.1103/PhysRevD.70.043505}{DOI}.
+\bibitem{huang} L. Huang and X.-M. Deng,
+  \emph{Eur. Phys. J. C} \textbf{84}, 615 (2024).
+  \href{https://link.springer.com/article/10.1140/epjc/s10052-024-12969-2}{DOI}.
+\bibitem{gaia} Gaia Collaboration,
+  \emph{Gaia Focused Product Release: Asteroid orbital solution}.
+  \href{https://arxiv.org/abs/2310.14699}{arXiv:2310.14699}.
+\bibitem{vavilov} D. E. Vavilov et al.,
+  \emph{A practical re-weighting scheme of data fitting: application to asteroids orbit determination with Gaia}.
+  \href{https://doi.org/10.1016/j.icarus.2026.117074}{Published article}.
+\bibitem{inpop} L. Bernus et al., \emph{Phys. Rev. Lett.} \textbf{123}, 161103 (2019).
+  \href{https://doi.org/10.1103/PhysRevLett.123.161103}{DOI}.
+\bibitem{bennu} Y.-D. Tsai et al., \emph{Commun. Phys.} \textbf{7}, 311 (2024).
+  \href{https://doi.org/10.1038/s42005-024-01779-3}{DOI}.
+\bibitem{vasileiou} V. Vasileiou et al., \emph{Phys. Rev. D} \textbf{87}, 122001 (2013).
+  \href{https://arxiv.org/abs/1305.3463}{arXiv:1305.3463}.
+\bibitem{gcn} N. Omodei et al. (Fermi-LAT),
+  \emph{GRB 221009A: Extended Bad Time Intervals for Fermi LAT data} (2022).
+  \href{https://gcn.nasa.gov/circulars/32916}{GCN 32916}.
+\bibitem{axelsson} M. Axelsson et al. (Fermi-LAT), \emph{Astrophys. J. Suppl. Ser.} \textbf{277}, 24 (2025).
+  \href{https://arxiv.org/abs/2409.04580}{arXiv:2409.04580}.
+\bibitem{icarusradar} A. H. Greenberg et al., \emph{Astron. J.} \textbf{153}, 108 (2017).
+  \href{https://arxiv.org/abs/1612.07434}{arXiv:1612.07434}.
+\bibitem{bertotti} B. Bertotti, L. Iess and P. Tortora, \emph{Nature} \textbf{425}, 374--376 (2003). \href{https://www.nature.com/articles/nature01997}{Article}.
+\bibitem{zhang} Zhang et al., \emph{Eur. Phys. J. C} \textbf{84}, 381 (2024). \href{https://doi.org/10.1140/epjc/s10052-024-12723-8}{DOI}.
+\bibitem{park} R. S. Park et al., \emph{J. Geophys. Res. Planets} \textbf{129}, e2023JE008054 (2024). \href{https://doi.org/10.1029/2023JE008054}{DOI}.
+\bibitem{emelyanov} N. V. Emelyanov, M. Kovalev and M. I. Varfolomeev (2023). \href{https://doi.org/10.1093/mnras/stad958}{DOI}.
+\bibitem{dziadura} K. Dziadura et al. (2023). \href{https://www.aanda.org/articles/aa/pdf/2023/12/aa47342-23.pdf}{Article}.
+\bibitem{mariani} V. Mariani et al., \emph{Phys. Rev. D} \textbf{108}, 024047 (2023). \href{https://arxiv.org/abs/2306.07069}{Article}.
+\bibitem{marianimethod} V. Mariani et al. (2023). \href{https://arxiv.org/abs/2303.05298}{B-INPOP methodology}.
+
+\bibitem{hees} A. Hees et al., \emph{Tests of gravitation with Gaia observations of Solar System Objects}, SF2A Proceedings (2015). \href{https://arxiv.org/abs/1509.06868}{arXiv:1509.06868}.
+\bibitem{tsaiforecast} Y.-D. Tsai et al., \emph{JCAP} \textbf{04}, 031 (2023). \href{https://doi.org/10.1088/1475-7516/2023/04/031}{DOI}.
+\bibitem{fuentes} O. Fuentes-Muñoz et al., \emph{Astron. J.} \textbf{167}, 290 (2024). \href{https://doi.org/10.3847/1538-3881/ad4291}{DOI}.
+\bibitem{yao} J. Yao et al., \emph{Astron. Astrophys.} \textbf{701}, A15 (2025). \href{https://doi.org/10.1051/0004-6361/202452534}{DOI}.
+\bibitem{liberato} L. Liberato et al., \emph{Follow the wobble: Statistical methods to detect astrometric binary asteroids in Gaia FPR} (2026). \href{https://arxiv.org/abs/2605.22702}{arXiv:2605.22702}.
+\bibitem{inpop19a} L. Bernus et al., \emph{Phys. Rev. D} \textbf{102}, 021501 (2020). \href{https://doi.org/10.1103/PhysRevD.102.021501}{DOI}.
+\bibitem{davies} R. B. Davies, \emph{Biometrika} \textbf{64}, 247--254 (1977). \href{https://doi.org/10.1093/biomet/64.2.247}{DOI}.
+\bibitem{iess} L. Iess et al., \emph{Science} \textbf{344}, 78--80 (2014). \href{https://doi.org/10.1126/science.1250551}{DOI}.
+\bibitem{jplenc} JPL, technical poster R24208 (2024). \href{https://www.jpl.nasa.gov/site/research/media/posters/2024/R24208p.pdf}{Poster}.
+\bibitem{nugent} C. R. Nugent et al., \emph{Astron. J.} \textbf{144}, 60 (2012). \href{https://doi.org/10.1088/0004-6256/144/2/60}{DOI}.
+\bibitem{cacusjpl} JPL, \emph{Goldstone Radar Observations Planning: Cacus, Ra-Shalom, and 2012 PG6} (2022). \href{https://echo.jpl.nasa.gov/asteroids/Cacus/Cacus.2022.goldstone.planning.html}{Planning record}.
+\end{thebibliography}
+\end{document}

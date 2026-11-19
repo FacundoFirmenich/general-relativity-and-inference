@@ -1,0 +1,106 @@
+[
+  {
+    "symbol": "gamma_minus_1",
+    "value": 2.1e-05,
+    "units": "dimensionless",
+    "kind": "published_parameter_estimate",
+    "interpretation": "Estimated PPN propagation parameter, not a direct measurement of Newton G",
+    "source": "https://doi.org/10.1038/nature01997"
+  },
+  {
+    "symbol": "uncertainty_gamma",
+    "value": 2.3e-05,
+    "units": "dimensionless",
+    "kind": "published_uncertainty",
+    "interpretation": "The published plus-minus; not GP interpolation error or a bound on every omitted model",
+    "source": "https://doi.org/10.1038/nature01997"
+  },
+  {
+    "symbol": "GPR_mass_q997",
+    "value": 9.8e-25,
+    "units": "eV/c^2",
+    "kind": "posterior_quantile",
+    "interpretation": "Upper quantile under the selected likelihood/profile/prior and mean GP emulator",
+    "source": "https://arxiv.org/abs/2306.07069 Table I"
+  },
+  {
+    "symbol": "GPUR_mass_q997",
+    "value": 1.01e-24,
+    "units": "eV/c^2",
+    "kind": "posterior_quantile",
+    "interpretation": "Upper quantile of the uncertainty-propagation construction; not a measured nonzero mass",
+    "source": "https://arxiv.org/abs/2306.07069 Table I"
+  },
+  {
+    "symbol": "GPR_mean_mass",
+    "value": 2.6e-25,
+    "units": "eV/c^2",
+    "kind": "posterior_mean",
+    "interpretation": "Positive posterior mean of a nonnegative parameter is not a detection",
+    "source": "https://arxiv.org/abs/2306.07069 Table I"
+  },
+  {
+    "symbol": "GPUR_mean_mass",
+    "value": 3.4e-25,
+    "units": "eV/c^2",
+    "kind": "posterior_mean",
+    "interpretation": "Conditional posterior summary, not a direct instrument reading",
+    "source": "https://arxiv.org/abs/2306.07069 Table I"
+  },
+  {
+    "symbol": "GPR_sample_max",
+    "value": 1.45e-24,
+    "units": "eV/c^2",
+    "kind": "sample_maximum",
+    "interpretation": "Largest sampled value is not the endpoint of posterior support",
+    "source": "https://arxiv.org/abs/2306.07069 Table I"
+  },
+  {
+    "symbol": "GPUR_sample_max",
+    "value": 2.53e-24,
+    "units": "eV/c^2",
+    "kind": "sample_maximum",
+    "interpretation": "Depends on sampling; finite continuous likelihood preserves prior support",
+    "source": "https://arxiv.org/abs/2306.07069 Table I"
+  },
+  {
+    "symbol": "prior_upper_mass",
+    "value": 3.62e-23,
+    "units": "eV/c^2",
+    "kind": "prior_design",
+    "interpretation": "Analysis choice bounding the prior support; not a new measured mass",
+    "source": "https://arxiv.org/abs/2306.07069 Section III"
+  },
+  {
+    "symbol": "GPUR_probability",
+    "value": 0.997,
+    "units": "probability",
+    "kind": "posterior_probability_level",
+    "interpretation": "Credible quantile level; frequentist coverage requires its own calibration",
+    "source": "https://arxiv.org/abs/2306.07069"
+  },
+  {
+    "symbol": "other_ephemeris_parameters",
+    "value": 402,
+    "units": "count",
+    "kind": "model_dimension",
+    "interpretation": "Appendix A states 402 other parameters, while Section II.B states 401 for INPOP21a construction; definition/count discrepancy unresolved. Parameters are profiled, not jointly marginalized by MCMC",
+    "source": "https://arxiv.org/abs/2306.07069 Appendix A and Section II.B"
+  },
+  {
+    "symbol": "GP_uncertainty_chains",
+    "value": 300,
+    "units": "count",
+    "kind": "computational_design",
+    "interpretation": "Number of GP-perturbed chains, not physical observations",
+    "source": "https://arxiv.org/abs/2306.07069 Section III.B.2"
+  },
+  {
+    "symbol": "quoted_lambda_lower",
+    "value": 1224800000000000.0,
+    "units": "km",
+    "kind": "derived_conversion",
+    "interpretation": "Quoted conversion to Compton length must match the declared hbar convention",
+    "source": "https://arxiv.org/abs/2306.07069 abstract and equation (3)"
+  }
+]
