@@ -1,0 +1,5 @@
+# Methodological antecedent: seismic fractal analysis
+
+The related software *Seismic Fractal Analysis: Multi-Planar Hierarchy Framework*, version 1.0.0 (Facundo Firmenich, Pau Firmenich and León Firmenich, 2025), documents correlation-dimension estimation, Rényi analysis, graph-community detection and uncertainty assessment for earthquake catalogues. We cite this as a methodological antecedent for separating coordinate representation, graph construction, target statistic and uncertainty. Community detection and fractal-dimension estimation are not equivalent to the fixed-graph excursion component count used here. No seismic catalogue, reported dimension, error budget or empirical conclusion is transferred to Cassini or GP inference. The project-wide DOI is [10.5281/zenodo.17875887](https://doi.org/10.5281/zenodo.17875887); the citation identifies the archived version through DOI 10.5281/zenodo.17875888. Its numerical results have not been independently rerun in this study.
+
+Verified record: https://zenodo.org/records/17875888

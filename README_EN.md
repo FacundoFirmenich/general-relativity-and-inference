@@ -44,3 +44,5 @@ The `reproduce.bat`, `.bash` and `.command` launchers prepare the environment an
 - [Contributing](CONTRIBUTING_EN.md)
 
 Numerical convergence does not prove new physics. Cassini uses reconstructed epochs; predictive discrepancies are retained. FractalGo here is a graph diagnostic, not a fractal dimension. Original data and technical keys are preserved; navigation, guides and user interpretation are provided in Spanish and English.
+
+[Seismological antecedent and citation scope](docs/RELATED_WORK_EN.md) · DOI: [10.5281/zenodo.17875887](https://doi.org/10.5281/zenodo.17875887).

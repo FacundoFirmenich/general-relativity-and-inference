@@ -26,3 +26,5 @@ Python 3.13 es el entorno de referencia ejecutado. Los lanzadores crean un entor
 ## Leer un resultado
 
 Cada pantalla enlaza datos y límites. Distinguí identidad matemática, cálculo sintético, reanálisis condicionado y validación externa. La concordancia entre algoritmos sobre los mismos datos no crea independencia. La triangulación observacional nueva queda para una actualización documentada.
+
+[Antecedente metodológico: análisis fractal sísmico](RELATED_WORK_ES.md).

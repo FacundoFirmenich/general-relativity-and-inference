@@ -12,3 +12,5 @@ Grafo Cassini: adyacencia cronológica dentro de pasada; huecos mayores que dos 
 
 Conservar IDs, filas, tiempos, aristas y hashes; sin capturas/eliminación, desplazamiento de colisiones, dimensiones inventadas ni factores de likelihood independientes derivados de los mismos datos. No se estima dimensión fractal ni se valida el constructo completo.
 
+
+[Antecedente metodológico: análisis fractal sísmico](../../docs/RELATED_WORK_ES.md): DOI [10.5281/zenodo.17875888](https://doi.org/10.5281/zenodo.17875888). Cita metodológica; no transfiere evidencia sísmica a gravedad.

@@ -1,0 +1,25 @@
+{
+  "concept_doi": "10.5281/zenodo.17875887",
+  "version_doi": "10.5281/zenodo.17875888",
+  "title": "Seismic Fractal Analysis: Multi-Planar Hierarchy Framework",
+  "version": "1.0.0",
+  "authors": [
+    "Facundo Firmenich",
+    "Pau Firmenich",
+    "León Firmenich"
+  ],
+  "zenodo_publication_date": "2025-12-10",
+  "deposited_cff_release_date": "2025-12-08",
+  "archive_md5": "607d19706dcd911a317b1b052fd0e943",
+  "archive_checksum_verified": true,
+  "archive_sha256": "0a26efd5722b48ceb5c71e80cc9870dfc889de5476025e17ff3ed346df44a208",
+  "files_read": [
+    "README.md",
+    "API.md",
+    "APPENDIX_MATHEMATICAL_COORDINATES.md",
+    "CITATION.cff"
+  ],
+  "scope": "Methodological citation only; no imported implementation or seismic numerical result; not the DOI of GRAVITAS",
+  "verified_on": "2026-11-19",
+  "record_url": "https://zenodo.org/records/17875888"
+}
