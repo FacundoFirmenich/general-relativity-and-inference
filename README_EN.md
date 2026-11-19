@@ -3,7 +3,7 @@
 > **Complete software distribution:** numerical inputs, results, interface and self-contained notebooks are included. Manuscripts are distributed separately.
 
 
-[Download complete software](https://github.com/FacundoFirmenich/general-relativity-and-inference/releases/download/v1.11/GRAVITAS_v1_11_SOFTWARE_ES_EN.zip) · [Cuaderno ES](https://github.com/FacundoFirmenich/general-relativity-and-inference/releases/download/v1.11/GRAVITAS_ES.ipynb) · [Notebook EN](https://github.com/FacundoFirmenich/general-relativity-and-inference/releases/download/v1.11/GRAVITAS_EN.ipynb)
+[Download complete software](https://github.com/FacundoFirmenich/general-relativity-and-inference/archive/refs/tags/v1.11.zip) · [Cuaderno ES](https://raw.githubusercontent.com/FacundoFirmenich/general-relativity-and-inference/v1.11/GRAVITAS_ES.ipynb) · [Notebook EN](https://raw.githubusercontent.com/FacundoFirmenich/general-relativity-and-inference/v1.11/GRAVITAS_EN.ipynb)
 
 **GRAVITAS 1.11 · Reproducible methods and visual software**
 
