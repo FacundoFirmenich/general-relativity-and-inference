@@ -48,6 +48,7 @@ def main():
   nb.cells[0].source+='\n\n'+T('Software archivado v1.11: ','Archived software v1.11: ')+'[10.5281/zenodo.24381485](https://doi.org/10.5281/zenodo.24381485) · '+T('DOI general: ','Concept DOI: ')+'[10.5281/zenodo.24381484](https://doi.org/10.5281/zenodo.24381484).\n'
   nb.cells[0].source+='\n\n'+T('DCAE: I = 0.90 equivale a R = 10 y Δ = ln(10) por normalización; no es una barrera física ni una probabilidad. Véase docs/DCAE_NORMALIZATION_ES.md.', 'DCAE: I = 0.90 corresponds to R = 10 and Δ = ln(10) by normalization; it is not a physical barrier or a probability. See docs/DCAE_NORMALIZATION_EN.md.')+'\n'
   nb.cells[0].source+='\n\n'+T('DCAE canónico v0.6: ℛⱼ = 1/R; índice por componente, protocolo explícito y triangulación sin garantía automática de identificabilidad. Ejecutá run.py dcae para los controles. Véase docs/DCAE_V06_ES.md.', 'Canonical DCAE v0.6: ℛⱼ = 1/R; componentwise index, explicit protocol and triangulation without automatic identifiability. Run run.py dcae for the controls. See docs/DCAE_V06_EN.md.')+'\n'
+  nb.cells[0].source+='\n\n'+T('FractalGo: software independiente, ', 'FractalGo: independent software, ')+'[v0.1.0](https://github.com/FacundoFirmenich/fractal-go/tree/fe4fecdc44340fbadcbf1fdf3f226bad0a7661fa). '+T('DOI pendiente.', 'DOI pending.')+'\n'
   setup=prefix+EXTRACT+'''\nWORK=extract()
 from importlib.metadata import version,PackageNotFoundError
 needed=[]

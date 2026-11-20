@@ -258,5 +258,6 @@ if page==pages[8]:
     download_json(j,'photon_timing_execution.json')
 
 if page in ['FractalGo · topología','FractalGo · topology']:
+    st.link_button(T('Abrir repositorio FractalGo', 'Open FractalGo repository'), 'https://github.com/FacundoFirmenich/fractal-go')
     from ui.topology import render
     render(ROOT,T,chart,download_json)

@@ -11,3 +11,6 @@ Grafo GP: camino ordenado fijo, masas previas positivas, cociente posterior/prev
 Grafo Cassini: adyacencia cronológica dentro de pasada; huecos mayores que dos cadencias medianas cortan aristas. Mismo grafo para observado y replicado. Umbrales de signo 0/1/2 desviaciones estándar del ruido normalizado. Plantilla óptica, pesos y base nuisance heredados. Mezcla de cuatro núcleos y diagnósticos exploratorios. Fracciones predictivas no son valores p uniformemente calibrados ni detecciones de fuerza. Sin nueva estación, ajuste físico Yukawa ni SBC jerárquica completa.
 
 Conservar IDs, filas, tiempos, aristas y hashes; sin capturas/eliminación, desplazamiento de colisiones, dimensiones inventadas ni factores de likelihood independientes derivados de los mismos datos. No se estima dimensión fractal ni se valida el constructo completo.
+
+
+Distribución independiente FractalGo: [fe4fecd](https://github.com/FacundoFirmenich/fractal-go/tree/fe4fecdc44340fbadcbf1fdf3f226bad0a7661fa). DOI pendiente. Esta copia conserva los mismos operadores; el repositorio independiente incluye interfaz propia y reproducción autónoma.

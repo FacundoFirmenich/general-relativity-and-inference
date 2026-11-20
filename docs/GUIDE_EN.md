@@ -33,3 +33,5 @@ Each screen links evidence and limitations. Distinguish mathematical identities,
 [DCAE: normalization and thresholds](DCAE_NORMALIZATION_EN.md).
 
 [DCAE v0.6: componentwise definition and controls](DCAE_V06_EN.md).
+
+[FractalGo: independent software](https://github.com/FacundoFirmenich/fractal-go/tree/fe4fecdc44340fbadcbf1fdf3f226bad0a7661fa) · DOI pending.

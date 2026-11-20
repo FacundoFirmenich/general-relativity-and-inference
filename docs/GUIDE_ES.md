@@ -33,3 +33,5 @@ Cada pantalla enlaza datos y límites. Distinguí identidad matemática, cálcul
 [DCAE: normalización y umbrales](DCAE_NORMALIZATION_ES.md).
 
 [DCAE v0.6: definición por componentes y controles](DCAE_V06_ES.md).
+
+[FractalGo: software independiente](https://github.com/FacundoFirmenich/fractal-go/tree/fe4fecdc44340fbadcbf1fdf3f226bad0a7661fa) · DOI pendiente.
