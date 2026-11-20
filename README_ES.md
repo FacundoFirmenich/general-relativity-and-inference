@@ -53,3 +53,6 @@ Actualización posterior a v1.11: [DCAE canónico v0.6](docs/DCAE_V06_ES.md), co
 Software FractalGo independiente: [versión 0.1.0](https://github.com/FacundoFirmenich/fractal-go/tree/fe4fecdc44340fbadcbf1fdf3f226bad0a7661fa); DOI: 10.5281/zenodo.24383318.
 
 FractalGo v0.1.0: [10.5281/zenodo.24383318](https://doi.org/10.5281/zenodo.24383318) · Todas las versiones: [10.5281/zenodo.24383317](https://doi.org/10.5281/zenodo.24383317).
+
+
+[Atlas interactivo actualizado: recorrido, mapa y evidencia](https://gravitas-epistemic-atlas.f-firmenich.chatgpt.site) · acceso con la cuenta propietaria. [HTML autónomo](ui/epistemic/epistemic_graph_es.html).

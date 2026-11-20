@@ -1,0 +1,7 @@
+{
+  "experience_version": "2.0",
+  "hosted_url": "https://gravitas-epistemic-atlas.f-firmenich.chatgpt.site",
+  "publication": "succeeded; owner-private",
+  "print_review": "Rendered ES and EN page 3 inspected; column headings separated; title case and serif typography",
+  "validation": "DOM unit checks passed ES/EN; JavaScript syntax passed; source hashes verified. Browser QA unavailable: preview relay timeout; cloud browser initialization failed. Browser test supplied but not executed for this version."
+}

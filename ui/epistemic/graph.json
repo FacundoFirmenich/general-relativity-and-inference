@@ -1842,77 +1842,280 @@
   },
   "tour": [
     {
-      "route": "physics",
-      "focus": "physics_check",
+      "route": "gp",
+      "focus": "gp_result",
       "title": {
-        "es": "Física y calibración",
-        "en": "Physics & calibration"
+        "es": "¿Basta con reproducir las barras de error?",
+        "en": "Is reproducing the error bars enough?"
       },
       "body": {
-        "es": "Primero fijamos el modelo. Diferenciar el potencial y conservar la excentricidad evita errores antes de ajustar un solo dato. La verificación numérica comprueba esa respuesta, no la existencia de una fuerza.",
-        "en": "First fix the model. Differentiating the potential and retaining eccentricity avoids errors before fitting any data. Numerical verification checks this response, not the existence of a force."
+        "es": "La información decisiva está también entre los puntos. Dos emuladores pueden tener las mismas bandas marginales y producir leyes posteriores distintas. En una malla finita, la equivalencia se decide exactamente con las medias y covarianzas de contraste: Db y DKDᵀ.",
+        "en": "Decisive information also lies between the points. Two emulators can have identical marginal bands and produce different posterior laws. On a finite grid, equivalence is determined exactly by contrast means and covariances: Db and DKDᵀ."
       }
     },
     {
-      "route": "gp",
-      "focus": "gp_check",
+      "route": "physics",
+      "focus": "physical_check",
       "title": {
-        "es": "Ley conjunta GP",
-        "en": "Joint GP law"
+        "es": "¿Qué respuesta física estamos ajustando?",
+        "en": "Which physical response are we fitting?"
       },
       "body": {
-        "es": "El punto central es la ley conjunta. Dos emuladores pueden compartir bandas marginales y producir leyes posteriores diferentes. El criterio Db, DKDᵀ convierte esta observación en una auditoría ejecutable.",
-        "en": "The central point is the joint law. Two emulators can share marginal bands yet produce different posterior laws. The Db, DKDᵀ criterion turns this observation into an executable audit."
+        "es": "La fuerza y la calibración deben salir del mismo modelo. Derivar el potencial Yukawa añade el factor (1 + r/λ) a la aceleración. Conservar la excentricidad cambia también la precesión. Contrastamos la fórmula de Bessel con cuadratura e integración orbital.",
+        "en": "Force and calibration must come from the same model. Differentiating the Yukawa potential adds the factor (1 + r/λ) to the acceleration. Retaining eccentricity also changes precession. We compare the Bessel formula with quadrature and orbital integration."
       }
     },
     {
       "route": "cassini",
       "focus": "cassini_check",
       "title": {
-        "es": "Jerarquía Cassini",
-        "en": "Cassini hierarchy"
+        "es": "Si los algoritmos coinciden, ¿qué queda por comprobar?",
+        "en": "When the algorithms agree, what remains to be checked?"
       },
       "body": {
-        "es": "La jerarquía sobre épocas reconstruidas permite comparar ruido y parámetros auxiliares. La mezcla mejora un diagnóstico agregado, pero la pasada 12 sigue siendo extrema. El fallo local permanece visible.",
-        "en": "The hierarchy over reconstructed epochs compares noise and nuisance parameters. The mixture improves an aggregate diagnostic, but pass 12 remains extreme. The local failure remains visible."
+        "es": "La predicción local pone a prueba al modelo. La jerarquía integra amplitud óptica, parámetros auxiliares y ruido correlacionado en 1696 épocas reconstruidas. Distintos motores numéricos coinciden. Una mezcla exploratoria mejora la predicción agregada y el análisis por pasadas localiza una discrepancia persistente.",
+        "en": "Local prediction puts the model to the test. The hierarchy integrates optical amplitude, nuisance parameters and correlated noise across 1696 reconstructed epochs. Different numerical engines agree. An exploratory mixture improves aggregate prediction, while pass-level analysis localizes a persistent discrepancy."
       }
     },
     {
       "route": "information",
       "focus": "information_check",
       "title": {
-        "es": "Información y decisión",
-        "en": "Information & decision"
+        "es": "¿Qué información necesita esta decisión?",
+        "en": "Which information does this decision need?"
       },
       "body": {
-        "es": "La cuestión no es prohibir la compresión, sino determinar qué destruye para una decisión concreta. Fisher, Rényi y el riesgo bayesiano permiten distinguir pérdida de signo, selección de colas e incertidumbre de mezcla.",
-        "en": "The issue is not banning compression, but determining what it destroys for a specific decision. Fisher, Rényi and Bayes risk distinguish sign loss, tail selection and mixture uncertainty."
+        "es": "La pérdida se mide respecto de un objetivo. Un resumen puede conservar una dirección útil y perder otra. Usamos Fisher, Rényi y riesgo bayesiano para distinguir esas pérdidas. K expresa la reducción de riesgo frente a decidir sin observaciones, para un prior y una pérdida declarados.",
+        "en": "Loss is measured against a target. A summary can preserve one useful direction and lose another. We use Fisher, Rényi and Bayes risk to distinguish these losses. K expresses risk reduction relative to deciding without observations, for a declared prior and loss."
+      }
+    },
+    {
+      "route": "cases",
+      "focus": "cases_operator",
+      "title": {
+        "es": "¿Cómo llega esta geometría a los datos?",
+        "en": "How does this geometry reach the data?"
+      },
+      "body": {
+        "es": "La covarianza decide qué contrastes sobreviven. En Gaia reconstruimos la covarianza por tránsito desde registros públicos. Una inflación diagonal puede conservar el modo común y alterar otros contrastes. En QUMOND verificamos por cuadratura una respuesta teórica al campo externo especificado.",
+        "en": "Covariance determines which contrasts survive. For Gaia we reconstruct transit covariance from public records. Diagonal inflation can preserve the common mode while changing other contrasts. For QUMOND we verify a theoretical response to the specified external field by quadrature."
       }
     },
     {
       "route": "dcae",
       "focus": "dcae_check",
       "title": {
-        "es": "DCAE y COSMOS",
-        "en": "DCAE & COSMOS"
+        "es": "¿Ver más equivale a inferir mejor?",
+        "en": "Does seeing more mean inferring better?"
       },
       "body": {
-        "es": "DCAE conserva una pregunta diferente: cómo cambia la relación entre escala física y acceso observacional. COSMOS muestra por qué no podemos transformar cobertura en capacidad inferencial. La v0.6 conserva componentes y protocolo; tres procedimientos no garantizan identificabilidad. El signo y los controles adversos acompañan al índice.",
-        "en": "DCAE retains a different question: how the relation between physical scale and observational access changes. COSMOS shows why coverage cannot be converted into inferential capability. v0.6 retains components and protocol; three procedures do not guarantee identifiability. The sign and adverse controls accompany the index."
+        "es": "Cobertura y capacidad inferencial son preguntas distintas. DCAE describe el cambio relativo entre la extensión física y el acceso observacional definido por un procedimiento. En las tablas COSMOS, coberturas muy parecidas producen resultados cuyo orden cambia con el observable y la tolerancia.",
+        "en": "Coverage and inferential ability are different questions. DCAE describes relative change between physical extent and observational access defined by a procedure. In the COSMOS tables, very similar coverage produces results whose ordering changes with the observable and tolerance."
+      }
+    }
+  ],
+  "experience_version": "2.0",
+  "hero": {
+    "es": "Una prueba de gravedad es tan sólida como la información que conserva.",
+    "en": "A gravity test is only as strong as the information it preserves."
+  },
+  "lead": {
+    "es": "Seguimos la señal desde la respuesta física hasta la conclusión. Seis recorridos muestran qué calculamos, cómo lo comprobamos y qué cambia al interpretar el resultado.",
+    "en": "Follow the signal from physical response to conclusion. Six paths show what we calculated, how we checked it, and what changes when the result is interpreted."
+  },
+  "chapters": [
+    {
+      "route": "gp",
+      "focus": "gp_result",
+      "question": {
+        "es": "¿Basta con reproducir las barras de error?",
+        "en": "Is reproducing the error bars enough?"
+      },
+      "answer": {
+        "es": "La información decisiva está también entre los puntos.",
+        "en": "Decisive information also lies between the points."
+      },
+      "explanation": {
+        "es": "Dos emuladores pueden tener las mismas bandas marginales y producir leyes posteriores distintas. En una malla finita, la equivalencia se decide exactamente con las medias y covarianzas de contraste: Db y DKDᵀ.",
+        "en": "Two emulators can have identical marginal bands and produce different posterior laws. On a finite grid, equivalence is determined exactly by contrast means and covariances: Db and DKDᵀ."
+      },
+      "why": {
+        "es": "Esto convierte una impresión visual en una comparación verificable. Las distancias entre leyes cuantifican el efecto; FractalGo permite explorar la conectividad sobre un grafo fijo.",
+        "en": "This turns a visual impression into a testable comparison. Distances between laws quantify the effect; FractalGo explores connectivity on a fixed graph."
+      },
+      "evidence": {
+        "es": "Demostración en malla finita y controles sintéticos de covarianza.",
+        "en": "Finite-grid proof and synthetic covariance controls."
+      },
+      "metric": {
+        "es": "Db · DKDᵀ",
+        "en": "Db · DKDᵀ"
+      },
+      "label": {
+        "es": "Criterio exacto de contraste",
+        "en": "Exact contrast criterion"
+      }
+    },
+    {
+      "route": "physics",
+      "focus": "physical_check",
+      "question": {
+        "es": "¿Qué respuesta física estamos ajustando?",
+        "en": "Which physical response are we fitting?"
+      },
+      "answer": {
+        "es": "La fuerza y la calibración deben salir del mismo modelo.",
+        "en": "Force and calibration must come from the same model."
+      },
+      "explanation": {
+        "es": "Derivar el potencial Yukawa añade el factor (1 + r/λ) a la aceleración. Conservar la excentricidad cambia también la precesión. Contrastamos la fórmula de Bessel con cuadratura e integración orbital.",
+        "en": "Differentiating the Yukawa potential adds the factor (1 + r/λ) to the acceleration. Retaining eccentricity also changes precession. We compare the Bessel formula with quadrature and orbital integration."
+      },
+      "why": {
+        "es": "Una plantilla precisa permite atribuir una diferencia al ajuste correcto. Las acciones métricas, híbridas y de Palatini se distinguen por los modos físicos que admiten.",
+        "en": "A precise template lets a difference be assigned to the correct fit. Metric, hybrid and Palatini actions are distinguished by the physical modes they support."
+      },
+      "evidence": {
+        "es": "Respuesta fenomenológica y verificación perturbativa de dos cuerpos.",
+        "en": "Phenomenological response and two-body perturbative verification."
+      },
+      "metric": {
+        "es": "Bessel · cuadratura · órbita",
+        "en": "Bessel · quadrature · orbit"
+      },
+      "label": {
+        "es": "Tres rutas de verificación",
+        "en": "Three verification routes"
+      }
+    },
+    {
+      "route": "cassini",
+      "focus": "cassini_check",
+      "question": {
+        "es": "Si los algoritmos coinciden, ¿qué queda por comprobar?",
+        "en": "When the algorithms agree, what remains to be checked?"
+      },
+      "answer": {
+        "es": "La predicción local pone a prueba al modelo.",
+        "en": "Local prediction puts the model to the test."
+      },
+      "explanation": {
+        "es": "La jerarquía integra amplitud óptica, parámetros auxiliares y ruido correlacionado en 1696 épocas reconstruidas. Distintos motores numéricos coinciden. Una mezcla exploratoria mejora la predicción agregada y el análisis por pasadas localiza una discrepancia persistente.",
+        "en": "The hierarchy integrates optical amplitude, nuisance parameters and correlated noise across 1696 reconstructed epochs. Different numerical engines agree. An exploratory mixture improves aggregate prediction, while pass-level analysis localizes a persistent discrepancy."
+      },
+      "why": {
+        "es": "La pasada del 24–25 de junio de 2002 señala dónde investigar el modelo temporal y la reconstrucción instrumental. La concordancia computacional y la adecuación predictiva responden preguntas diferentes.",
+        "en": "The June 24–25, 2002 pass identifies where to investigate the temporal model and instrumental reconstruction. Computational agreement and predictive adequacy answer different questions."
+      },
+      "evidence": {
+        "es": "Reconstrucción condicionada; diagnóstico exploratorio con 1024 réplicas. Cero excedencias no equivale a probabilidad cero.",
+        "en": "Conditional reconstruction; exploratory diagnostic with 1024 replicates. Zero exceedances is not zero probability."
+      },
+      "metric": {
+        "es": "0 / 1024",
+        "en": "0 / 1024"
+      },
+      "label": {
+        "es": "Excedencias en la pasada 12",
+        "en": "Exceedances in pass 12"
+      }
+    },
+    {
+      "route": "information",
+      "focus": "information_check",
+      "question": {
+        "es": "¿Qué información necesita esta decisión?",
+        "en": "Which information does this decision need?"
+      },
+      "answer": {
+        "es": "La pérdida se mide respecto de un objetivo.",
+        "en": "Loss is measured against a target."
+      },
+      "explanation": {
+        "es": "Un resumen puede conservar una dirección útil y perder otra. Usamos Fisher, Rényi y riesgo bayesiano para distinguir esas pérdidas. K expresa la reducción de riesgo frente a decidir sin observaciones, para un prior y una pérdida declarados.",
+        "en": "A summary can preserve one useful direction and lose another. We use Fisher, Rényi and Bayes risk to distinguish these losses. K expresses risk reduction relative to deciding without observations, for a declared prior and loss."
+      },
+      "why": {
+        "es": "Podemos comparar transformaciones por lo que permiten decidir, y conservar la información local que un indicador agregado dejaría oculta.",
+        "en": "We can compare transformations by the decisions they support, retaining local information that an aggregate indicator would hide."
+      },
+      "evidence": {
+        "es": "Identidades bajo supuestos explícitos y controles generativos de mezcla.",
+        "en": "Identities under explicit assumptions and generative mixture controls."
+      },
+      "metric": {
+        "es": "K = 1 − R(E)/R(∅)",
+        "en": "K = 1 − R(E)/R(∅)"
+      },
+      "label": {
+        "es": "Reducción relativa de riesgo",
+        "en": "Relative risk reduction"
       }
     },
     {
       "route": "cases",
-      "focus": "cases_check",
-      "title": {
-        "es": "Casos y alcance",
-        "en": "Cases & scope"
+      "focus": "cases_operator",
+      "question": {
+        "es": "¿Cómo llega esta geometría a los datos?",
+        "en": "How does this geometry reach the data?"
       },
-      "body": {
-        "es": "Los casos complementarios examinan covarianza, calibración y predicciones específicas. El cierre es una herramienta reproducible para auditar inferencias, con límites instrumentales explícitos y resultados adversos conservados.",
-        "en": "Complementary cases examine covariance, calibration and specific predictions. The outcome is a reproducible tool for auditing inference, with explicit instrumental limits and adverse results retained."
+      "answer": {
+        "es": "La covarianza decide qué contrastes sobreviven.",
+        "en": "Covariance determines which contrasts survive."
+      },
+      "explanation": {
+        "es": "En Gaia reconstruimos la covarianza por tránsito desde registros públicos. Una inflación diagonal puede conservar el modo común y alterar otros contrastes. En QUMOND verificamos por cuadratura una respuesta teórica al campo externo especificado.",
+        "en": "For Gaia we reconstruct transit covariance from public records. Diagonal inflation can preserve the common mode while changing other contrasts. For QUMOND we verify a theoretical response to the specified external field by quadrature."
+      },
+      "why": {
+        "es": "Los casos conectan la auditoría estadística con objetos físicos concretos. Cada comparación conserva su observable, su diseño y sus condiciones de contorno.",
+        "en": "These cases connect statistical auditing to concrete physical objects. Each comparison retains its observable, design and boundary conditions."
+      },
+      "evidence": {
+        "es": "Registros ESA a diseño fijo y cuadratura teórica QUMOND; controles complementarios en el suplemento.",
+        "en": "ESA records at fixed design and theoretical QUMOND quadrature; complementary controls in the supplement."
+      },
+      "metric": {
+        "es": "Gaia · QUMOND",
+        "en": "Gaia · QUMOND"
+      },
+      "label": {
+        "es": "Dos geometrías, dos contrastes",
+        "en": "Two geometries, two tests"
+      }
+    },
+    {
+      "route": "dcae",
+      "focus": "dcae_check",
+      "question": {
+        "es": "¿Ver más equivale a inferir mejor?",
+        "en": "Does seeing more mean inferring better?"
+      },
+      "answer": {
+        "es": "Cobertura y capacidad inferencial son preguntas distintas.",
+        "en": "Coverage and inferential ability are different questions."
+      },
+      "explanation": {
+        "es": "DCAE describe el cambio relativo entre la extensión física y el acceso observacional definido por un procedimiento. En las tablas COSMOS, coberturas muy parecidas producen resultados cuyo orden cambia con el observable y la tolerancia.",
+        "en": "DCAE describes relative change between physical extent and observational access defined by a procedure. In the COSMOS tables, very similar coverage produces results whose ordering changes with the observable and tolerance."
+      },
+      "why": {
+        "es": "Conservar componente, referencia y signo permite distinguir crecimiento y recuperación del acceso. La identificabilidad se examina además con el operador y la ley conjunta.",
+        "en": "Retaining component, baseline and sign distinguishes growing disparity from recovery of access. Identifiability is additionally examined through the operator and joint law."
+      },
+      "evidence": {
+        "es": "Formalización v0.6 y reanálisis de tablas. La medición cosmológica física del DCAE sigue pendiente.",
+        "en": "Version 0.6 formalization and table reanalysis. Physical cosmological DCAE measurement remains pending."
+      },
+      "metric": {
+        "es": "I↑ⱼ = [1 − ℛⱼ]₊",
+        "en": "I↑ⱼ = [1 − ℛⱼ]₊"
+      },
+      "label": {
+        "es": "Acceso relativo por procedimiento",
+        "en": "Procedure-specific relative access"
       }
     }
   ],
-  "content_sha256": "ab0cb2ad30b4e0d8ba638159e48ba925b125b9ba31390e392bc08a947685719d"
+  "content_sha256": "90ed9ecb83132006af96039d4507985541ce849968a65a8cf2d96406c8989fcc"
 }

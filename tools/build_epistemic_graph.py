@@ -2,6 +2,8 @@
 """Build bilingual offline graph, evidence bundle and print diagrams from one model."""
 from pathlib import Path
 import json, hashlib, datetime, math, csv
+from html import escape
+from atlas_content import enhance, static_cards
 R=Path(__file__).resolve().parents[1]
 OUT=R/'ui/epistemic'; OUT.mkdir(parents=True,exist_ok=True)
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
@@ -138,13 +140,20 @@ for n in nodes:
  n['evidence_class']=bi(n['evidence_class'].replace('Scope','Alcance').replace(' · tablas / tables',' · tablas'),n['evidence_class'].replace(' · tablas / tables',' · tables'))
 
 # Snapshot identity is based on content, not a manually copied count.
+enhance(model)
 payload=json.dumps(model,ensure_ascii=False,sort_keys=True,separators=(',',':'))
 model['content_sha256']=hashlib.sha256(payload.encode()).hexdigest()
 (OUT/'graph.json').write_text(json.dumps(model,ensure_ascii=False,indent=2)+'\n')
 template=(OUT/'template.html').read_text()
 encoded=json.dumps(model,ensure_ascii=False).replace('<','\\u003c')
 for lang in ['es','en']:
- (OUT/f'epistemic_graph_{lang}.html').write_text(template.replace('__MODEL__',encoded).replace('__LANG__',lang))
+ labels={'TITLE':model['title'][lang],'HERO':model['hero'][lang],'LEAD':model['lead'][lang]}
+ pairs={'HELP':('Cómo usarlo','How to use it'),'EYEBROW':('GRAVITAS · Atlas de la investigación','GRAVITAS · Research atlas'),'START':('Empezar el recorrido','Start the tour'),'MAP':('Explorar el mapa','Explore the map'),'COMPAT':('Este resumen también funciona sin JavaScript. Abrí el archivo en un navegador para explorar el mapa interactivo.','This summary also works without JavaScript. Open the file in a browser to explore the interactive map.'),'OVERVIEW':('La investigación de un vistazo','Research at a glance'),'TOUR':('Recorrido guiado','Guided tour'),'SUMMARY':('Seis preguntas conectan resultados, cálculos y evidencia.','Six questions connect results, calculations and evidence.'),'FOOT':('Explorá cada resultado y seguí sus fuentes.','Explore each result and follow its sources.')}
+ labels.update({k:v[0 if lang=='es' else 1] for k,v in pairs.items()})
+ html=template
+ for k,v in labels.items():html=html.replace('__'+k+'__',escape(v))
+ html=html.replace('__CARDS__',static_cards(model,lang)).replace('__MODEL__',encoded).replace('__LANG__',lang)
+ (OUT/f'epistemic_graph_{lang}.html').write_text(html)
 checks={'unique_nodes':len({n['id'] for n in nodes})==len(nodes),'unique_edges':len({e['id'] for e in edges})==len(edges),'valid_edges':all(e[k] in {n['id'] for n in nodes} for e in edges for k in ['source','target']),'all_evidence_present':all((R/p).is_file() for p in artifacts),'bilingual_nodes':all(set(n[k])=={'es','en'} for n in nodes for k in ['title','summary','limits']),'source_hashes_match':all(sha(R/p)==v['sha256'] for p,v in artifacts.items()),'cassini_failure_retained':c['mixture_ppc']['pass_tail_fractions'][11]==0,'DCAE_not_estimable_retained':d['dcae_cosmic_web_gate']['state']=='NOT_ESTIMABLE_DCAE'}
 assert all(checks.values()),checks
 (OUT/'validation.json').write_text(json.dumps({'scope':'Graph structure and artifact integrity, not physical validation','nodes':len(nodes),'edges':len(edges),'artifacts':len(artifacts),'content_sha256':model['content_sha256'],'checks':checks},indent=2)+'\n')
