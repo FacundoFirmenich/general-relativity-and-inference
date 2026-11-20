@@ -13,4 +13,4 @@ Cassini graph: chronological adjacency within pass; gaps exceeding twice that pa
 Retain every node ID, original row, timestamp, edge and input hash. No capture/deletion, collision displacement, invented dimensions or independent likelihood factors from derived summaries. The prototype does not estimate a fractal dimension or validate the entire FractalGo construct.
 
 
-Independent FractalGo distribution: [fe4fecd](https://github.com/FacundoFirmenich/fractal-go/tree/fe4fecdc44340fbadcbf1fdf3f226bad0a7661fa). DOI pending. This copy retains the same operators; the independent repository adds a dedicated interface and standalone reproduction.
+Independent FractalGo distribution: [fe4fecd](https://github.com/FacundoFirmenich/fractal-go/tree/fe4fecdc44340fbadcbf1fdf3f226bad0a7661fa). DOI: 10.5281/zenodo.24383318. This copy retains the same operators; the independent repository adds a dedicated interface and standalone reproduction.

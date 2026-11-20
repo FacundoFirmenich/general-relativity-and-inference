@@ -34,4 +34,4 @@ Each screen links evidence and limitations. Distinguish mathematical identities,
 
 [DCAE v0.6: componentwise definition and controls](DCAE_V06_EN.md).
 
-[FractalGo: independent software](https://github.com/FacundoFirmenich/fractal-go/tree/fe4fecdc44340fbadcbf1fdf3f226bad0a7661fa) · DOI pending.
+[FractalGo: independent software](https://github.com/FacundoFirmenich/fractal-go/tree/fe4fecdc44340fbadcbf1fdf3f226bad0a7661fa) · DOI: 10.5281/zenodo.24383318.

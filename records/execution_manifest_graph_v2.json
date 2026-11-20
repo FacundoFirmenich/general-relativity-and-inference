@@ -15,7 +15,7 @@
       ],
       "exit_status": 0,
       "log": "records/graph_00.log",
-      "runtime_seconds": 0.051708221435546875
+      "runtime_seconds": 0.051847219467163086
     },
     {
       "argv": [
@@ -24,7 +24,7 @@
       ],
       "exit_status": 0,
       "log": "records/graph_01.log",
-      "runtime_seconds": 0.02585434913635254
+      "runtime_seconds": 0.024660348892211914
     }
   ],
   "environment": {
@@ -98,8 +98,8 @@
     "seeds": "Explicit in each module: 20261117; 20261118/19; 20261200--20261400"
   },
   "run": {
-    "started_at": "2026-11-20T00:27:44.200753+00:00",
-    "runtime_seconds": 0.2064962387084961,
+    "started_at": "2026-11-20T00:40:40.370120+00:00",
+    "runtime_seconds": 0.21021509170532227,
     "status": "completed",
     "exit_status": 0
   },
@@ -431,23 +431,23 @@
     },
     {
       "path": "docs/FRACTALGO_EN.md",
-      "sha256": "c39ea9d88b55ece486e1f0660a4c5062306157b7a3c69a2dc59f9002903b7352",
-      "sha256_after": "c39ea9d88b55ece486e1f0660a4c5062306157b7a3c69a2dc59f9002903b7352"
+      "sha256": "cba00c8db081934507f0c9a59c1bd34e14858093b2d2c1d70901da08511b385c",
+      "sha256_after": "cba00c8db081934507f0c9a59c1bd34e14858093b2d2c1d70901da08511b385c"
     },
     {
       "path": "docs/FRACTALGO_ES.md",
-      "sha256": "8fc3056921f899bf170e19d26259c388631ba071843dd8201601d0c0e06c1fe3",
-      "sha256_after": "8fc3056921f899bf170e19d26259c388631ba071843dd8201601d0c0e06c1fe3"
+      "sha256": "804b169a4326449ac6fa34706c3fef39dfd94b00ec824068015fd976234a55de",
+      "sha256_after": "804b169a4326449ac6fa34706c3fef39dfd94b00ec824068015fd976234a55de"
     },
     {
       "path": "docs/GUIDE_EN.md",
-      "sha256": "1ece53c07f7e9a28543efaa9e63873c52f677acb0646c58da770b91746284701",
-      "sha256_after": "1ece53c07f7e9a28543efaa9e63873c52f677acb0646c58da770b91746284701"
+      "sha256": "daa4050335b38812102b0d54c46b444c9eae0401992c60ffc601dcc3371ed2d7",
+      "sha256_after": "daa4050335b38812102b0d54c46b444c9eae0401992c60ffc601dcc3371ed2d7"
     },
     {
       "path": "docs/GUIDE_ES.md",
-      "sha256": "adcb40de011a27d77cdec4dcd1c41bd3d5114f3dfc821d33002cedad46e266c4",
-      "sha256_after": "adcb40de011a27d77cdec4dcd1c41bd3d5114f3dfc821d33002cedad46e266c4"
+      "sha256": "2f00fe35fd50774252599bc21f5c9372a6ea2cc3b6ea6ad923ba86b55d6fe427",
+      "sha256_after": "2f00fe35fd50774252599bc21f5c9372a6ea2cc3b6ea6ad923ba86b55d6fe427"
     },
     {
       "path": "docs/INFORMATION_EN.md",
@@ -846,8 +846,8 @@
     },
     {
       "path": "research/fractalgo/CONTRACT.md",
-      "sha256": "0e1ea4b1471ebd3eef55f23c534d4429b92aee0938a5d9c884e5d0e8dd61155f",
-      "sha256_after": "0e1ea4b1471ebd3eef55f23c534d4429b92aee0938a5d9c884e5d0e8dd61155f"
+      "sha256": "8fb48031d4df56afa1e666b275bd5b538bb01507db7c0f46e5374c1109469d75",
+      "sha256_after": "8fb48031d4df56afa1e666b275bd5b538bb01507db7c0f46e5374c1109469d75"
     },
     {
       "path": "research/fractalgo/core.py",
@@ -1196,7 +1196,7 @@
     },
     {
       "path": "figures/en/epistemic_graph.tex",
-      "sha256": "a8ee3d9531273fbf24043fff5f5955a168eb00f6587f132074bc648d09ec4c8d"
+      "sha256": "56b2bfcefbf7c1b206e021b649dcba4fdc668c023c2eaa20a5faebeba44c8eb7"
     },
     {
       "path": "figures/en/gaia_reconstruction.pdf",
@@ -1292,7 +1292,7 @@
     },
     {
       "path": "figures/es/epistemic_graph.tex",
-      "sha256": "176c2489e69be3c582274efb4511daf2d0802be7e1a66fc03fd84e56edde9112"
+      "sha256": "f2c7784882bf81d9955c648ebdb38c8e2a9542d2687ee6cfb9d4abbad7edeead"
     },
     {
       "path": "figures/es/gaia_reconstruction.pdf",
@@ -1652,15 +1652,15 @@
     },
     {
       "path": "ui/epistemic/epistemic_graph_en.html",
-      "sha256": "8ce892f372e0527fc48d337103bad93ba4525ea0a3becbd7a9e9cc16b8c51650"
+      "sha256": "3483ba265e7e9533c703d1d1279f5f46c9147d7b9e4255c940249c5578fb6a20"
     },
     {
       "path": "ui/epistemic/epistemic_graph_es.html",
-      "sha256": "b6646756e55e0930529725f3daa1f26c21b418164791ad09284f4436db15c549"
+      "sha256": "2643d8039147c6600284b0618b674acc5c222265fdc22966d36514af7763ff85"
     },
     {
       "path": "ui/epistemic/graph.json",
-      "sha256": "db7c3d23b7df0cac269c773036fdd490b6e632fa95cda20e547636aea68f6366"
+      "sha256": "a6caad3a7ec9c4691934d2c89182f29e47c32085951f7b665e941f001a6bd0b8"
     },
     {
       "path": "ui/epistemic/template.html",
@@ -1668,7 +1668,7 @@
     },
     {
       "path": "ui/epistemic/validation.json",
-      "sha256": "03e5eed97479a35a8807e64c622ede38645a0a617fae22e2d02e2215b7b63f1c"
+      "sha256": "5221af8b3144d02bcb5e0466328ca8d90371c6f929b7131385ac1ae8d60824c7"
     },
     {
       "path": "platform/audit_runs/verification.json",

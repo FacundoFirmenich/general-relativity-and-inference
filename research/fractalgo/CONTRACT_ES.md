@@ -13,4 +13,4 @@ Grafo Cassini: adyacencia cronológica dentro de pasada; huecos mayores que dos 
 Conservar IDs, filas, tiempos, aristas y hashes; sin capturas/eliminación, desplazamiento de colisiones, dimensiones inventadas ni factores de likelihood independientes derivados de los mismos datos. No se estima dimensión fractal ni se valida el constructo completo.
 
 
-Distribución independiente FractalGo: [fe4fecd](https://github.com/FacundoFirmenich/fractal-go/tree/fe4fecdc44340fbadcbf1fdf3f226bad0a7661fa). DOI pendiente. Esta copia conserva los mismos operadores; el repositorio independiente incluye interfaz propia y reproducción autónoma.
+Distribución independiente FractalGo: [fe4fecd](https://github.com/FacundoFirmenich/fractal-go/tree/fe4fecdc44340fbadcbf1fdf3f226bad0a7661fa). DOI: 10.5281/zenodo.24383318. Esta copia conserva los mismos operadores; el repositorio independiente incluye interfaz propia y reproducción autónoma.

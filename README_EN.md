@@ -50,4 +50,6 @@ Numerical convergence does not prove new physics. Cassini uses reconstructed epo
 
 Post-v1.11 update: [canonical DCAE v0.6](docs/DCAE_V06_EN.md), with executable componentwise controls. The archived version tag and DOI have not been changed.
 
-Independent FractalGo software: [version 0.1.0](https://github.com/FacundoFirmenich/fractal-go/tree/fe4fecdc44340fbadcbf1fdf3f226bad0a7661fa); DOI pending.
+Independent FractalGo software: [version 0.1.0](https://github.com/FacundoFirmenich/fractal-go/tree/fe4fecdc44340fbadcbf1fdf3f226bad0a7661fa); DOI: 10.5281/zenodo.24383318.
+
+FractalGo v0.1.0: [10.5281/zenodo.24383318](https://doi.org/10.5281/zenodo.24383318) · All versions: [10.5281/zenodo.24383317](https://doi.org/10.5281/zenodo.24383317).

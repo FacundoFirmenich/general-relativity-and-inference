@@ -1,0 +1,127 @@
+{
+  "created": "2026-11-20T00:38:50.756278+00:00",
+  "modified": "2026-11-20T00:38:50.866440+00:00",
+  "id": 24383318,
+  "conceptrecid": "24383317",
+  "doi": "10.5281/zenodo.24383318",
+  "conceptdoi": "10.5281/zenodo.24383317",
+  "doi_url": "https://doi.org/10.5281/zenodo.24383318",
+  "metadata": {
+    "title": "FractalGo: reproducible topological diagnostics / Diagn\u00f3sticos topol\u00f3gicos reproducibles",
+    "doi": "10.5281/zenodo.24383318",
+    "publication_date": "2026-11-20",
+    "description": "Bilingual software for finite-graph excursion diagnostics, conditional GP controls and reconstructed Cassini residuals. Software biling\u00fce de diagn\u00f3stico por excursiones en grafos finitos, controles GP condicionados y residuos reconstruidos de Cassini.",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "Firmenich, Facundo",
+        "affiliation": null,
+        "orcid": "0009-0002-6578-3811"
+      }
+    ],
+    "keywords": [
+      "topological diagnostics",
+      "Gaussian processes",
+      "reproducibility",
+      "Cassini",
+      "FractalGo"
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/FacundoFirmenich/fractal-go/tree/v0.1.0",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ],
+    "version": "0.1.0",
+    "custom": {
+      "code:codeRepository": "https://github.com/FacundoFirmenich/fractal-go"
+    },
+    "resource_type": {
+      "title": "Software",
+      "type": "software"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "24383317"
+          }
+        }
+      ]
+    }
+  },
+  "title": "FractalGo: reproducible topological diagnostics / Diagn\u00f3sticos topol\u00f3gicos reproducibles",
+  "links": {
+    "self": "https://zenodo.org/api/records/24383318",
+    "self_html": "https://zenodo.org/records/24383318",
+    "preview_html": "https://zenodo.org/records/24383318?preview=1",
+    "doi": "https://doi.org/10.5281/zenodo.24383318",
+    "self_doi": "https://doi.org/10.5281/zenodo.24383318",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.24383318",
+    "reserve_doi": "https://zenodo.org/api/records/24383318/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/24383317",
+    "parent_html": "https://zenodo.org/records/24383317",
+    "parent_doi": "https://doi.org/10.5281/zenodo.24383317",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.24383317",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:24383318/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:24383318/sequence/default",
+    "files": "https://zenodo.org/api/records/24383318/files",
+    "media_files": "https://zenodo.org/api/records/24383318/media-files",
+    "latest": "https://zenodo.org/api/records/24383318/versions/latest",
+    "latest_html": "https://zenodo.org/records/24383318/latest",
+    "versions": "https://zenodo.org/api/records/24383318/versions",
+    "draft": "https://zenodo.org/api/records/24383318/draft",
+    "access_links": "https://zenodo.org/api/records/24383318/access/links",
+    "access_grants": "https://zenodo.org/api/records/24383318/access/grants",
+    "access_users": "https://zenodo.org/api/records/24383318/access/users",
+    "access_request": "https://zenodo.org/api/records/24383318/access/request",
+    "access": "https://zenodo.org/api/records/24383318/access",
+    "communities": "https://zenodo.org/api/records/24383318/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/24383318/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/24383318/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/24383318/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/24383318/quota-increase",
+    "requests": "https://zenodo.org/api/records/24383318/requests"
+  },
+  "updated": "2026-11-20T00:38:50.866440+00:00",
+  "recid": "24383318",
+  "revision": 4,
+  "files": [
+    {
+      "id": "b2fb24a0-3921-4382-b9aa-2ed06527d6f3",
+      "key": "FacundoFirmenich/fractal-go-v0.1.0.zip",
+      "size": 20896420,
+      "checksum": "md5:e3f05144bbf86db7efaa86020afa8fc8",
+      "links": {
+        "self": "https://zenodo.org/api/records/24383318/files/FacundoFirmenich/fractal-go-v0.1.0.zip/content"
+      }
+    }
+  ],
+  "swh": {},
+  "owners": [
+    {
+      "id": "1454443"
+    }
+  ],
+  "status": "published",
+  "stats": {
+    "downloads": 0,
+    "unique_downloads": 0,
+    "views": 0,
+    "unique_views": 0,
+    "version_downloads": 0,
+    "version_unique_downloads": 0,
+    "version_unique_views": 0,
+    "version_views": 0
+  },
+  "state": "done",
+  "submitted": true
+}
