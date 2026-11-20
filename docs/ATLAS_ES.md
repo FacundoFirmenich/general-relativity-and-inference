@@ -4,7 +4,7 @@
 
 Seis preguntas, recorrido con pausa, mapa arrastrable, filtros y evidencia descargable. El resumen puede leerse sin JavaScript.
 
-La tipografía del mapa impreso usa títulos en minúsculas y separación ampliada entre encabezados y cajas.
+La tipografía del mapa impreso usa Open Sans, títulos en mayúsculas y separación ampliada entre encabezados y cajas.
 
 DOM tests: `npm install --no-save jsdom` · `node tools/test_epistemic_dom.cjs`.
 Browser tests (Playwright + Chromium): `python tools/test_epistemic_graph.py`.
