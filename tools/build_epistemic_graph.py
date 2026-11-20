@@ -92,6 +92,19 @@ for n in nodes:
  if n['id']=='cases_check':
   n['artifacts'] += [artifact('platform/fermi_review/results/hunter_exact_replay.json'),artifact('platform/fermi_review/photon_followup/results/execution.json')]
   n['summary']=bi('Se reproduce un desplazamiento de columnas Fermi-LAT y se reejecutan selecciones de eventos; controles de software, no validación de GR.','A Fermi-LAT column shift is reproduced and event selections are rerun; software controls, not GR validation.')
+# Result-led narrative; conditions and unresolved diagnostics stay in the node evidence.
+for n in nodes:
+ if n['id']=='cassini_check':
+  n['title']=bi('Localizar la discrepancia','Localize the discrepancy')
+  n['summary']=bi('La predicción por bloques identifica la pasada 12, del 24–25 de junio de 2002, como discrepancia temporal persistente.','Blocked prediction identifies pass 12, June 24–25, 2002, as a persistent temporal discrepancy.')
+ if n['id']=='gp_inference':
+  n['summary']=bi('La ley de contrastes sustenta la auditoría; la cota TV ≤ tanh(ω/4) cuantifica estabilidad y FractalGo examina conectividad sobre un grafo declarado.','The contrast law supports the audit; the TV ≤ tanh(ω/4) bound quantifies stability and FractalGo examines connectivity on a declared graph.')
+ if n['id']=='physical_limit':
+  n['title']=bi('Del cálculo a la medición','From computation to measurement')
+  n['summary']=bi('La respuesta verificada define la plantilla cuya amplitud debe estimarse mediante el modelo instrumental y el reajuste físico.','The verified response defines the template whose amplitude must be estimated through the instrumental model and physical refit.')
+ if n['id']=='cases_check':
+  n['summary']=bi('Refinamientos y hashes enlazan los cálculos con sus fuentes. El control Fermi-LAT identifica un desplazamiento de columnas y reproduce selecciones de eventos.','Refinements and hashes link calculations to their sources. The Fermi-LAT control identifies a column shift and reproduces event selections.')
+
 # Do not embed executable sources; evidence text is downloadable as inert data.
 model=dict(schema='gravitas.epistemic.1',title=bi('Relatividad general y métodos de inferencia','General Relativity and Inference Methods'),subtitle=bi('Identificabilidad, pruebas de estrés y revisión en profundidad','Identifiability, Stress Testing, and Probing Review'),author='Facundo Firmenich',orcid='0009-0002-6578-3811',edition='1.11 · integración / integration',reference='https://github.com/FacundoFirmenich/KwanTube/blob/main/outputs_data/interactive/epistemic_graph.html',columns=[bi(*x) for x in [('Supuestos','Assumptions'),('Operadores','Operators'),('Resultados','Results'),('Comprobaciones','Checks'),('Inferencia','Inference'),('Límites','Boundaries')]],routes=route_names,nodes=nodes,edges=edges,artifacts=artifacts)
 model['tour']=[dict(route=r,focus=r+'_check',title=route_names[r],body=bi(*txt)) for r,txt in [

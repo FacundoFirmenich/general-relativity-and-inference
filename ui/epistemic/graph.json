@@ -225,12 +225,12 @@
       "route": "physics",
       "column": 5,
       "title": {
-        "es": "Validación física abierta",
-        "en": "Physical validation remains open"
+        "es": "Del cálculo a la medición",
+        "en": "From computation to measurement"
       },
       "summary": {
-        "es": "El cálculo correcto de una respuesta no demuestra que exista una fuerza nueva.",
-        "en": "A correctly calculated response does not demonstrate a new force."
+        "es": "La respuesta verificada define la plantilla cuya amplitud debe estimarse mediante el modelo instrumental y el reajuste físico.",
+        "en": "The verified response defines the template whose amplitude must be estimated through the instrumental model and physical refit."
       },
       "formula": {
         "es": "cálculo ≠ detección",
@@ -383,8 +383,8 @@
         "en": "Operational audit"
       },
       "summary": {
-        "es": "Auditoría de leyes de contraste y, por separado, cota TV ≤ tanh(ω/4) para dos posteriores sobre la malla.",
-        "en": "Contrast-law audit and, separately, a TV ≤ tanh(ω/4) bound for two posteriors on the grid."
+        "es": "La ley de contrastes sustenta la auditoría; la cota TV ≤ tanh(ω/4) cuantifica estabilidad y FractalGo examina conectividad sobre un grafo declarado.",
+        "en": "The contrast law supports the audit; the TV ≤ tanh(ω/4) bound quantifies stability and FractalGo examines connectivity on a declared graph."
       },
       "formula": {
         "es": "soporte → distancia → decisión",
@@ -542,12 +542,12 @@
       "route": "cassini",
       "column": 3,
       "title": {
-        "es": "Discrepancia que persiste",
-        "en": "Persistent discrepancy"
+        "es": "Localizar la discrepancia",
+        "en": "Localize the discrepancy"
       },
       "summary": {
-        "es": "La mejora agregada no elimina el extremo local de la pasada 12, del 24–25 de junio de 2002.",
-        "en": "Aggregate improvement does not remove the local extreme in pass 12, June 24–25, 2002."
+        "es": "La predicción por bloques identifica la pasada 12, del 24–25 de junio de 2002, como discrepancia temporal persistente.",
+        "en": "Blocked prediction identifies pass 12, June 24–25, 2002, as a persistent temporal discrepancy."
       },
       "formula": {
         "es": "pasada 12: 0 / 1024 réplicas",
@@ -1111,8 +1111,8 @@
         "en": "Convergence and provenance"
       },
       "summary": {
-        "es": "Se reproduce un desplazamiento de columnas Fermi-LAT y se reejecutan selecciones de eventos; controles de software, no validación de GR.",
-        "en": "A Fermi-LAT column shift is reproduced and event selections are rerun; software controls, not GR validation."
+        "es": "Refinamientos y hashes enlazan los cálculos con sus fuentes. El control Fermi-LAT identifica un desplazamiento de columnas y reproduce selecciones de eventos.",
+        "en": "Refinements and hashes link calculations to their sources. The Fermi-LAT control identifies a column shift and reproduces event selections."
       },
       "formula": {
         "es": "registros + SHA-256",
@@ -1914,5 +1914,5 @@
       }
     }
   ],
-  "content_sha256": "dbdb0d378d44627ff0cc8ebb80e5aa0349ffba08684fdcf4dfbfb5f67ddb3c2b"
+  "content_sha256": "ab0cb2ad30b4e0d8ba638159e48ba925b125b9ba31390e392bc08a947685719d"
 }

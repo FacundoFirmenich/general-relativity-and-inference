@@ -20,7 +20,7 @@ A visual platform for statistical and physical auditing: Cassini, GP emulators, 
 - Linux: `bash OPEN_GRAVITAS.bash`.
 - macOS: open `OPEN_GRAVITAS.command`.
 - Self-contained notebook: `GRAVITAS_EN.ipynb`; also usable in Colab from mobile.
-- Graph without installation: `ui/epistemic/epistemic_graph_en.html`.
+- Graph without installation: [interactive graph EN](ui/epistemic/epistemic_graph_en.html).
 
 Python 3.13 recommended. First installation needs Internet; the local server binds to 127.0.0.1. Windows/macOS launchers have not been executed on their native systems.
 
@@ -43,7 +43,7 @@ The `reproduce.bat`, `.bash` and `.command` launchers prepare the environment an
 - [FractalGo](research/fractalgo/CONTRACT_EN.md)
 - [Contributing](CONTRIBUTING_EN.md)
 
-Numerical convergence does not prove new physics. Cassini uses reconstructed epochs; predictive discrepancies are retained. FractalGo here is a graph diagnostic, not a fractal dimension. Original data and technical keys are preserved; navigation, guides and user interpretation are provided in Spanish and English.
+GRAVITAS connects mathematical verification, instrumental reconstruction and predictive diagnosis. Cassini uses reconstructed epochs and localizes pass-level discrepancies; FractalGo examines connectivity on declared graphs. Original data and technical keys are preserved; navigation, guides and user interpretation are provided in Spanish and English.
 
 
 [GRAVITAS identification and citation](docs/DOI_EN.md) · DOI: [10.5281/zenodo.24381484](https://doi.org/10.5281/zenodo.24381484).

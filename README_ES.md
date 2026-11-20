@@ -20,7 +20,7 @@ Plataforma visual de auditoría estadística y física: Cassini, emuladores GP, 
 - Linux: `bash ABRIR_GRAVITAS.bash`.
 - macOS: abrir `ABRIR_GRAVITAS.command`.
 - Cuaderno autónomo: `GRAVITAS_ES.ipynb`; también sirve en Colab desde móvil.
-- Grafo sin instalación: `ui/epistemic/epistemic_graph_es.html`.
+- Grafo sin instalación: [grafo interactivo ES](ui/epistemic/epistemic_graph_es.html).
 
 Python 3.13 recomendado. Primera instalación con Internet; servidor local en 127.0.0.1. Los lanzadores Windows/macOS no se han ejecutado en sus sistemas nativos.
 
@@ -43,7 +43,7 @@ Los autoejecutables `reproducir.bat`, `.bash` y `.command` preparan el entorno y
 - [FractalGo](research/fractalgo/CONTRACT_ES.md)
 - [Contribuir](CONTRIBUTING_ES.md)
 
-La convergencia numérica no prueba nueva física. Cassini utiliza épocas reconstruidas; sus discrepancias predictivas se conservan. FractalGo aquí es un diagnóstico de grafos, no una dimensión fractal. Los datos originales y claves técnicas se preservan; toda la navegación, guías e interpretación de usuario se ofrecen en castellano e inglés.
+GRAVITAS conecta verificación matemática, reconstrucción instrumental y diagnóstico predictivo. Cassini utiliza épocas reconstruidas y localiza discrepancias por pasada; FractalGo examina conectividad sobre grafos declarados. Los datos originales y claves técnicas se preservan; toda la navegación, guías e interpretación de usuario se ofrecen en castellano e inglés.
 
 
 [Identificación y cita de GRAVITAS](docs/DOI_ES.md) · DOI: [10.5281/zenodo.24381484](https://doi.org/10.5281/zenodo.24381484).

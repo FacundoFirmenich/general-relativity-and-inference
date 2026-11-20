@@ -1,17 +1,17 @@
 \begin{tikzpicture}[x=1cm,y=1cm,>=Latex,font=\small,text=navy]
 \path[use as bounding box] (-.1,.6) rectangle (16.4,-7.9);
-\node[anchor=center,font=\sffamily\bfseries\small,text=violet] at (8.1,.3) {RELATIVIDAD GENERAL · QUÉ AUTORIZA UNA INFERENCIA};
-\node[anchor=center,align=center,font=\large\bfseries,text width=16cm] at (8.1,-.6) {Mismos resúmenes no garantizan las mismas conclusiones.};
+\node[anchor=center,font=\sffamily\bfseries\small,text=violet] at (8.1,.3) {RELATIVIDAD GENERAL · DE LA OBSERVACIÓN A LA INFERENCIA};
+\node[anchor=center,align=center,font=\large\bfseries,text width=16cm] at (8.1,-.6) {Conservar la información que decide el contraste físico.};
 \node[draw=navy!30,fill=navy!3,rounded corners=2pt,text width=3.5cm,minimum height=.8cm,align=center,inner sep=5pt] (c0) at (1.9,-1.7) {\textbf{Modelo físico}};
 \node[draw=navy!30,fill=navy!3,rounded corners=2pt,text width=3.5cm,minimum height=.8cm,align=center,inner sep=5pt] (c1) at (6.050000000000001,-1.7) {\textbf{Operador de medida}};
 \draw[->,navy!60,thick] (c0.east)--(c1.west);
 \node[draw=navy!30,fill=navy!3,rounded corners=2pt,text width=3.5cm,minimum height=.8cm,align=center,inner sep=5pt] (c2) at (10.200000000000001,-1.7) {\textbf{Ley conjunta}};
 \draw[->,navy!60,thick] (c1.east)--(c2.west);
-\node[draw=navy!30,fill=navy!3,rounded corners=2pt,text width=3.5cm,minimum height=.8cm,align=center,inner sep=5pt] (c3) at (14.350000000000001,-1.7) {\textbf{Contraste predictivo}};
+\node[draw=navy!30,fill=navy!3,rounded corners=2pt,text width=3.5cm,minimum height=.8cm,align=center,inner sep=5pt] (c3) at (14.350000000000001,-1.7) {\textbf{Predicción comprobable}};
 \draw[->,navy!60,thick] (c2.east)--(c3.west);
-\node[draw=violet!55,fill=violet!4,rounded corners=4pt,text width=4.55cm,minimum height=2.65cm,align=center,inner sep=8pt] at (2.5,-4.05) {\textcolor{violet}{\sffamily\bfseries 01 · EMULACIÓN GP}\\[12pt]$Db,\ DKD^T$\\[12pt]Preservar contrastes,\\no sólo bandas marginales.};
-\node[draw=cyan!55,fill=cyan!4,rounded corners=4pt,text width=4.55cm,minimum height=2.65cm,align=center,inner sep=8pt] at (8.1,-4.05) {\textcolor{cyan}{\sffamily\bfseries 02 · INFORMACIÓN}\\[12pt]$K_{\pi,L}=1-R(E)/R(\varnothing)$\\[12pt]Medir la pérdida para\\un objeto y una decisión.};
-\node[draw=plum!55,fill=plum!4,rounded corners=4pt,text width=4.55cm,minimum height=2.65cm,align=center,inner sep=8pt] at (13.7,-4.05) {\textcolor{plum}{\sffamily\bfseries 03 · CASSINI}\\[12pt]Pasada 12: $0/1024$\\[12pt]Conservar el fallo local\\aunque mejore el agregado.};
-\node[draw=violet!35,fill=white,rounded corners=3pt,align=center,text width=15.7cm,inner sep=10pt] at (8.1,-6.45) {\textbf{Convergencia numérica $\neq$ validación física}\\[6pt]La contribución: criterios verificables, jerarquía explícita y evidencia trazable.};
-\node[anchor=west,font=\footnotesize,text=navy!70] at (0,-7.5) {Cassini: reconstrucción condicionada. GP e información: controles definidos. DCAE: descriptor, no ley universal.};
+\node[draw=violet!55,fill=violet!4,rounded corners=4pt,text width=4.55cm,minimum height=2.65cm,align=center,inner sep=8pt] at (2.5,-4.05) {\textcolor{violet}{\sffamily\bfseries 01 · CRITERIO EXACTO}\\[12pt]$Db,\ DKD^T$\\[12pt]Determinar la ley posterior\\a través de sus contrastes.};
+\node[draw=cyan!55,fill=cyan!4,rounded corners=4pt,text width=4.55cm,minimum height=2.65cm,align=center,inner sep=8pt] at (8.1,-4.05) {\textcolor{cyan}{\sffamily\bfseries 02 · INFORMACIÓN}\\[12pt]$K_{\pi,L}=1-R(E)/R(\varnothing)$\\[12pt]Cuantificar la reducción\\de riesgo para una decisión.};
+\node[draw=plum!55,fill=plum!4,rounded corners=4pt,text width=4.55cm,minimum height=2.65cm,align=center,inner sep=8pt] at (13.7,-4.05) {\textcolor{plum}{\sffamily\bfseries 03 · PREDICCIÓN LOCAL}\\[12pt]Log-score: $+3.80865$\\[12pt]Cassini: mejora por bloques;\\pasada 12 por resolver.};
+\node[draw=violet!35,fill=white,rounded corners=3pt,align=center,text width=15.7cm,inner sep=10pt] at (8.1,-6.45) {\textbf{De la respuesta física a una inferencia auditable}\\[6pt]GRAVITAS + FractalGo: cálculos, diagnósticos y procedencia reproducibles.};
+\node[anchor=west,font=\footnotesize,text=navy!70] at (0,-7.5) {GP: malla finita. Información: riesgo declarado. Cassini: reconstrucción y mezcla exploratoria.};
 \end{tikzpicture}
