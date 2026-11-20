@@ -13,6 +13,8 @@ with sync_playwright() as p:
   page.on('pageerror',lambda e:errors.append(str(e)))
   page.goto((R/f'ui/epistemic/epistemic_graph_{lang}.html').as_uri())
   page.wait_for_function("document.documentElement.dataset.ready==='true'")
+  checks[lang+'_workflow']=page.locator('#atlas').is_visible()
+  page.locator('#overviewTab').click()
   checks[lang+'_overview']=page.locator('#overview').is_visible()
   page.locator('#start').click()
   for i in range(6):
@@ -30,6 +32,7 @@ with sync_playwright() as p:
   page.locator('#reset').click();checks[lang+'_reset']=node.get_attribute('transform')==before
   page.set_viewport_size({'width':390,'height':844});page.wait_for_timeout(200)
   checks[lang+'_mobile_width']=page.evaluate('document.documentElement.scrollWidth<=innerWidth')
+  page.locator('#mobileMode').click()
   checks[lang+'_mobile_cards']=page.locator('#mobile-path').is_visible()
   page.close()
   offline=browser.new_context(java_script_enabled=False);page=offline.new_page();page.goto((R/f'ui/epistemic/epistemic_graph_{lang}.html').as_uri())

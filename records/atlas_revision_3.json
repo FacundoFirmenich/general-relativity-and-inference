@@ -1,0 +1,21 @@
+{
+  "version": "3",
+  "preserved_views": [
+    "overview",
+    "atlas",
+    "tour"
+  ],
+  "new_default": "workflow",
+  "features": [
+    "independent node dragging",
+    "incident-edge illumination",
+    "unrelated-node dimming",
+    "double-click focus",
+    "minimap navigation"
+  ],
+  "print": "Open Sans uppercase headings; visual-abstract title 15pt, supporting sentence 10pt; ORCID kern .12em; full homage motto",
+  "quotation_source": "https://quoteinvestigator.com/2017/03/02/fun/",
+  "quotation_status": "Motto of homage; not attributed as a documented Einstein quotation",
+  "verification": "DOM ES/EN passed; PDF first pages and print graph inspected; preview relay and cloud browser unavailable",
+  "site_version": 2
+}

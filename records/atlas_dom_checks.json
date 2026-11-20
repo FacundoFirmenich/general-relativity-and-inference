@@ -8,7 +8,11 @@
       "play_pause": true,
       "search": true,
       "language": true,
-      "modal": true
+      "modal": true,
+      "workflow": true,
+      "drag": true,
+      "connections_highlighted": true,
+      "minimap": true
     },
     {
       "lang": "en",
@@ -17,7 +21,11 @@
       "play_pause": true,
       "search": true,
       "language": true,
-      "modal": true
+      "modal": true,
+      "workflow": true,
+      "drag": true,
+      "connections_highlighted": true,
+      "minimap": true
     }
   ]
 }

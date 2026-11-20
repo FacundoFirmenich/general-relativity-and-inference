@@ -8,3 +8,9 @@ La tipografía del mapa impreso usa títulos en minúsculas y separación amplia
 
 DOM tests: `npm install --no-save jsdom` · `node tools/test_epistemic_dom.cjs`.
 Browser tests (Playwright + Chromium): `python tools/test_epistemic_graph.py`.
+
+## Workflow
+
+La entrada principal es un lienzo navegable: mové cada nodo, seleccioná para iluminar conexiones y usá doble clic para enfocar. El minimapa permite recorrer el conjunto. Se conservan la vista anterior, el resumen y el tour.
+
+Los gráficos impresos usan Open Sans, incluida con su licencia en `docs/fonts`. Para incluir el TikZ con XeLaTeX, cargá `docs/graph_fonts.tex` después de fontspec, desde la raíz del proyecto.
