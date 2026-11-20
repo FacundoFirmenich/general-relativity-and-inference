@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-20T00:05:19.149724+00:00",
+  "canonical_version": "0.6",
+  "source_name": "DCAE_FORMALIZACION_INTEGRADA_v0_6_ES.md",
+  "source_sha256": "394c1c93de23c7cc0f2ef37149e856435c2b573a730759745065a3d58e6e92fd",
+  "source_declared_date": "2026-11-20",
+  "source_received_date": "2026-11-19",
+  "scope_es": "Definición canónica por componentes, protocolo y requisito triádico. Controles finitos; sin nuevas mediciones.",
+  "scope_en": "Canonical componentwise definition, protocol and triadic entry requirement. Finite controls; no new measurements.",
+  "checks": 17,
+  "historical_normalization_checks": 7,
+  "historical_dcae_checks": 15,
+  "frontier_tests": 16,
+  "ui_checks": 26,
+  "graph_browser_checks": 19,
+  "canonical_index": "I_up_j = max(0, 1 - relative_access_j)",
+  "notational_mapping": "relative_access_j = 1 / historical_relative_asymmetry_R",
+  "source_empirical_claims_rerun": false,
+  "public_manuscripts": false,
+  "archived_tag_unchanged": "v1.11"
+}

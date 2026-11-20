@@ -55,6 +55,22 @@ node('cases_result','cases',2,('Cuadrupolo QUMOND','QUMOND quadrupole'),('La int
 node('cases_check','cases',3,('Convergencia y procedencia','Convergence and provenance'),('Se comparan refinamientos, unidades y fuentes. Una ejecución exitosa no valida toda la cadena instrumental.','Refinements, units and sources are compared. A successful run does not validate the whole instrumental chain.'),'registros + SHA-256 / records + SHA-256','numerical','L3',[G,M,'platform/audit_runs/verification.json'],('Los lanzadores Windows/macOS no se han ejecutado en sus sistemas nativos.','Windows/macOS launchers have not been run on their native systems.'))
 node('cases_inference','cases',4,('Alcance por teoría','Theory-specific scope'),('AQUAL, QUMOND, TeVeS y AeST no son acciones intercambiables; sus pruebas requieren predicciones propias.','AQUAL, QUMOND, TeVeS and AeST are not interchangeable actions; their tests require their own predictions.'),'acción → observable → contraste','conditional','L2',['research/physical_checks.py','docs/PHYSICS_ES.md','docs/PHYSICS_EN.md'],('Una tensión en un escenario no excluye todas las teorías relativistas de MOND.','Tension in one scenario does not exclude all relativistic MOND theories.'))
 node('cases_limit','cases',5,('Validación independiente','Independent validation'),('La contribución es una evaluación estadística y física reproducible de inferencias condicionadas.','The contribution is a reproducible statistical and physical assessment of conditional inferences.'),'auditoría ejecutable / executable audit','boundary','Scope',[G,M],('Sin nueva efeméride global, nueva física ni geometría fractal añadida por asociación.','No new global ephemeris, new physics or fractal geometry added by association.'))
+# Canonical definitions update; no promotion of sibling empirical claims.
+for n in nodes:
+ if n['id']=='dcae_assumption':
+  n['title']=bi('Procedimiento y componente','Procedure and component')
+  n['summary']=bi('DCAE v0.6 declara pregunta, instrumento, adquisición, calibración, reconstrucción y validación. Cada componente conserva su referencia.','DCAE v0.6 declares question, instrument, acquisition, calibration, reconstruction and validation. Each component retains its baseline.')
+  n['artifacts'] += [artifact('docs/DCAE_V06_ES.md'),artifact('docs/DCAE_V06_EN.md')]
+ if n['id']=='dcae_operator':
+  n['summary']=bi('ℛⱼ mide acceso relativo; es el inverso del R histórico. Los cambios del protocolo requieren la derivada total.','ℛⱼ measures relative access; it is the reciprocal of the historical R. Protocol changes require the total derivative.')
+  n['formula']='ℛⱼ = (LO,j/LF) / (LO,j/LF)₀; Δⱼ = −ln ℛⱼ'
+ if n['id']=='dcae_result':
+  n['formula']='I↑ⱼ = [1 − ℛⱼ]₊; I↓ⱼ = [1 − 1/ℛⱼ]₊'
+  n['artifacts'].append(artifact('research/dcae/results/canonical_v06_checks.json'))
+ if n['id']=='dcae_inference':
+  n['summary']=bi('n ≥ 3 inicia una triangulación triádica; la identificabilidad depende del objetivo y de la ley conjunta, no del recuento.','n ≥ 3 initiates triadic triangulation; identifiability depends on the target and joint law, not the count.')
+  n['limits']=bi('Tres procedimientos con dependencia compartida pueden no añadir información. No se compensan componentes mediante un promedio.','Three procedures with shared dependence may add no information. Components are not offset through averaging.')
+
 # The bounded topology application stays within the existing GP route.
 for n in nodes:
  if n['id']=='gp_inference':
@@ -83,7 +99,7 @@ model['tour']=[dict(route=r,focus=r+'_check',title=route_names[r],body=bi(*txt))
  ('gp',('El punto central es la ley conjunta. Dos emuladores pueden compartir bandas marginales y producir leyes posteriores diferentes. El criterio Db, DKDᵀ convierte esta observación en una auditoría ejecutable.','The central point is the joint law. Two emulators can share marginal bands yet produce different posterior laws. The Db, DKDᵀ criterion turns this observation into an executable audit.')),
  ('cassini',('La jerarquía sobre épocas reconstruidas permite comparar ruido y parámetros auxiliares. La mezcla mejora un diagnóstico agregado, pero la pasada 12 sigue siendo extrema. El fallo local permanece visible.','The hierarchy over reconstructed epochs compares noise and nuisance parameters. The mixture improves an aggregate diagnostic, but pass 12 remains extreme. The local failure remains visible.')),
  ('information',('La cuestión no es prohibir la compresión, sino determinar qué destruye para una decisión concreta. Fisher, Rényi y el riesgo bayesiano permiten distinguir pérdida de signo, selección de colas e incertidumbre de mezcla.','The issue is not banning compression, but determining what it destroys for a specific decision. Fisher, Rényi and Bayes risk distinguish sign loss, tail selection and mixture uncertainty.')),
- ('dcae',('DCAE conserva una pregunta diferente: cómo cambia la relación entre escala física y acceso observacional. COSMOS muestra por qué no podemos transformar cobertura en capacidad inferencial. El signo y los controles adversos acompañan al índice.','DCAE retains a different question: how the relation between physical scale and observational access changes. COSMOS shows why coverage cannot be converted into inferential capability. The sign and adverse controls accompany the index.')),
+ ('dcae',('DCAE conserva una pregunta diferente: cómo cambia la relación entre escala física y acceso observacional. COSMOS muestra por qué no podemos transformar cobertura en capacidad inferencial. La v0.6 conserva componentes y protocolo; tres procedimientos no garantizan identificabilidad. El signo y los controles adversos acompañan al índice.','DCAE retains a different question: how the relation between physical scale and observational access changes. COSMOS shows why coverage cannot be converted into inferential capability. v0.6 retains components and protocol; three procedures do not guarantee identifiability. The sign and adverse controls accompany the index.')),
  ('cases',('Los casos complementarios examinan covarianza, calibración y predicciones específicas. El cierre es una herramienta reproducible para auditar inferencias, con límites instrumentales explícitos y resultados adversos conservados.','Complementary cases examine covariance, calibration and specific predictions. The outcome is a reproducible tool for auditing inference, with explicit instrumental limits and adverse results retained.'))]]
 # Localize prose inside mathematical cards as well as their explanations.
 formula_text={
@@ -98,7 +114,7 @@ formula_text={
 'information_assumption':('θ ∼ π; L(θ,a); experimento E','θ ∼ π; L(θ,a); experiment E'),
 'information_check':('Jmezcla = 0.345509 < Joráculo = 0.555556','Jmixture = 0.345509 < Joracle = 0.555556'),
 'information_limit':('complementariedad, no puntuación universal','complementarity, not a universal score'),
-'dcae_assumption':('LF > 0; LO > 0; referencia s₀','LF > 0; LO > 0; baseline s₀'),
+'dcae_assumption':('LF > 0; LO,j > 0; referencia s₀','LF > 0; LO,j > 0; baseline s₀'),
 'dcae_inference':('asimetría de escala ≠ pérdida inferencial','scale asymmetry ≠ inferential loss'),
 'cases_assumption':('jurisdicciones locales','local domains'),
 'cases_check':('registros + SHA-256','records + SHA-256'),

@@ -1,8 +1,8 @@
 {
   "schema": "dcae.frontier.execution.v1",
   "scope": "Published table reanalysis, 16 finite tests and publication figures; no raw-catalogue Monte Carlo or empirical FKP execution",
-  "started_at": "2026-11-19T23:36:17.135173+00:00",
-  "runtime_seconds": 1.2229418754577637,
+  "started_at": "2026-11-20T00:04:13.234606+00:00",
+  "runtime_seconds": 1.206390380859375,
   "status": "completed",
   "commands": [
     {
@@ -61,9 +61,9 @@
   "inputs_unchanged": true,
   "outputs": {
     "results/REANALYSIS.json": "c100820ca3acffbc11f5bd29f0c699588010f8f684cf9741f6dee1dc33013800",
-    "figures/cosmos_es.pdf": "58e328620ecc639670d23e6091134bc3ac2e02bd372ef4fd8438c130b62d7d82",
+    "figures/cosmos_es.pdf": "a553493f38f5947a53df9b4fb69e4c29dae3320f7658df4cbe8d476478ad87c4",
     "figures/cosmos_en.png": "6971f046c8afcb447dc93381e98cbdc5f6d98419a70f6570745d399311107fc6",
-    "figures/cosmos_en.pdf": "1a47855cbeeac07b7d04ffea7d463c6ebdd5b71b5a12114785e612cba0d934bb",
+    "figures/cosmos_en.pdf": "ca11c4a022e106a2c895c56f445c2c0a051dc2fd7579726edd23f807d55ba420",
     "figures/cosmos_es.png": "059648e1a8500eaf32b92b0a349d3aacd8edd4b8e91bb865b858931ad53571ed"
   },
   "new_independent_measurements": 0,

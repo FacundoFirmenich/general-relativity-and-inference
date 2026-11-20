@@ -15,7 +15,7 @@
       ],
       "exit_status": 0,
       "log": "records/dcae_00.log",
-      "runtime_seconds": 3.297618865966797
+      "runtime_seconds": 3.47424578666687
     },
     {
       "argv": [
@@ -27,7 +27,7 @@
       ],
       "exit_status": 0,
       "log": "records/dcae_01.log",
-      "runtime_seconds": 0.041144371032714844
+      "runtime_seconds": 0.03774857521057129
     },
     {
       "argv": [
@@ -36,7 +36,16 @@
       ],
       "exit_status": 0,
       "log": "records/dcae_02.log",
-      "runtime_seconds": 0.02795720100402832
+      "runtime_seconds": 0.02667546272277832
+    },
+    {
+      "argv": [
+        "/workspace/gravitas_ui_env/bin/python",
+        "research/dcae/canonical_v06_audit.py"
+      ],
+      "exit_status": 0,
+      "log": "records/dcae_03.log",
+      "runtime_seconds": 0.028482437133789062
     },
     {
       "argv": [
@@ -44,8 +53,8 @@
         "research/dcae_figures.py"
       ],
       "exit_status": 0,
-      "log": "records/dcae_03.log",
-      "runtime_seconds": 0.02753925323486328
+      "log": "records/dcae_04.log",
+      "runtime_seconds": 0.027428150177001953
     },
     {
       "argv": [
@@ -53,8 +62,8 @@
         "research/frontier_run.py"
       ],
       "exit_status": 0,
-      "log": "records/dcae_04.log",
-      "runtime_seconds": 1.2869164943695068
+      "log": "records/dcae_05.log",
+      "runtime_seconds": 1.2802660465240479
     },
     {
       "argv": [
@@ -62,8 +71,8 @@
         "research/frontier_figures.py"
       ],
       "exit_status": 0,
-      "log": "records/dcae_05.log",
-      "runtime_seconds": 0.0280303955078125
+      "log": "records/dcae_06.log",
+      "runtime_seconds": 0.026401281356811523
     }
   ],
   "environment": {
@@ -115,6 +124,7 @@
     "bounds": {
       "frontier_unit_tests": 16,
       "dcae_finite_checks": 15,
+      "canonical_v06_checks": 17,
       "new_independent_observations": 0
     },
     "non_claims": [
@@ -131,8 +141,8 @@
     "scope": "Synthetic clipping checks only; published table reanalysis is deterministic"
   },
   "run": {
-    "started_at": "2026-11-19T23:36:13.697811+00:00",
-    "runtime_seconds": 4.840315580368042,
+    "started_at": "2026-11-20T00:04:09.594529+00:00",
+    "runtime_seconds": 5.026041746139526,
     "status": "completed",
     "exit_status": 0
   },
@@ -434,13 +444,23 @@
     },
     {
       "path": "docs/DCAE_NORMALIZATION_EN.md",
-      "sha256": "de57b6af8295b606d9a14ac8e7a929a3043fac404f580800727b2e48fee83bfc",
-      "sha256_after": "de57b6af8295b606d9a14ac8e7a929a3043fac404f580800727b2e48fee83bfc"
+      "sha256": "6be0e38e2143e9b41d6b46a0e6a5561d458f0042b511c127af3555fb048e7964",
+      "sha256_after": "6be0e38e2143e9b41d6b46a0e6a5561d458f0042b511c127af3555fb048e7964"
     },
     {
       "path": "docs/DCAE_NORMALIZATION_ES.md",
-      "sha256": "2652b39fa2cca14818ae01cd8b30472241b46a50242823db96fcba31c31c8cd8",
-      "sha256_after": "2652b39fa2cca14818ae01cd8b30472241b46a50242823db96fcba31c31c8cd8"
+      "sha256": "170d034e078ea3ccb2392d1194796b2566ed3d9f06be23b6229c6ad575cf9b00",
+      "sha256_after": "170d034e078ea3ccb2392d1194796b2566ed3d9f06be23b6229c6ad575cf9b00"
+    },
+    {
+      "path": "docs/DCAE_V06_EN.md",
+      "sha256": "8cefbf4e205fe34e549dc3af15f87e621f7ac86891da38fb1491efef040ed852",
+      "sha256_after": "8cefbf4e205fe34e549dc3af15f87e621f7ac86891da38fb1491efef040ed852"
+    },
+    {
+      "path": "docs/DCAE_V06_ES.md",
+      "sha256": "72e20cb7b8fb0030c6245050257fe6eb2cf13f4de78a162adb924786d3ce1439",
+      "sha256_after": "72e20cb7b8fb0030c6245050257fe6eb2cf13f4de78a162adb924786d3ce1439"
     },
     {
       "path": "docs/DOI_EN.md",
@@ -454,13 +474,13 @@
     },
     {
       "path": "docs/GUIDE_EN.md",
-      "sha256": "5f3582447c04e03988b63f3c6c8096041fc9604dbb5f4ecc23f55fd1e77df0b3",
-      "sha256_after": "5f3582447c04e03988b63f3c6c8096041fc9604dbb5f4ecc23f55fd1e77df0b3"
+      "sha256": "8907325bbcfc8ad1d2af008302bd9c9abf74ba3b00f4b6be9c2cfff8bc137e5b",
+      "sha256_after": "8907325bbcfc8ad1d2af008302bd9c9abf74ba3b00f4b6be9c2cfff8bc137e5b"
     },
     {
       "path": "docs/GUIDE_ES.md",
-      "sha256": "2ac767fa8aa238c0a7284ee51ab97c3b97c0e0aed2cb18e88abd9db36e9b4c3d",
-      "sha256_after": "2ac767fa8aa238c0a7284ee51ab97c3b97c0e0aed2cb18e88abd9db36e9b4c3d"
+      "sha256": "c7cddd5ec8ed94c55ee20d95ffefc8d9be46141ec8e67c564a11888f450d75b2",
+      "sha256_after": "c7cddd5ec8ed94c55ee20d95ffefc8d9be46141ec8e67c564a11888f450d75b2"
     },
     {
       "path": "docs/INFORMATION_EN.md",
@@ -753,6 +773,16 @@
       "sha256_after": "a60901183ab0e5cdcbb78125e78f3806ef79e4727d24f7fae1ed635629d09063"
     },
     {
+      "path": "research/dcae/canonical_v06.py",
+      "sha256": "fbc182965105a4b9b6298b19361c631672298f75fa9175c354843dbca3363702",
+      "sha256_after": "fbc182965105a4b9b6298b19361c631672298f75fa9175c354843dbca3363702"
+    },
+    {
+      "path": "research/dcae/canonical_v06_audit.py",
+      "sha256": "426dabde1d22b1d5f699aa208fbbb42bac6ac76504871c95dbb040bca70b28b6",
+      "sha256_after": "426dabde1d22b1d5f699aa208fbbb42bac6ac76504871c95dbb040bca70b28b6"
+    },
+    {
       "path": "research/dcae/dcae.py",
       "sha256": "650203a69d7c36ffcd43d264e44c5a097e3a215612121f5b1fa2c1ec55d58cd5",
       "sha256_after": "650203a69d7c36ffcd43d264e44c5a097e3a215612121f5b1fa2c1ec55d58cd5"
@@ -1009,18 +1039,18 @@
     },
     {
       "path": "run.py",
-      "sha256": "c24385e4f23b0966ca381903c6a738b47e5a4001cbd043ea73a845ea1750c237",
-      "sha256_after": "c24385e4f23b0966ca381903c6a738b47e5a4001cbd043ea73a845ea1750c237"
+      "sha256": "0cfc8d9504ffe096ed13b1ec84d69f9d6e1dd72c2f8d5d172a625037091191f2",
+      "sha256_after": "0cfc8d9504ffe096ed13b1ec84d69f9d6e1dd72c2f8d5d172a625037091191f2"
     },
     {
       "path": "tools/build_epistemic_graph.py",
-      "sha256": "7f8017d029e5dc74f34292c6d052716e8ae7ad64425b9ed569d9431453e28e9c",
-      "sha256_after": "7f8017d029e5dc74f34292c6d052716e8ae7ad64425b9ed569d9431453e28e9c"
+      "sha256": "264bf0a210a579ab5b915b2becf31b49538f66415cb04e33b06cc83b95480dd6",
+      "sha256_after": "264bf0a210a579ab5b915b2becf31b49538f66415cb04e33b06cc83b95480dd6"
     },
     {
       "path": "tools/render_epistemic_print.py",
-      "sha256": "fea8840edb51bf299d11798744ed44540c45aef98a24f26977beb44531d5b459",
-      "sha256_after": "fea8840edb51bf299d11798744ed44540c45aef98a24f26977beb44531d5b459"
+      "sha256": "fe73036fe8587e2b390e6ef0b97cf23b948a22083526b404757693f05df27c65",
+      "sha256_after": "fe73036fe8587e2b390e6ef0b97cf23b948a22083526b404757693f05df27c65"
     },
     {
       "path": "ui/epistemic/template.html",
@@ -1111,27 +1141,27 @@
     },
     {
       "path": "figures/dcae_cosmos_en.pdf",
-      "sha256": "1a47855cbeeac07b7d04ffea7d463c6ebdd5b71b5a12114785e612cba0d934bb"
+      "sha256": "ca11c4a022e106a2c895c56f445c2c0a051dc2fd7579726edd23f807d55ba420"
     },
     {
       "path": "figures/dcae_cosmos_es.pdf",
-      "sha256": "58e328620ecc639670d23e6091134bc3ac2e02bd372ef4fd8438c130b62d7d82"
+      "sha256": "a553493f38f5947a53df9b4fb69e4c29dae3320f7658df4cbe8d476478ad87c4"
     },
     {
       "path": "figures/dcae_diagnostics_en.pdf",
-      "sha256": "628730f0c07b514ea9b895c35cc7cc8b084898b30fbe88bb01afa12ba2f82a80"
+      "sha256": "1d20c286b0579f0de3517cdee0ff9b5ddd2ca25d14d4727155f32872f7457cd4"
     },
     {
       "path": "figures/dcae_diagnostics_es.pdf",
-      "sha256": "07d52286c6f631c3aa6acd065ac9582fa5378973afc491d606279b0185eec060"
+      "sha256": "f96059c9d8dadb1b3fdbd3014256043edc7e561e0423d12d37e0fee09991a010"
     },
     {
       "path": "figures/dcae_repair_en.pdf",
-      "sha256": "3d6545a90afb327fb1cd30fdef03e2e04d7aba21d3bd27e7a03a241b777d7c21"
+      "sha256": "052066c03927956165581c51b5770c95b9562abecd0551bf10ad31fb9ce25b29"
     },
     {
       "path": "figures/dcae_repair_es.pdf",
-      "sha256": "d1d962382bb948189a22f765c9a4c5cde22b4a5325905703d519b081c0e29499"
+      "sha256": "cb76ca097b13f7e6926d5b6f17108545a9e4ca27cb57f88e619addb277848062"
     },
     {
       "path": "figures/desi_operador.pdf",
@@ -1199,7 +1229,7 @@
     },
     {
       "path": "figures/en/epistemic_graph.tex",
-      "sha256": "8f692227bfc28e91d42b990a70b994da9c02a9dfac4cccc7aca603da2fee33ca"
+      "sha256": "4db8b34e7885fae2b4b34cac963a4b36d5fbb60254defd1e9c578b78b4ae372e"
     },
     {
       "path": "figures/en/gaia_reconstruction.pdf",
@@ -1295,7 +1325,7 @@
     },
     {
       "path": "figures/es/epistemic_graph.tex",
-      "sha256": "84afc81f3af53f6485cf54c0654840229672f69e6c9e8f384e1b0cca93a02959"
+      "sha256": "fe91fca02aa715dba24a60b51cb495315254127c457c4205dfef0b4f6bb2a054"
     },
     {
       "path": "figures/es/gaia_reconstruction.pdf",
@@ -1542,12 +1572,16 @@
       "sha256": "ed9fcdb5f96ca9738dea52e025efb7f67922c6fccd95ef75efc4a8a6ccd80c2b"
     },
     {
+      "path": "research/dcae/results/canonical_v06_checks.json",
+      "sha256": "144a7ce75e1b27d386ebfa124fca9cb3b2684231214bb2ef274d56059d9070b3"
+    },
+    {
       "path": "research/dcae/results/checks.json",
       "sha256": "99c32fd9c5390a330af0cbe347f229a512808483c843ec4856432a3d0ba1e557"
     },
     {
       "path": "research/dcae/results/normalization_checks.json",
-      "sha256": "23de921da8504f3a986bc4cfe806f6bee43981a0d4d8348fd85635bc7e661111"
+      "sha256": "9506fff1fdca2015f4f5cae4d487a3beb2aaab3beb2a5fc712011090803fa711"
     },
     {
       "path": "research/dcae/results/null_bias.csv",
@@ -1555,23 +1589,23 @@
     },
     {
       "path": "research/dcae/figures/diagnostics_EN.pdf",
-      "sha256": "628730f0c07b514ea9b895c35cc7cc8b084898b30fbe88bb01afa12ba2f82a80"
+      "sha256": "1d20c286b0579f0de3517cdee0ff9b5ddd2ca25d14d4727155f32872f7457cd4"
     },
     {
       "path": "research/dcae/figures/diagnostics_ES.pdf",
-      "sha256": "07d52286c6f631c3aa6acd065ac9582fa5378973afc491d606279b0185eec060"
+      "sha256": "f96059c9d8dadb1b3fdbd3014256043edc7e561e0423d12d37e0fee09991a010"
     },
     {
       "path": "research/dcae/figures/repair_EN.pdf",
-      "sha256": "3d6545a90afb327fb1cd30fdef03e2e04d7aba21d3bd27e7a03a241b777d7c21"
+      "sha256": "052066c03927956165581c51b5770c95b9562abecd0551bf10ad31fb9ce25b29"
     },
     {
       "path": "research/dcae/figures/repair_ES.pdf",
-      "sha256": "d1d962382bb948189a22f765c9a4c5cde22b4a5325905703d519b081c0e29499"
+      "sha256": "cb76ca097b13f7e6926d5b6f17108545a9e4ca27cb57f88e619addb277848062"
     },
     {
       "path": "research/dcae/records/computation_manifest.json",
-      "sha256": "f8c87eae89e351e072341662b2a989be62e9b5dddde41b99b9d03a9ab8a74f68"
+      "sha256": "b5f3ccebc0b35cb3693e19a0799864bdb56d2263af19ce06454595dabd5b9a0e"
     },
     {
       "path": "research/dcae/records/document_build.json",
@@ -1599,7 +1633,7 @@
     },
     {
       "path": "research/dcae_frontier/records/execution.json",
-      "sha256": "07a7110183cf2ad59017dfe0158306a78e8c7f8600d0f80d46ee5fd60ab34bbe"
+      "sha256": "2127209caca0a4793730e5f60d42ce56548fb5471c07eed86b72b1433630298f"
     },
     {
       "path": "research/dcae_frontier/records/figures.log",
@@ -1615,11 +1649,11 @@
     },
     {
       "path": "research/dcae_frontier/records/tests.log",
-      "sha256": "7a0beaa7dbde723fea51b902e09377f9fb5e647fa995bac238581438f6ac501b"
+      "sha256": "3741a72e1019908d764b60dc03da6904e7744dfd4655e82103c8fd5b4747ca64"
     },
     {
       "path": "research/dcae_frontier/figures/cosmos_en.pdf",
-      "sha256": "1a47855cbeeac07b7d04ffea7d463c6ebdd5b71b5a12114785e612cba0d934bb"
+      "sha256": "ca11c4a022e106a2c895c56f445c2c0a051dc2fd7579726edd23f807d55ba420"
     },
     {
       "path": "research/dcae_frontier/figures/cosmos_en.png",
@@ -1627,7 +1661,7 @@
     },
     {
       "path": "research/dcae_frontier/figures/cosmos_es.pdf",
-      "sha256": "58e328620ecc639670d23e6091134bc3ac2e02bd372ef4fd8438c130b62d7d82"
+      "sha256": "a553493f38f5947a53df9b4fb69e4c29dae3320f7658df4cbe8d476478ad87c4"
     },
     {
       "path": "research/dcae_frontier/figures/cosmos_es.png",
@@ -1651,15 +1685,15 @@
     },
     {
       "path": "ui/epistemic/epistemic_graph_en.html",
-      "sha256": "289bc44d1759904098ea27a44aec84951c9aa200b5daea52c3f22576993185b6"
+      "sha256": "6d02de2ca2f808a696bc78942807f22a9b808320640efb67032a831e79fb500a"
     },
     {
       "path": "ui/epistemic/epistemic_graph_es.html",
-      "sha256": "c00195f0e707ce5d30b1a671ddb65ea77ecd8e08ca15621a2f496f1259600bba"
+      "sha256": "5a99106b5524e0cf5118b2f21e4e4786033eb6f09c64c19f22cc53d3456e89cc"
     },
     {
       "path": "ui/epistemic/graph.json",
-      "sha256": "44a40eedc90b22cd641e478fb128235e535f13dd341dcf8ce9c59e5e45b8304b"
+      "sha256": "935319dc438437a8386b1752f2cf7f248fc12b4277b8481784cf2aa29b86c6c0"
     },
     {
       "path": "ui/epistemic/template.html",
@@ -1667,7 +1701,7 @@
     },
     {
       "path": "ui/epistemic/validation.json",
-      "sha256": "8382861b62b0360ed946a61dc3ef437c8523e75f825bca6f62bc807807f588f8"
+      "sha256": "01e7639f07478cab7d078f023cfbc15f6fe57a8dcff253c26461c70125ce84f8"
     },
     {
       "path": "platform/audit_runs/verification.json",
@@ -1896,7 +1930,7 @@
   ],
   "checks": {
     "inputs_unchanged": true,
-    "commands_completed": 6
+    "commands_completed": 7
   },
   "result": "Scoped checks completed; physical DCAE remains NOT_ESTIMABLE",
   "residual_risks": [

@@ -1,5 +1,7 @@
 # DCAE: normalización y umbrales
 
+**Notación canónica v0.6.** Aquí $R_j=1/\mathcal R_j$: $R_j$ es asimetría relativa y $\mathcal R_j$ es acceso relativo. Por tanto, $I^\uparrow_j=[1-\mathcal R_j]_+$ y $\Delta_j=-\ln\mathcal R_j$. La normalización anterior se conserva exactamente. Véase [integración v0.6](DCAE_V06_ES.md).
+
 **Umbrales impuestos por la normalización.** Definiendo $R=\mathcal A(s)/\mathcal A(s_0)>0$, el logaritmo se cancela en $I=\max\{0,1-R^{-1}\}$. Para $0<c<1$, $I=c$ equivale a $R=(1-c)^{-1}$ y $\Delta=-\ln(1-c)$. En particular, $I=0.90$ corresponde exactamente a $R=10$ y $\Delta=\ln10$, mientras que $I=0.95$ corresponde a $R=20$. Estos valores son consecuencias de la definición, no evidencia independiente de una barrera informacional ni de una transición física. Deben comunicarse también $R$ y $\Delta$, con referencia, incertidumbres y covarianzas; la proximidad de $I$ a uno no mide confianza ni significación estadística.
 
 ## Normalización, cambio de base y umbrales construidos

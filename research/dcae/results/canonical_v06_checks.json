@@ -1,0 +1,203 @@
+{
+  "all_passed": true,
+  "checks": [
+    {
+      "es": "Equivalencia con el núcleo histórico",
+      "en": "Equivalence to the historical core",
+      "passed": true,
+      "details": null
+    },
+    {
+      "es": "Inversa de la razón anterior",
+      "en": "Reciprocal of the earlier ratio",
+      "passed": true,
+      "details": null
+    },
+    {
+      "es": "Dos direcciones y transformación firmada",
+      "en": "Both directions and signed transformation",
+      "passed": true,
+      "details": null
+    },
+    {
+      "es": "Referencia idéntica",
+      "en": "Identical baseline",
+      "passed": true,
+      "details": null
+    },
+    {
+      "es": "Conversión consistente de unidades",
+      "en": "Consistent unit conversion",
+      "passed": true,
+      "details": null
+    },
+    {
+      "es": "Cero establecido distinto de ausencia",
+      "en": "Established zero differs from missingness",
+      "passed": true,
+      "details": null
+    },
+    {
+      "es": "Referencia nula indefinida",
+      "en": "Undefined zero baseline",
+      "passed": true,
+      "details": null
+    },
+    {
+      "es": "Dominio y metadatos",
+      "en": "Domain and metadata",
+      "passed": true,
+      "details": null
+    },
+    {
+      "es": "Saturación numérica no es acceso nulo",
+      "en": "Numerical saturation is not zero access",
+      "passed": true,
+      "details": {
+        "component_id": "j",
+        "protocol_id": "declared_Pi",
+        "reference_id": "s0",
+        "canonical_version": "0.6",
+        "scales": {
+          "lf": 1e+300,
+          "lo": 1e-300,
+          "lf0": 1e-300,
+          "lo0": 1e+300
+        },
+        "status": "OK",
+        "access_ratio": null,
+        "access_ratio_state": "NUMERICAL_UNDERFLOW",
+        "log_access_ratio": -2763.1021115928547,
+        "delta": 2763.1021115928547,
+        "delta_state": "FINITE",
+        "i_up": 1.0,
+        "i_down": 0.0,
+        "signed_t": 1.0,
+        "numerical_saturation": true
+      }
+    },
+    {
+      "es": "Umbrales de normalización",
+      "en": "Normalization thresholds",
+      "passed": true,
+      "details": [
+        {
+          "p": 0.9,
+          "access_ratio": 0.09999999999999998,
+          "delta": 2.302585092994046
+        },
+        {
+          "p": 0.95,
+          "access_ratio": 0.050000000000000044,
+          "delta": 2.99573227355399
+        }
+      ]
+    },
+    {
+      "es": "Derivada total con cambio de protocolo",
+      "en": "Total derivative under protocol change",
+      "passed": true,
+      "details": {
+        "computed": 0.09999999999732444,
+        "expected": 0.09999999999999998,
+        "omitting_protocol_change": 0.5
+      }
+    },
+    {
+      "es": "Tres etiquetas no prueban identificabilidad",
+      "en": "Three labels do not prove identifiability",
+      "passed": true,
+      "details": null
+    },
+    {
+      "es": "Tríada de rango insuficiente",
+      "en": "Rank-deficient triad",
+      "passed": true,
+      "details": {
+        "H": [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "null_vector": [
+          0,
+          1
+        ],
+        "target": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "es": "Balance de Shannon sin signo universal",
+      "en": "Shannon balance without universal sign",
+      "passed": true,
+      "details": [
+        {
+          "scenario": "loss",
+          "phi1": 1.0,
+          "phi2": 0.49999999999999994,
+          "identity_residual": 3.3306690738754696e-16
+        },
+        {
+          "scenario": "stable",
+          "phi1": 1.0,
+          "phi2": 1.0,
+          "identity_residual": 2.4025698778611885e-16
+        },
+        {
+          "scenario": "gain",
+          "phi1": 0.0,
+          "phi2": 1.0,
+          "identity_residual": 1.1102230246251565e-16
+        }
+      ]
+    },
+    {
+      "es": "Banda convencional distinta de la histórica",
+      "en": "Conventional band differs from historical band",
+      "passed": true,
+      "details": {
+        "band": [
+          2.0723265836946414,
+          2.532843602293451
+        ],
+        "conditional_Benford_mass": 0.0871501757189002,
+        "scope": "significands under an assumed Benford law; not a probability for log gaps"
+      }
+    },
+    {
+      "es": "Inversión de referencia conserva el signo opuesto",
+      "en": "Reversing the baseline reverses the sign",
+      "passed": true,
+      "details": null
+    },
+    {
+      "es": "Salida JSON sin infinitos numéricos",
+      "en": "JSON output without numeric infinities",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "canonical_version": "0.6",
+  "inputs_sha256": {
+    "canonical_v06_audit.py": "426dabde1d22b1d5f699aa208fbbb42bac6ac76504871c95dbb040bca70b28b6",
+    "canonical_v06.py": "fbc182965105a4b9b6298b19361c631672298f75fa9175c354843dbca3363702",
+    "dcae.py": "650203a69d7c36ffcd43d264e44c5a097e3a215612121f5b1fa2c1ec55d58cd5"
+  },
+  "scope_es": "Controles matemáticos finitos y estados de la interfaz; sin nuevos datos ni certificación de independencia.",
+  "scope_en": "Finite mathematical controls and interface states; no new data or independence certification.",
+  "executed_at": "2026-11-20T00:04:13.158123+00:00",
+  "python": "3.13.5",
+  "runtime_seconds": 0.0008364429995708633
+}

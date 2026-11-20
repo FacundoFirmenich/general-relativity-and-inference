@@ -1,5 +1,7 @@
 # DCAE: normalization and thresholds
 
+**Canonical v0.6 notation.** Here $R_j=1/\mathcal R_j$: $R_j$ is relative asymmetry and $\mathcal R_j$ is relative access. Therefore $I^\uparrow_j=[1-\mathcal R_j]_+$ and $\Delta_j=-\ln\mathcal R_j$. The earlier normalization is preserved exactly. See [v0.6 integration](DCAE_V06_EN.md).
+
 **Thresholds imposed by normalization.** Defining $R=\mathcal A(s)/\mathcal A(s_0)>0$, the logarithm cancels in $I=\max\{0,1-R^{-1}\}$. For $0<c<1$, $I=c$ is equivalent to $R=(1-c)^{-1}$ and $\Delta=-\ln(1-c)$. In particular, $I=0.90$ corresponds exactly to $R=10$ and $\Delta=\ln10$, whereas $I=0.95$ corresponds to $R=20$. These values follow from the definition; they are not independent evidence of an information barrier or physical transition. Both $R$ and $\Delta$ must also be reported with their baseline, uncertainties and covariances; proximity of $I$ to one does not measure confidence or statistical significance.
 
 ## Normalization, base conversion and constructed thresholds

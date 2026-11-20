@@ -141,6 +141,11 @@ elif page==pages[3]:
     download_json(dict(rho=rho,contrast_covariance_reference=S0.tolist(),contrast_covariance_alternative=S1.tolist(),distances=distances,renyi=renyi),'gp_contrast_audit.json')
 
 elif page==pages[4]:
+    with st.expander(T('DCAE v0.6 · acceso por procedimiento', 'DCAE v0.6 · procedure-specific access')):
+        st.latex(r'\mathcal R_j=\frac{L_{O,j}/L_F}{L_{O,j,0}/L_{F,0}},\quad \Delta_j=-\ln\mathcal R_j,\quad I_j^\uparrow=[1-\mathcal R_j]_+')
+        st.write(T('La razón anterior R es 1/ℛⱼ. Se conservan las componentes, el signo, el protocolo y las dependencias. Tres procedimientos inician una tríada; no prueban independencia ni identificabilidad.', 'The earlier ratio R equals 1/ℛⱼ. Components, sign, protocol and dependencies are retained. Three procedures initiate a triad; they do not prove independence or identifiability.'))
+        st.caption(T('Controles matemáticos ejecutados; la actualización no incorpora nuevos datos cosmológicos ni nuevas cotas de gravedad.', 'Executed mathematical controls; this update adds no new cosmological data or gravity bounds.'))
+        download_json(read('research/dcae/results/canonical_v06_checks.json'),'dcae_v06_checks.json')
     st.info(T('DCAE: I = 0.90 equivale por definición a R = 10 y Δ = ln(10). No es una probabilidad ni una barrera física. Conservá R, el desfase firmado y sus incertidumbres.', 'DCAE: I = 0.90 means R = 10 and Δ = ln(10) by definition. It is neither a probability nor a physical barrier. Retain R, the signed gap and their uncertainties.'))
 
     st.title(T('Información: qué se conserva','Information: what is preserved'))

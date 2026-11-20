@@ -37,6 +37,8 @@ def main():
     plans['figures'].append(['research/dcae_figures.py'])
     plans['dcae'].append(['research/dcae/normalization_audit.py'])
     plans['calculations'].append(['research/dcae/normalization_audit.py'])
+    plans['dcae'].append(['research/dcae/canonical_v06_audit.py'])
+    plans['calculations'].append(['research/dcae/canonical_v06_audit.py'])
     plans['dcae'].append(['research/dcae_figures.py'])
     plans['dcae'].extend(plans['frontier'])
     plans['figures'].append(['research/frontier_figures.py'])
@@ -91,7 +93,7 @@ def main():
       result='Numerical execution passed; temporal posterior predictive discrepancy remains scientifically unresolved' if success else 'Execution failure; see logs',
       residual_risks=['Fixed temporal kernel and empirical baseline weights','Conditional reconstruction inherited','Priors are scenarios without independent calibration','Windows/macOS launchers not executed on those OSs; Colab cloud runtime not externally tested'])
     if mode in ['dcae','frontier']:
-        manifest['mathematics']={'assertion_tested':'Scoped DCAE mathematics and/or published COSMOS table reanalysis, FKP floating-point and finite inclusion checks','bounds':{'frontier_unit_tests':16,'dcae_finite_checks':15 if mode=='dcae' else 0,'new_independent_observations':0},'non_claims':['No new physical DCAE measurement','No raw COSMOS recovery rerun','No empirical FKP estimate','No rerun of earlier gravity calculations']}
+        manifest['mathematics']={'assertion_tested':'Scoped DCAE mathematics and/or published COSMOS table reanalysis, FKP floating-point and finite inclusion checks','bounds':{'frontier_unit_tests':16,'dcae_finite_checks':15 if mode=='dcae' else 0,'canonical_v06_checks':17 if mode=='dcae' else 0,'new_independent_observations':0},'non_claims':['No new physical DCAE measurement','No raw COSMOS recovery rerun','No empirical FKP estimate','No rerun of earlier gravity calculations']}
         manifest['randomness']={'used':mode=='dcae','generator':'PCG64' if mode=='dcae' else None,'seed':20261118 if mode=='dcae' else None,'scope':'Synthetic clipping checks only; published table reanalysis is deterministic'}
         manifest['result']='Scoped checks completed; physical DCAE remains NOT_ESTIMABLE' if success else 'Execution failed; see command logs'
     if mode=='revision':

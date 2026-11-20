@@ -25,9 +25,11 @@ Python 3.13 is the executed reference environment. Launchers create an isolated 
 
 ## Reading a result
 
-Each screen links evidence and limitations. Distinguish mathematical identities, synthetic calculations, conditional reanalysis and external validation. Agreement between algorithms using the same data does not create independence. New relative observational triangulation remains for a documented future update.
+Each screen links evidence and limitations. Distinguish mathematical identities, synthetic calculations, conditional reanalysis and external validation. Agreement between algorithms using the same data does not create independence. Canonical DCAE v0.6 integration makes protocol and triangulation explicit; it does not present new empirical claims from the companion work as executed here.
 
 
 [GRAVITAS identification and citation](DOI_EN.md).
 
 [DCAE: normalization and thresholds](DCAE_NORMALIZATION_EN.md).
+
+[DCAE v0.6: componentwise definition and controls](DCAE_V06_EN.md).

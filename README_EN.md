@@ -47,3 +47,5 @@ Numerical convergence does not prove new physics. Cassini uses reconstructed epo
 
 
 [GRAVITAS identification and citation](docs/DOI_EN.md) · DOI: [10.5281/zenodo.24381484](https://doi.org/10.5281/zenodo.24381484).
+
+Post-v1.11 update: [canonical DCAE v0.6](docs/DCAE_V06_EN.md), with executable componentwise controls. The archived version tag and DOI have not been changed.

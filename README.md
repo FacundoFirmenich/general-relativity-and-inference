@@ -47,3 +47,5 @@ La convergencia numérica no prueba nueva física. Cassini utiliza épocas recon
 
 
 [Identificación y cita de GRAVITAS](docs/DOI_ES.md) · DOI: [10.5281/zenodo.24381484](https://doi.org/10.5281/zenodo.24381484).
+
+Actualización posterior a v1.11: [DCAE canónico v0.6](docs/DCAE_V06_ES.md), con controles ejecutables por componente. La etiqueta y el DOI de la versión archivada no se han modificado.
