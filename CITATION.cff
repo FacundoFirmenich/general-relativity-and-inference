@@ -11,3 +11,13 @@ authors:
     orcid: "https://orcid.org/0009-0002-6578-3811"
 doi: "10.5281/zenodo.24381485"
 url: "https://doi.org/10.5281/zenodo.24381484"
+references:
+  - type: software
+    title: "FractalGo: reproducible topological diagnostics / Diagnósticos topológicos reproducibles"
+    authors:
+      - family-names: Firmenich
+        given-names: Facundo
+        orcid: "https://orcid.org/0009-0002-6578-3811"
+    version: "0.1.0"
+    doi: "10.5281/zenodo.24383318"
+    repository-code: "https://github.com/FacundoFirmenich/fractal-go"

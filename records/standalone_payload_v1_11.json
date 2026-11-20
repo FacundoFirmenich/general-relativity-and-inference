@@ -1,6 +1,6 @@
 {
-  "sha256": "284fe963669dcae302da7b98c4099a6dec70bd61b5bd122d52b1745ec59fcf82",
-  "bytes": 26601757,
+  "sha256": "8ea12609df071730cc73857485a5cbc33fea3d42962717485df681d541ec5889",
+  "bytes": 26602304,
   "files": 454,
   "scope_es": "Carga aut\u00f3noma: c\u00e1lculos, interfaz y grafo; sin archivos privados de lectura.",
   "scope_en": "Self-contained payload: calculations, UI and graph; no private reading archive."

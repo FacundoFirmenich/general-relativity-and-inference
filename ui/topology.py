@@ -8,6 +8,7 @@ from research.fractalgo.core import posterior,excursion,path_edges,cell_weights
 
 def render(root,T,chart,download_json):
     st.title(T('FractalGo · topología de la inferencia','FractalGo · inference topology'))
+    st.markdown(T('Citar FractalGo v0.1.0: ', 'Cite FractalGo v0.1.0: ')+'[10.5281/zenodo.24383318](https://doi.org/10.5281/zenodo.24383318)')
     st.write(T('Aplicación contenida: conectividad sobre grafos declarados. No estima dimensión fractal ni añade datos independientes.','Bounded application: connectivity on declared graphs. It estimates no fractal dimension and adds no independent data.'))
     base=root/'research/fractalgo/results'
     tabs=st.tabs([T('Explorar GP','Explore GP'),T('Cassini por pasada','Cassini by pass'),T('Contrato y reproducción','Contract & reproduction')])
